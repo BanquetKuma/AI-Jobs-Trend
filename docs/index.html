@@ -138,7 +138,16 @@ const RATIO_ORDER = ['〜30%', '31〜50%', '51〜80%', '81〜100%', '不明'];
     tile('累計の集計週数', summary.totals.weeks, '週',
          `延べ ${summary.totals.listings} 件を解析`);
 
-  if (summary.commentary) $('#commentary').textContent = summary.commentary;
+  // 所感は空行で段落を区切り、**…** を強調（太字＋緑）として描画する。
+  // 中身は自前のパイプライン由来だが、いったん全部エスケープしてから
+  // <p> と <strong> だけを組み立てる。
+  if (summary.commentary) {
+    $('#commentary').innerHTML = summary.commentary
+      .split(/\n\s*\n/)
+      .map(par => '<p>' + esc(par.trim())
+        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>') + '</p>')
+      .join('');
+  }
 
   hbar($('#c-tech'), {
     data: techCounts.map(t => ({ ...t, cat: catOf[t.name] })),

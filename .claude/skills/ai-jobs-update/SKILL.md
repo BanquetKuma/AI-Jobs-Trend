@@ -99,11 +99,25 @@ cd /mnt/c/dev/AI-Jobs-Trend && python3 scripts/build.py
 
 `docs/data/summary.json` を読み、最新週の数字（`latest`, `top_techs`, `rising`,
 `distributions.*_latest`）と、`docs/data/weeks/<latest_week>.json` の案件を見て、
-**2〜4文の日本語**で `commentary` フィールドを埋める。以下を意識する:
+`commentary` フィールドを埋める。以下を意識する:
 
 - 前週・直近数週と比べて何が動いたか（伸びた技術／落ちた技術）
 - 今週の新規案件に共通する傾向（業界、ポジション、稼働形態）
 - 単なる件数の言い換えではなく、読み手が「市場で何が起きているか」を掴める一文を入れる
+
+**書式の規約（サイトとメールの両方がこの記法を解釈する）:**
+
+- **3〜4段落に分ける。段落の区切りは空行（`\n\n`）。** 1本の長い塊にしない。
+  1段落＝1つの論点にする。目安は次の構成:
+  1. 今週の規模（件数・新規率）
+  2. 直近数週で伸びた技術／落ちた技術
+  3. 今週いちばん目を引いた動きと、その意味
+  4. 業界・ポジションの構成
+- **重要な箇所を `**…**` で囲む。** サイトでもメールでも太字＋緑で表示される。
+  **1段落あたり1〜2箇所まで。** 囲みすぎると強調が効かなくなる。
+  囲む対象は「数字そのもの」ではなく、**読み手の判断を変える事実**にする
+  （例: `**AIコーディング支援の0→4**`、`**全件が今週初出の新規案件**`）
+- HTMLタグは書かない。`**` と空行だけを使う
 
 事実に基づくこと。データにない推測（企業名、受注額、業界動向の憶測）は書かない。
 `commentary` は次回 build でも保持されるので、毎回上書きしてよい。
@@ -157,7 +171,9 @@ push が GitHub Pages の再デプロイを兼ねる（Actions は使ってい�
   <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">累計</h3>
   <p style="margin:0">&lt;totals.weeks&gt; 週分 / 延べ &lt;totals.listings&gt; 件 / ユニーク &lt;totals.unique_projects&gt; 件</p>
   <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">今週の所感</h3>
-  <p style="margin:0">&lt;commentary&gt;</p>
+  <!-- commentary は空行で段落に割り、**…** を <strong> に変換して入れる -->
+  <p style="margin:0 0 1.1em">&lt;段落1&gt;</p>
+  <p style="margin:0 0 1.1em">&lt;段落2&gt;</p>
   <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">次に取るべき技術</h3>
   <ol style="margin:0;padding-left:20px">
     <li>&lt;name&gt;（直近&lt;window&gt;週 &lt;recent&gt;件 / 成長 &lt;growth_pct&gt;）</li>
@@ -169,7 +185,12 @@ push が GitHub Pages の再デプロイを兼ねる（Actions は使ってい�
 ```
 
 **数字はすべて `docs/data/summary.json` と `docs/data/strategy.json` の実値を使い、創作しない。**
-プレーンテキストの `body` は同じ内容を素直に並べたものでよい。
+
+**所感の変換規則:**
+- `commentary` を空行で分割し、各段落を `<p style="margin:0 0 1.1em">` で包む
+- 段落内の `**…**` を
+  `<strong style="color:#1d6b46;font-weight:700">…</strong>` に置換する
+- `body`（プレーンテキスト版）では `**` を取り除き、段落間は空行1つで区切る
 
 GitHub Pages の再デプロイには push から1〜2分かかるが、**メール送信は push 直後でよく、
 デプロイ完了を待つ必要はない。**

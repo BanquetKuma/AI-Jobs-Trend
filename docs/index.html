@@ -110,10 +110,10 @@ const RATIO_ORDER = ['〜30%', '31〜50%', '51〜80%', '81〜100%', '不明'];
   let meta, summary, week;
   try {
     [meta, summary] = await Promise.all([
-      fetch('./data/meta.json').then(r => r.json()),
-      fetch('./data/summary.json').then(r => r.json()),
+      fetch('./data/meta.json', { cache: 'no-cache' }).then(r => r.json()),
+      fetch('./data/summary.json', { cache: 'no-cache' }).then(r => r.json()),
     ]);
-    week = await fetch(`./data/weeks/${summary.latest_week}.json`).then(r => r.json());
+    week = await fetch(`./data/weeks/${summary.latest_week}.json`, { cache: 'no-cache' }).then(r => r.json());
   } catch (e) {
     fail('data/*.json の取得に失敗しました。ローカルで開いている場合は http サーバー経由で開いてください。（' + e.message + '）');
     return;

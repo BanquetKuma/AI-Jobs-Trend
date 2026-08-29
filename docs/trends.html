@@ -167,11 +167,11 @@ const mdLabel = w => w.slice(5).replace('-', '/');
   let meta, summary, trends, cube, strat;
   try {
     [meta, summary, trends, cube, strat] = await Promise.all([
-      fetch('./data/meta.json').then(r => r.json()),
-      fetch('./data/summary.json').then(r => r.json()),
-      fetch('./data/trends.json').then(r => r.json()),
-      fetch('./data/cube.json').then(r => r.json()),
-      fetch('./data/strategy.json').then(r => r.json()),
+      fetch('./data/meta.json', { cache: 'no-cache' }).then(r => r.json()),
+      fetch('./data/summary.json', { cache: 'no-cache' }).then(r => r.json()),
+      fetch('./data/trends.json', { cache: 'no-cache' }).then(r => r.json()),
+      fetch('./data/cube.json', { cache: 'no-cache' }).then(r => r.json()),
+      fetch('./data/strategy.json', { cache: 'no-cache' }).then(r => r.json()),
     ]);
   } catch (e) {
     document.querySelector('main').insertAdjacentHTML('afterbegin',

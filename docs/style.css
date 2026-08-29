@@ -314,3 +314,49 @@ svg.chart:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2p
 .rankbadge.is-up { color: var(--emph); border-color: var(--emph-dim); background: var(--emph-wash); }
 .rankbadge.is-down { color: var(--text-muted); border-color: var(--border); }
 .rankbadge.is-flat { color: var(--text-muted); border-color: var(--border); }
+
+/* ---------- 案件カードの展開 ---------- */
+.pcard { padding: 0; }
+.pcard details > summary {
+  list-style: none; cursor: pointer; padding: 16px 18px 15px;
+}
+.pcard details > summary::-webkit-details-marker { display: none; }
+.pcard details[open] > summary { border-bottom: 1px solid var(--border); }
+.pcard details > summary:hover { background: var(--surface-2); }
+
+.pcard .ptitle {
+  margin: 9px 0 0; font-size: 13.5px; line-height: 1.6;
+  color: var(--text-secondary);
+}
+.pcard .more {
+  display: inline-block; margin-top: 12px; font-size: 12px;
+  color: var(--emph); font-weight: 700;
+}
+.pcard .more::after { content: " ▾"; }
+.pcard details[open] .more { color: var(--text-muted); font-weight: 400; }
+.pcard details[open] .more::after { content: " ▴"; }
+
+.tagrow { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; margin-top: 9px; }
+.taglabel {
+  font-size: 10.5px; letter-spacing: .1em; color: var(--text-muted);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  min-width: 26px;
+}
+
+.pdetail { padding: 16px 18px 20px; background: var(--surface-0); }
+.pdetail h4 {
+  margin: 16px 0 5px; font-size: 12px; letter-spacing: .08em;
+  color: var(--emph); font-weight: 700;
+}
+.pdetail h4:first-of-type { margin-top: 4px; }
+.pdetail p {
+  margin: 0; font-size: 13.5px; line-height: 1.95;
+  color: var(--text-primary); white-space: pre-wrap;
+}
+dl.pfacts {
+  display: grid; grid-template-columns: auto 1fr; gap: 3px 14px;
+  margin: 0 0 4px; font-size: 12.5px;
+}
+dl.pfacts:empty { display: none; }
+dl.pfacts dt { color: var(--text-muted); white-space: nowrap; }
+dl.pfacts dd { margin: 0; color: var(--text-secondary); }

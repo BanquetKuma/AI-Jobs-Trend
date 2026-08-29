@@ -15,7 +15,7 @@ Gmail (毎週金曜 18:00 JST 配信)
   ↓  ローカルの Claude Code が Gmail コネクタで取得   ← /loop で自動化
 data/raw/*.txt            （生メール本文・git管理外）
   ↓  scripts/build.py     （正規表現パース + 辞書ベースの技術抽出。LLM不使用）
-data/projects.jsonl       （匿名化済み正規化データ・git管理）
+data/projects.jsonl       （正規化データ・git管理）
 docs/data/*.json          （集計結果）
   ↓  git push
 GitHub Pages              （main ブランチの /docs を配信。GitHub Actions は不使用）
@@ -32,12 +32,12 @@ GitHub Pages              （main ブランチの /docs を配信。GitHub Actio
 ## 取り扱い
 
 出典はエッジテクノロジー株式会社 AIソリューション事業部から受信者本人に配信される案件情報メール。
-本リポジトリは受信者が個人利用の範囲で統計的に集計したもので、
-**案件本文・案件番号・企業名・担当者名は保持も公開もしていない**。
+受信者が集計・掲載している。
 
-`data/projects.jsonl` が持つのは、案件番号のSHA1先頭12桁（復元不可の識別子）と、
-掲載週・ポジション・業界・稼働形態・稼働率・単価・技術タグのみ。
-生メール本文を置く `data/raw/` は `.gitignore` で除外している。
+`data/projects.jsonl` と `docs/data/weeks/*.json` は、掲載週・ポジション・業界・稼働形態・
+稼働率・単価・技術タグに加えて、**案件の説明文（タイトル・案件内容・必須スキル・尚可スキル・
+補足事項）を配信メールの原文のまま**持つ。**案件番号だけは SHA1 先頭12桁に置き換えており、
+元の番号は復元できない。** 生メール全体を置く `data/raw/` は `.gitignore` で除外している。
 
 ## 使い方
 

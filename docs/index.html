@@ -60,7 +60,7 @@
   </div>
 
   <h2 class="section">今週の案件一覧</h2>
-  <p class="lede">案件は匿名化して掲載しています（案件番号・案件本文・企業名は保持していません）。</p>
+  <p class="lede">カードをクリックすると、配信メールに記載された<strong>案件の説明をそのまま</strong>確認できます。</p>
   <div class="filters">
     <label class="sr" for="f-pos"></label>
     <select id="f-pos" aria-label="ポジションで絞り込み"><option value="">すべてのポジション</option></select>
@@ -76,7 +76,7 @@
 
 <footer class="site"><div class="wrap">
   <p id="foot">出典: エッジテクノロジー株式会社 AIソリューション事業部より毎週配信される案件情報メール。
-  本サイトは受信者本人が個人利用の範囲で統計的に集計したもので、案件本文・案件番号・企業名は保持・公開していません。</p>
+  受信者本人が集計・掲載しています。案件の説明は配信メールの原文をそのまま掲載しており、記載内容は原文に含まれる範囲です。案件番号は復元できない形にハッシュ化しています。</p>
 </div></footer>
 
 <script type="module">
@@ -186,18 +186,50 @@ const RATIO_ORDER = ['〜30%', '31〜50%', '51〜80%', '81〜100%', '不明'];
       (!sel.tech || p.techs.includes(sel.tech)) &&
       (!sel.nw || p.is_new));
     $('#f-count').textContent = `${list.length} 件 / 全 ${ps.length} 件`;
+    // 値が入っている項目だけを行にする（「-」「要確認」は原文の未記載なので出さない）
+    const row = (k, v) => (!v || v === '-' || v === '要確認')
+      ? '' : `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`;
+    const para = (title, body) => !body ? '' :
+      `<h4>${esc(title)}</h4><p>${esc(body)}</p>`;
+    const tagline = (label, arr) => !arr || !arr.length ? '' :
+      `<div class="tagrow"><span class="taglabel">${esc(label)}</span>` +
+      arr.map(t => `<span class="tag${sel.tech && t === sel.tech ? ' hit' : ''}">${esc(t)}</span>`).join('') +
+      '</div>';
+
     $('#plist').innerHTML = list.map(p => `
       <article class="pcard">
-        <div class="top"><span class="pos">${esc(p.position)}</span>
-        ${p.is_new ? '<span class="new">NEW</span>' : ''}</div>
-        <dl>
-          <dt>業界</dt><dd>${esc(p.industry)}</dd>
-          <dt>稼働</dt><dd>${esc(p.workstyle)} ・ ${esc(ratio(p))}</dd>
-          <dt>単価</dt><dd>${esc(rate(p))}</dd>
-        </dl>
-        <div class="tags">${p.techs.map(t =>
-          `<span class="tag${sel.tech && t === sel.tech ? ' hit' : ''}">${esc(t)}</span>`
-        ).join('') || '<span class="tag">技術タグ抽出なし</span>'}</div>
+        <details>
+          <summary>
+            <div class="top"><span class="pos">${esc(p.position)}</span>
+            ${p.is_new ? '<span class="new">NEW</span>' : ''}</div>
+            ${p.title ? `<p class="ptitle">${esc(p.title)}</p>` : ''}
+            <dl>
+              <dt>業界</dt><dd>${esc(p.industry)}</dd>
+              <dt>稼働</dt><dd>${esc(p.workstyle)} ・ ${esc(ratio(p))}</dd>
+              <dt>単価</dt><dd>${esc(rate(p))}</dd>
+            </dl>
+            ${tagline('必須', p.techs_req)}
+            ${tagline('尚可', p.techs_opt)}
+            ${(!(p.techs_req || []).length && !(p.techs_opt || []).length)
+              ? tagline('技術', p.techs) : ''}
+            <span class="more">案件の詳細を見る</span>
+          </summary>
+          <div class="pdetail">
+            <dl class="pfacts">
+              ${row('契約開始', p.start)}
+              ${row('契約形態', p.contract)}
+              ${row('精算時間', p.settle)}
+              ${row('作業場所', p.location)}
+              ${row('貸与PC', p.pc)}
+              ${row('募集人数', p.headcount)}
+              ${row('商談回数', p.rounds)}
+            </dl>
+            ${para('案件内容', p.detail)}
+            ${para('必須スキル', p.req_text)}
+            ${para('尚可スキル', p.opt_text)}
+            ${para('補足事項', p.note_text)}
+          </div>
+        </details>
       </article>`).join('') ||
       '<p class="note">条件に合う案件がありません。</p>';
   };

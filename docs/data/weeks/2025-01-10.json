@@ -19,7 +19,30 @@
     "Python",
     "RAG",
     "生成AI"
-   ]
+   ],
+   "techs_req": [
+    "API設計",
+    "Python",
+    "生成AI"
+   ],
+   "techs_opt": [
+    "Azure",
+    "Azure OpenAI",
+    "OpenAI API",
+    "RAG"
+   ],
+   "start": "2025年1月",
+   "contract": "準委任（個人事業主）",
+   "settle": "140 - 180",
+   "location": "-",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "2回",
+   "title": "【AIエンジニア】AIエンジニア",
+   "detail": "AIプロジェクトを成功に導くことができる優秀なAIエンジニアを募集しています。",
+   "req_text": "生成AIのAPIを利用するだけではなく、生成AIの出力性能を改善するための実装経験 複数プロジェクトの同時並行（下記記載の2案件に同時でアサイン予定） Pythonでの開発経験3年以上 AI開発プロジェクト（音声、自然言語）の経験1年以上 AI（生成AI）関連のモデル・論文調査が一人で可能",
+   "opt_text": "生成AIの出力を改善するFunction callingを活用した構造化、RAGの性能を改善するためのドキュメントの構造化・マークダウン化関連のプロジェクト経験 Azureを利用したインフラ構築経験（Azure App Serive、Azure OpenAI、Document Intelligence、Azure AI Search等）",
+   "note_text": ""
   },
   {
    "id": "0f4fb420cf78",
@@ -41,7 +64,30 @@
     "PoC",
     "RAG",
     "生成AI"
-   ]
+   ],
+   "techs_req": [
+    "Amazon Bedrock",
+    "Azure",
+    "Claude",
+    "Gemini",
+    "LangChain",
+    "PoC",
+    "RAG",
+    "生成AI"
+   ],
+   "techs_opt": [],
+   "start": "2025年1月",
+   "contract": "派遣",
+   "settle": "-",
+   "location": "新宿",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "1回",
+   "title": "【AIエンジニア】大手建設会社_RAGシステム開発支援",
+   "detail": "クライアントでは大規模言語モデルを利用し、専門知識が必要な技術に関する質問に対して、信頼性の高い情報を迅速に提供することが出来る検索システムを開発しております。 システムの適応領域拡大、業務部門からのリクエストに対して社内リソースが不足しているため、先方社員と共にシステムの拡大・改善や各PoCを推進していただける方を募集します。",
+   "req_text": "・生成AIを活用したAIサービスの開発/PM経験 ・生成AIのPoC、構築経験（ユースケース定義、データ選定、RAG要件整理の上流工程） ・Azure Open AIの利用経験（Google Gemini／Amazon Bedrock／Anthropic Claude等の経験でも可） ・RAG構築経験（Azure AI Search／LangChain）",
+   "opt_text": "",
+   "note_text": "ゆくゆくは顧客側の正社員登用（紹介予定派遣）を前提とした参画になります。"
   },
   {
    "id": "2188079311cc",
@@ -59,7 +105,26 @@
     "Power BI",
     "SQL",
     "Tableau"
-   ]
+   ],
+   "techs_req": [
+    "Oracle",
+    "Power BI",
+    "SQL",
+    "Tableau"
+   ],
+   "techs_opt": [],
+   "start": "2025年1月",
+   "contract": "派遣",
+   "settle": "-",
+   "location": "新宿",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "1回",
+   "title": "【BIエンジニア】大手建設会社_DB/BIエンジニア",
+   "detail": "データ分析システムの運?/保守業務をお願いします。 （コーポレートデータを収集・分析し、経営層の意思決定を?援するシステム） ・BIダッシュボードの運?および保守（データ抽出・加?～レポート作成、BIダッシュボード画?開発、WEBサーバ運?、セキュリティ監視）",
+   "req_text": "・データベース設計/開発経験（SQL） ・DB知見：SQLServer、Oracle ・BIツールでの開発経験（tableau、Power BIの開発経験者歓迎） ・能動的に動き、必要に応じて提案できる?",
+   "opt_text": "",
+   "note_text": "環境：PowerBI Professional、Tableau、Azure Frontdoor、Azure Monitor、Windows Server 2019 ゆくゆくは顧客側の正社員登用（紹介予定派遣）を前提とした参画になります。"
   },
   {
    "id": "d707739cd5eb",
@@ -77,7 +142,28 @@
     "Python",
     "SQL",
     "アジャイル"
-   ]
+   ],
+   "techs_req": [
+    "ETL",
+    "Power BI",
+    "SQL"
+   ],
+   "techs_opt": [
+    "Python",
+    "アジャイル"
+   ],
+   "start": "2025年1月 ※即日",
+   "contract": "派遣",
+   "settle": "要確認",
+   "location": "神谷町",
+   "pc": "クライアント",
+   "headcount": "2名",
+   "rounds": "1回",
+   "title": "【分析基盤エンジニア】人材ポートフォリオBI基盤データエンジニア",
+   "detail": "クライアントでは人的資本の拡充に向けて、人材を可視化するBI基盤の構築・運用を行っており、 データに基づく人材戦略の実現を進めています。 【主な職務内容】 上記を推進している部署において、人材戦略上の課題分析および施策立案に向けて 下記対応をご依頼する想定です。 ※ご依頼するスコープはスキル・経験に応じて検討いたします。 1. データガバナンスの実践 - データ定義・基準の整備 - データ品質管理プロセスの確立 2. データ収集 - TMSシステムからのデータ収集 - データクレンジング・ロジック改善 3. PowerBI環境の構築・運用 - ダッシュボード・レポートの整備・改善 - データモデルの設計・最適化 - アクセス権限の管理とセキュリティ対策",
+   "req_text": "- データベース設計・運用の実務経験 - PowerBIまたは類似BIツールの使用経験 - データクレンジング・加工の実務経験 - SQL、ETL処理実装経験",
+   "opt_text": "- 人事系システムの開発・運用経験 - Pythonなどによるデータ処理の開発経験 - アジャイル開発手法の実践経験",
+   "note_text": "即日・3か月契約・中長期想定 【求める人物像】 - 人材データの特性を理解し、取り扱いができる方 - 関係者と円滑なコミュニケーションを取れる方 -業務改善、 データ信頼性に対する改善意識を持つ方"
   },
   {
    "id": "e0240f03932a",
@@ -95,7 +181,26 @@
     "SQL",
     "pandas/NumPy",
     "scikit-learn"
-   ]
+   ],
+   "techs_req": [
+    "Python",
+    "SQL",
+    "pandas/NumPy",
+    "scikit-learn"
+   ],
+   "techs_opt": [],
+   "start": "2025年2月",
+   "contract": "準委任（個人事業主）",
+   "settle": "140 - 180",
+   "location": "-",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "1回",
+   "title": "【AIエンジニア】薬剤在庫AI自動管理システム",
+   "detail": "薬局の在庫管理をAIにて実施するため、クライアント担当者と伴走しながらデータの分析からモデル作成などデータサイエンス領域全般を担当いただきます。 既に初期モデルはありますが、精度が良くないため、既存モデルのバージョンアップ（場合によっては新たに構築）、顧客へのフィッティング並びにチューニング作業がメインとなる想定です。",
+   "req_text": "・SQL ・Python ※Pandas、Scikit-learn、LightGBM、Jupyter Lab （検証モードモジュールを作成できるエンジニアリング力） ・検証内容を整理して話せること ・統計学の知見 ・顧客折衝力 ・診療報酬明細書（レセプトデータ）を用いた分析経験",
+   "opt_text": "・医療ドメインの知識",
+   "note_text": "・平日夜間、土日作業も可能だが、平日日中にある程度クイックレスポンス出来る方を希望 ・週1回定例MTGあり（曜日時間は応相談）"
   },
   {
    "id": "fc17f622bab2",
@@ -110,7 +215,24 @@
    "techs": [
     "Azure",
     "Databricks"
-   ]
+   ],
+   "techs_req": [
+    "Azure",
+    "Databricks"
+   ],
+   "techs_opt": [],
+   "start": "2025年2月",
+   "contract": "準委任（個人事業主）",
+   "settle": "要確認",
+   "location": "-",
+   "pc": "要確認",
+   "headcount": "1名",
+   "rounds": "3回",
+   "title": "【データアナリスト】 経営ダッシュボード構築",
+   "detail": "Azure Databricks でデータクレンジングを実施し、経営用に Microsoft Fabricにてダッシュボード構築する案件。 （データクレンジングフロー開発）",
+   "req_text": "・Pyton ・データ分析案件 経験 ・Azure Databricks 業務経験",
+   "opt_text": "・Microsoft Fabric の経験 ・データアナリスト",
+   "note_text": ""
   }
  ]
 }

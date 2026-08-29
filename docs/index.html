@@ -60,7 +60,7 @@
   </div>
 
   <h2 class="section">今週の案件一覧</h2>
-  <p class="lede">カードをクリックすると、配信メールに記載された<strong>案件の説明をそのまま</strong>確認できます。</p>
+  <p class="lede">カードをクリックすると、配信メールに記載された案件の説明を確認できます。</p>
   <div class="filters">
     <label class="sr" for="f-pos"></label>
     <select id="f-pos" aria-label="ポジションで絞り込み"><option value="">すべてのポジション</option></select>
@@ -198,22 +198,22 @@ const RATIO_ORDER = ['〜30%', '31〜50%', '51〜80%', '81〜100%', '不明'];
 
     $('#plist').innerHTML = list.map(p => `
       <article class="pcard">
+        <div class="phead">
+          <div class="top"><span class="pos">${esc(p.position)}</span>
+          ${p.is_new ? '<span class="new">NEW</span>' : ''}</div>
+          ${p.title ? `<p class="ptitle">${esc(p.title)}</p>` : ''}
+          <dl>
+            <dt>業界</dt><dd>${esc(p.industry)}</dd>
+            <dt>稼働</dt><dd>${esc(p.workstyle)} ・ ${esc(ratio(p))}</dd>
+            <dt>単価</dt><dd>${esc(rate(p))}</dd>
+          </dl>
+          ${tagline('必須', p.techs_req)}
+          ${tagline('尚可', p.techs_opt)}
+          ${(!(p.techs_req || []).length && !(p.techs_opt || []).length)
+            ? tagline('技術', p.techs) : ''}
+        </div>
         <details>
-          <summary>
-            <div class="top"><span class="pos">${esc(p.position)}</span>
-            ${p.is_new ? '<span class="new">NEW</span>' : ''}</div>
-            ${p.title ? `<p class="ptitle">${esc(p.title)}</p>` : ''}
-            <dl>
-              <dt>業界</dt><dd>${esc(p.industry)}</dd>
-              <dt>稼働</dt><dd>${esc(p.workstyle)} ・ ${esc(ratio(p))}</dd>
-              <dt>単価</dt><dd>${esc(rate(p))}</dd>
-            </dl>
-            ${tagline('必須', p.techs_req)}
-            ${tagline('尚可', p.techs_opt)}
-            ${(!(p.techs_req || []).length && !(p.techs_opt || []).length)
-              ? tagline('技術', p.techs) : ''}
-            <span class="more">案件の詳細を見る</span>
-          </summary>
+          <summary><span class="more">案件の詳細を見る</span></summary>
           <div class="pdetail">
             <dl class="pfacts">
               ${row('契約開始', p.start)}
@@ -232,6 +232,18 @@ const RATIO_ORDER = ['〜30%', '31〜50%', '51〜80%', '81〜100%', '不明'];
         </details>
       </article>`).join('') ||
       '<p class="note">条件に合う案件がありません。</p>';
+
+    // カードのどこをクリックしても開閉できるようにする。
+    // summary 自体のクリックはブラウザが処理するので二重に反応させない。
+    $('#plist').querySelectorAll('.pcard').forEach(card => {
+      const d = card.querySelector('details');
+      if (!d) return;
+      card.addEventListener('click', e => {
+        if (e.target.closest('summary') || e.target.closest('a')) return;
+        if (window.getSelection && String(window.getSelection())) return;
+        d.open = !d.open;
+      });
+    });
   };
   [fPos, fTech, fNew].forEach(s => s.addEventListener('change', render));
   render();

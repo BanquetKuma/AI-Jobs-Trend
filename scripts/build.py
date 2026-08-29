@@ -359,12 +359,22 @@ def build_cube(records, n_pos=7, n_ind=7):
 
     cells = [{"i": i, "p": p, "c": c, "n": n}
              for (i, p, c), n in sorted(counts.items())]
+
+    # 業界×ロール の純粋な案件数（技術カテゴリで重複計上しない）。
+    # ヒートマップはこちらを使う。cells はカテゴリ軸を持つ3D用。
+    pair = collections.Counter()
+    for r in records:
+        if r["position"] in pi and r["industry"] in ii:
+            pair[(ii[r["industry"]], pi[r["position"]])] += 1
+    pairs = [{"i": i, "p": p, "n": n} for (i, p), n in sorted(pair.items())]
     return {
         "industries": ["業界未記載" if i == "不明" else i for i in inds],
         "positions": positions,
         "categories": cats,
         "cells": cells,
+        "pairs": pairs,
         "max": max((x["n"] for x in cells), default=0),
+        "pair_max": max((x["n"] for x in pairs), default=0),
         "note": "1案件が複数の技術カテゴリを持つため、カテゴリ軸では重複計上される。",
     }
 

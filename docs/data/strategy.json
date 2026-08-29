@@ -3,7 +3,7 @@
  "momentum": [
   {
    "name": "Python",
-   "cat": "言語",
+   "cat": "プログラミング言語",
    "recent": 31,
    "prev": 36,
    "delta": -5,
@@ -25,7 +25,7 @@
   },
   {
    "name": "要件定義",
-   "cat": "プロセス",
+   "cat": "進め方・プロセス",
    "recent": 23,
    "prev": 20,
    "delta": 3,
@@ -47,7 +47,7 @@
   },
   {
    "name": "AWS",
-   "cat": "クラウド",
+   "cat": "クラウド基盤",
    "recent": 19,
    "prev": 20,
    "delta": -1,
@@ -69,7 +69,7 @@
   },
   {
    "name": "SQL",
-   "cat": "言語",
+   "cat": "プログラミング言語",
    "recent": 18,
    "prev": 21,
    "delta": -3,
@@ -80,7 +80,7 @@
   },
   {
    "name": "PoC",
-   "cat": "プロセス",
+   "cat": "進め方・プロセス",
    "recent": 18,
    "prev": 11,
    "delta": 7,
@@ -102,7 +102,7 @@
   },
   {
    "name": "GCP",
-   "cat": "クラウド",
+   "cat": "クラウド基盤",
    "recent": 10,
    "prev": 18,
    "delta": -8,
@@ -113,7 +113,7 @@
   },
   {
    "name": "Azure",
-   "cat": "クラウド",
+   "cat": "クラウド基盤",
    "recent": 10,
    "prev": 10,
    "delta": 0,
@@ -135,7 +135,7 @@
   },
   {
    "name": "英語",
-   "cat": "プロセス",
+   "cat": "進め方・プロセス",
    "recent": 10,
    "prev": 8,
    "delta": 2,
@@ -157,7 +157,7 @@
   },
   {
    "name": "Claude Code",
-   "cat": "AIツール",
+   "cat": "AI開発ツール",
    "recent": 9,
    "prev": 5,
    "delta": 4,
@@ -245,7 +245,7 @@
   },
   {
    "name": "MLOps",
-   "cat": "基盤・運用",
+   "cat": "開発基盤・運用",
    "recent": 7,
    "prev": 8,
    "delta": -1,
@@ -289,7 +289,7 @@
   },
   {
    "name": "アジャイル",
-   "cat": "プロセス",
+   "cat": "進め方・プロセス",
    "recent": 6,
    "prev": 6,
    "delta": 0,
@@ -322,7 +322,7 @@
   },
   {
    "name": "Docker",
-   "cat": "基盤・運用",
+   "cat": "開発基盤・運用",
    "recent": 5,
    "prev": 9,
    "delta": -4,
@@ -333,7 +333,7 @@
   },
   {
    "name": "Git",
-   "cat": "基盤・運用",
+   "cat": "開発基盤・運用",
    "recent": 5,
    "prev": 6,
    "delta": -1,
@@ -344,7 +344,7 @@
   },
   {
    "name": "PMO",
-   "cat": "プロセス",
+   "cat": "進め方・プロセス",
    "recent": 5,
    "prev": 4,
    "delta": 1,
@@ -454,7 +454,7 @@
   },
   {
    "name": "AIコーディング支援",
-   "cat": "AIツール",
+   "cat": "AI開発ツール",
    "recent": 4,
    "prev": 0,
    "delta": 4,
@@ -465,7 +465,7 @@
   },
   {
    "name": "R",
-   "cat": "言語",
+   "cat": "プログラミング言語",
    "recent": 3,
    "prev": 2,
    "delta": 1,
@@ -531,7 +531,7 @@
   },
   {
    "name": "Copilot Studio",
-   "cat": "AIツール",
+   "cat": "AI開発ツール",
    "recent": 3,
    "prev": 3,
    "delta": 0,
@@ -542,7 +542,7 @@
   },
   {
    "name": "RPA",
-   "cat": "AIツール",
+   "cat": "AI開発ツール",
    "recent": 3,
    "prev": 1,
    "delta": 2,
@@ -553,7 +553,7 @@
   },
   {
    "name": "Terraform",
-   "cat": "クラウド",
+   "cat": "クラウド基盤",
    "recent": 2,
    "prev": 9,
    "delta": -7,
@@ -575,7 +575,7 @@
   },
   {
    "name": "TypeScript",
-   "cat": "言語",
+   "cat": "プログラミング言語",
    "recent": 2,
    "prev": 4,
    "delta": -2,
@@ -586,7 +586,7 @@
   },
   {
    "name": "CI/CD",
-   "cat": "基盤・運用",
+   "cat": "開発基盤・運用",
    "recent": 2,
    "prev": 7,
    "delta": -5,
@@ -652,7 +652,7 @@
   },
   {
    "name": "GitHub Actions",
-   "cat": "基盤・運用",
+   "cat": "開発基盤・運用",
    "recent": 2,
    "prev": 4,
    "delta": -2,
@@ -674,7 +674,7 @@
   },
   {
    "name": "Kubernetes",
-   "cat": "クラウド",
+   "cat": "クラウド基盤",
    "recent": 2,
    "prev": 2,
    "delta": 0,
@@ -696,7 +696,7 @@
   },
   {
    "name": "Dify",
-   "cat": "AIツール",
+   "cat": "AI開発ツール",
    "recent": 1,
    "prev": 3,
    "delta": -2,
@@ -707,7 +707,7 @@
   },
   {
    "name": "Power Platform",
-   "cat": "AIツール",
+   "cat": "AI開発ツール",
    "recent": 1,
    "prev": 3,
    "delta": -2,

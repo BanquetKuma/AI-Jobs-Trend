@@ -19,6 +19,29 @@ def load(name):
         return json.load(f)
 
 
+def scatter_points(strat, n_big=12, n_rise=10):
+    mom = strat["momentum"]
+    big = sorted(mom, key=lambda m: -m["recent"])[:n_big]
+    rise = sorted(mom, key=lambda m: -(0.4 * m["nvol"] + 0.6 * m["ngrowth"]))[:n_rise]
+    seen, out = set(), []
+    for m in big + rise:
+        if m["name"] in seen:
+            continue
+        seen.add(m["name"])
+        out.append({k: m[k] for k in ("name", "cat", "recent", "delta", "total")})
+    return out
+
+
+def x_mid(points):
+    """需要量の大小を分ける閾値。プロットした点の中央値で切る。
+
+    技術全体の中央値だと小さすぎて、プロット上ほぼ全点が「大」側に寄り、
+    肝心の「新興・急伸」象限が空になる。
+    """
+    xs = sorted(p["recent"] for p in points)
+    return xs[len(xs) // 2] if xs else 1
+
+
 def main():
     summary, trends = load("summary.json"), load("trends.json")
     strat, cube = load("strategy.json"), load("cube.json")
@@ -32,6 +55,7 @@ def main():
         m["score"] = round(w["volume"] * m["nvol"] + w["growth"] * m["ngrowth"], 3)
         m["growth_pct"] = f"{round(m['growth'] * 100):+d}%"
 
+    pts = scatter_points(strat)
     ps = week["projects"]
     cnt = lambda key: collections.Counter(p[key] for p in ps).most_common()
 
@@ -44,10 +68,11 @@ def main():
         "rank": [{k: m[k] for k in
                   ("name", "cat", "score", "recent", "prev", "growth_pct")}
                  for m in ranked[:10]],
-        # 2軸マップは延べ出現数の多い順に上位を拾う（スコア順だと右下が空く）
-        "scatter": [{k: m[k] for k in ("name", "cat", "recent", "delta", "total")}
-                    for m in sorted(strat["momentum"],
-                                    key=lambda m: -m["total"])[:18]],
+        # 2軸マップの母集団。延べ出現数だけで選ぶと、まさに狙い目である
+        # 「小さいが急伸している技術」が候補から漏れて緑の象限が空になる。
+        # 大きい順と伸び順の和集合で拾う。
+        "scatter": pts,
+        "x_mid": x_mid(pts),
         "cooc": [{"name": m["name"],
                   "with": [f"{x['name']} ({x['n']})"
                            for x in strat["cooccurrence"].get(m["name"], [])[:5]]}
@@ -61,11 +86,14 @@ def main():
                  "categories": cube["categories"][:6],
                  "max": cube["max"],
                  "cells": [c for c in cube["cells"]
-                           if c["p"] < 6 and c["i"] < 6 and c["c"] < 6]},
+                           if c["p"] < 6 and c["i"] < 6 and c["c"] < 6],
+                 "pairs": [c for c in cube["pairs"]
+                           if c["p"] < 6 and c["i"] < 6]},
         "latest_week": summary["latest_week"],
         "latest": summary["latest"],
         "latest_tech": collections.Counter(
             t for p in ps for t in p["techs"]).most_common(12),
+        "latest_tech_count": len({t for p in ps for t in p["techs"]}),
         "latest_pos": cnt("position"),
         "latest_ind": cnt("industry"),
         "latest_ws": cnt("workstyle"),
@@ -77,7 +105,8 @@ def main():
             for p in ps).most_common(),
         "latest_cards": [
             {"pos": p["position"], "ind": p["industry"], "ws": p["workstyle"],
-             "ratio": p["ratio_max"], "new": p["is_new"], "techs": p["techs"][:5]}
+             "ratio": p["ratio_max"], "new": p["is_new"], "techs": p["techs"][:5],
+             "rate_min": p["rate_min"], "rate_max": p["rate_max"]}
             for p in sorted(ps, key=lambda x: -len(x["techs"]))[:6]],
         "weekly": [[x["week"], x["projects"], x["new_projects"]]
                    for x in trends["weekly"]],

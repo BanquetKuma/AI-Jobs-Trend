@@ -378,17 +378,17 @@
  "top_techs": [
   {
    "name": "Python",
-   "category": "言語",
+   "category": "プログラミング言語",
    "count": 340
   },
   {
    "name": "SQL",
-   "category": "言語",
+   "category": "プログラミング言語",
    "count": 200
   },
   {
    "name": "AWS",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "count": 172
   },
   {
@@ -403,7 +403,7 @@
   },
   {
    "name": "要件定義",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "count": 148
   },
   {
@@ -413,12 +413,12 @@
   },
   {
    "name": "GCP",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "count": 114
   },
   {
    "name": "PoC",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "count": 103
   },
   {
@@ -428,7 +428,7 @@
   },
   {
    "name": "Azure",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "count": 98
   },
   {
@@ -463,7 +463,7 @@
   },
   {
    "name": "Docker",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "count": 64
   },
   {
@@ -473,7 +473,7 @@
   },
   {
    "name": "Git",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "count": 61
   }
  ],
@@ -487,14 +487,14 @@
   },
   {
    "name": "Python",
-   "category": "言語",
+   "category": "プログラミング言語",
    "recent": 20,
    "prev": 11,
    "delta": 9
   },
   {
    "name": "SQL",
-   "category": "言語",
+   "category": "プログラミング言語",
    "recent": 13,
    "prev": 5,
    "delta": 8
@@ -515,28 +515,28 @@
   },
   {
    "name": "要件定義",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "recent": 14,
    "prev": 9,
    "delta": 5
   },
   {
    "name": "AIコーディング支援",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "recent": 4,
    "prev": 0,
    "delta": 4
   },
   {
    "name": "AWS",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "recent": 11,
    "prev": 8,
    "delta": 3
   },
   {
    "name": "MLOps",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "recent": 5,
    "prev": 2,
    "delta": 3
@@ -552,7 +552,7 @@
  "falling": [
   {
    "name": "GCP",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "recent": 2,
    "prev": 8,
    "delta": -6
@@ -587,14 +587,14 @@
   },
   {
    "name": "英語",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "recent": 4,
    "prev": 6,
    "delta": -2
   },
   {
    "name": "アジャイル",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "recent": 2,
    "prev": 4,
    "delta": -2
@@ -615,7 +615,7 @@
   },
   {
    "name": "Docker",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "recent": 2,
    "prev": 3,
    "delta": -1

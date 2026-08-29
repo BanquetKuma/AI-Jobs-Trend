@@ -504,7 +504,7 @@
  "series": [
   {
    "name": "Python",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     3,
     5,
@@ -594,7 +594,7 @@
   },
   {
    "name": "SQL",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     3,
     3,
@@ -684,7 +684,7 @@
   },
   {
    "name": "AWS",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     0,
     2,
@@ -954,7 +954,7 @@
   },
   {
    "name": "要件定義",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "counts": [
     0,
     1,
@@ -1134,7 +1134,7 @@
   },
   {
    "name": "GCP",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     0,
     1,
@@ -1224,7 +1224,7 @@
   },
   {
    "name": "PoC",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "counts": [
     1,
     1,
@@ -1404,7 +1404,7 @@
   },
   {
    "name": "Azure",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     4,
     3,
@@ -2034,7 +2034,7 @@
   },
   {
    "name": "Docker",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "counts": [
     0,
     1,
@@ -2214,7 +2214,7 @@
   },
   {
    "name": "Git",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "counts": [
     0,
     0,
@@ -2574,7 +2574,7 @@
   },
   {
    "name": "R",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     0,
@@ -2664,7 +2664,7 @@
   },
   {
    "name": "アジャイル",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "counts": [
     1,
     0,
@@ -2754,7 +2754,7 @@
   },
   {
    "name": "英語",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "counts": [
     0,
     0,
@@ -3114,7 +3114,7 @@
   },
   {
    "name": "PMO",
-   "category": "プロセス",
+   "category": "進め方・プロセス",
    "counts": [
     0,
     0,
@@ -3204,7 +3204,7 @@
   },
   {
    "name": "MLOps",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "counts": [
     0,
     1,
@@ -3294,7 +3294,7 @@
   },
   {
    "name": "Terraform",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     0,
     1,
@@ -3564,7 +3564,7 @@
   },
   {
    "name": "TypeScript",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     1,
@@ -3744,7 +3744,7 @@
   },
   {
    "name": "CI/CD",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "counts": [
     0,
     0,
@@ -4824,7 +4824,7 @@
   },
   {
    "name": "Dify",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "counts": [
     0,
     0,
@@ -5094,7 +5094,7 @@
   },
   {
    "name": "Azure OpenAI",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     1,
     1,
@@ -5274,7 +5274,7 @@
   },
   {
    "name": "Java",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     0,
@@ -5814,7 +5814,7 @@
   },
   {
    "name": "Claude Code",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "counts": [
     0,
     0,
@@ -5904,7 +5904,7 @@
   },
   {
    "name": "GitHub Actions",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "counts": [
     0,
     0,
@@ -5994,7 +5994,7 @@
   },
   {
    "name": "Vertex AI",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     0,
     0,
@@ -6264,7 +6264,7 @@
   },
   {
    "name": "Amazon Bedrock",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     1,
     0,
@@ -6354,7 +6354,7 @@
   },
   {
    "name": "Go",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     0,
@@ -6444,7 +6444,7 @@
   },
   {
    "name": "Kubernetes",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     0,
     0,
@@ -6714,7 +6714,7 @@
   },
   {
    "name": "JavaScript",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     1,
@@ -6894,7 +6894,7 @@
   },
   {
    "name": "Copilot Studio",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "counts": [
     0,
     0,
@@ -6984,7 +6984,7 @@
   },
   {
    "name": "Power Platform",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "counts": [
     0,
     0,
@@ -7164,7 +7164,7 @@
   },
   {
    "name": "Cursor",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "counts": [
     0,
     0,
@@ -7254,7 +7254,7 @@
   },
   {
    "name": "C#/.NET",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     0,
@@ -7344,7 +7344,7 @@
   },
   {
    "name": "GitHub Copilot",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "counts": [
     0,
     0,
@@ -7614,7 +7614,7 @@
   },
   {
    "name": "DevOps",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "counts": [
     0,
     0,
@@ -7884,7 +7884,7 @@
   },
   {
    "name": "VBA",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     0,
@@ -7974,7 +7974,7 @@
   },
   {
    "name": "監視・可観測性",
-   "category": "基盤・運用",
+   "category": "開発基盤・運用",
    "counts": [
     0,
     0,
@@ -8064,7 +8064,7 @@
   },
   {
    "name": "AIコーディング支援",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "counts": [
     0,
     0,
@@ -8154,7 +8154,7 @@
   },
   {
    "name": "RPA",
-   "category": "AIツール",
+   "category": "AI開発ツール",
    "counts": [
     0,
     0,
@@ -8334,7 +8334,7 @@
   },
   {
    "name": "Azure AI Foundry",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     0,
     0,
@@ -8424,7 +8424,7 @@
   },
   {
    "name": "Scala",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     0,
@@ -8604,7 +8604,7 @@
   },
   {
    "name": "Kotlin",
-   "category": "言語",
+   "category": "プログラミング言語",
    "counts": [
     0,
     0,
@@ -8694,7 +8694,7 @@
   },
   {
    "name": "SAP BTP",
-   "category": "クラウド",
+   "category": "クラウド基盤",
    "counts": [
     0,
     0,
@@ -8784,15 +8784,15 @@
   }
  ],
  "categories": [
-  "AIツール",
+  "AI開発ツール",
   "アプリ開発",
-  "クラウド",
+  "クラウド基盤",
   "データ基盤",
-  "プロセス",
-  "基盤・運用",
+  "プログラミング言語",
   "業務システム",
   "機械学習",
   "生成AI",
-  "言語"
+  "進め方・プロセス",
+  "開発基盤・運用"
  ]
 }

@@ -212,9 +212,15 @@ const mdLabel = w => w.slice(5).replace('-', '/');
   drawRank();
 
   // ---- 需要量 × モメンタム ----
+  // 出現数の多い順だけで選ぶと、まさに狙い目の「小さいが急伸している技術」が
+  // 候補から漏れて「新興・急伸」象限が空になる。大きい順と伸び順の和集合で拾う。
+  const pickBig = mom.slice().sort((a, b) => b.recent - a.recent).slice(0, 14);
+  const pickRise = mom.slice()
+    .sort((a, b) => (0.4 * b.nvol + 0.6 * b.ngrowth) - (0.4 * a.nvol + 0.6 * a.ngrowth))
+    .slice(0, 10);
+  const quadPts = [...new Map([...pickBig, ...pickRise].map(m => [m.name, m])).values()];
   quadrant($('#c-quad'), {
-    points: mom.slice()
-      .sort((a, b) => b.recent - a.recent).slice(0, 22)
+    points: quadPts
       .map(m => ({ name: m.name, cat: m.cat, x: m.recent, y: m.delta, size: m.total })),
     xLabel: `直近${strat.window}週の出現案件数`,
     yLabel: `増減（直近${strat.window}週 − その前${strat.window}週）`,

@@ -11,29 +11,29 @@ TECHS の各エントリは (正規化名, カテゴリ, 検出用正規表現) 
 # (name, category, pattern)
 TECHS = [
     # ---- 言語 ----
-    ("Python",      "言語", r"Python"),
-    ("R",           "言語", r"(?<![0-9A-Za-z_&])R(?![0-9A-Za-z_&])"),
-    ("TypeScript",  "言語", r"TypeScript|\bTS\b"),
-    ("JavaScript",  "言語", r"JavaScript"),
-    ("Kotlin",      "言語", r"Kotlin"),
-    ("Java",        "言語", r"(?<![0-9A-Za-z_])Java(?!Script)"),
-    ("Go",          "言語", r"(?<![0-9A-Za-z_])(?:Go|Golang)(?![0-9A-Za-z_])"),
-    ("C#/.NET",     "言語", r"C#|\.NET"),
-    ("Scala",       "言語", r"Scala"),
-    ("SQL",         "言語", r"(?<![0-9A-Za-z_])SQL(?![0-9A-Za-z_])"),
-    ("VBA",         "言語", r"(?<![0-9A-Za-z_])VBA(?![0-9A-Za-z_])"),
+    ("Python",      "プログラミング言語", r"Python"),
+    ("R",           "プログラミング言語", r"(?<![0-9A-Za-z_&])R(?![0-9A-Za-z_&])"),
+    ("TypeScript",  "プログラミング言語", r"TypeScript|\bTS\b"),
+    ("JavaScript",  "プログラミング言語", r"JavaScript"),
+    ("Kotlin",      "プログラミング言語", r"Kotlin"),
+    ("Java",        "プログラミング言語", r"(?<![0-9A-Za-z_])Java(?!Script)"),
+    ("Go",          "プログラミング言語", r"(?<![0-9A-Za-z_])(?:Go|Golang)(?![0-9A-Za-z_])"),
+    ("C#/.NET",     "プログラミング言語", r"C#|\.NET"),
+    ("Scala",       "プログラミング言語", r"Scala"),
+    ("SQL",         "プログラミング言語", r"(?<![0-9A-Za-z_])SQL(?![0-9A-Za-z_])"),
+    ("VBA",         "プログラミング言語", r"(?<![0-9A-Za-z_])VBA(?![0-9A-Za-z_])"),
 
     # ---- クラウド ----
-    ("AWS",             "クラウド", r"(?<![0-9A-Za-z_])AWS(?![0-9A-Za-z_])|Amazon Web Services"),
-    ("Azure",           "クラウド", r"Azure"),
-    ("GCP",             "クラウド", r"(?<![0-9A-Za-z_])GCP(?![0-9A-Za-z_])|Google Cloud"),
-    ("Azure AI Foundry","クラウド", r"Azure\s*AI\s*Foundry|AI\s*Foundry"),
-    ("Azure OpenAI",    "クラウド", r"Azure\s*OpenAI"),
-    ("Amazon Bedrock",  "クラウド", r"Bedrock"),
-    ("Vertex AI",       "クラウド", r"Vertex\s*AI"),
-    ("SAP BTP",         "クラウド", r"(?<![0-9A-Za-z_])BTP(?![0-9A-Za-z_])|Business Technology Platform"),
-    ("Kubernetes",      "クラウド", r"Kubernetes|(?<![0-9A-Za-z_])K8s(?![0-9A-Za-z_])|(?<![0-9A-Za-z_])EKS(?![0-9A-Za-z_])|(?<![0-9A-Za-z_])AKS(?![0-9A-Za-z_])"),
-    ("Terraform",       "クラウド", r"Terraform"),
+    ("AWS",             "クラウド基盤", r"(?<![0-9A-Za-z_])AWS(?![0-9A-Za-z_])|Amazon Web Services"),
+    ("Azure",           "クラウド基盤", r"Azure"),
+    ("GCP",             "クラウド基盤", r"(?<![0-9A-Za-z_])GCP(?![0-9A-Za-z_])|Google Cloud"),
+    ("Azure AI Foundry","クラウド基盤", r"Azure\s*AI\s*Foundry|AI\s*Foundry"),
+    ("Azure OpenAI",    "クラウド基盤", r"Azure\s*OpenAI"),
+    ("Amazon Bedrock",  "クラウド基盤", r"Bedrock"),
+    ("Vertex AI",       "クラウド基盤", r"Vertex\s*AI"),
+    ("SAP BTP",         "クラウド基盤", r"(?<![0-9A-Za-z_])BTP(?![0-9A-Za-z_])|Business Technology Platform"),
+    ("Kubernetes",      "クラウド基盤", r"Kubernetes|(?<![0-9A-Za-z_])K8s(?![0-9A-Za-z_])|(?<![0-9A-Za-z_])EKS(?![0-9A-Za-z_])|(?<![0-9A-Za-z_])AKS(?![0-9A-Za-z_])"),
+    ("Terraform",       "クラウド基盤", r"Terraform"),
 
     # ---- データ基盤 ----
     ("Databricks",  "データ基盤", r"Databricks"),
@@ -70,15 +70,15 @@ TECHS = [
     ("AIガバナンス",              "生成AI", r"AI\s*ガバナンス|AI\s*ガイドライン|AI\s*品質保証|AI\s*セキュリティ|統制(?:方針|ルール|ガイドライン)"),
 
     # ---- AI活用ツール ----
-    ("Claude Code",     "AIツール", r"Claude\s*Code"),
-    ("GitHub Copilot",  "AIツール", r"GitHub\s*Copilot"),
-    ("Copilot Studio",  "AIツール", r"Copilot\s*Studio"),
-    ("Microsoft 365 Copilot", "AIツール", r"(?:Microsoft\s*)?365\s*Copilot|M365\s*Copilot"),
-    ("Cursor",          "AIツール", r"(?<![0-9A-Za-z_])Cursor(?![0-9A-Za-z_])"),
-    ("Dify",            "AIツール", r"(?<![0-9A-Za-z_])Dify(?![0-9A-Za-z_])"),
-    ("AIコーディング支援","AIツール", r"AIコーディング|AI支援ツール|AI\s*コーディングエージェント"),
-    ("Power Platform",  "AIツール", r"Power\s*Platform|Power\s*Apps|Power\s*Automate"),
-    ("RPA",             "AIツール", r"(?<![0-9A-Za-z_])RPA(?![0-9A-Za-z_])|UiPath|WinActor"),
+    ("Claude Code",     "AI開発ツール", r"Claude\s*Code"),
+    ("GitHub Copilot",  "AI開発ツール", r"GitHub\s*Copilot"),
+    ("Copilot Studio",  "AI開発ツール", r"Copilot\s*Studio"),
+    ("Microsoft 365 Copilot", "AI開発ツール", r"(?:Microsoft\s*)?365\s*Copilot|M365\s*Copilot"),
+    ("Cursor",          "AI開発ツール", r"(?<![0-9A-Za-z_])Cursor(?![0-9A-Za-z_])"),
+    ("Dify",            "AI開発ツール", r"(?<![0-9A-Za-z_])Dify(?![0-9A-Za-z_])"),
+    ("AIコーディング支援","AI開発ツール", r"AIコーディング|AI支援ツール|AI\s*コーディングエージェント"),
+    ("Power Platform",  "AI開発ツール", r"Power\s*Platform|Power\s*Apps|Power\s*Automate"),
+    ("RPA",             "AI開発ツール", r"(?<![0-9A-Za-z_])RPA(?![0-9A-Za-z_])|UiPath|WinActor"),
 
     # ---- 機械学習 ----
     ("機械学習",    "機械学習", r"機械学習|Machine\s*Learning|(?<![0-9A-Za-z_])ML(?![0-9A-Za-z_])"),
@@ -96,13 +96,13 @@ TECHS = [
     ("レコメンド",  "機械学習", r"レコメンド|推薦"),
 
     # ---- 基盤・運用 ----
-    ("Docker",          "基盤・運用", r"Docker|コンテナ"),
-    ("MLOps",           "基盤・運用", r"MLOps|LLMOps"),
-    ("CI/CD",           "基盤・運用", r"CI\s*/\s*CD|継続的インテグレーション"),
-    ("GitHub Actions",  "基盤・運用", r"GitHub\s*Actions"),
-    ("Git",             "基盤・運用", r"(?<![0-9A-Za-z_])Git(?![0-9A-Za-zH_])"),
-    ("監視・可観測性",  "基盤・運用", r"OpenTelemetry|可観測性|Observability|Datadog"),
-    ("DevOps",          "基盤・運用", r"DevOps"),
+    ("Docker",          "開発基盤・運用", r"Docker|コンテナ"),
+    ("MLOps",           "開発基盤・運用", r"MLOps|LLMOps"),
+    ("CI/CD",           "開発基盤・運用", r"CI\s*/\s*CD|継続的インテグレーション"),
+    ("GitHub Actions",  "開発基盤・運用", r"GitHub\s*Actions"),
+    ("Git",             "開発基盤・運用", r"(?<![0-9A-Za-z_])Git(?![0-9A-Za-zH_])"),
+    ("監視・可観測性",  "開発基盤・運用", r"OpenTelemetry|可観測性|Observability|Datadog"),
+    ("DevOps",          "開発基盤・運用", r"DevOps"),
 
     # ---- 業務・その他 ----
     ("React",           "アプリ開発", r"(?<![0-9A-Za-z_])React(?![0-9A-Za-z_])"),
@@ -113,11 +113,11 @@ TECHS = [
     ("ERP",             "業務システム", r"(?<![0-9A-Za-z_])ERP(?![0-9A-Za-z_])"),
     ("SCM",             "業務システム", r"(?<![0-9A-Za-z_])SCM(?![0-9A-Za-z_])|需給管理|在庫管理"),
     ("CRM",             "業務システム", r"(?<![0-9A-Za-z_])CRM(?![0-9A-Za-z_])"),
-    ("PMO",             "プロセス", r"(?<![0-9A-Za-z_])PMO(?![0-9A-Za-z_])"),
-    ("要件定義",        "プロセス", r"要件定義"),
-    ("PoC",             "プロセス", r"(?<![0-9A-Za-z_])PoC(?![0-9A-Za-z_])|実証実験"),
-    ("アジャイル",      "プロセス", r"アジャイル|スクラム|Scrum"),
-    ("英語",            "プロセス", r"英語"),
+    ("PMO",             "進め方・プロセス", r"(?<![0-9A-Za-z_])PMO(?![0-9A-Za-z_])"),
+    ("要件定義",        "進め方・プロセス", r"要件定義"),
+    ("PoC",             "進め方・プロセス", r"(?<![0-9A-Za-z_])PoC(?![0-9A-Za-z_])|実証実験"),
+    ("アジャイル",      "進め方・プロセス", r"アジャイル|スクラム|Scrum"),
+    ("英語",            "進め方・プロセス", r"英語"),
 ]
 
 # 稼働形態の正規化

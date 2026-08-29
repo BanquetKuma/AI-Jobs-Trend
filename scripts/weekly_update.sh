@@ -26,7 +26,7 @@ PROMPT='.claude/skills/ai-jobs-update/SKILL.md を読み、その手順に従っ
       "mcp__claude_ai_Gmail__search_threads" \
       "mcp__claude_ai_Gmail__get_thread" \
       "mcp__claude_ai_Gmail__send_message" \
-      "Bash(python3:*)" "Bash(git:*)" "Bash(grep:*)" "Bash(ls:*)" \
+      "Bash(python3:*)" "Bash(git:*)" "Bash(grep:*)" "Bash(ls:*)" "Bash(cat:*)" \
       "Read" "Write" "Edit" \
     < /dev/null
   rc=$?

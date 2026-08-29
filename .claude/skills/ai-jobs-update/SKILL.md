@@ -130,7 +130,12 @@ push が GitHub Pages の再デプロイを兼ねる（Actions は使ってい�
 
 `mcp__claude_ai_Gmail__send_message` を次の内容で呼ぶ。
 
-- `to`: `<通知先はローカル設定から読む>`
+- `to`: **リポジトリには書かない。** 次のコマンドで宛先を読む:
+  ```bash
+  cat ~/.config/ai-jobs-trend/notify_to
+  ```
+  ファイルが無い、または空の場合は**メールを送らず**、その旨を報告して終了する
+  （更新自体は成功しているので失敗扱いにしない）
 - `subject`: `[AI案件トレンド] <最新週の日付> 配信分を反映しました`
 - `body`: 下記の形式。**数字はすべて `docs/data/summary.json` と
   `docs/data/strategy.json` の実値を使い、創作しない。**

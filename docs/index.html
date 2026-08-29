@@ -83,6 +83,33 @@
 import { hbar, esc } from './charts.js';
 
 const $ = s => document.querySelector(s);
+
+// 配信メールは改行が潰れて1行で届く。箇条書きと見出しの記号から構造を戻す。
+// 「・」は箇条書きにも中黒の区切り（企画・設計・構築）にも使われるため、
+// 直前が空白のものだけを箇条書きとして扱う。
+const SECTION = /^(現状|課題|理想像|期待する役割|求める人物像|募集背景|前提条件|背景)$/;
+const richText = raw => {
+  if (!raw) return '';
+  const t = String(raw).trim()
+    .replace(/\s+(?=[【■◆＜])/g, '\n\n')
+    .replace(/\s+(現状|課題|理想像|期待する役割|求める人物像|募集背景)\s+(?=[・●〇])/g, '\n\n$1\n')
+    .replace(/\s+(?=[・●〇])/g, '\n');
+  const lines = t.split('\n').map(x => x.trim()).filter(Boolean);
+  let out = '', buf = [];
+  const flush = () => {
+    if (!buf.length) return;
+    out += '<ul>' + buf.map(x => `<li>${esc(x)}</li>`).join('') + '</ul>';
+    buf = [];
+  };
+  for (const ln of lines) {
+    if (/^[・●〇]/.test(ln)) { buf.push(ln.replace(/^[・●〇]\s*/, '')); continue; }
+    flush();
+    out += (/^[【■◆＜]/.test(ln) || SECTION.test(ln))
+      ? `<h5>${esc(ln)}</h5>` : `<p>${esc(ln)}</p>`;
+  }
+  flush();
+  return out;
+};
 const fail = msg => {
   document.querySelector('main').insertAdjacentHTML('afterbegin',
     `<div class="err"><b>データを読み込めませんでした。</b><br>${esc(msg)}</div>`);
@@ -190,7 +217,7 @@ const RATIO_ORDER = ['〜30%', '31〜50%', '51〜80%', '81〜100%', '不明'];
     const row = (k, v) => (!v || v === '-' || v === '要確認')
       ? '' : `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`;
     const para = (title, body) => !body ? '' :
-      `<h4>${esc(title)}</h4><p>${esc(body)}</p>`;
+      `<h4>${esc(title)}</h4><div class="ptext">${richText(body)}</div>`;
     const tagline = (label, arr) => !arr || !arr.length ? '' :
       `<div class="tagrow"><span class="taglabel">${esc(label)}</span>` +
       arr.map(t => `<span class="tag${sel.tech && t === sel.tech ? ' hit' : ''}">${esc(t)}</span>`).join('') +

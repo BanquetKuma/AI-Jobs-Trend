@@ -345,17 +345,34 @@ svg.chart:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2p
 
 .pdetail { padding: 16px 18px 20px; background: var(--surface-0); cursor: auto; }
 .pdetail h4 {
-  margin: 16px 0 5px; font-size: 12px; letter-spacing: .08em;
+  margin: 26px 0 10px; font-size: 12px; letter-spacing: .08em;
   color: var(--emph); font-weight: 700;
+  padding-bottom: 7px; border-bottom: 1px solid var(--border);
 }
-.pdetail h4:first-of-type { margin-top: 4px; }
-.pdetail p {
-  margin: 0; font-size: 13.5px; line-height: 1.95;
-  color: var(--text-primary); white-space: pre-wrap;
+.pdetail h4:first-of-type { margin-top: 6px; }
+/* 案件説明の本文。原文は1行に潰れて届くので、描画側で構造を戻している。
+   行間を広めに取り、箇条書きはぶら下げインデントで読ませる。 */
+.ptext { font-size: 13.5px; line-height: 2.05; color: var(--text-primary); }
+.ptext > *:first-child { margin-top: 0; }
+.ptext p { margin: 0 0 1em; }
+.ptext h5 {
+  margin: 1.5em 0 .6em; font-size: 13px; font-weight: 700;
+  color: var(--text-primary); letter-spacing: .01em;
+  padding-left: 9px; border-left: 2px solid var(--emph-dim);
+}
+.ptext ul { margin: 0 0 1.1em; padding: 0; list-style: none; }
+.ptext li {
+  position: relative; padding-left: 15px; margin-bottom: .55em;
+}
+.ptext li:last-child { margin-bottom: 0; }
+.ptext li::before {
+  content: ""; position: absolute; left: 2px; top: .82em;
+  width: 5px; height: 5px; border-radius: 50%;
+  background: var(--emph-dim);
 }
 dl.pfacts {
-  display: grid; grid-template-columns: auto 1fr; gap: 3px 14px;
-  margin: 0 0 4px; font-size: 12.5px;
+  display: grid; grid-template-columns: auto 1fr; gap: 7px 14px;
+  margin: 0 0 4px; font-size: 12.5px; line-height: 1.7;
 }
 dl.pfacts:empty { display: none; }
 dl.pfacts dt { color: var(--text-muted); white-space: nowrap; }

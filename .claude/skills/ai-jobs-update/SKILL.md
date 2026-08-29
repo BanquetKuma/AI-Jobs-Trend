@@ -161,10 +161,17 @@ push が GitHub Pages の再デプロイを兼ねる（Actions は使ってい�
 
 ```html
 <div style="font-family:-apple-system,'Hiragino Kaku Gothic ProN',Meiryo,sans-serif;font-size:15px;line-height:1.8;color:#1a1a1a;max-width:640px">
-  <p style="margin:0 0 18px">
+  <p style="margin:0 0 10px">
     <a href="https://banquetkuma.github.io/AI-Jobs-Trend/"
        style="display:inline-block;background:#1d6b46;color:#ffffff;text-decoration:none;padding:11px 22px;border-radius:3px;font-weight:700">
       ダッシュボードを開く</a>
+  </p>
+  <!-- Gmailウェブ版はリンクを google.com/url?q=... に書き換えるため、自己宛メールでは
+       署名が付かず「Redirect Notice」の中間ページが出る。書き方では防げないので、
+       コピーして使える素のURLを必ず併記する。掲載するのは必ずトップページのURL。 -->
+  <p style="margin:0 0 24px;font-size:12.5px;color:#888;border:1px dashed #ccc;padding:8px 12px;border-radius:3px">
+    中間ページが出る場合はこちらをコピーしてアドレスバーへ:<br>
+    <span style="font-family:ui-monospace,Menlo,monospace;font-size:13px;color:#1a1a1a;user-select:all">https://banquetkuma.github.io/AI-Jobs-Trend/</span>
   </p>
   <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">今回取り込んだ週</h3>
   <p style="margin:0">&lt;latest_week&gt;（掲載 &lt;latest.projects&gt; 件 / うち新規 &lt;latest.new_projects&gt; 件）</p>

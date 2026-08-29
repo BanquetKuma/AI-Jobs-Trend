@@ -270,36 +270,75 @@ def counter_to_list(c: collections.Counter, limit=None):
 
 MOMENTUM_MAX = 8   # 直近/前期の比較窓の上限（週）
 
+# 「定着して伸びている」「立ち上がったばかり」を分ける境目。
+# 単一のランキングにすると、654件中4〜5件しか出ていない技術が
+# 31件のPythonより上に来てしまい、毎週上位が入れ替わって読めなくなる。
+EST_PREV_MIN = 3      # 定着: 前期にこれだけ出ていること
+EST_RECENT_MIN = 5    # 定着: 直近にこれだけ出ていること
+EME_PREV_MAX = 2      # 兆候: 前期がこれ以下（ほぼゼロから立ち上がった）
+EME_RECENT_MIN = 4    # 兆候: 直近にこれだけ出ていること
+
+
+def _momentum(series, n_weeks, cat_of):
+    """末尾を切り詰めた系列でも呼べるモメンタム計算。
+
+    先週時点のランキングを再現するために、同じ式を n_weeks を変えて2回使う。
+    """
+    win = max(2, min(MOMENTUM_MAX, n_weeks // 2))
+    out = []
+    for s in series:
+        c = s["counts"][:n_weeks]
+        recent, prev = sum(c[-win:]), sum(c[-2 * win:-win])
+        if recent + prev < 4:
+            continue
+        out.append({
+            "name": s["name"],
+            "cat": s.get("category", cat_of.get(s["name"], "その他")),
+            "recent": recent, "prev": prev, "delta": recent - prev,
+            # 分母が小さいときに率が跳ねないよう +2 で減衰させる
+            "growth": round((recent - prev) / (prev + 2), 3),
+            "total": sum(c),
+        })
+    if out:
+        mv = max(m["recent"] for m in out) or 1
+        mg = max((m["growth"] for m in out), default=1) or 1
+        for m in out:
+            m["nvol"] = round(m["recent"] / mv, 4)
+            m["ngrowth"] = round(max(0.0, m["growth"]) / mg, 4) if mg > 0 else 0.0
+    return win, out
+
 
 def build_strategy(records, trends, first_seen, week_index):
     """「次にどの技術を取りに行くか」を決めるための指標一式。
 
     重みはクライアント側で変えられるよう、正規化済みの素点まで出して
-    合成スコア自体は画面で計算させる。
+    合成スコア自体は画面で計算させる。先週時点の素点も併せて出すので、
+    画面側は同じ重みで両方を並べ替えて順位変動を出せる。
     """
     weeks = trends["weeks"]
-    win = max(2, min(MOMENTUM_MAX, len(weeks) // 2))
     cat_of = {n: c for n, c, _ in td.TECHS}
 
-    mom = []
-    for s in trends["series"]:
-        c = s["counts"]
-        recent, prev = sum(c[-win:]), sum(c[-2 * win:-win])
-        if recent + prev < 4:
-            continue
-        mom.append({
-            "name": s["name"], "cat": s.get("category", cat_of.get(s["name"], "その他")),
-            "recent": recent, "prev": prev, "delta": recent - prev,
-            # 分母が小さいときに率が跳ねないよう +2 で減衰させる
-            "growth": round((recent - prev) / (prev + 2), 3),
-            "total": s["total"],
-        })
-    if mom:
-        mv = max(m["recent"] for m in mom) or 1
-        mg = max((m["growth"] for m in mom), default=1) or 1
-        for m in mom:
-            m["nvol"] = round(m["recent"] / mv, 4)
-            m["ngrowth"] = round(max(0.0, m["growth"]) / mg, 4) if mg > 0 else 0.0
+    win, mom = _momentum(trends["series"], len(weeks), cat_of)
+    # 末尾1週を落とした状態＝先週時点。順位そのものではなく素点だけを渡す
+    # （画面の重みスライダーを動かしても食い違わないようにするため）。
+    prev_by_name = {}
+    if len(weeks) >= 3:
+        _, prev_mom = _momentum(trends["series"], len(weeks) - 1, cat_of)
+        prev_by_name = {m["name"]: m for m in prev_mom}
+
+    for m in mom:
+        p = prev_by_name.get(m["name"])
+        if p:
+            m["nvol_prev"] = p["nvol"]
+            m["ngrowth_prev"] = p["ngrowth"]
+        # 定着か兆候か。どちらにも当てはまらない技術は None のまま
+        if (m["prev"] >= EST_PREV_MIN and m["recent"] >= EST_RECENT_MIN
+                and m["growth"] > 0):
+            m["group"] = "established"
+        elif m["prev"] <= EME_PREV_MAX and m["recent"] >= EME_RECENT_MIN:
+            m["group"] = "emerging"
+        else:
+            m["group"] = None
     mom.sort(key=lambda m: -m["recent"])
 
     # 共起（同じ案件で同時に求められる技術）
@@ -325,6 +364,10 @@ def build_strategy(records, trends, first_seen, week_index):
         "momentum": mom,
         "cooccurrence": cooc,
         "weights": {"volume": 0.4, "growth": 0.6},
+        "thresholds": {
+            "established": {"prev_min": EST_PREV_MIN, "recent_min": EST_RECENT_MIN},
+            "emerging": {"prev_max": EME_PREV_MAX, "recent_min": EME_RECENT_MIN},
+        },
         "note": ("成長率は 直近{w}週 と その前{w}週 の比較。"
                  "分母が小さい技術で率が跳ねないよう減衰させている。").format(w=win),
     }
@@ -440,18 +483,30 @@ def aggregate(records):
         return counter_to_list(collections.Counter(r[key] for r in recs))
 
     rates = [r["rate_max"] for r in records if r["rate_max"]]
+    # --- 掲載週数と、新規案件での出現率 ---
+    # span は「実際に掲載された週の数」。初出〜最終の経過週数ではない。
+    # 経過week数で数えると、5か月空いての再掲を「22週continuous」と
+    # 誤って解釈してしまう（実測で全体が実態の1.41倍に膨らんでいた）。
+    listed_weeks = collections.defaultdict(set)
+    for r in records:
+        listed_weeks[r["id"]].add(r["week"])
+    span = {pid: len(ws) for pid, ws in listed_weeks.items()}
+    elapsed = {pid: week_index[last_seen[pid]] - week_index[fw] + 1
+               for pid, fw in first_seen.items()}
+
     spans = []
     for pid, fw in first_seen.items():
-        span = week_index[last_seen[pid]] - week_index[fw] + 1
-        if span >= 2:
+        if span.get(pid, 0) >= 2:
             sample = next(r for r in records if r["id"] == pid)
             spans.append({
-                "id": pid, "weeks": span,
+                "id": pid,
+                "weeks": span[pid],          # 実際に掲載された週の数
+                "elapsed": elapsed[pid],     # 初出から最終掲載までの経過週数
                 "first_week": fw, "last_week": last_seen[pid],
                 "position": sample["position"], "industry": sample["industry"],
                 "techs": sample["techs"][:6],
             })
-    spans.sort(key=lambda x: (-x["weeks"], x["first_week"]))
+    spans.sort(key=lambda x: (-x["weeks"], -x["elapsed"], x["first_week"]))
 
     # --- 必須率: その技術が [必須スキル] に書かれた割合 ---
     tech_any, tech_req_c, tech_fresh = (collections.Counter() for _ in range(3))
@@ -473,9 +528,6 @@ def aggregate(records):
          for t, n in tech_any.items() if n >= MIN_N),
         key=lambda x: (-x["rate"], -x["listings"]))
 
-    # --- 供給不足シグナル: 掲載継続週数と、新規案件での出現率 ---
-    span = {pid: week_index[last_seen[pid]] - week_index[fw] + 1
-            for pid, fw in first_seen.items()}
     supply = sorted(
         ({"name": t,
           "weeks": round(sum(span[pid] for pid in tech_projects[t])

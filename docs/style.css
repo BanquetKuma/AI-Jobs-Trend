@@ -286,3 +286,31 @@ svg.chart:focus-visible { outline: 2px solid var(--series-1); outline-offset: 2p
 .badge.warn { background: var(--series-4); color: var(--surface-0); }
 .badge.none { background: var(--series-2); color: var(--text-primary); }
 .badge.real { background: var(--emph-wash); color: var(--emph); border: 1px solid var(--emph-dim); }
+
+/* ---------- ランキング行（定着 / 兆候）---------- */
+.rankrow { padding: 13px 0; border-bottom: 1px solid var(--border); }
+.rankrow:last-child { border-bottom: none; }
+.rankrow-head { display: flex; align-items: center; gap: 10px; }
+.rankrow-name { font-size: 15px; font-weight: 650; }
+.rankrow-bar { height: 8px; background: var(--surface-2); margin: 9px 0 8px; }
+.rankrow-bar i { display: block; height: 8px; background: var(--emph); }
+.rankrow-meta {
+  display: flex; flex-wrap: wrap; gap: 4px 16px;
+  font-size: 12px; color: var(--text-muted);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+.rankrow-meta b { color: var(--text-secondary); font-weight: 500; }
+.rankrow-cat { margin-left: auto; font-family: inherit; }
+
+/* 先週からの順位変動 */
+.rankbadge {
+  margin-left: auto; flex: none;
+  font-size: 10.5px; font-weight: 700; letter-spacing: .08em;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  padding: 2px 8px; border: 1px solid transparent;
+}
+.rankbadge.is-new { background: var(--emph); color: var(--surface-0); }
+.rankbadge.is-up { color: var(--emph); border-color: var(--emph-dim); background: var(--emph-wash); }
+.rankbadge.is-down { color: var(--text-muted); border-color: var(--border); }
+.rankbadge.is-flat { color: var(--text-muted); border-color: var(--border); }

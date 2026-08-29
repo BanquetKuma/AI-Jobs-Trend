@@ -65,8 +65,9 @@ def main():
         "range": [trends["weeks"][0], trends["weeks"][-1]],
         "window": strat["window"],
         "weights": w,
-        "rank": [{k: m[k] for k in
-                  ("name", "cat", "score", "recent", "prev", "growth_pct")}
+        "rank": [{**{k: m[k] for k in
+                     ("name", "cat", "score", "recent", "prev", "growth_pct")},
+                  "group": m.get("group")}
                  for m in ranked[:10]],
         # 2軸マップの母集団。延べ出現数だけで選ぶと、まさに狙い目である
         # 「小さいが急伸している技術」が候補から漏れて緑の象限が空になる。

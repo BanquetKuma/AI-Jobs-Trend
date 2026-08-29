@@ -104,6 +104,8 @@ cd /mnt/c/dev/AI-Jobs-Trend && python3 scripts/build.py
 - 前週・直近数週と比べて何が動いたか（伸びた技術／落ちた技術）
 - 今週の新規案件に共通する傾向（業界、ポジション、稼働形態）
 - 単なる件数の言い換えではなく、読み手が「市場で何が起きているか」を掴める一文を入れる
+- **「全件が新規」は所感の主題にしないこと。** 配信元はほぼ毎週入れ替えで案件を出しており、
+  再掲は全期間で8%しかない。ほぼ毎週100%新規になるので、書いても情報にならない
 
 **書式の規約（サイトとメールの両方がこの記法を解釈する）:**
 
@@ -181,10 +183,15 @@ push が GitHub Pages の再デプロイを兼ねる（Actions は使ってい�
   <!-- commentary は空行で段落に割り、**…** を <strong> に変換して入れる -->
   <p style="margin:0 0 1.1em">&lt;段落1&gt;</p>
   <p style="margin:0 0 1.1em">&lt;段落2&gt;</p>
-  <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">次に取るべき技術</h3>
+  <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">定着して伸びている</h3>
   <ol style="margin:0;padding-left:20px">
-    <li>&lt;name&gt;（直近&lt;window&gt;週 &lt;recent&gt;件 / 成長 &lt;growth_pct&gt;）</li>
+    <li>&lt;name&gt;（直近&lt;window&gt;週 &lt;recent&gt;件 / 前期 &lt;prev&gt;件 / 成長 &lt;growth_pct&gt;）&lt;先週比&gt;</li>
   </ol>
+  <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">立ち上がったばかり</h3>
+  <ol style="margin:0;padding-left:20px">
+    <li>&lt;name&gt;（直近&lt;window&gt;週 &lt;recent&gt;件 / 前期 &lt;prev&gt;件 / 成長 &lt;growth_pct&gt;）&lt;先週比&gt;</li>
+  </ol>
+  <p style="margin:8px 0 0;font-size:12px;color:#888">立ち上がり側は件数が小さく、ノイズの可能性が残ります。</p>
   <p style="margin:26px 0 0;font-size:13px;color:#666">
     <a href="https://banquetkuma.github.io/AI-Jobs-Trend/trends.html" style="color:#1d6b46">トレンド分析ページ</a>
   </p>
@@ -198,6 +205,17 @@ push が GitHub Pages の再デプロイを兼ねる（Actions は使ってい�
 - 段落内の `**…**` を
   `<strong style="color:#1d6b46;font-weight:700">…</strong>` に置換する
 - `body`（プレーンテキスト版）では `**` を取り除き、段落間は空行1つで区切る
+
+**「次に取るべき技術」は2ブロックに分ける:**
+
+- `strategy.json` の `momentum` から `group` が `established` のものと
+  `emerging` のものを、それぞれ上位3件ずつ出す
+- スコアは `weights`（既定 需要量0.4 / 成長率0.6）で
+  `volume*nvol + growth*ngrowth` を計算して降順に並べる
+- **先週比**: `nvol_prev` / `ngrowth_prev` を使って同じ重みで並べ替えた順位と、
+  現在の順位の差を出す。上昇は `▲N`（緑）、下降は `▼N`（灰 `#888`）、
+  変化なしは `±0`（灰）、`nvol_prev` を持たない技術は `NEW`（緑）
+- **兆候リストには「件数が小さく、ノイズの可能性が残る」旨を必ず1行添える**
 - `body` の冒頭にもトップページのURLを1行で置く:
 
 ```

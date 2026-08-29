@@ -623,36 +623,9 @@
  ],
  "longest_running": [
   {
-   "id": "9cb16e5b4a54",
-   "weeks": 22,
-   "first_week": "2025-11-14",
-   "last_week": "2026-04-10",
-   "position": "AIエンジニア",
-   "industry": "エンターテイメント",
-   "techs": [
-    "LLM",
-    "Python",
-    "機械学習",
-    "自然言語処理"
-   ]
-  },
-  {
-   "id": "84ff1c8b7df8",
-   "weeks": 21,
-   "first_week": "2025-07-18",
-   "last_week": "2025-11-26",
-   "position": "AIエンジニア",
-   "industry": "運輸業",
-   "techs": [
-    "Python",
-    "R",
-    "画像認識",
-    "異常検知"
-   ]
-  },
-  {
    "id": "5077fefd6b13",
-   "weeks": 15,
+   "weeks": 4,
+   "elapsed": 15,
    "first_week": "2025-01-17",
    "last_week": "2025-05-09",
    "position": "AIエンジニア",
@@ -665,80 +638,24 @@
    ]
   },
   {
-   "id": "43e266999234",
-   "weeks": 15,
-   "first_week": "2025-06-13",
-   "last_week": "2025-09-19",
-   "position": "データエンジニア",
-   "industry": "不明",
-   "techs": [
-    "API設計",
-    "AWS",
-    "GCP",
-    "Go",
-    "LLM",
-    "MLOps"
-   ]
-  },
-  {
-   "id": "209b488ba0d0",
-   "weeks": 14,
-   "first_week": "2025-11-26",
-   "last_week": "2026-02-27",
-   "position": "データアナリスト",
-   "industry": "不明",
-   "techs": [
-    "AWS",
-    "Python",
-    "アジャイル"
-   ]
-  },
-  {
-   "id": "18f84b35ea15",
-   "weeks": 14,
-   "first_week": "2026-01-23",
-   "last_week": "2026-04-24",
-   "position": "その他",
-   "industry": "教育",
-   "techs": [
-    "SQL",
-    "レコメンド",
-    "因果推論"
-   ]
-  },
-  {
-   "id": "b0938592aeb7",
-   "weeks": 13,
-   "first_week": "2025-01-17",
-   "last_week": "2025-04-25",
+   "id": "84ff1c8b7df8",
+   "weeks": 3,
+   "elapsed": 21,
+   "first_week": "2025-07-18",
+   "last_week": "2025-11-26",
    "position": "AIエンジニア",
-   "industry": "金融業 ※銀行",
-   "techs": [
-    "Azure",
-    "LLM",
-    "PostgreSQL",
-    "Python",
-    "SQL",
-    "Tableau"
-   ]
-  },
-  {
-   "id": "9f34ceea54f8",
-   "weeks": 13,
-   "first_week": "2025-08-22",
-   "last_week": "2025-11-11",
-   "position": "データアナリスト",
-   "industry": "不明",
+   "industry": "運輸業",
    "techs": [
     "Python",
     "R",
-    "SQL",
-    "pandas/NumPy"
+    "画像認識",
+    "異常検知"
    ]
   },
   {
    "id": "981fbaeaa175",
-   "weeks": 13,
+   "weeks": 3,
+   "elapsed": 13,
    "first_week": "2025-10-10",
    "last_week": "2025-12-19",
    "position": "データアナリスト",
@@ -753,19 +670,106 @@
    ]
   },
   {
-   "id": "33b2fc050e44",
-   "weeks": 13,
-   "first_week": "2025-10-31",
-   "last_week": "2026-01-16",
-   "position": "アプリエンジニア",
-   "industry": "情報通信業",
+   "id": "7729c92a4787",
+   "weeks": 3,
+   "elapsed": 11,
+   "first_week": "2025-09-12",
+   "last_week": "2025-11-14",
+   "position": "データエンジニア",
+   "industry": "不動産業",
+   "techs": [
+    "Azure",
+    "SQL",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "e22ad3b0cdb1",
+   "weeks": 3,
+   "elapsed": 10,
+   "first_week": "2025-02-21",
+   "last_week": "2025-05-09",
+   "position": "その他",
+   "industry": "教育機関",
+   "techs": [
+    "Python",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "de9be42f1d67",
+   "weeks": 3,
+   "elapsed": 10,
+   "first_week": "2025-08-15",
+   "last_week": "2025-10-17",
+   "position": "ITコンサル",
+   "industry": "不動産業",
+   "techs": []
+  },
+  {
+   "id": "912cd14993d0",
+   "weeks": 3,
+   "elapsed": 10,
+   "first_week": "2025-09-19",
+   "last_week": "2025-11-14",
+   "position": "BIエンジニア",
+   "industry": "エンターテイメント",
+   "techs": [
+    "BigQuery",
+    "Git",
+    "Looker",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "222e37c70637",
+   "weeks": 3,
+   "elapsed": 9,
+   "first_week": "2025-09-26",
+   "last_week": "2025-11-14",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "GCP",
+    "Looker",
+    "Power BI"
+   ]
+  },
+  {
+   "id": "9cb16e5b4a54",
+   "weeks": 2,
+   "elapsed": 22,
+   "first_week": "2025-11-14",
+   "last_week": "2026-04-10",
+   "position": "AIエンジニア",
+   "industry": "エンターテイメント",
+   "techs": [
+    "LLM",
+    "Python",
+    "機械学習",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "43e266999234",
+   "weeks": 2,
+   "elapsed": 15,
+   "first_week": "2025-06-13",
+   "last_week": "2025-09-19",
+   "position": "データエンジニア",
+   "industry": "不明",
    "techs": [
     "API設計",
     "AWS",
-    "Azure",
-    "CI/CD",
-    "DWH",
-    "Docker"
+    "GCP",
+    "Go",
+    "LLM",
+    "MLOps"
    ]
   }
  ],
@@ -968,93 +972,93 @@
  "supply": [
   {
    "name": "異常検知",
-   "weeks": 3.41,
+   "weeks": 1.35,
    "fresh": 0.739,
    "listings": 23
   },
   {
    "name": "R",
-   "weeks": 2.84,
+   "weeks": 1.27,
    "fresh": 0.792,
    "listings": 53
   },
   {
+   "name": "Salesforce",
+   "weeks": 1.23,
+   "fresh": 0.8,
+   "listings": 15
+  },
+  {
    "name": "レコメンド",
-   "weeks": 2.79,
+   "weeks": 1.21,
    "fresh": 0.824,
    "listings": 17
   },
   {
    "name": "scikit-learn",
-   "weeks": 2.75,
+   "weeks": 1.2,
    "fresh": 0.833,
    "listings": 24
   },
   {
    "name": "MySQL",
-   "weeks": 2.73,
+   "weeks": 1.2,
    "fresh": 0.833,
    "listings": 18
   },
   {
-   "name": "PostgreSQL",
-   "weeks": 2.41,
-   "fresh": 0.895,
-   "listings": 19
-  },
-  {
    "name": "SCM",
-   "weeks": 2.36,
+   "weeks": 1.18,
    "fresh": 0.846,
    "listings": 13
   },
   {
-   "name": "Salesforce",
-   "weeks": 2.15,
-   "fresh": 0.8,
-   "listings": 15
-  },
-  {
    "name": "画像認識",
-   "weeks": 2.1,
+   "weeks": 1.16,
    "fresh": 0.873,
    "listings": 55
   },
   {
-   "name": "Copilot Studio",
-   "weeks": 2.1,
-   "fresh": 0.909,
-   "listings": 11
+   "name": "Terraform",
+   "weeks": 1.16,
+   "fresh": 0.861,
+   "listings": 36
   },
   {
-   "name": "Go",
-   "weeks": 2.0,
-   "fresh": 0.933,
-   "listings": 15
+   "name": "BigQuery",
+   "weeks": 1.15,
+   "fresh": 0.866,
+   "listings": 82
+  },
+  {
+   "name": "Looker",
+   "weeks": 1.15,
+   "fresh": 0.868,
+   "listings": 53
   },
   {
    "name": "アジャイル",
-   "weeks": 1.94,
+   "weeks": 1.15,
    "fresh": 0.885,
    "listings": 52
   },
   {
    "name": "Kubernetes",
-   "weeks": 1.92,
+   "weeks": 1.15,
    "fresh": 0.867,
    "listings": 15
   },
   {
-   "name": "Terraform",
-   "weeks": 1.87,
-   "fresh": 0.861,
-   "listings": 36
-  },
-  {
    "name": "SQL",
-   "weeks": 1.85,
+   "weeks": 1.12,
    "fresh": 0.895,
    "listings": 200
+  },
+  {
+   "name": "Tableau",
+   "weeks": 1.12,
+   "fresh": 0.892,
+   "listings": 102
   }
  ],
  "min_listings": 10,

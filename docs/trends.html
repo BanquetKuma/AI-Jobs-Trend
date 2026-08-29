@@ -28,7 +28,7 @@
   <div class="tiles" id="tiles"></div>
 
   <h2 class="section">次に取るべき技術</h2>
-  <p class="lede" id="lede-rank">需要の大きさと伸びを合成したスコア。スライダーで重み付けを変えられます。</p>
+  <p class="lede" id="lede-rank"></p>
   <div class="card">
     <div class="filters">
       <label class="lbl3d">需要量を重視
@@ -36,7 +36,18 @@
         成長率を重視</label>
       <span class="count" id="w-note"></span>
     </div>
-    <div id="c-rank"></div>
+    <div class="grid2" style="margin-top:4px">
+      <div>
+        <h3>定着して伸びている</h3>
+        <p class="note" id="note-est"></p>
+        <div id="c-est"></div>
+      </div>
+      <div>
+        <h3>立ち上がったばかり</h3>
+        <p class="note" id="note-eme"></p>
+        <div id="c-eme"></div>
+      </div>
+    </div>
   </div>
 
   <h2 class="section">需要量 × モメンタム</h2>
@@ -68,10 +79,6 @@
     <div id="c-cooc"></div>
   </div>
 
-  <h2 class="section">供給不足シグナル</h2>
-  <p class="lede">同じ案件が何週にわたって再掲されたかの平均。<strong>長いほど埋まりにくく、人材が不足している</strong>と読めます。新規出現率は、再掲ではなく新しく立ち上がる案件に出る割合です。</p>
-  <div class="card"><div id="t-supply"></div></div>
-
   <h2 class="section">技術キーワードの推移</h2>
   <p class="lede">週ごとに、その技術を要求した案件が何件掲載されたか。凡例をクリックすると系列を切り替えられます。</p>
   <div class="card">
@@ -87,7 +94,7 @@
   </div>
 
   <h2 class="section">掲載件数の推移</h2>
-  <p class="lede">毎週の掲載案件数と、そのうち初めて登場した案件の数。</p>
+  <p class="lede" id="lede-volume"></p>
   <div class="card"><div id="c-volume"></div></div>
 
   <h2 class="section">全期間の最頻出技術</h2>
@@ -184,29 +191,64 @@ const mdLabel = w => w.slice(5).replace('-', '/');
          `再掲率 ${Math.round((1 - summary.totals.unique_projects / summary.totals.listings) * 100)}%`) +
     tile('技術キーワード', trends.series.length, '種', '', true);
 
-  // ---- 次に取るべき技術（重みは画面で調整） ----
+  // ---- 次に取るべき技術（定着 / 兆候 の2リスト、先週比つき） ----
   const mom = strat.momentum;
   const wMix = $('#w-mix');
-  $('#lede-rank').textContent =
-    `直近${strat.window}週と、その前の${strat.window}週を比べた需要量と伸びを合成したスコア。` +
-    `スライダーで重み付けを変えられます。${strat.note}`;
+  const TH = strat.thresholds;
+  $('#lede-rank').innerHTML =
+    `直近${strat.window}週と、その前の${strat.window}週を比べています。` +
+    `単一のランキングだと、<strong>数件しか出ていない技術が Python より上に来て毎週入れ替わる</strong>ため、` +
+    `<strong>すでに定着していて伸びているもの</strong>と<strong>立ち上がったばかりのもの</strong>を分けて表示します。`;
+  $('#note-est').textContent =
+    `前期 ${TH.established.prev_min} 件以上・直近 ${TH.established.recent_min} 件以上で、` +
+    `かつ伸びている技術。堅い選択肢`;
+  $('#note-eme').textContent =
+    `前期 ${TH.emerging.prev_max} 件以下から直近 ${TH.emerging.recent_min} 件以上に立ち上がった技術。` +
+    `先行者になれるが、件数が小さくノイズの可能性も残る`;
+
+  // 先週の順位も画面側で算出する。サーバ側で確定させると
+  // 重みスライダーを動かしたときに食い違うため。
+  const scoreOf = (m, w, suffix) =>
+    (1 - w) * (m['nvol' + suffix] ?? 0) + w * (m['ngrowth' + suffix] ?? 0);
+
   const drawRank = () => {
-    const g = +wMix.value / 100, v = 1 - g;
-    $('#w-note').textContent = `需要量 ${v.toFixed(2)} : 成長率 ${g.toFixed(2)}`;
-    const scored = mom
-      .map(m => ({ ...m, score: v * m.nvol + g * m.ngrowth }))
-      .sort((a, b) => b.score - a.score).slice(0, 10);
-    const host = $('#c-rank');
-    host.innerHTML = '';
-    hbar(host, {
-      data: scored.map(m => ({
-        name: m.name, value: +m.score.toFixed(3), cat: m.cat,
-        note: `直近${strat.window}週 ${m.recent}件 / その前 ${m.prev}件`,
-      })),
-      limit: 10, nameLabel: '技術', valueLabel: 'スコア',
-      fmt: x => x.toFixed(2),
-      aria: '獲得優先度スコアの上位10技術',
-    });
+    const g = +wMix.value / 100;
+    $('#w-note').textContent = `需要量 ${(1 - g).toFixed(2)} : 成長率 ${g.toFixed(2)}`;
+
+    const cur = mom.slice().sort((a, b) => scoreOf(b, g, '') - scoreOf(a, g, ''));
+    const curRank = new Map(cur.map((m, i) => [m.name, i + 1]));
+    const prevRank = new Map(mom.filter(m => m.nvol_prev != null)
+      .sort((a, b) => scoreOf(b, g, '_prev') - scoreOf(a, g, '_prev'))
+      .map((m, i) => [m.name, i + 1]));
+
+    const render = (host, group) => {
+      const rows = cur.filter(m => m.group === group).slice(0, 6);
+      const max = rows.length ? scoreOf(rows[0], g, '') : 1;
+      host.innerHTML = rows.length ? rows.map(m => {
+        const now = curRank.get(m.name), was = prevRank.get(m.name);
+        const d = was == null ? null : was - now;
+        const badge = d === null
+          ? '<span class="rankbadge is-new">NEW</span>'
+          : d === 0 ? '<span class="rankbadge is-flat">±0</span>'
+          : d > 0 ? `<span class="rankbadge is-up">▲${d}</span>`
+          : `<span class="rankbadge is-down">▼${-d}</span>`;
+        const pct = Math.round((scoreOf(m, g, '') / max) * 100);
+        return `<div class="rankrow">
+          <div class="rankrow-head">
+            <span class="rankrow-name">${esc(m.name)}</span>${badge}
+          </div>
+          <div class="rankrow-bar"><i style="width:${pct}%"></i></div>
+          <div class="rankrow-meta">
+            <span>直近${strat.window}週 <b>${m.recent}</b></span>
+            <span>前期 <b>${m.prev}</b></span>
+            <span>成長 <b>${m.growth > 0 ? '+' : ''}${Math.round(m.growth * 100)}%</b></span>
+            <span class="rankrow-cat">${esc(m.cat)}</span>
+          </div>
+        </div>`;
+      }).join('') : '<p class="note">該当する技術がありません。</p>';
+    };
+    render($('#c-est'), 'established');
+    render($('#c-eme'), 'emerging');
   };
   wMix.addEventListener('input', drawRank);
   drawRank();
@@ -268,17 +310,6 @@ const mdLabel = w => w.slice(5).replace('-', '/');
   fCooc.addEventListener('change', drawCooc);
   drawCooc();
 
-  // ---- 供給不足シグナル ----
-  const sup = summary.supply.slice(0, 12);
-  $('#t-supply').innerHTML = sup.length ? `<table class="data">
-    <thead><tr><th>技術</th><th class="num">平均掲載継続</th><th class="num">新規出現率</th>
-    <th class="num">延べ件数</th></tr></thead><tbody>` +
-    sup.map(x => `<tr><td>${esc(x.name)}</td>` +
-      `<td class="num">${x.weeks.toFixed(2)} 週</td>` +
-      `<td class="num">${Math.round(x.fresh * 100)}%</td>` +
-      `<td class="num">${x.listings}</td></tr>`).join('') + '</tbody></table>'
-    : '<p class="note">十分なデータがありません。</p>';
-
   // ---- 技術トレンド推移 ----
   const fCat = $('#f-cat'), fTop = $('#f-top');
   for (const c of trends.categories) {
@@ -306,16 +337,20 @@ const mdLabel = w => w.slice(5).replace('-', '/');
   drawTrend();
 
   // ---- 掲載件数の推移 ----
+  // 再掲が8%しかなく「新規案件数」の線は掲載数とほぼ重なるため、1系列にする。
+  const repeatRate = 1 - summary.totals.unique_projects / summary.totals.listings;
+  $('#lede-volume').innerHTML =
+    `毎週の掲載案件数。配信元はほぼ毎週入れ替えで案件を出しており、` +
+    `<strong>同じ案件が再掲されるのは全期間で ${Math.round(repeatRate * 100)}% だけ</strong>` +
+    `（${summary.totals.listings} 件中 ${summary.totals.listings - summary.totals.unique_projects} 件）。` +
+    `そのため新規案件数は掲載数とほぼ一致します。`;
   multiline($('#c-volume'), {
     labels: trends.weeks,
     tickFmt: mdLabel,
     xLabel: '週',
-    series: [
-      { name: '掲載案件数', values: trends.weekly.map(w => w.projects) },
-      { name: '新規案件数', values: trends.weekly.map(w => w.new_projects) },
-    ],
+    series: [{ name: '掲載案件数', values: trends.weekly.map(w => w.projects) }],
     height: 260,
-    aria: '週ごとの掲載案件数と新規案件数',
+    aria: '週ごとの掲載案件数',
   });
 
   // ---- 全期間の最頻出技術 ----

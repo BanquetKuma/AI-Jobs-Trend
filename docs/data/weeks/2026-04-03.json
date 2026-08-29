@@ -1,0 +1,188 @@
+{
+ "week": "2026-04-03",
+ "projects": [
+  {
+   "id": "140dced122c1",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "CI/CD",
+    "Docker",
+    "LLM",
+    "PMO",
+    "Python",
+    "RAG",
+    "React",
+    "SQL",
+    "アジャイル",
+    "プロンプトエンジニアリング",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "411a42c3ed73",
+   "position": "AIエンジニア",
+   "industry": "建設業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "PoC",
+    "RAG",
+    "マルチモーダル",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "4412c9b74f9c",
+   "position": "その他",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "DWH",
+    "Oracle",
+    "PyTorch",
+    "Python",
+    "R",
+    "Redshift",
+    "SQL",
+    "Tableau",
+    "TensorFlow",
+    "pandas/NumPy",
+    "機械学習",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "465cae8f6150",
+   "position": "その他",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 20,
+   "ratio_max": 20,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "6e00a3cfa127",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "MLOps",
+    "PoC"
+   ]
+  },
+  {
+   "id": "8f0b68fe4801",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "生成AI"
+   ]
+  },
+  {
+   "id": "b22dae2eeb14",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "GCP",
+    "Git",
+    "LLM",
+    "MLOps",
+    "マルチモーダル",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "深層学習"
+   ]
+  },
+  {
+   "id": "d187ba84153b",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM評価",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "pandas/NumPy",
+    "生成AI",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "d9754bb490be",
+   "position": "アプリエンジニア",
+   "industry": "製造業 ※自動車",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "C#/.NET",
+    "LLM",
+    "LLM評価",
+    "PoC",
+    "Python",
+    "機械学習",
+    "要件定義"
+   ]
+  }
+ ]
+}

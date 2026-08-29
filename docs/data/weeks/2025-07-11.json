@@ -1,0 +1,190 @@
+{
+ "week": "2025-07-11",
+ "projects": [
+  {
+   "id": "162fa993b043",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI"
+   ]
+  },
+  {
+   "id": "2cbad7b1bd96",
+   "position": "ITコンサル",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Power BI",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "4394ff99dac3",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PyTorch",
+    "Python",
+    "R",
+    "TensorFlow",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "5884e9d231c7",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Git",
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "アジャイル",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "8c785a493693",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "PoC"
+   ]
+  },
+  {
+   "id": "a69def6620f6",
+   "position": "インフラエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Git",
+    "LLM",
+    "Python",
+    "pandas/NumPy",
+    "機械学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "c2adad784cdc",
+   "position": "AIエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "Cursor",
+    "Dify",
+    "Docker",
+    "GCP",
+    "Gemini",
+    "GitHub Copilot",
+    "Kubernetes",
+    "LLM",
+    "PostgreSQL",
+    "Python",
+    "RAG",
+    "Terraform",
+    "ベクトルDB",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "c973f6c903f3",
+   "position": "PM/PdM",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "CI/CD",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Go",
+    "Java",
+    "Kubernetes",
+    "PMO",
+    "Python",
+    "SQL",
+    "Terraform"
+   ]
+  },
+  {
+   "id": "dc8d8fe9544b",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "e7717e97644d",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL",
+    "要件定義"
+   ]
+  }
+ ]
+}

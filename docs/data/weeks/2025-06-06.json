@@ -1,0 +1,178 @@
+{
+ "week": "2025-06-06",
+ "projects": [
+  {
+   "id": "0d7fcbf9a445",
+   "position": "AI導入コンサル",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 50,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "PoC"
+   ]
+  },
+  {
+   "id": "1351c583a76e",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "Redshift",
+    "SQL",
+    "Snowflake",
+    "dbt"
+   ]
+  },
+  {
+   "id": "2cbad7b1bd96",
+   "position": "ITコンサル",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "66ff24f7fedf",
+   "position": "AIエンジニア",
+   "industry": "不動産業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "JavaScript",
+    "LLM",
+    "Python",
+    "React",
+    "Vue",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "7aa0ea6f4b02",
+   "position": "AI導入コンサル",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "PoC",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "835ff9766350",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "OpenAI API",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "pandas/NumPy",
+    "機械学習",
+    "深層学習"
+   ]
+  },
+  {
+   "id": "96e285a342cc",
+   "position": "AIエンジニア",
+   "industry": "- ※保険業界",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS"
+   ]
+  },
+  {
+   "id": "e6368e05def9",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "pandas/NumPy",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "eed4a69aa77d",
+   "position": "その他",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "GCP",
+    "Python",
+    "SCM",
+    "アジャイル"
+   ]
+  },
+  {
+   "id": "ffdde2fa3356",
+   "position": "その他",
+   "industry": "不動産業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  }
+ ]
+}

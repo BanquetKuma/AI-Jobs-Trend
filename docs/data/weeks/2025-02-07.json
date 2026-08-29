@@ -1,0 +1,135 @@
+{
+ "week": "2025-02-07",
+ "projects": [
+  {
+   "id": "04de457553f8",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "SAP",
+    "Salesforce",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "245ee0494367",
+   "position": "ITコンサル",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "DWH"
+   ]
+  },
+  {
+   "id": "9ff425f0e375",
+   "position": "AIエンジニア",
+   "industry": "医療 ※※製薬業界",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Amazon Bedrock",
+    "Azure",
+    "Azure OpenAI",
+    "Claude",
+    "Gemini",
+    "LLM",
+    "LLM評価",
+    "LangChain",
+    "MLOps",
+    "OpenAI API",
+    "Python",
+    "React",
+    "Vertex AI",
+    "アジャイル",
+    "機械学習",
+    "生成AI",
+    "英語"
+   ]
+  },
+  {
+   "id": "ce99b9f133bc",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "d80ace2339f4",
+   "position": "アプリエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "e26ee9e2cbdb",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Docker",
+    "LLM",
+    "Python",
+    "深層学習",
+    "生成AI",
+    "画像認識",
+    "英語"
+   ]
+  },
+  {
+   "id": "f066ca71cb14",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Docker",
+    "GCP",
+    "Looker",
+    "Python",
+    "Tableau",
+    "Terraform",
+    "Vertex AI",
+    "機械学習"
+   ]
+  }
+ ]
+}

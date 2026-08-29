@@ -1,0 +1,167 @@
+{
+ "week": "2026-02-13",
+ "projects": [
+  {
+   "id": "586f34e43364",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "マルチモーダル",
+    "機械学習",
+    "深層学習",
+    "画像認識",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "6483174ad902",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": []
+  },
+  {
+   "id": "67938fbc5d33",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL",
+    "Power BI",
+    "SAP"
+   ]
+  },
+  {
+   "id": "8b52502ae1b2",
+   "position": "BIエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Tableau"
+   ]
+  },
+  {
+   "id": "8c73c0e0911a",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Amazon Bedrock",
+    "Python",
+    "RAG",
+    "ベクトルDB",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "b50a4e42c26a",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "LLM",
+    "LangChain",
+    "Python",
+    "RAG"
+   ]
+  },
+  {
+   "id": "b5edc37bdb7a",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Amazon Bedrock",
+    "Azure",
+    "Azure OpenAI",
+    "GCP",
+    "OpenAI API",
+    "PoC",
+    "Python",
+    "RAG",
+    "React",
+    "TypeScript",
+    "Vertex AI",
+    "プロンプトエンジニアリング",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "c8c1b6b619bd",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "ファインチューニング",
+    "マルチモーダル",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "e9407abc6056",
+   "position": "PM/PdM",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "PMO",
+    "SQL",
+    "Tableau"
+   ]
+  }
+ ]
+}

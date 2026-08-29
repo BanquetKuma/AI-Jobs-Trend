@@ -1,0 +1,120 @@
+{
+ "week": "2025-08-01",
+ "projects": [
+  {
+   "id": "0758d5431ca6",
+   "position": "データアナリスト",
+   "industry": "医療 ※創薬",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "R",
+    "SAP",
+    "SQL",
+    "因果推論"
+   ]
+  },
+  {
+   "id": "470b9bb48346",
+   "position": "PM/PdM",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO"
+   ]
+  },
+  {
+   "id": "8e43b4213136",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 20,
+   "ratio_max": 20,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "DWH",
+    "Java",
+    "Python"
+   ]
+  },
+  {
+   "id": "8eabd770a58b",
+   "position": "データエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Python",
+    "SQL",
+    "Tableau",
+    "pandas/NumPy",
+    "アジャイル",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "93d4bdd32882",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "SQL"
+   ]
+  },
+  {
+   "id": "f596aca231ad",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL"
+   ]
+  },
+  {
+   "id": "f8d0223e6293",
+   "position": "データエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Docker",
+    "ETL",
+    "Python",
+    "SQL"
+   ]
+  }
+ ]
+}

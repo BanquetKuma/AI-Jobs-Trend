@@ -1,0 +1,239 @@
+{
+ "week": "2026-08-28",
+ "projects": [
+  {
+   "id": "0bb7190c9e84",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "CRM",
+    "Copilot Studio",
+    "PMO",
+    "PoC",
+    "Power Platform",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "223988b87771",
+   "position": "データエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIコーディング支援",
+    "AWS",
+    "Claude Code",
+    "ETL",
+    "Kotlin",
+    "PostgreSQL",
+    "React",
+    "TypeScript",
+    "プロンプトエンジニアリング",
+    "監視・可観測性"
+   ]
+  },
+  {
+   "id": "2d5bd645c13d",
+   "position": "BIエンジニア",
+   "industry": "不動産業",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "3c5def41b87e",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AIガバナンス",
+    "AIコーディング支援",
+    "CI/CD",
+    "GitHub Actions",
+    "SAP",
+    "SAP BTP",
+    "生成AI",
+    "英語"
+   ]
+  },
+  {
+   "id": "69a6f3c066d3",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "733279e3de47",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Docker",
+    "Python",
+    "機械学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "7d45ca2dae93",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Azure",
+    "Databricks",
+    "LLM",
+    "LLM評価",
+    "PoC",
+    "Python",
+    "RAG",
+    "コンテキストエンジニアリング",
+    "プロンプトエンジニアリング",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "a06f4a2efde7",
+   "position": "データアナリスト",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ERP",
+    "Power BI",
+    "Python"
+   ]
+  },
+  {
+   "id": "d6d54fa6034e",
+   "position": "ITコンサル",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SCM",
+    "SQL"
+   ]
+  },
+  {
+   "id": "dadc1c85f734",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "DWH",
+    "Git",
+    "MLOps",
+    "PyTorch",
+    "Python",
+    "R",
+    "SQL",
+    "Snowflake",
+    "TensorFlow",
+    "pandas/NumPy",
+    "マルチモーダル",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "深層学習",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "e43e62e1a53f",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AIガバナンス",
+    "AIコーディング支援",
+    "API設計",
+    "AWS",
+    "Azure",
+    "Azure AI Foundry",
+    "Claude Code",
+    "DevOps",
+    "LLM",
+    "MLOps",
+    "PoC",
+    "RAG",
+    "RPA",
+    "ベクトルDB",
+    "マルチモーダル",
+    "生成AI",
+    "英語",
+    "要件定義"
+   ]
+  }
+ ]
+}

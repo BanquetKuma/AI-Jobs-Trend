@@ -1,0 +1,9 @@
+# 生メール本文はコミットしない（案件本文・案件番号・企業名を含むため）
+data/raw/
+
+__pycache__/
+*.pyc
+.DS_Store
+
+# デザインキャンバスの組み立て済みファイル（design/*.dc.html から再生成できる）
+ai-jobs-trend-dashboard.html

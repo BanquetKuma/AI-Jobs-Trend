@@ -1,0 +1,105 @@
+{
+ "week": "2025-06-27",
+ "projects": [
+  {
+   "id": "034efa0a3b1c",
+   "position": "AIエンジニア",
+   "industry": "教育",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "BigQuery",
+    "GCP",
+    "Git",
+    "LLM",
+    "MLOps",
+    "OpenAI API",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "SQL",
+    "TensorFlow",
+    "Vertex AI",
+    "scikit-learn",
+    "アジャイル",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "160e7f602a64",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Docker",
+    "GCP",
+    "Git",
+    "LLM",
+    "LangChain",
+    "Python",
+    "生成AI",
+    "自然言語処理",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "7594bd7433a5",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "cfbdf7417a3b",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Git",
+    "Python",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "d0ccb697af6f",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "R",
+    "画像認識",
+    "異常検知"
+   ]
+  }
+ ]
+}

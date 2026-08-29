@@ -1,0 +1,128 @@
+{
+ "week": "2026-03-19",
+ "projects": [
+  {
+   "id": "4427ca81ebab",
+   "position": "BIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL",
+    "VBA"
+   ]
+  },
+  {
+   "id": "5981f4edb85c",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "RAG",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "9719c7c283c1",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "SQL"
+   ]
+  },
+  {
+   "id": "aeea8234b65b",
+   "position": "BIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Salesforce",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "e38301ff5034",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "LLM",
+    "PyTorch",
+    "深層学習"
+   ]
+  },
+  {
+   "id": "f34efb1c47e7",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "Databricks",
+    "ETL",
+    "PoC",
+    "Power BI",
+    "SQL",
+    "Snowflake",
+    "Tableau",
+    "アジャイル"
+   ]
+  },
+  {
+   "id": "fac51cc2316d",
+   "position": "AIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "レコメンド",
+    "機械学習",
+    "生成AI"
+   ]
+  }
+ ]
+}

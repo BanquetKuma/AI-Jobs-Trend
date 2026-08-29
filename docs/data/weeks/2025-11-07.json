@@ -1,0 +1,154 @@
+{
+ "week": "2025-11-07",
+ "projects": [
+  {
+   "id": "3495e9dc3948",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ERP",
+    "LLM",
+    "PoC",
+    "SAP",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "472efe6903c5",
+   "position": "ITコンサル",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Azure",
+    "BigQuery",
+    "Copilot Studio",
+    "DWH",
+    "Databricks",
+    "Dify",
+    "GCP",
+    "OpenAI API",
+    "Oracle",
+    "PoC",
+    "Power BI",
+    "RAG",
+    "SQL",
+    "Snowflake",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "5f6d2a3dab05",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "時系列分析"
+   ]
+  },
+  {
+   "id": "65d61f379389",
+   "position": "BIエンジニア",
+   "industry": "製造業 ※半導体メーカー",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Tableau"
+   ]
+  },
+  {
+   "id": "6e08bb8d57c8",
+   "position": "BIエンジニア",
+   "industry": "製造業 ※半導体",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Tableau"
+   ]
+  },
+  {
+   "id": "88d555afdf65",
+   "position": "データアナリスト",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "Looker",
+    "Power BI",
+    "Python",
+    "R",
+    "Redshift",
+    "SQL",
+    "Tableau",
+    "pandas/NumPy",
+    "scikit-learn",
+    "時系列分析",
+    "機械学習",
+    "異常検知",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "981fbaeaa175",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 60,
+   "ratio_max": 60,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "BigQuery",
+    "CRM",
+    "Claude",
+    "DWH",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Gemini",
+    "Kubernetes",
+    "Looker",
+    "MySQL",
+    "OpenAI API",
+    "SQL",
+    "Salesforce",
+    "Tableau",
+    "レコメンド"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "week": "2025-09-26",
+ "projects": [
+  {
+   "id": "222e37c70637",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "GCP",
+    "Looker",
+    "Power BI",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau",
+    "Terraform"
+   ]
+  },
+  {
+   "id": "a05c94119af9",
+   "position": "その他",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "機械学習"
+   ]
+  },
+  {
+   "id": "aabd229fed71",
+   "position": "アプリエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 60,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "BigQuery",
+    "CI/CD",
+    "Claude",
+    "Cursor",
+    "Dify",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Gemini",
+    "Git",
+    "GitHub Actions",
+    "Kubernetes",
+    "LLM",
+    "LangChain",
+    "MLOps",
+    "OpenAI API",
+    "PyTorch",
+    "Python",
+    "RAG",
+    "React",
+    "SQL",
+    "TensorFlow",
+    "TypeScript",
+    "Vertex AI",
+    "ベクトルDB",
+    "機械学習",
+    "生成AI",
+    "監視・可観測性",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "dc34d0a93acb",
+   "position": "PM/PdM",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "機械学習"
+   ]
+  }
+ ]
+}

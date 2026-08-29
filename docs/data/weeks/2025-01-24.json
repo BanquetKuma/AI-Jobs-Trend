@@ -1,0 +1,187 @@
+{
+ "week": "2025-01-24",
+ "projects": [
+  {
+   "id": "08eb4eb4eb74",
+   "position": "PM/PdM",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "PoC",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "0b094072af4e",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "scikit-learn",
+    "機械学習",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "3183890f1fe1",
+   "position": "BIエンジニア",
+   "industry": "不動産業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "SQL"
+   ]
+  },
+  {
+   "id": "4b9111bc01b3",
+   "position": "データエンジニア",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Python",
+    "SQL",
+    "Tableau",
+    "pandas/NumPy",
+    "アジャイル",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "6e593f1a6fee",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Tableau"
+   ]
+  },
+  {
+   "id": "767cf786b06f",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Looker",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "95b8da01fd14",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "9cd2a4510f8d",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI"
+   ]
+  },
+  {
+   "id": "b46ef052873c",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Looker",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau",
+    "dbt",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "d37601b63013",
+   "position": "データエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "ETL",
+    "Looker",
+    "Snowflake",
+    "Tableau",
+    "dbt"
+   ]
+  },
+  {
+   "id": "ebcaaeaac57b",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "scikit-learn",
+    "機械学習",
+    "需要予測"
+   ]
+  }
+ ]
+}

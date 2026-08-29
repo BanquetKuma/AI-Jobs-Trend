@@ -1,0 +1,164 @@
+{
+ "week": "2025-11-26",
+ "projects": [
+  {
+   "id": "209b488ba0d0",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "アジャイル"
+   ]
+  },
+  {
+   "id": "26ec9f1d3495",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※大手生命保険会社",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "プロンプトエンジニアリング",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "50182ef8eb8c",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "PMO",
+    "英語"
+   ]
+  },
+  {
+   "id": "6c4338c44b3e",
+   "position": "AI導入コンサル",
+   "industry": "金融業 ※大手生命保険会社",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Amazon Bedrock"
+   ]
+  },
+  {
+   "id": "84ff1c8b7df8",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "R",
+    "画像認識",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "933785c4e331",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "LLM",
+    "PoC",
+    "Python",
+    "RAG",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "c92823192356",
+   "position": "その他",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "d8387e724e9c",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": []
+  },
+  {
+   "id": "e0e3483391df",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "fb2155a4aba9",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Dify",
+    "LLM",
+    "Python",
+    "機械学習",
+    "生成AI",
+    "要件定義"
+   ]
+  }
+ ]
+}

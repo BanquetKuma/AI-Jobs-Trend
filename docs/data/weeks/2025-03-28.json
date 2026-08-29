@@ -1,0 +1,83 @@
+{
+ "week": "2025-03-28",
+ "projects": [
+  {
+   "id": "1062ccf1b12e",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "LLM",
+    "OpenAI API",
+    "Python",
+    "ファインチューニング",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "33abb7ddbf20",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "Redshift",
+    "SQL",
+    "時系列分析",
+    "機械学習",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "cc2061a7437e",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Java",
+    "JavaScript",
+    "LLM",
+    "Python",
+    "TypeScript",
+    "機械学習",
+    "生成AI",
+    "英語"
+   ]
+  },
+  {
+   "id": "e0240f03932a",
+   "position": "AIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "SCM",
+    "SQL",
+    "pandas/NumPy",
+    "scikit-learn"
+   ]
+  }
+ ]
+}

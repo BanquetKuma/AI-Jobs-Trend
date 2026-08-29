@@ -1,0 +1,128 @@
+{
+ "week": "2025-08-22",
+ "projects": [
+  {
+   "id": "034efa0a3b1c",
+   "position": "AIエンジニア",
+   "industry": "教育",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "API設計",
+    "AWS",
+    "BigQuery",
+    "GCP",
+    "Git",
+    "LLM",
+    "MLOps",
+    "OpenAI API",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "SQL",
+    "TensorFlow",
+    "Vertex AI",
+    "scikit-learn",
+    "アジャイル",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "5a16d3539fe6",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Looker",
+    "Python",
+    "R",
+    "SQL"
+   ]
+  },
+  {
+   "id": "954323b25af2",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "LLM",
+    "Python",
+    "R",
+    "機械学習",
+    "自然言語処理",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "9f34ceea54f8",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "SQL",
+    "pandas/NumPy"
+   ]
+  },
+  {
+   "id": "dbd561ad00e6",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Power BI"
+   ]
+  },
+  {
+   "id": "f3682d295a6a",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "LLM",
+    "TypeScript",
+    "機械学習",
+    "深層学習",
+    "自然言語処理",
+    "要件定義"
+   ]
+  }
+ ]
+}

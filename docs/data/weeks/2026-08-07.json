@@ -1,0 +1,161 @@
+{
+ "week": "2026-08-07",
+ "projects": [
+  {
+   "id": "0f0895437a4a",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "ETL",
+    "Redshift",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "18fbfb35c807",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "Looker",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "5509ab3e656a",
+   "position": "ITコンサル",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO"
+   ]
+  },
+  {
+   "id": "616d75c0004f",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "機械学習",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "943e223b5c92",
+   "position": "ITコンサル",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "SQL",
+    "機械学習",
+    "英語"
+   ]
+  },
+  {
+   "id": "b4e615576023",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AIガバナンス",
+    "AIコーディング支援",
+    "API設計",
+    "AWS",
+    "Azure",
+    "Azure AI Foundry",
+    "Claude Code",
+    "DevOps",
+    "LLM",
+    "MLOps",
+    "PoC",
+    "RAG",
+    "RPA",
+    "ベクトルDB",
+    "マルチモーダル",
+    "生成AI",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "b683adbe4c4a",
+   "position": "アプリエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "Power BI",
+    "Redshift",
+    "SQL",
+    "Snowflake",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "c0d1171f58b2",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "Power BI",
+    "Python",
+    "SQL",
+    "機械学習"
+   ]
+  }
+ ]
+}

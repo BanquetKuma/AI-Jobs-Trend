@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ja" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>今週の特集 | AI案件トレンド</title>
+<meta name="description" content="毎週届くAI・データ領域のフリーランス案件メールを解析し、今週求められている技術をまとめた特集ページ。">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <p class="brand">AI案件トレンド <span>/ AI Jobs Trend</span></p>
+    <nav class="tabs" aria-label="ページ">
+      <a href="./" aria-current="page">今週の特集</a>
+      <a href="./trends.html">トレンド分析</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2 class="section" id="hd-week">今週の特集</h2>
+  <p class="lede" id="lede">読み込み中…</p>
+
+  <div class="tiles" id="tiles"></div>
+  <div class="commentary" id="commentary"></div>
+
+  <h2 class="section">今週よく求められた技術</h2>
+  <p class="lede">今週掲載された案件の必須・尚可スキルおよび案件内容から抽出した技術キーワードの出現件数。</p>
+  <div class="card"><div id="c-tech"></div></div>
+
+  <h2 class="section">今週の案件構成</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>ポジション</h3>
+      <p class="note">募集ポジションの内訳</p>
+      <div id="c-pos"></div>
+    </div>
+    <div class="card">
+      <h3>クライアント業界</h3>
+      <p class="note">案件の業界内訳（「不明」は業界欄が未記載のもの）</p>
+      <div id="c-ind"></div>
+    </div>
+  </div>
+  <div class="grid2" style="margin-top:16px">
+    <div class="card">
+      <h3>稼働形態</h3>
+      <p class="note">リモート / 常駐 / 併用の内訳</p>
+      <div id="c-ws"></div>
+    </div>
+    <div class="card">
+      <h3>稼働率</h3>
+      <p class="note">案件が想定する稼働率（上限値ベース）</p>
+      <div id="c-ratio"></div>
+    </div>
+  </div>
+
+  <h2 class="section">今週の案件一覧</h2>
+  <p class="lede">案件は匿名化して掲載しています（案件番号・案件本文・企業名は保持していません）。</p>
+  <div class="filters">
+    <label class="sr" for="f-pos"></label>
+    <select id="f-pos" aria-label="ポジションで絞り込み"><option value="">すべてのポジション</option></select>
+    <select id="f-tech" aria-label="技術タグで絞り込み"><option value="">すべての技術タグ</option></select>
+    <select id="f-new" aria-label="新規で絞り込み">
+      <option value="">新規・継続すべて</option>
+      <option value="new">今週の新規のみ</option>
+    </select>
+    <span class="count" id="f-count"></span>
+  </div>
+  <div class="plist" id="plist"></div>
+</main>
+
+<footer class="site"><div class="wrap">
+  <p id="foot">出典: エッジテクノロジー株式会社 AIソリューション事業部より毎週配信される案件情報メール。
+  本サイトは受信者本人が個人利用の範囲で統計的に集計したもので、案件本文・案件番号・企業名は保持・公開していません。</p>
+</div></footer>
+
+<script type="module">
+import { hbar, esc } from './charts.js';
+
+const $ = s => document.querySelector(s);
+const fail = msg => {
+  document.querySelector('main').insertAdjacentHTML('afterbegin',
+    `<div class="err"><b>データを読み込めませんでした。</b><br>${esc(msg)}</div>`);
+};
+
+function tile(k, v, u, sub) {
+  return `<div class="tile"><div class="k">${esc(k)}</div>` +
+    `<div class="v">${esc(v)}${u ? `<span class="u">${esc(u)}</span>` : ''}</div>` +
+    (sub ? `<div class="sub">${esc(sub)}</div>` : '') + '</div>';
+}
+const count = (arr, fn) => {
+  const m = new Map();
+  for (const x of arr) for (const k of [].concat(fn(x))) {
+    if (k == null || k === '') continue;
+    m.set(k, (m.get(k) || 0) + 1);
+  }
+  return [...m].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(b[0]))
+    .map(([name, value]) => ({ name, value }));
+};
+const ratioBand = p => p == null ? '不明'
+  : p <= 30 ? '〜30%' : p <= 50 ? '31〜50%' : p <= 80 ? '51〜80%' : '81〜100%';
+const RATIO_ORDER = ['〜30%', '31〜50%', '51〜80%', '81〜100%', '不明'];
+
+(async () => {
+  let meta, summary, week;
+  try {
+    [meta, summary] = await Promise.all([
+      fetch('./data/meta.json').then(r => r.json()),
+      fetch('./data/summary.json').then(r => r.json()),
+    ]);
+    week = await fetch(`./data/weeks/${summary.latest_week}.json`).then(r => r.json());
+  } catch (e) {
+    fail('data/*.json の取得に失敗しました。ローカルで開いている場合は http サーバー経由で開いてください。（' + e.message + '）');
+    return;
+  }
+
+  const ps = week.projects;
+  const catOf = Object.fromEntries(summary.top_techs.map(t => [t.name, t.category]));
+  const d = new Date(summary.latest_week + 'T00:00:00+09:00');
+  const wk = `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
+
+  $('#hd-week').textContent = `今週の特集 — ${wk}配信分`;
+  $('#lede').textContent =
+    `${wk}に配信された案件メールの解析結果です。掲載 ${ps.length} 件のうち ` +
+    `${ps.filter(p => p.is_new).length} 件が新規の案件でした。`;
+
+  const techCounts = count(ps, p => p.techs);
+  $('#tiles').innerHTML =
+    tile('今週の掲載案件', ps.length, '件') +
+    tile('うち新規案件', ps.filter(p => p.is_new).length, '件',
+         `再掲 ${ps.filter(p => !p.is_new).length} 件`) +
+    tile('登場した技術キーワード', techCounts.length, '種') +
+    tile('累計の集計週数', summary.totals.weeks, '週',
+         `延べ ${summary.totals.listings} 件を解析`);
+
+  if (summary.commentary) $('#commentary').textContent = summary.commentary;
+
+  hbar($('#c-tech'), {
+    data: techCounts.map(t => ({ ...t, cat: catOf[t.name] })),
+    limit: 14, nameLabel: '技術', valueLabel: '件数',
+    aria: '今週よく求められた技術の件数',
+  });
+  hbar($('#c-pos'), { data: count(ps, p => p.position), limit: 12,
+    nameLabel: 'ポジション', aria: 'ポジション内訳' });
+  hbar($('#c-ind'), { data: count(ps, p => p.industry), limit: 12,
+    nameLabel: '業界', aria: '業界内訳' });
+  hbar($('#c-ws'), { data: count(ps, p => p.workstyle), limit: 8,
+    nameLabel: '稼働形態', aria: '稼働形態内訳' });
+  hbar($('#c-ratio'), {
+    data: count(ps, p => ratioBand(p.ratio_max))
+      .sort((a, b) => RATIO_ORDER.indexOf(a.name) - RATIO_ORDER.indexOf(b.name)),
+    nameLabel: '稼働率', aria: '稼働率内訳' });
+
+  // ---- 案件カード ----
+  const fPos = $('#f-pos'), fTech = $('#f-tech'), fNew = $('#f-new');
+  for (const p of count(ps, x => x.position))
+    fPos.insertAdjacentHTML('beforeend',
+      `<option value="${esc(p.name)}">${esc(p.name)}（${p.value}）</option>`);
+  for (const t of techCounts)
+    fTech.insertAdjacentHTML('beforeend',
+      `<option value="${esc(t.name)}">${esc(t.name)}（${t.value}）</option>`);
+
+  const rate = p => p.rate_min == null ? '応相談'
+    : p.rate_min === p.rate_max ? `${p.rate_min}万円` : `${p.rate_min}〜${p.rate_max}万円`;
+  const ratio = p => p.ratio_min == null ? '記載なし'
+    : p.ratio_min === p.ratio_max ? `${p.ratio_max}%` : `${p.ratio_min}〜${p.ratio_max}%`;
+
+  const render = () => {
+    const sel = { pos: fPos.value, tech: fTech.value, nw: fNew.value };
+    const list = ps.filter(p =>
+      (!sel.pos || p.position === sel.pos) &&
+      (!sel.tech || p.techs.includes(sel.tech)) &&
+      (!sel.nw || p.is_new));
+    $('#f-count').textContent = `${list.length} 件 / 全 ${ps.length} 件`;
+    $('#plist').innerHTML = list.map(p => `
+      <article class="pcard">
+        <div class="top"><span class="pos">${esc(p.position)}</span>
+        ${p.is_new ? '<span class="new">NEW</span>' : ''}</div>
+        <dl>
+          <dt>業界</dt><dd>${esc(p.industry)}</dd>
+          <dt>稼働</dt><dd>${esc(p.workstyle)} ・ ${esc(ratio(p))}</dd>
+          <dt>単価</dt><dd>${esc(rate(p))}</dd>
+        </dl>
+        <div class="tags">${p.techs.map(t =>
+          `<span class="tag${sel.tech && t === sel.tech ? ' hit' : ''}">${esc(t)}</span>`
+        ).join('') || '<span class="tag">技術タグ抽出なし</span>'}</div>
+      </article>`).join('') ||
+      '<p class="note">条件に合う案件がありません。</p>';
+  };
+  [fPos, fTech, fNew].forEach(s => s.addEventListener('change', render));
+  render();
+
+  $('#foot').insertAdjacentHTML('afterend',
+    `<p>最終更新: ${esc(meta.generated_at.replace('T', ' ').replace('Z', ' UTC'))}</p>`);
+})();
+</script>
+</body>
+</html>

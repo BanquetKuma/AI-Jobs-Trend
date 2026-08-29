@@ -1,0 +1,184 @@
+{
+ "week": "2025-10-31",
+ "projects": [
+  {
+   "id": "047845ecf38a",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Databricks",
+    "ETL",
+    "Power BI",
+    "dbt"
+   ]
+  },
+  {
+   "id": "2cc866d804e5",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "RAG",
+    "React",
+    "TypeScript",
+    "アジャイル",
+    "監視・可観測性",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "33639e804f88",
+   "position": "AIエンジニア",
+   "industry": "- ※生命保険",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "PoC",
+    "Python",
+    "RAG",
+    "Snowflake",
+    "ベクトルDB",
+    "機械学習",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "33b2fc050e44",
+   "position": "アプリエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "CI/CD",
+    "DWH",
+    "Docker",
+    "GCP",
+    "GitHub Actions",
+    "PostgreSQL",
+    "Python",
+    "Snowflake",
+    "Terraform",
+    "TypeScript",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "4cca8df4a5a2",
+   "position": "アプリエンジニア",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Salesforce"
+   ]
+  },
+  {
+   "id": "5c6544a260b0",
+   "position": "その他",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 25,
+   "ratio_max": 25,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SAP"
+   ]
+  },
+  {
+   "id": "7a6f6df4a6e9",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "a0ec96a3637c",
+   "position": "データエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "Databricks",
+    "GCP",
+    "Python",
+    "SQL",
+    "Snowflake"
+   ]
+  },
+  {
+   "id": "c4377281ec8d",
+   "position": "データエンジニア",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "CI/CD",
+    "ETL",
+    "GCP",
+    "Git",
+    "Python",
+    "Redshift",
+    "Snowflake",
+    "Terraform",
+    "要件定義"
+   ]
+  }
+ ]
+}

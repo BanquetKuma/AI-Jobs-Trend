@@ -1,0 +1,154 @@
+{
+ "week": "2025-02-14",
+ "projects": [
+  {
+   "id": "20052f74a272",
+   "position": "その他",
+   "industry": "金融業 ※大手損害保険会社",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Databricks",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "203daba4b893",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "PMO",
+    "英語"
+   ]
+  },
+  {
+   "id": "27dae6845c1b",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Git",
+    "Looker",
+    "SQL"
+   ]
+  },
+  {
+   "id": "3772ffa7cb47",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Java",
+    "OpenAI API",
+    "PoC",
+    "Python"
+   ]
+  },
+  {
+   "id": "53c24dc57c2d",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "OpenAI API",
+    "Python",
+    "プロンプトエンジニアリング"
+   ]
+  },
+  {
+   "id": "541d67bccb5c",
+   "position": "インフラエンジニア",
+   "industry": "製造業 ※大手自動車メーカー",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS"
+   ]
+  },
+  {
+   "id": "907d6a5d6b1c",
+   "position": "データアナリスト",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "時系列分析",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "9cd2a4510f8d",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Power BI",
+    "Salesforce"
+   ]
+  },
+  {
+   "id": "ac109edaa56c",
+   "position": "ITコンサル",
+   "industry": "サービス事業",
+   "workstyle": "不明",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "ERP",
+    "SCM",
+    "生成AI",
+    "需要予測"
+   ]
+  }
+ ]
+}

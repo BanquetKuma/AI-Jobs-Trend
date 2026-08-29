@@ -1,0 +1,121 @@
+{
+ "week": "2025-11-21",
+ "projects": [
+  {
+   "id": "070a33ad6579",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "SQL",
+    "pandas/NumPy"
+   ]
+  },
+  {
+   "id": "5d062de5634e",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "PoC"
+   ]
+  },
+  {
+   "id": "652b648196a0",
+   "position": "データアナリスト",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 60,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Looker",
+    "Python",
+    "R",
+    "SQL",
+    "Snowflake",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "6b2aa0b789d7",
+   "position": "データアナリスト",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "BigQuery",
+    "GCP",
+    "Power BI",
+    "Python",
+    "SCM",
+    "Spark",
+    "Tableau",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "要件定義",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "a7e136f91a3a",
+   "position": "データエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "CI/CD",
+    "DWH",
+    "GCP",
+    "Python",
+    "SQL",
+    "dbt"
+   ]
+  },
+  {
+   "id": "f1a9402ea96a",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "Tableau",
+    "英語"
+   ]
+  }
+ ]
+}

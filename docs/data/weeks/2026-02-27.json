@@ -1,0 +1,155 @@
+{
+ "week": "2026-02-27",
+ "projects": [
+  {
+   "id": "1bc1d9adc882",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Git",
+    "Python",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "209b488ba0d0",
+   "position": "データアナリスト",
+   "industry": "製造業 ※自動車",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "AWS",
+    "Python",
+    "アジャイル"
+   ]
+  },
+  {
+   "id": "2cb4c9af3505",
+   "position": "PM/PdM",
+   "industry": "製造業 ※化学・素材",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "PoC",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "3613172b95c7",
+   "position": "AIエンジニア",
+   "industry": "公共",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Amazon Bedrock",
+    "LLM",
+    "機械学習",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "3be9cf935271",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "DWH",
+    "PoC",
+    "Snowflake",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "466b587c0e37",
+   "position": "ITコンサル",
+   "industry": "サービス事業 ※ヘルスケア領域",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "4c005568dd00",
+   "position": "BIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "Python",
+    "SCM",
+    "SQL",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "a48096806b33",
+   "position": "ITコンサル",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "画像認識",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "e037bce956d5",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "因果推論"
+   ]
+  }
+ ]
+}

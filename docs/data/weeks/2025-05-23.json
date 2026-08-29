@@ -1,0 +1,189 @@
+{
+ "week": "2025-05-23",
+ "projects": [
+  {
+   "id": "2762b62a5485",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "Tableau",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "72ed577aca14",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "ETL",
+    "Java",
+    "SQL",
+    "Snowflake",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "c25e4789baeb",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "ETL",
+    "Java",
+    "SQL",
+    "Snowflake",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "cafefffd1f84",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "BigQuery",
+    "ETL",
+    "GCP",
+    "Git",
+    "Looker",
+    "Python",
+    "R",
+    "Redshift",
+    "SQL",
+    "Scala",
+    "Snowflake",
+    "Tableau",
+    "機械学習",
+    "深層学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "f1c7a8f866cf",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Looker",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau",
+    "dbt",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "f77dd4e81b7d",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Azure OpenAI",
+    "OpenAI API",
+    "PoC",
+    "RAG",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "f80e6b425fb9",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "JavaScript",
+    "Python",
+    "RAG",
+    "TypeScript",
+    "アジャイル",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "f8d0223e6293",
+   "position": "データエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Docker",
+    "ETL",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "fef55ba21bd6",
+   "position": "AIエンジニア",
+   "industry": "建設業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Azure OpenAI",
+    "LLM",
+    "OpenAI API",
+    "RAG",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  }
+ ]
+}

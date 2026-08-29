@@ -1,0 +1,184 @@
+{
+ "week": "2026-06-26",
+ "projects": [
+  {
+   "id": "1421f3ff0d6a",
+   "position": "BIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ERP",
+    "Power BI",
+    "Python",
+    "SQL",
+    "dbt",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "4559aa5712fe",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "CI/CD",
+    "Docker",
+    "GCP",
+    "GitHub Actions",
+    "Python",
+    "RAG",
+    "Terraform",
+    "TypeScript",
+    "プロンプトエンジニアリング",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "46e80ffa4fb2",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CI/CD",
+    "DWH",
+    "Python",
+    "SQL",
+    "Snowflake",
+    "Terraform",
+    "dbt"
+   ]
+  },
+  {
+   "id": "613645520fe1",
+   "position": "AI導入コンサル",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "PoC"
+   ]
+  },
+  {
+   "id": "6d1b325bc267",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "a5c79b049124",
+   "position": "AI導入コンサル",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "PMO",
+    "SAP",
+    "生成AI",
+    "英語"
+   ]
+  },
+  {
+   "id": "b0116ca48b66",
+   "position": "ITコンサル",
+   "industry": "情報通信業",
+   "workstyle": "不明",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "b1bbde0a0e27",
+   "position": "AIエンジニア",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "LLM",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "f79d2c142e6b",
+   "position": "ITコンサル",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Azure",
+    "CI/CD",
+    "DWH",
+    "Databricks",
+    "ETL",
+    "LLM",
+    "PoC",
+    "Python",
+    "RAG",
+    "Scala",
+    "Spark",
+    "Terraform",
+    "プロンプトエンジニアリング",
+    "時系列分析",
+    "機械学習",
+    "生成AI",
+    "英語",
+    "要件定義"
+   ]
+  }
+ ]
+}

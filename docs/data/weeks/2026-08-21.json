@@ -1,0 +1,157 @@
+{
+ "week": "2026-08-21",
+ "projects": [
+  {
+   "id": "00fc08c286a0",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Claude Code",
+    "PoC",
+    "Python",
+    "SQL",
+    "Terraform",
+    "時系列分析",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "0568adc67ca7",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "ETL",
+    "PMO",
+    "SQL",
+    "Tableau",
+    "レコメンド",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "375c6c2931de",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Docker",
+    "Git",
+    "MLOps",
+    "PyTorch",
+    "Python",
+    "ファインチューニング",
+    "機械学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "8ac336a61a33",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "機械学習",
+    "画像認識",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "9bd6b52b969d",
+   "position": "データサイエンティスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Claude Code",
+    "Looker",
+    "SQL",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "c66977101b6e",
+   "position": "BIエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 20,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "ETL",
+    "Python",
+    "SQL",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "c72558744cd8",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIガバナンス",
+    "Java",
+    "LLM",
+    "MCP",
+    "Python",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "f29dddae133d",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "要件定義"
+   ]
+  }
+ ]
+}

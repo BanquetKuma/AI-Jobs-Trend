@@ -1,0 +1,148 @@
+{
+ "week": "2025-12-24",
+ "projects": [
+  {
+   "id": "3c79496e20d6",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "DWH",
+    "GCP",
+    "LLM",
+    "MySQL",
+    "PMO",
+    "PoC",
+    "Python",
+    "React",
+    "Redshift",
+    "Snowflake",
+    "TypeScript",
+    "dbt",
+    "レコメンド",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "40266367cdab",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "Databricks",
+    "ETL",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "6c4338c44b3e",
+   "position": "AI導入コンサル",
+   "industry": "金融業 ※大手生命保険会社",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "AWS",
+    "Amazon Bedrock"
+   ]
+  },
+  {
+   "id": "a2c540a53b03",
+   "position": "BIエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "BigQuery",
+    "DWH",
+    "GCP",
+    "Looker",
+    "MySQL",
+    "PostgreSQL",
+    "Power BI",
+    "Python",
+    "SQL",
+    "Snowflake",
+    "Tableau",
+    "dbt",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "de9c6b1f447b",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "Databricks",
+    "ETL",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "ec123c7304b0",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "LLM",
+    "機械学習",
+    "深層学習",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "ecb19dfa4743",
+   "position": "データサイエンティスト",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "機械学習"
+   ]
+  }
+ ]
+}

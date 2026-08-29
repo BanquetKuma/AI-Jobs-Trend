@@ -1,0 +1,52 @@
+{
+ "week": "2025-05-02",
+ "projects": [
+  {
+   "id": "20052f74a272",
+   "position": "その他",
+   "industry": "金融業 ※大手損害保険会社",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Databricks",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "32b54e840782",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "オンサイト",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python"
+   ]
+  },
+  {
+   "id": "ff3be3f256b2",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "ERP",
+    "Salesforce",
+    "Tableau"
+   ]
+  }
+ ]
+}

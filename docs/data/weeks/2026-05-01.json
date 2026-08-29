@@ -1,0 +1,116 @@
+{
+ "week": "2026-05-01",
+ "projects": [
+  {
+   "id": "49e583ee7545",
+   "position": "その他",
+   "industry": "研究",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 20,
+   "ratio_max": 20,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PyTorch",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "688278e02300",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "GCP",
+    "Vertex AI",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "d1eccc3cc88b",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "ETL",
+    "SQL",
+    "英語"
+   ]
+  },
+  {
+   "id": "d506c485be3b",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "Terraform",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "f8459f7ea969",
+   "position": "AIエンジニア",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "LLM",
+    "LangChain",
+    "OpenAI API",
+    "RAG",
+    "RPA",
+    "プロンプトエンジニアリング",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "fb1b9ccfd959",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "C#/.NET",
+    "DWH",
+    "Git",
+    "Python",
+    "Redshift",
+    "SQL",
+    "Snowflake",
+    "Tableau"
+   ]
+  }
+ ]
+}

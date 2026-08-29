@@ -1,0 +1,94 @@
+{
+ "week": "2025-03-14",
+ "projects": [
+  {
+   "id": "08e4eff59cc3",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Databricks",
+    "PMO",
+    "Power BI",
+    "Snowflake",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "0ec06e5ef5ca",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "不明",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Docker",
+    "PyTorch",
+    "Python",
+    "深層学習",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "13f009c0701e",
+   "position": "アプリエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC"
+   ]
+  },
+  {
+   "id": "85c3add520fe",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "深層学習"
+   ]
+  },
+  {
+   "id": "e644fc41a389",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Docker",
+    "Git",
+    "PoC",
+    "Python",
+    "pandas/NumPy",
+    "機械学習",
+    "自然言語処理",
+    "要件定義"
+   ]
+  }
+ ]
+}

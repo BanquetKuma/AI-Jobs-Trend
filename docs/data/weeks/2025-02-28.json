@@ -1,0 +1,82 @@
+{
+ "week": "2025-02-28",
+ "projects": [
+  {
+   "id": "5b4b9c43b1eb",
+   "position": "AI導入コンサル",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "生成AI"
+   ]
+  },
+  {
+   "id": "bb58fef830b5",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "PoC"
+   ]
+  },
+  {
+   "id": "d18fc7206881",
+   "position": "その他",
+   "industry": "- ※BPO企業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL"
+   ]
+  },
+  {
+   "id": "ed96bad2027d",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Oracle",
+    "SQL",
+    "Tableau",
+    "VBA"
+   ]
+  },
+  {
+   "id": "ffcfebcb75f0",
+   "position": "BIエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "SQL",
+    "Tableau",
+    "要件定義"
+   ]
+  }
+ ]
+}

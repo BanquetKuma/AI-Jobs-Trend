@@ -1,0 +1,125 @@
+{
+ "week": "2026-07-10",
+ "projects": [
+  {
+   "id": "00a5839f1f3b",
+   "position": "ITコンサル",
+   "industry": "- ※FMCG",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "英語"
+   ]
+  },
+  {
+   "id": "00ed4d1d9d0d",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Gemini",
+    "OpenAI API",
+    "PoC",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "1dde558c9f2a",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "PyTorch",
+    "Python",
+    "SQL",
+    "TensorFlow",
+    "機械学習",
+    "深層学習",
+    "画像認識",
+    "自然言語処理",
+    "英語"
+   ]
+  },
+  {
+   "id": "9f9b89f0f3dd",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "JavaScript",
+    "LLM評価",
+    "Python",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "c478c92bc52b",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "fcd80bc43edd",
+   "position": "AIエンジニア",
+   "industry": "- ※多産業融合：モビリティ/AI/IT/エネルギー/建設不動産/物流",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "AWS",
+    "CI/CD",
+    "Docker",
+    "GCP",
+    "Git",
+    "GitHub Actions",
+    "Kubernetes",
+    "MLOps",
+    "PostgreSQL",
+    "PyTorch",
+    "Python",
+    "アジャイル",
+    "ベクトルDB",
+    "機械学習",
+    "画像認識",
+    "英語"
+   ]
+  }
+ ]
+}

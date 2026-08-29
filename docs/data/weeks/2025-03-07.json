@@ -1,0 +1,115 @@
+{
+ "week": "2025-03-07",
+ "projects": [
+  {
+   "id": "280894a3b028",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "Docker",
+    "MySQL",
+    "PostgreSQL",
+    "Python",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "478688ed4252",
+   "position": "データアナリスト",
+   "industry": "サービス事業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "Tableau",
+    "機械学習",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "5077fefd6b13",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "PyTorch",
+    "Python",
+    "機械学習",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "7a22c12ed60f",
+   "position": "その他",
+   "industry": "公共",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Oracle"
+   ]
+  },
+  {
+   "id": "8abea1858733",
+   "position": "データエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "CI/CD",
+    "Claude",
+    "DWH",
+    "DevOps",
+    "Dify",
+    "Docker",
+    "GCP",
+    "Git",
+    "Java",
+    "LLM",
+    "LangChain",
+    "Looker",
+    "MySQL",
+    "OpenAI API",
+    "PostgreSQL",
+    "Power BI",
+    "Python",
+    "SQL",
+    "Scala",
+    "Spark",
+    "Tableau",
+    "アジャイル",
+    "ファインチューニング",
+    "生成AI"
+   ]
+  }
+ ]
+}

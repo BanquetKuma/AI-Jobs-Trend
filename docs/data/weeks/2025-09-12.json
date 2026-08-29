@@ -1,0 +1,117 @@
+{
+ "week": "2025-09-12",
+ "projects": [
+  {
+   "id": "586544540a54",
+   "position": "データアナリスト",
+   "industry": "医療 ※創薬",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "R",
+    "SAP",
+    "SQL",
+    "因果推論"
+   ]
+  },
+  {
+   "id": "63df2f9f74ed",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "ETL",
+    "Java",
+    "SQL",
+    "Snowflake"
+   ]
+  },
+  {
+   "id": "7729c92a4787",
+   "position": "データエンジニア",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "SQL",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "b74307fb5a95",
+   "position": "BIエンジニア",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "c29a8cfde6e0",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL"
+   ]
+  },
+  {
+   "id": "de9be42f1d67",
+   "position": "ITコンサル",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": []
+  },
+  {
+   "id": "ead1e3630d7f",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "Power BI",
+    "Python",
+    "SQL",
+    "Snowflake",
+    "要件定義"
+   ]
+  }
+ ]
+}

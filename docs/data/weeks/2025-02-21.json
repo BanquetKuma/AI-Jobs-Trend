@@ -1,0 +1,85 @@
+{
+ "week": "2025-02-21",
+ "projects": [
+  {
+   "id": "0585749bd85f",
+   "position": "データアナリスト",
+   "industry": "金融業 ※証券",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "要件定義"
+   ]
+  },
+  {
+   "id": "1f594172cb91",
+   "position": "データアナリスト",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "Python",
+    "Tableau",
+    "因果推論"
+   ]
+  },
+  {
+   "id": "47b942dc469b",
+   "position": "AIエンジニア",
+   "industry": "- ※ライフサイエンス",
+   "workstyle": "オンサイト",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "ba389daabde3",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "不明",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Java",
+    "Python",
+    "因果推論",
+    "機械学習",
+    "自然言語処理",
+    "英語"
+   ]
+  },
+  {
+   "id": "e22ad3b0cdb1",
+   "position": "その他",
+   "industry": "教育機関",
+   "workstyle": "フルリモート",
+   "ratio_min": 10,
+   "ratio_max": 10,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "生成AI"
+   ]
+  }
+ ]
+}

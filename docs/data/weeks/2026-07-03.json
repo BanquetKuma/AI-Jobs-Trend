@@ -1,0 +1,206 @@
+{
+ "week": "2026-07-03",
+ "projects": [
+  {
+   "id": "01ccb14c9369",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIガバナンス",
+    "Databricks",
+    "Snowflake"
+   ]
+  },
+  {
+   "id": "3b95f742ce30",
+   "position": "PM/PdM",
+   "industry": "製造業 ※化学メーカー",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "Power BI"
+   ]
+  },
+  {
+   "id": "492b8a83fc06",
+   "position": "データサイエンティスト",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "LLM",
+    "Python",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "56a0ec835b66",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "LLM",
+    "PyTorch",
+    "RAG",
+    "ファインチューニング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "6d59d6b83738",
+   "position": "データサイエンティスト",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "SQL",
+    "因果推論",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "749daa00c7b6",
+   "position": "AIエンジニア",
+   "industry": "製造業 ※自動車",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Azure",
+    "Claude",
+    "JavaScript",
+    "PoC",
+    "RAG",
+    "ベクトルDB",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "9969a7b07f85",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 60,
+   "ratio_max": 60,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "LLM",
+    "LangChain",
+    "PoC",
+    "Python",
+    "RAG",
+    "機械学習",
+    "深層学習",
+    "生成AI",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "ad395231d531",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "pandas/NumPy",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "bb2b8e07f72e",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "Claude Code",
+    "Docker",
+    "GCP",
+    "Gemini",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "React",
+    "Terraform",
+    "TypeScript",
+    "アジャイル",
+    "プロンプトエンジニアリング",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "c96b945546b7",
+   "position": "AIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "LLM",
+    "PoC",
+    "RAG",
+    "レコメンド",
+    "生成AI"
+   ]
+  }
+ ]
+}

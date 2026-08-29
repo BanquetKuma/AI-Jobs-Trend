@@ -1,0 +1,126 @@
+{
+ "week": "2025-05-27",
+ "projects": [
+  {
+   "id": "08718a11f6bb",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "BigQuery",
+    "Claude",
+    "DWH",
+    "LLM",
+    "Looker",
+    "OpenAI API",
+    "Power BI",
+    "Python",
+    "RAG",
+    "Redshift",
+    "SQL",
+    "Tableau",
+    "TensorFlow",
+    "pandas/NumPy",
+    "scikit-learn",
+    "時系列分析",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "3c1de970777b",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC"
+   ]
+  },
+  {
+   "id": "56f0cd590342",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Gemini",
+    "英語"
+   ]
+  },
+  {
+   "id": "67a11d429a33",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Git",
+    "Python",
+    "画像認識",
+    "英語"
+   ]
+  },
+  {
+   "id": "8c785a493693",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC"
+   ]
+  },
+  {
+   "id": "cbc93fb14adb",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS"
+   ]
+  },
+  {
+   "id": "ed0c8ed4af2a",
+   "position": "インフラエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS"
+   ]
+  }
+ ]
+}

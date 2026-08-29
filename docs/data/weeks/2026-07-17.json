@@ -1,0 +1,157 @@
+{
+ "week": "2026-07-17",
+ "projects": [
+  {
+   "id": "0bdb89644c53",
+   "position": "BIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "GCP",
+    "Looker",
+    "Power BI",
+    "SQL",
+    "Tableau",
+    "dbt"
+   ]
+  },
+  {
+   "id": "76dd0837ab4d",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Claude",
+    "Claude Code",
+    "Dify",
+    "Docker",
+    "Gemini",
+    "LLM",
+    "OpenAI API",
+    "RAG",
+    "RPA",
+    "プロンプトエンジニアリング",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "ad661fc9b895",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Claude Code",
+    "LLM",
+    "MCP",
+    "PoC",
+    "アジャイル",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "d6d1337edcb5",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "CRM",
+    "Looker",
+    "OpenAI API",
+    "Python",
+    "SQL",
+    "VBA",
+    "プロンプトエンジニアリング",
+    "英語"
+   ]
+  },
+  {
+   "id": "da4b65aba3de",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "GCP",
+    "PoC",
+    "生成AI",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "e19ec693747d",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "GCP",
+    "Git",
+    "LLM",
+    "LLM評価",
+    "MLOps",
+    "PyTorch",
+    "Python",
+    "マルチモーダル",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "深層学習"
+   ]
+  },
+  {
+   "id": "f704bb467785",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Copilot Studio",
+    "Gemini",
+    "生成AI",
+    "要件定義"
+   ]
+  }
+ ]
+}

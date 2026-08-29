@@ -1,0 +1,163 @@
+{
+ "week": "2025-05-16",
+ "projects": [
+  {
+   "id": "087a39083438",
+   "position": "AI導入コンサル",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Dify",
+    "LLM",
+    "Python",
+    "機械学習",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "3ee03aaf13a3",
+   "position": "データエンジニア",
+   "industry": "- ※エネルギー業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Databricks",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "992afecd95b2",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Databricks",
+    "Power Platform",
+    "Python",
+    "SQL",
+    "Spark",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "a9bd2fb59d23",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Docker",
+    "ETL",
+    "Git",
+    "Python",
+    "Redshift",
+    "SQL",
+    "Terraform",
+    "pandas/NumPy"
+   ]
+  },
+  {
+   "id": "c24ec2f587a5",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Docker",
+    "LLM",
+    "LangChain",
+    "OpenAI API",
+    "PoC",
+    "Python",
+    "React",
+    "アジャイル",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "d0ccb697af6f",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "画像認識",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "ee3e69c53e89",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント"
+   ]
+  },
+  {
+   "id": "f89f3dff6fd2",
+   "position": "アプリエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Amazon Bedrock",
+    "CI/CD",
+    "Databricks",
+    "Docker",
+    "GitHub Actions",
+    "Python",
+    "React",
+    "Terraform",
+    "生成AI"
+   ]
+  }
+ ]
+}

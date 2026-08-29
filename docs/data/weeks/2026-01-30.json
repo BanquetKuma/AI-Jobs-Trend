@@ -1,0 +1,199 @@
+{
+ "week": "2026-01-30",
+ "projects": [
+  {
+   "id": "0ae1cbf8f325",
+   "position": "データアナリスト",
+   "industry": "製造業 ※大手自動車メーカー",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "Python",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "6483174ad902",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "6cf4c4dc9699",
+   "position": "データアナリスト",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 60,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Docker",
+    "GCP",
+    "Git",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "81f80f7561e5",
+   "position": "データアナリスト",
+   "industry": "電気・ガス",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "SCM",
+    "scikit-learn",
+    "アジャイル",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "8fe2efb8fab5",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※ネット銀行",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "PostgreSQL",
+    "Python",
+    "SQL",
+    "Tableau",
+    "scikit-learn",
+    "機械学習",
+    "生成AI",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "91cc042b3dc3",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIガバナンス",
+    "LLM",
+    "LLM評価",
+    "生成AI",
+    "英語"
+   ]
+  },
+  {
+   "id": "9f0993ddf711",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "CI/CD",
+    "GitHub Actions",
+    "MySQL",
+    "Python"
+   ]
+  },
+  {
+   "id": "cd4e17b8558a",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "Dify",
+    "Docker",
+    "GCP",
+    "LangChain",
+    "Python",
+    "RAG",
+    "SQL"
+   ]
+  },
+  {
+   "id": "d9d43705f13f",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "時系列分析"
+   ]
+  },
+  {
+   "id": "e3eddf38fb21",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "DWH",
+    "Git",
+    "MLOps",
+    "PyTorch",
+    "Python",
+    "R",
+    "SQL",
+    "Snowflake",
+    "TensorFlow",
+    "マルチモーダル",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "深層学習",
+    "異常検知"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "week": "2026-07-24",
+ "projects": [
+  {
+   "id": "097eb38390ee",
+   "position": "PM/PdM",
+   "industry": "研究",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "GCP",
+    "生成AI",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "52b00e289c8b",
+   "position": "PM/PdM",
+   "industry": "- ※鉄鋼メーカー",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO"
+   ]
+  },
+  {
+   "id": "54aa9033c746",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "BigQuery",
+    "Databricks",
+    "LLM",
+    "MCP",
+    "PoC",
+    "RAG",
+    "Tableau",
+    "dbt",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "9547c0812e6d",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Claude Code",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "9f4f0bd1c0c1",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python"
+   ]
+  },
+  {
+   "id": "c2634f01ea41",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "LLM",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "d7b7a3226205",
+   "position": "データエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL",
+    "SQL",
+    "Snowflake",
+    "Tableau"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,166 @@
+{
+ "week": "2025-04-04",
+ "projects": [
+  {
+   "id": "3cdc1f3dfac4",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "PoC",
+    "Python",
+    "生成AI",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "95c35282cedd",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "scikit-learn",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "cc0c3cc880d2",
+   "position": "データエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Terraform",
+    "dbt"
+   ]
+  },
+  {
+   "id": "f22b187d8382",
+   "position": "AIエンジニア",
+   "industry": "製造業 ※自動車関連",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "マルチモーダル",
+    "機械学習",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "f444c8e0ee43",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python"
+   ]
+  },
+  {
+   "id": "f4af504f19d1",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "LLM",
+    "PoC",
+    "Python",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "f753d8d79a82",
+   "position": "AIエンジニア",
+   "industry": "電気・ガス",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM評価",
+    "PoC",
+    "Python",
+    "画像認識",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "fcc293850f94",
+   "position": "AIエンジニア",
+   "industry": "製造業 ※自動車関連",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "アジャイル",
+    "生成AI",
+    "自然言語処理",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "fdd159a1c4eb",
+   "position": "AIエンジニア",
+   "industry": "電気・ガス",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "LLM評価",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "生成AI",
+    "画像認識",
+    "異常検知"
+   ]
+  }
+ ]
+}

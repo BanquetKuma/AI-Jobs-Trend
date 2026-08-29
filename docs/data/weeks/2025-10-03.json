@@ -1,0 +1,199 @@
+{
+ "week": "2025-10-03",
+ "projects": [
+  {
+   "id": "078143caf52d",
+   "position": "PM/PdM",
+   "industry": "金融業 ※大手カード会社",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "ETL",
+    "PMO",
+    "Power BI",
+    "Python",
+    "時系列分析",
+    "機械学習",
+    "生成AI",
+    "画像認識",
+    "異常検知",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "11cc2e94101c",
+   "position": "データアナリスト",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "機械学習",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "165d155875d2",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "Azure",
+    "Azure AI Foundry",
+    "Azure OpenAI",
+    "CI/CD",
+    "Docker",
+    "Git",
+    "LLM",
+    "MCP",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "React",
+    "SQL",
+    "機械学習",
+    "深層学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "222e37c70637",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "GCP",
+    "Looker",
+    "Power BI",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau",
+    "Terraform"
+   ]
+  },
+  {
+   "id": "706471b6e76f",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "ETL",
+    "Power Platform",
+    "SAP",
+    "SQL"
+   ]
+  },
+  {
+   "id": "8871285afdaf",
+   "position": "BIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI"
+   ]
+  },
+  {
+   "id": "912cd14993d0",
+   "position": "BIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "BigQuery",
+    "Git",
+    "Looker",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "a192895a395e",
+   "position": "AIエンジニア",
+   "industry": "農業・林業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "Power Platform",
+    "Python",
+    "Tableau",
+    "画像認識",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "e0bc01e474f2",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "CI/CD",
+    "GCP",
+    "GitHub Actions",
+    "Go",
+    "LLM",
+    "LLM評価",
+    "MLOps",
+    "Python",
+    "React",
+    "Terraform",
+    "TypeScript",
+    "生成AI",
+    "英語"
+   ]
+  }
+ ]
+}

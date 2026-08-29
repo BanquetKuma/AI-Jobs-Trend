@@ -1,0 +1,179 @@
+{
+ "week": "2025-06-20",
+ "projects": [
+  {
+   "id": "3e22480ef079",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "需要予測"
+   ]
+  },
+  {
+   "id": "56969bbb2429",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "要件定義"
+   ]
+  },
+  {
+   "id": "87665cf2f3a4",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Git",
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "機械学習",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "8e3a9ea98925",
+   "position": "その他",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "Power BI"
+   ]
+  },
+  {
+   "id": "9984eb71e3f2",
+   "position": "BIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Power BI"
+   ]
+  },
+  {
+   "id": "9ad0eea28521",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "DWH",
+    "Databricks",
+    "Python",
+    "SQL",
+    "Spark",
+    "pandas/NumPy"
+   ]
+  },
+  {
+   "id": "b821fead1d94",
+   "position": "アプリエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Docker",
+    "Git",
+    "Python",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "dc8c179cace9",
+   "position": "PM/PdM",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "PMO",
+    "RAG",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "e050e52d0def",
+   "position": "AIエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 60,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Amazon Bedrock",
+    "Dify",
+    "GCP",
+    "LangChain",
+    "MCP",
+    "PoC",
+    "Vertex AI"
+   ]
+  },
+  {
+   "id": "f4e163d0f191",
+   "position": "AIエンジニア",
+   "industry": "製造業 ※自動車関連",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "アジャイル",
+    "生成AI",
+    "自然言語処理",
+    "要件定義"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "week": "2026-02-20",
+ "projects": [
+  {
+   "id": "18794e2ba645",
+   "position": "ITコンサル",
+   "industry": "建設業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": 115,
+   "rate_max": 115,
+   "is_new": true,
+   "techs": [
+    "AWS"
+   ]
+  },
+  {
+   "id": "1e9e2f651f5f",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Databricks",
+    "Java",
+    "Python",
+    "Spark",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "2f245602b0ef",
+   "position": "BIエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Looker",
+    "Python",
+    "SQL",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "3ecbb4c54c1c",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "Azure OpenAI",
+    "CI/CD",
+    "GCP",
+    "Git",
+    "LLM",
+    "LLM評価",
+    "OpenAI API",
+    "PostgreSQL",
+    "Python",
+    "RAG",
+    "ファインチューニング",
+    "ベクトルDB",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "69e56cb9f99f",
+   "position": "AI導入コンサル",
+   "industry": "建設業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "RAG",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "74578db18fc7",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Azure OpenAI",
+    "LLM",
+    "OpenAI API",
+    "Python",
+    "機械学習",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "92ac0724cae1",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "BigQuery",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Python",
+    "SQL",
+    "Terraform",
+    "dbt"
+   ]
+  },
+  {
+   "id": "9c866a5cca81",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "ETL",
+    "GCP",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "b788021e6797",
+   "position": "BIエンジニア",
+   "industry": "製造業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Tableau"
+   ]
+  },
+  {
+   "id": "fa6164e48c03",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Git",
+    "Python",
+    "R",
+    "pandas/NumPy",
+    "因果推論"
+   ]
+  }
+ ]
+}

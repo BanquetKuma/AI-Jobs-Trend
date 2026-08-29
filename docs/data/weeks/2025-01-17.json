@@ -1,0 +1,219 @@
+{
+ "week": "2025-01-17",
+ "projects": [
+  {
+   "id": "0b39f5cc4c3a",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 20,
+   "ratio_max": 20,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "生成AI"
+   ]
+  },
+  {
+   "id": "0c6489b16d2f",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 20,
+   "ratio_max": 20,
+   "rate_min": 80,
+   "rate_max": 80,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "機械学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "1006cdfc21fd",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Azure OpenAI",
+    "OpenAI API",
+    "RAG",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "1f4b1e3c57a2",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "40218f098d98",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "LLM",
+    "MLOps",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "Terraform",
+    "TypeScript",
+    "プロンプトエンジニアリング",
+    "ベクトルDB",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "5077fefd6b13",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PyTorch",
+    "Python",
+    "機械学習",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "75616dba7989",
+   "position": "その他",
+   "industry": "金融業 ※銀行",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL",
+    "JavaScript",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "76d889513c33",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "8a6bd9267256",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※銀行",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Azure",
+    "LLM",
+    "PostgreSQL",
+    "Python",
+    "RAG",
+    "Tableau",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "b0938592aeb7",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※銀行",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "LLM",
+    "PostgreSQL",
+    "Python",
+    "SQL",
+    "Tableau",
+    "scikit-learn",
+    "機械学習",
+    "生成AI",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "cf7ebee48c4f",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 20,
+   "ratio_max": 20,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "機械学習",
+    "生成AI",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "fbd3e1f99e82",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Docker",
+    "GCP"
+   ]
+  }
+ ]
+}

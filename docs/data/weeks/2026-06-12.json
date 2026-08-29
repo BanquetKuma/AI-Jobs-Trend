@@ -1,0 +1,157 @@
+{
+ "week": "2026-06-12",
+ "projects": [
+  {
+   "id": "129fb9826e37",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Dify",
+    "LLM",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "4bd797f19da0",
+   "position": "データアナリスト",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Claude Code",
+    "Copilot Studio",
+    "DWH",
+    "LLM",
+    "MySQL",
+    "PoC",
+    "PostgreSQL",
+    "Power BI",
+    "Snowflake",
+    "Tableau",
+    "機械学習",
+    "生成AI",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "51d7541e8ea0",
+   "position": "ITコンサル",
+   "industry": "- ※広告代理店",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "ETL",
+    "PMO",
+    "Power BI",
+    "Power Platform",
+    "SQL"
+   ]
+  },
+  {
+   "id": "91b8f3c8e1cd",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "時系列分析"
+   ]
+  },
+  {
+   "id": "a735213cb32e",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "BigQuery",
+    "CI/CD",
+    "Claude",
+    "Claude Code",
+    "GCP",
+    "GitHub Actions",
+    "JavaScript",
+    "MCP",
+    "OpenAI API",
+    "Python",
+    "TypeScript",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "bddf78745723",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "BigQuery",
+    "CRM",
+    "DWH",
+    "ETL",
+    "GCP",
+    "Looker",
+    "Power BI",
+    "Python",
+    "SQL",
+    "Tableau",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "ce48576a42d2",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※銀行",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "API設計",
+    "AWS",
+    "GCP",
+    "Python",
+    "機械学習",
+    "生成AI"
+   ]
+  }
+ ]
+}

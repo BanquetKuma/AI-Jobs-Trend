@@ -1,0 +1,199 @@
+{
+ "week": "2026-06-05",
+ "projects": [
+  {
+   "id": "01bdaeac7eca",
+   "position": "BIエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Looker",
+    "SQL",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "3d2bb3467d1b",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Claude Code",
+    "Copilot Studio",
+    "Dify",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "4ad67777f024",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "機械学習",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "57ba70d99975",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Docker",
+    "Git",
+    "MLOps",
+    "PyTorch",
+    "Python",
+    "ファインチューニング",
+    "機械学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "7e24ac4a5e04",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Claude"
+   ]
+  },
+  {
+   "id": "a64a2c052ac1",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "LLM",
+    "MLOps",
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "機械学習",
+    "深層学習"
+   ]
+  },
+  {
+   "id": "c633cd5dbe80",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "Azure",
+    "Azure OpenAI",
+    "LLM",
+    "LLM評価",
+    "OpenAI API",
+    "PoC",
+    "Python",
+    "RAG"
+   ]
+  },
+  {
+   "id": "d60746a0090c",
+   "position": "アプリエンジニア",
+   "industry": "製造業 ※大手自動車メーカー",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DevOps",
+    "Docker",
+    "Git",
+    "Java",
+    "Python",
+    "SQL",
+    "英語"
+   ]
+  },
+  {
+   "id": "de8cf06c37b9",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "ETL",
+    "Salesforce",
+    "Snowflake",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "e01475a9b7d6",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Databricks",
+    "Redshift",
+    "SQL"
+   ]
+  }
+ ]
+}

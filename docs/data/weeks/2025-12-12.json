@@ -1,0 +1,149 @@
+{
+ "week": "2025-12-12",
+ "projects": [
+  {
+   "id": "1dd230784f45",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Azure",
+    "LLM",
+    "Python",
+    "英語"
+   ]
+  },
+  {
+   "id": "24f4ff7183f3",
+   "position": "AIエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "GCP",
+    "MLOps",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "52d0622f586e",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "AWS",
+    "BigQuery",
+    "CRM",
+    "Claude",
+    "ETL",
+    "GCP",
+    "Gemini",
+    "LLM",
+    "LangChain",
+    "MLOps",
+    "MySQL",
+    "OpenAI API",
+    "PyTorch",
+    "Python",
+    "RAG",
+    "React",
+    "Snowflake",
+    "TypeScript",
+    "dbt",
+    "scikit-learn",
+    "レコメンド",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "6bb3c98b97e0",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "afef5518c872",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "機械学習"
+   ]
+  },
+  {
+   "id": "b776c83e3463",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "DWH",
+    "ETL",
+    "GCP",
+    "LLM",
+    "MLOps",
+    "MySQL",
+    "Python",
+    "React",
+    "Snowflake",
+    "TypeScript",
+    "dbt",
+    "監視・可観測性"
+   ]
+  },
+  {
+   "id": "c6a88d715468",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "機械学習",
+    "深層学習"
+   ]
+  }
+ ]
+}

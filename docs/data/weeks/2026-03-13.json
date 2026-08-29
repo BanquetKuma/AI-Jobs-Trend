@@ -1,0 +1,148 @@
+{
+ "week": "2026-03-13",
+ "projects": [
+  {
+   "id": "12d917dd586f",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "1d956e34c74f",
+   "position": "データアナリスト",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "35fe3b777aab",
+   "position": "その他",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "因果推論",
+    "機械学習",
+    "深層学習"
+   ]
+  },
+  {
+   "id": "64c9feaf22cc",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "CI/CD",
+    "Docker",
+    "GCP",
+    "Go",
+    "LLM評価",
+    "LangChain",
+    "PoC",
+    "Python",
+    "RAG",
+    "Vertex AI",
+    "アジャイル",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "6b25bd08c70b",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "Power BI",
+    "Tableau",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "ac0581798998",
+   "position": "データアナリスト",
+   "industry": "電気・ガス",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "SCM",
+    "scikit-learn",
+    "アジャイル",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "c774493cb0bf",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "因果推論",
+    "英語"
+   ]
+  },
+  {
+   "id": "f9948638dc52",
+   "position": "BIエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Tableau"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "week": "2025-08-29",
+ "projects": [
+  {
+   "id": "0758d5431ca6",
+   "position": "データアナリスト",
+   "industry": "医療 ※創薬",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "R",
+    "SAP",
+    "SQL",
+    "因果推論"
+   ]
+  },
+  {
+   "id": "66175625adce",
+   "position": "AI導入コンサル",
+   "industry": "金融業 ※保険業界",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Amazon Bedrock",
+    "Salesforce",
+    "Snowflake"
+   ]
+  },
+  {
+   "id": "91bbe304b469",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "93a72441cfef",
+   "position": "その他",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Looker",
+    "Power BI",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau",
+    "TensorFlow",
+    "scikit-learn",
+    "因果推論",
+    "機械学習",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "967bfe7158a2",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "Looker",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "a3fb343e5637",
+   "position": "データエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "Databricks",
+    "ETL",
+    "Git",
+    "Redshift",
+    "SQL",
+    "Snowflake",
+    "Terraform",
+    "dbt"
+   ]
+  },
+  {
+   "id": "c5462c463dff",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 80,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Azure",
+    "Azure OpenAI",
+    "Git",
+    "OpenAI API",
+    "PoC",
+    "Python",
+    "RAG",
+    "SQL",
+    "機械学習",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "f25d267dc941",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※保険",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Java",
+    "Python",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "f596aca231ad",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "SQL"
+   ]
+  },
+  {
+   "id": "fb3fef501fac",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "Looker",
+    "Power BI",
+    "SQL",
+    "Tableau",
+    "因果推論",
+    "機械学習"
+   ]
+  }
+ ]
+}

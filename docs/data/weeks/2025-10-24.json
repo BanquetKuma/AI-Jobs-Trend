@@ -1,0 +1,213 @@
+{
+ "week": "2025-10-24",
+ "projects": [
+  {
+   "id": "0ab2c887e7c1",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": 55,
+   "rate_max": 55,
+   "is_new": true,
+   "techs": [
+    "RPA",
+    "VBA",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "0d16a959fe74",
+   "position": "データアナリスト",
+   "industry": "- ※45日",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "Cursor",
+    "Looker",
+    "Python",
+    "SQL",
+    "pandas/NumPy",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "3dad2abe270b",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Git",
+    "レコメンド"
+   ]
+  },
+  {
+   "id": "5452ad76d91c",
+   "position": "データアナリスト",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "SQL"
+   ]
+  },
+  {
+   "id": "86343fbdf35b",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "JavaScript",
+    "TypeScript"
+   ]
+  },
+  {
+   "id": "b0ab2d689cfc",
+   "position": "データアナリスト",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "Python",
+    "pandas/NumPy",
+    "scikit-learn",
+    "時系列分析",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "c312ee6e1e2f",
+   "position": "アプリエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "ETL",
+    "GCP",
+    "Python",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "d5b3e0b3a883",
+   "position": "アプリエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Git",
+    "React"
+   ]
+  },
+  {
+   "id": "e3357e1abc09",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "CI/CD",
+    "GitHub Actions",
+    "OpenAI API",
+    "PMO",
+    "PostgreSQL",
+    "Python",
+    "React",
+    "Terraform",
+    "TypeScript",
+    "アジャイル",
+    "ベクトルDB",
+    "生成AI",
+    "監視・可観測性"
+   ]
+  },
+  {
+   "id": "e6c8a3e82f84",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CI/CD",
+    "Docker",
+    "Git",
+    "GitHub Actions",
+    "Oracle",
+    "PostgreSQL",
+    "Vue"
+   ]
+  },
+  {
+   "id": "f91262354200",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "Looker",
+    "Power BI",
+    "Redshift",
+    "Tableau",
+    "因果推論",
+    "要件定義"
+   ]
+  }
+ ]
+}

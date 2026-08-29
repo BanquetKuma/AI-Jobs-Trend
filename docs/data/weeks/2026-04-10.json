@@ -1,0 +1,164 @@
+{
+ "week": "2026-04-10",
+ "projects": [
+  {
+   "id": "1753dd46c24b",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "時系列分析",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "5ade5bf76454",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CRM",
+    "PMO",
+    "Salesforce",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "5ae068de5e79",
+   "position": "ITコンサル",
+   "industry": "製造業 ※自動車メーカー",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "6804dc5b3a8a",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH"
+   ]
+  },
+  {
+   "id": "9cb16e5b4a54",
+   "position": "AIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "LLM",
+    "Python",
+    "機械学習",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "9f2fd3c93d58",
+   "position": "データエンジニア",
+   "industry": "製造業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "ETL",
+    "Java",
+    "SQL",
+    "Snowflake",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "ae8926c3ce95",
+   "position": "データアナリスト",
+   "industry": "公共",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "Python",
+    "SQL",
+    "Tableau",
+    "pandas/NumPy",
+    "因果推論"
+   ]
+  },
+  {
+   "id": "d2e67f567ee3",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "df273a0a355a",
+   "position": "AIエンジニア",
+   "industry": "公共",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Azure",
+    "Azure OpenAI",
+    "LLM",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "ベクトルDB",
+    "生成AI"
+   ]
+  }
+ ]
+}

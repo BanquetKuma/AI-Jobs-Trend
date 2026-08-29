@@ -1,0 +1,184 @@
+{
+ "week": "2026-05-29",
+ "projects": [
+  {
+   "id": "051f9db2e2c3",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Azure",
+    "Claude",
+    "LLM",
+    "OpenAI API",
+    "Python",
+    "TypeScript"
+   ]
+  },
+  {
+   "id": "18d981cd74ed",
+   "position": "データエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "ETL",
+    "GCP",
+    "Python"
+   ]
+  },
+  {
+   "id": "1d2fec67ec9c",
+   "position": "アプリエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "CI/CD",
+    "DWH",
+    "GCP",
+    "MLOps",
+    "PoC",
+    "Python",
+    "SQL",
+    "Terraform",
+    "pandas/NumPy",
+    "機械学習",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "1e2821d3e067",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "ETL",
+    "Redshift"
+   ]
+  },
+  {
+   "id": "6de1d53c4ad6",
+   "position": "ITコンサル",
+   "industry": "サービス事業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Claude Code",
+    "Copilot Studio",
+    "LLM",
+    "Power Platform",
+    "RAG",
+    "アジャイル"
+   ]
+  },
+  {
+   "id": "8f6301f2bb81",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "PoC",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "dbaffce286d4",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Docker",
+    "MLOps",
+    "Power BI",
+    "Python",
+    "Tableau",
+    "pandas/NumPy",
+    "scikit-learn",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "dc95e318d560",
+   "position": "PM/PdM",
+   "industry": "金融業 ※銀行",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "レコメンド",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "ffb9b457276c",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Docker",
+    "Git",
+    "Python",
+    "pandas/NumPy",
+    "アジャイル"
+   ]
+  }
+ ]
+}

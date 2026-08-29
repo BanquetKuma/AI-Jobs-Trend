@@ -1,0 +1,93 @@
+{
+ "week": "2025-01-31",
+ "projects": [
+  {
+   "id": "329fc90a68a9",
+   "position": "BIエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "GCP",
+    "Python",
+    "SQL",
+    "Tableau",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "899794277bf8",
+   "position": "インフラエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL"
+   ]
+  },
+  {
+   "id": "a664c45b28fc",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Python",
+    "RAG"
+   ]
+  },
+  {
+   "id": "b4a0bd5695af",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "c2cb64aa87e4",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Azure OpenAI",
+    "LLM",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "ベクトルDB",
+    "機械学習",
+    "自然言語処理",
+    "英語"
+   ]
+  }
+ ]
+}

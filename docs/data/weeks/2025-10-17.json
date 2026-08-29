@@ -1,0 +1,265 @@
+{
+ "week": "2025-10-17",
+ "projects": [
+  {
+   "id": "01d88353b233",
+   "position": "アプリエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "TypeScript",
+    "英語"
+   ]
+  },
+  {
+   "id": "4cdb38c05e27",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "因果推論",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "59442232a73c",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "CI/CD"
+   ]
+  },
+  {
+   "id": "7124d8b8f5ed",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "画像認識"
+   ]
+  },
+  {
+   "id": "7729c92a4787",
+   "position": "データエンジニア",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Azure",
+    "SQL",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "819fcd15e2c6",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "a6d9167ab7c8",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "因果推論",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "afa3ee642860",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Dify",
+    "LLM",
+    "PoC",
+    "アジャイル",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "b8fe517baba6",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIコーディング支援",
+    "API設計",
+    "AWS",
+    "Azure",
+    "Docker",
+    "GCP",
+    "Gemini",
+    "Git",
+    "GitHub Copilot",
+    "Kubernetes",
+    "LLM",
+    "LangChain",
+    "OpenAI API",
+    "PoC",
+    "PostgreSQL",
+    "Python",
+    "RAG",
+    "TypeScript",
+    "ファインチューニング",
+    "プロンプトエンジニアリング",
+    "ベクトルDB",
+    "生成AI",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "bbaf8c4808f4",
+   "position": "アプリエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "pandas/NumPy"
+   ]
+  },
+  {
+   "id": "c3a7e0f30917",
+   "position": "その他",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "CRM",
+    "Git",
+    "PMO",
+    "Salesforce",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "c4de961795b0",
+   "position": "アプリエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "CI/CD",
+    "GCP",
+    "Git",
+    "Go",
+    "Python",
+    "TypeScript",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "ca95c4ee5e26",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "ベクトルDB",
+    "レコメンド"
+   ]
+  },
+  {
+   "id": "de9be42f1d67",
+   "position": "ITコンサル",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": []
+  },
+  {
+   "id": "f1fd881d6e99",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "C#/.NET"
+   ]
+  }
+ ]
+}

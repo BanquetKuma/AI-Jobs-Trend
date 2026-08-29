@@ -1,0 +1,172 @@
+{
+ "week": "2025-06-13",
+ "projects": [
+  {
+   "id": "2f55dffd3d38",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "PoC",
+    "Python",
+    "アジャイル",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "43e266999234",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "GCP",
+    "Go",
+    "LLM",
+    "MLOps",
+    "MySQL",
+    "PoC",
+    "Python",
+    "React",
+    "Snowflake",
+    "TypeScript",
+    "dbt"
+   ]
+  },
+  {
+   "id": "92ee6fabd174",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Go",
+    "LLM",
+    "MySQL",
+    "PMO",
+    "Python",
+    "React",
+    "Snowflake",
+    "TypeScript",
+    "dbt",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "b9e4924db6d3",
+   "position": "データエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "BigQuery",
+    "Cursor",
+    "Dify",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Gemini",
+    "GitHub Copilot",
+    "Go",
+    "Python",
+    "Tableau",
+    "Terraform",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "bffeeb33b677",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python"
+   ]
+  },
+  {
+   "id": "d0f3ee64274f",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Azure",
+    "Dify",
+    "Docker",
+    "GCP",
+    "LangChain",
+    "Python",
+    "RAG",
+    "SQL"
+   ]
+  },
+  {
+   "id": "dc8db84354cd",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "ee64b2daede8",
+   "position": "BIエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "SQL",
+    "Tableau",
+    "要件定義"
+   ]
+  }
+ ]
+}

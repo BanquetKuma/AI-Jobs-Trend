@@ -1,0 +1,162 @@
+{
+ "week": "2025-07-18",
+ "projects": [
+  {
+   "id": "05d7ce445c2c",
+   "position": "BIエンジニア",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Looker",
+    "Power BI",
+    "Python",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "1d771ae9b7d1",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "時系列分析"
+   ]
+  },
+  {
+   "id": "3c2ba058337d",
+   "position": "BIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 5,
+   "ratio_max": 5,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI"
+   ]
+  },
+  {
+   "id": "647bc6b81df5",
+   "position": "データエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Looker",
+    "SQL"
+   ]
+  },
+  {
+   "id": "6b473b75ba7d",
+   "position": "データエンジニア",
+   "industry": "サービス事業 ※医療・介護福祉・教育",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "PMO",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "70412310aebd",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Azure OpenAI",
+    "OpenAI API",
+    "PoC",
+    "RAG",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "84ff1c8b7df8",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "画像認識",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "8bc3e6d2bb2a",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "GCP",
+    "Looker",
+    "SQL"
+   ]
+  },
+  {
+   "id": "9fc3287381c5",
+   "position": "AIエンジニア",
+   "industry": "電気・ガス",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "SCM",
+    "scikit-learn",
+    "アジャイル",
+    "機械学習",
+    "要件定義"
+   ]
+  }
+ ]
+}

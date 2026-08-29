@@ -1,0 +1,139 @@
+{
+ "week": "2025-09-19",
+ "projects": [
+  {
+   "id": "3445c3821aae",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "JavaScript",
+    "Python",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "3ae429461b26",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "LLM",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "43e266999234",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "API設計",
+    "AWS",
+    "GCP",
+    "Go",
+    "LLM",
+    "MLOps",
+    "MySQL",
+    "PMO",
+    "PoC",
+    "Python",
+    "React",
+    "Snowflake",
+    "TypeScript",
+    "dbt"
+   ]
+  },
+  {
+   "id": "912cd14993d0",
+   "position": "BIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Git",
+    "Looker",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "a8fb475230f9",
+   "position": "データアナリスト",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "Python",
+    "SQL",
+    "機械学習",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "ae0e1658eca9",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Power BI",
+    "Python",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "c9501f52a084",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "LLM",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  }
+ ]
+}

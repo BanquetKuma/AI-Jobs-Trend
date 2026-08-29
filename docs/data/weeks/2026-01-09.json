@@ -1,0 +1,124 @@
+{
+ "week": "2026-01-09",
+ "projects": [
+  {
+   "id": "53a1e459d9f1",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "AWS",
+    "Amazon Bedrock",
+    "C#/.NET",
+    "LLM",
+    "LangChain",
+    "PoC",
+    "Python"
+   ]
+  },
+  {
+   "id": "8514de453dac",
+   "position": "ITコンサル",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "pandas/NumPy",
+    "因果推論",
+    "機械学習",
+    "画像認識",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "875444d9b80e",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "PoC",
+    "RAG",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "c82783fef859",
+   "position": "データエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "GCP",
+    "Looker",
+    "SQL",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "d40c66366a10",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "f8cf9911f1ca",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "GCP",
+    "GitHub Copilot",
+    "JavaScript",
+    "Python",
+    "React",
+    "TypeScript",
+    "生成AI"
+   ]
+  }
+ ]
+}

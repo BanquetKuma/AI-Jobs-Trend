@@ -1,0 +1,233 @@
+{
+ "week": "2026-03-27",
+ "projects": [
+  {
+   "id": "4a605cd4a659",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "C#/.NET",
+    "Python"
+   ]
+  },
+  {
+   "id": "683298f65a27",
+   "position": "BIエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "Docker",
+    "GCP",
+    "Gemini",
+    "Git",
+    "Looker",
+    "Python",
+    "SQL",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "6cccd8c51a27",
+   "position": "AIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "950495d98e14",
+   "position": "ITコンサル",
+   "industry": "サービス事業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Claude Code",
+    "Copilot Studio",
+    "LLM",
+    "Power Platform",
+    "RAG",
+    "アジャイル"
+   ]
+  },
+  {
+   "id": "a047183104b3",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "AWS",
+    "Amazon Bedrock",
+    "Azure",
+    "Azure OpenAI",
+    "DWH",
+    "Databricks",
+    "Dify",
+    "GCP",
+    "LLM",
+    "LangChain",
+    "MLOps",
+    "OpenAI API",
+    "PoC",
+    "Python",
+    "RAG",
+    "SQL",
+    "Snowflake",
+    "dbt",
+    "プロンプトエンジニアリング",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "a7fb80b3fe5c",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "因果推論",
+    "機械学習",
+    "英語"
+   ]
+  },
+  {
+   "id": "a962fa468735",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "BigQuery",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Python",
+    "SQL",
+    "Terraform",
+    "dbt"
+   ]
+  },
+  {
+   "id": "b4fa3d6de7ae",
+   "position": "AI導入コンサル",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "MLOps",
+    "PoC"
+   ]
+  },
+  {
+   "id": "df4782dc47db",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "e882e54fb809",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Looker"
+   ]
+  },
+  {
+   "id": "f2b92b9fa85d",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "AWS",
+    "Amazon Bedrock",
+    "CI/CD",
+    "Dify",
+    "Docker",
+    "GitHub Actions",
+    "LLM",
+    "LangChain",
+    "MLOps",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "TypeScript",
+    "Vertex AI",
+    "自然言語処理",
+    "要件定義"
+   ]
+  }
+ ]
+}

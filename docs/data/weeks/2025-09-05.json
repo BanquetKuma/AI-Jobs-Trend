@@ -1,0 +1,111 @@
+{
+ "week": "2025-09-05",
+ "projects": [
+  {
+   "id": "216ee7e3b11b",
+   "position": "その他",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "65c1c83af9dd",
+   "position": "ITコンサル",
+   "industry": "金融業 ※生命保険",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "RAG",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "bef5080914eb",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Azure",
+    "Gemini",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "ce799c5e8eb7",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※大手損害保険会社",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Java",
+    "Python",
+    "SAP",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "ebdf0e291e62",
+   "position": "その他",
+   "industry": "情報通信業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "f0ebdccc14dd",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Dify",
+    "LLM",
+    "LangChain",
+    "PoC",
+    "Python",
+    "機械学習",
+    "要件定義"
+   ]
+  }
+ ]
+}

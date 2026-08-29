@@ -1,0 +1,165 @@
+{
+ "week": "2026-04-17",
+ "projects": [
+  {
+   "id": "2c3d1740e739",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "PMO",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "35ef01e58835",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "5a46c6d7f512",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Azure",
+    "Dify",
+    "GCP",
+    "LLM",
+    "LangChain",
+    "MLOps",
+    "Python",
+    "RAG",
+    "React",
+    "pandas/NumPy",
+    "アジャイル",
+    "ファインチューニング",
+    "プロンプトエンジニアリング",
+    "ベクトルDB"
+   ]
+  },
+  {
+   "id": "60de59565c14",
+   "position": "AIエンジニア",
+   "industry": "電気・ガス",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Databricks",
+    "Looker",
+    "MLOps",
+    "Power BI",
+    "Python",
+    "Redshift",
+    "Tableau",
+    "異常検知",
+    "英語",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "89c6135770fb",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "DWH",
+    "Git",
+    "PyTorch",
+    "Python",
+    "R",
+    "SQL",
+    "Snowflake",
+    "TensorFlow",
+    "pandas/NumPy",
+    "マルチモーダル",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "深層学習",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "a718f3041206",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "ce48576a42d2",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※銀行",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "GCP",
+    "Python",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "dab5b575ba79",
+   "position": "ITコンサル",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "英語",
+    "要件定義"
+   ]
+  }
+ ]
+}

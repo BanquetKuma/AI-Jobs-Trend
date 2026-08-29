@@ -1,0 +1,152 @@
+{
+ "week": "2026-04-24",
+ "projects": [
+  {
+   "id": "18f84b35ea15",
+   "position": "その他",
+   "industry": "教育",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "SQL",
+    "レコメンド",
+    "因果推論"
+   ]
+  },
+  {
+   "id": "21a9a0a4d506",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 60,
+   "ratio_max": 60,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "CRM",
+    "Claude",
+    "DWH",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Gemini",
+    "Kubernetes",
+    "Looker",
+    "MySQL",
+    "OpenAI API",
+    "SQL",
+    "Salesforce",
+    "Tableau",
+    "レコメンド"
+   ]
+  },
+  {
+   "id": "5ae068de5e79",
+   "position": "ITコンサル",
+   "industry": "製造業 ※自動車メーカー",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Power BI",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "75b5f42cc902",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "CI/CD",
+    "GCP",
+    "Git",
+    "LLM",
+    "LLM評価",
+    "LangChain",
+    "MLOps",
+    "PoC",
+    "PostgreSQL",
+    "Python",
+    "RAG",
+    "ファインチューニング",
+    "プロンプトエンジニアリング",
+    "ベクトルDB",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "a962fa468735",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "API設計",
+    "BigQuery",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Python",
+    "SQL",
+    "Terraform",
+    "dbt"
+   ]
+  },
+  {
+   "id": "ca270274c9c5",
+   "position": "AI導入コンサル",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "f7b7d091b5c0",
+   "position": "BIエンジニア",
+   "industry": "電気・ガス",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "Databricks",
+    "ETL",
+    "Power BI",
+    "Tableau"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "week": "2025-12-19",
+ "projects": [
+  {
+   "id": "070a33ad6579",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "R",
+    "SQL",
+    "pandas/NumPy",
+    "時系列分析"
+   ]
+  },
+  {
+   "id": "0b6dd02f425d",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 60,
+   "ratio_max": 60,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "PyTorch",
+    "Python",
+    "時系列分析",
+    "機械学習",
+    "要件定義",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "1dd230784f45",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Azure",
+    "LLM",
+    "Python",
+    "英語"
+   ]
+  },
+  {
+   "id": "26258755f090",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "Docker",
+    "GCP",
+    "Looker",
+    "Python",
+    "Tableau",
+    "Terraform",
+    "レコメンド",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "518c591a07d7",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Dify",
+    "GCP",
+    "Gemini",
+    "LLM",
+    "LangChain",
+    "PMO",
+    "Python",
+    "RAG",
+    "Vertex AI",
+    "アジャイル",
+    "生成AI",
+    "英語"
+   ]
+  },
+  {
+   "id": "65aef3ec49b5",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Power BI",
+    "SQL",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "981fbaeaa175",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "BigQuery",
+    "CRM",
+    "Claude",
+    "DWH",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Gemini",
+    "Kubernetes",
+    "Looker",
+    "MySQL",
+    "OpenAI API",
+    "SQL",
+    "Salesforce",
+    "Tableau",
+    "レコメンド"
+   ]
+  },
+  {
+   "id": "a299cf2e0980",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Docker",
+    "GCP",
+    "Git",
+    "LLM",
+    "Python",
+    "SQL",
+    "dbt",
+    "英語"
+   ]
+  },
+  {
+   "id": "adde70f8ed20",
+   "position": "その他",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "R"
+   ]
+  },
+  {
+   "id": "e89eed4acdd8",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Git",
+    "PyTorch",
+    "Python",
+    "R",
+    "TensorFlow",
+    "機械学習",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "ef3cee317c53",
+   "position": "その他",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "R"
+   ]
+  },
+  {
+   "id": "f0bffe9ba8d9",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Azure",
+    "GCP",
+    "LLM",
+    "LangChain",
+    "Python",
+    "要件定義"
+   ]
+  }
+ ]
+}

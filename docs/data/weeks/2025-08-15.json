@@ -1,0 +1,124 @@
+{
+ "week": "2025-08-15",
+ "projects": [
+  {
+   "id": "27f45e9fc428",
+   "position": "その他",
+   "industry": "エンターテイメント",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "GCP",
+    "Looker",
+    "SQL",
+    "Tableau",
+    "英語"
+   ]
+  },
+  {
+   "id": "2eaf1ae2290f",
+   "position": "PM/PdM",
+   "industry": "エンターテイメント",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "4372244e08f3",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 60,
+   "ratio_max": 60,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "SQL",
+    "Snowflake",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "7483e9cb81f5",
+   "position": "PM/PdM",
+   "industry": "エンターテイメント",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "PMO",
+    "マルチモーダル",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "8bc3e6d2bb2a",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "BigQuery",
+    "GCP",
+    "Looker",
+    "SQL"
+   ]
+  },
+  {
+   "id": "9fc3287381c5",
+   "position": "AIエンジニア",
+   "industry": "電気・ガス",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "AWS",
+    "Python",
+    "SCM",
+    "scikit-learn",
+    "アジャイル",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "de9be42f1d67",
+   "position": "ITコンサル",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  }
+ ]
+}

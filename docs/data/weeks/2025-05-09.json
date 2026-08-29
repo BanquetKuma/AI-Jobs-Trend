@@ -1,0 +1,137 @@
+{
+ "week": "2025-05-09",
+ "projects": [
+  {
+   "id": "1b8c6fe3db20",
+   "position": "その他",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "Python",
+    "SQL",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "3faaa277e187",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント ※ゲーム",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "GCP",
+    "Go",
+    "Python",
+    "SQL",
+    "因果推論",
+    "機械学習",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "5077fefd6b13",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "R",
+    "画像認識",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "55d7b682065f",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "LLM",
+    "RAG",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "8ae865312e46",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Python",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "b0a9fb06e51a",
+   "position": "データエンジニア",
+   "industry": "電気・ガス",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "cc0c3cc880d2",
+   "position": "データエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "BigQuery",
+    "Terraform",
+    "dbt"
+   ]
+  },
+  {
+   "id": "e22ad3b0cdb1",
+   "position": "その他",
+   "industry": "メーカー",
+   "workstyle": "不明",
+   "ratio_min": 5,
+   "ratio_max": 5,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": []
+  }
+ ]
+}

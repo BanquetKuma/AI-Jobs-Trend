@@ -1,0 +1,129 @@
+{
+ "week": "2025-11-28",
+ "projects": [
+  {
+   "id": "3c7eaff5ea86",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "PoC",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "4a5359716ca9",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "AWS",
+    "Azure",
+    "CI/CD",
+    "Claude Code",
+    "GCP",
+    "GitHub Copilot",
+    "LLM",
+    "LangChain",
+    "MLOps",
+    "OpenAI API",
+    "PoC",
+    "Python",
+    "RAG",
+    "TypeScript",
+    "Vertex AI",
+    "ファインチューニング",
+    "ベクトルDB",
+    "マルチモーダル",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "53ac59a92abf",
+   "position": "PM/PdM",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 20,
+   "ratio_max": 20,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "GCP",
+    "PMO",
+    "PoC",
+    "機械学習",
+    "要件定義",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "c09aac9a66e0",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Git",
+    "Python",
+    "SQL",
+    "scikit-learn",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "cf508ec5abe8",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "機械学習",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "e996301fa878",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "Tableau"
+   ]
+  }
+ ]
+}

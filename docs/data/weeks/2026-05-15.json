@@ -1,0 +1,181 @@
+{
+ "week": "2026-05-15",
+ "projects": [
+  {
+   "id": "204de1343375",
+   "position": "データアナリスト",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "Python",
+    "R",
+    "SQL",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "3ee4da4c47b5",
+   "position": "ITコンサル",
+   "industry": "金融業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "機械学習"
+   ]
+  },
+  {
+   "id": "856de8d62358",
+   "position": "アプリエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "94a384a732ee",
+   "position": "AIエンジニア",
+   "industry": "建設業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Azure",
+    "LLM",
+    "MLOps",
+    "Python",
+    "Vertex AI",
+    "ファインチューニング",
+    "プロンプトエンジニアリング",
+    "機械学習",
+    "生成AI",
+    "自然言語処理",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "a991350c49ec",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "Python",
+    "RAG",
+    "SQL",
+    "マルチモーダル",
+    "機械学習",
+    "英語"
+   ]
+  },
+  {
+   "id": "cd4f8ab99ac0",
+   "position": "データエンジニア",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "SQL",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "ef333fdc5d6b",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "Claude",
+    "GCP",
+    "LLM",
+    "PoC",
+    "RAG",
+    "アジャイル",
+    "自然言語処理",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "f17beea16c4d",
+   "position": "データアナリスト",
+   "industry": "金融業 ※大手損害保険会社",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "時系列分析"
+   ]
+  },
+  {
+   "id": "f83c14f0a2d9",
+   "position": "AIエンジニア",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "GCP",
+    "Git",
+    "LLM",
+    "MLOps",
+    "PyTorch",
+    "Python",
+    "マルチモーダル",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "深層学習",
+    "異常検知"
+   ]
+  }
+ ]
+}

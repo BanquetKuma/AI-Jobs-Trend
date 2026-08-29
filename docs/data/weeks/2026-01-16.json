@@ -1,0 +1,135 @@
+{
+ "week": "2026-01-16",
+ "projects": [
+  {
+   "id": "33b2fc050e44",
+   "position": "アプリエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "AWS",
+    "Azure",
+    "DWH",
+    "Docker",
+    "GCP",
+    "GitHub Actions",
+    "PostgreSQL",
+    "Python",
+    "Snowflake",
+    "Terraform",
+    "TypeScript"
+   ]
+  },
+  {
+   "id": "4663c58af3b1",
+   "position": "BIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "472efe6903c5",
+   "position": "ITコンサル",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Azure",
+    "BigQuery",
+    "Copilot Studio",
+    "DWH",
+    "Databricks",
+    "Dify",
+    "GCP",
+    "OpenAI API",
+    "Oracle",
+    "PoC",
+    "Power BI",
+    "Python",
+    "R",
+    "RAG",
+    "Snowflake",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "5447e2ecb52d",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "CI/CD",
+    "ETL",
+    "Looker",
+    "Python",
+    "SQL",
+    "要件定義",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "73f6bdf74120",
+   "position": "データエンジニア",
+   "industry": "サービス事業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Claude Code",
+    "Cursor",
+    "Docker",
+    "ETL",
+    "GCP",
+    "MySQL",
+    "PostgreSQL",
+    "SQL",
+    "Terraform",
+    "dbt"
+   ]
+  },
+  {
+   "id": "9b723496dad1",
+   "position": "その他",
+   "industry": "製造業 ※大手自動車メーカー",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "pandas/NumPy"
+   ]
+  }
+ ]
+}

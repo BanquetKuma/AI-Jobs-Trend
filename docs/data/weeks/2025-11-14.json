@@ -1,0 +1,268 @@
+{
+ "week": "2025-11-14",
+ "projects": [
+  {
+   "id": "003a9a720ea7",
+   "position": "その他",
+   "industry": "卸小売業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ERP",
+    "Python",
+    "SAP",
+    "SCM",
+    "SQL",
+    "Snowflake",
+    "pandas/NumPy",
+    "英語"
+   ]
+  },
+  {
+   "id": "222e37c70637",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "ETL",
+    "GCP",
+    "Looker",
+    "Power BI",
+    "Python",
+    "R",
+    "SQL",
+    "Tableau",
+    "Terraform"
+   ]
+  },
+  {
+   "id": "3692bf710800",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "371afd0b1c07",
+   "position": "AIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "GCP",
+    "LLM",
+    "PoC",
+    "Python",
+    "R",
+    "RAG",
+    "React",
+    "SQL",
+    "ファインチューニング",
+    "プロンプトエンジニアリング",
+    "機械学習",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "4ec197a69990",
+   "position": "AIエンジニア",
+   "industry": "エンターテイメント ※ゲーム",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": 70,
+   "rate_max": 70,
+   "is_new": true,
+   "techs": [
+    "ファインチューニング",
+    "機械学習",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "654311de10db",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "CI/CD",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Go",
+    "Java",
+    "Kubernetes",
+    "Python",
+    "SQL",
+    "Terraform"
+   ]
+  },
+  {
+   "id": "7057d05ce0e9",
+   "position": "データエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Databricks",
+    "Python",
+    "SQL",
+    "Snowflake"
+   ]
+  },
+  {
+   "id": "7729c92a4787",
+   "position": "データエンジニア",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Azure",
+    "SQL",
+    "アジャイル",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "912cd14993d0",
+   "position": "BIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "BigQuery",
+    "Git",
+    "Looker",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "9cb16e5b4a54",
+   "position": "AIエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "Python",
+    "機械学習",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "c7d22b7213d0",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Gemini",
+    "Looker",
+    "OpenAI API",
+    "Power BI",
+    "Python",
+    "R",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "cd8d630a0160",
+   "position": "AIエンジニア",
+   "industry": "製造業 ※自動車",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "Python",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "d8387e724e9c",
+   "position": "データアナリスト",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": []
+  },
+  {
+   "id": "d9835f9a01dd",
+   "position": "データアナリスト",
+   "industry": "製造業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "R",
+    "因果推論"
+   ]
+  }
+ ]
+}

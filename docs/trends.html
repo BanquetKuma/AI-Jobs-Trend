@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>トレンド分析 | AI案件トレンド</title>
+<meta name="description" content="AI・データ領域のフリーランス案件を長期時系列で集計し、求められる技術・業界・ポジション・単価の推移を可視化。">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <p class="brand">AI案件トレンド <span>/ AI Jobs Trend</span></p>
+    <nav class="tabs" aria-label="ページ">
+      <a href="./">今週の特集</a>
+      <a href="./trends.html" aria-current="page">トレンド分析</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2 class="section">トレンド分析</h2>
+  <p class="lede" id="lede">読み込み中…</p>
+  <div class="tiles" id="tiles"></div>
+
+  <h2 class="section">次に取るべき技術</h2>
+  <p class="lede" id="lede-rank">需要の大きさと伸びを合成したスコア。スライダーで重み付けを変えられます。</p>
+  <div class="card">
+    <div class="filters">
+      <label class="lbl3d">需要量を重視
+        <input id="w-mix" type="range" min="0" max="100" value="60">
+        成長率を重視</label>
+      <span class="count" id="w-note"></span>
+    </div>
+    <div id="c-rank"></div>
+  </div>
+
+  <h2 class="section">需要量 × モメンタム</h2>
+  <p class="lede" id="lede-quad">左上の「新興・急伸」象限が狙い目です。件数はまだ小さいが立ち上がっている技術で、いま参入すれば先行者になれます。右下は今から入ってもコモディティです。</p>
+  <div class="card"><div id="c-quad"></div></div>
+
+  <h2 class="section">必須率 vs 尚可率</h2>
+  <p class="lede" id="lede-must">その技術が案件の <code>[必須スキル]</code> に書かれた割合。必須率が高いほど「持たないと土俵に乗れない」、尚可止まりなら「持つと差別化できる」と読めます。</p>
+  <div class="grid2">
+    <div class="card">
+      <h3>持たないと土俵に乗れない</h3>
+      <p class="note">必須スキルとして書かれる割合が高い順</p>
+      <div id="c-must"></div>
+    </div>
+    <div class="card">
+      <h3>持つと差別化できる</h3>
+      <p class="note">尚可スキル止まりが多い順（＝必須率が低い）</p>
+      <div id="c-opt"></div>
+    </div>
+  </div>
+
+  <h2 class="section">共起スキルセット</h2>
+  <p class="lede">同じ案件で同時に求められる技術。社内PJ1本で複数を同時に取れる「束」を探すための指標です。</p>
+  <div class="card">
+    <div class="filters">
+      <select id="f-cooc" aria-label="技術を選ぶ"></select>
+      <span class="count" id="cooc-note"></span>
+    </div>
+    <div id="c-cooc"></div>
+  </div>
+
+  <h2 class="section">供給不足シグナル</h2>
+  <p class="lede">同じ案件が何週にわたって再掲されたかの平均。長いほど埋まりにくく、人材が不足していると読めます。新規出現率は、再掲ではなく新しく立ち上がる案件に出る割合です。</p>
+  <div class="card"><div id="t-supply"></div></div>
+
+  <h2 class="section">技術キーワードの推移</h2>
+  <p class="lede">週ごとに、その技術を要求した案件が何件掲載されたか。凡例をクリックすると系列を切り替えられます。</p>
+  <div class="card">
+    <div class="filters">
+      <select id="f-cat" aria-label="カテゴリで絞り込み"><option value="">すべてのカテゴリ</option></select>
+      <select id="f-top" aria-label="表示する系列数">
+        <option value="6">上位6件を表示</option>
+        <option value="4">上位4件を表示</option>
+        <option value="8">上位8件を表示</option>
+      </select>
+    </div>
+    <div id="c-trend"></div>
+  </div>
+
+  <h2 class="section">掲載件数の推移</h2>
+  <p class="lede">毎週の掲載案件数と、そのうち初めて登場した案件の数。</p>
+  <div class="card"><div id="c-volume"></div></div>
+
+  <h2 class="section">全期間の最頻出技術</h2>
+  <p class="lede">集計期間を通じて、延べ何件の案件で要求されたか。</p>
+  <div class="card">
+    <div class="filters">
+      <select id="f-cat2" aria-label="カテゴリで絞り込み"><option value="">すべてのカテゴリ</option></select>
+    </div>
+    <div id="c-tech"></div>
+  </div>
+
+  <h2 class="section">案件の性質</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>クライアント業界</h3>
+      <p class="note">全期間・延べ件数（「不明」は業界欄が未記載のもの）</p>
+      <div id="c-ind"></div>
+    </div>
+    <div class="card">
+      <h3>ポジション</h3>
+      <p class="note">全期間・延べ件数</p>
+      <div id="c-pos"></div>
+    </div>
+  </div>
+  <div class="grid2" style="margin-top:16px">
+    <div class="card">
+      <h3>稼働形態</h3>
+      <p class="note">全期間・延べ件数</p>
+      <div id="c-ws"></div>
+    </div>
+    <div class="card">
+      <h3>稼働率</h3>
+      <p class="note">案件が想定する稼働率（上限値ベース）</p>
+      <div id="c-ratio"></div>
+    </div>
+  </div>
+
+  <h2 class="section">業界 × ロール × 技術領域</h2>
+  <p class="lede">3つの軸を同時に見るための3D散布図です。<strong>ドラッグで視点を回せます。</strong>
+  点の大きさと濃さが案件数。奥行きは床への垂線と重なり順で読んでください。
+  3Dは正確な値の読み取りには向かないので、数値はホバーと下の表で確認できるようにしています。</p>
+  <div class="card"><div id="c-cube"></div></div>
+
+  <h2 class="section">単価の分布</h2>
+  <p class="lede" id="lede-rate"></p>
+  <div class="card"><div id="c-rate"></div></div>
+
+  <h2 class="section">長く掲載され続けている案件</h2>
+  <p class="lede">同じ案件が何週にわたり再掲されたか。長く残る領域は、それだけ人材が埋まりにくい領域と読めます。</p>
+  <div class="card"><div id="t-long"></div></div>
+</main>
+
+<footer class="site"><div class="wrap">
+  <p>出典: エッジテクノロジー株式会社 AIソリューション事業部より毎週配信される案件情報メール。
+  本サイトは受信者本人が個人利用の範囲で統計的に集計したもので、案件本文・案件番号・企業名は保持・公開していません。</p>
+  <p id="updated"></p>
+</div></footer>
+
+<script type="module">
+import { hbar, multiline, vbar, scatter3d, quadrant, esc } from './charts.js';
+
+const $ = s => document.querySelector(s);
+const tile = (k, v, u, sub) =>
+  `<div class="tile"><div class="k">${esc(k)}</div>` +
+  `<div class="v">${esc(v)}${u ? `<span class="u">${esc(u)}</span>` : ''}</div>` +
+  (sub ? `<div class="sub">${esc(sub)}</div>` : '') + '</div>';
+const mdLabel = w => w.slice(5).replace('-', '/');
+
+(async () => {
+  let meta, summary, trends, cube, strat;
+  try {
+    [meta, summary, trends, cube, strat] = await Promise.all([
+      fetch('./data/meta.json').then(r => r.json()),
+      fetch('./data/summary.json').then(r => r.json()),
+      fetch('./data/trends.json').then(r => r.json()),
+      fetch('./data/cube.json').then(r => r.json()),
+      fetch('./data/strategy.json').then(r => r.json()),
+    ]);
+  } catch (e) {
+    document.querySelector('main').insertAdjacentHTML('afterbegin',
+      `<div class="err"><b>データを読み込めませんでした。</b><br>${esc(e.message)}</div>`);
+    return;
+  }
+
+  const first = trends.weeks[0], last = trends.weeks[trends.weeks.length - 1];
+  $('#lede').textContent =
+    `${first} 〜 ${last} の ${trends.weeks.length} 週分、延べ ${summary.totals.listings} 件の案件掲載を集計しています` +
+    `（重複を除いたユニーク案件は ${summary.totals.unique_projects} 件）。`;
+  $('#tiles').innerHTML =
+    tile('集計週数', trends.weeks.length, '週', `${first} 〜 ${last}`) +
+    tile('延べ掲載数', summary.totals.listings, '件') +
+    tile('ユニーク案件数', summary.totals.unique_projects, '件',
+         `再掲率 ${Math.round((1 - summary.totals.unique_projects / summary.totals.listings) * 100)}%`) +
+    tile('技術キーワード', trends.series.length, '種');
+
+  // ---- 次に取るべき技術（重みは画面で調整） ----
+  const mom = strat.momentum;
+  const wMix = $('#w-mix');
+  $('#lede-rank').textContent =
+    `直近${strat.window}週と、その前の${strat.window}週を比べた需要量と伸びを合成したスコア。` +
+    `スライダーで重み付けを変えられます。${strat.note}`;
+  const drawRank = () => {
+    const g = +wMix.value / 100, v = 1 - g;
+    $('#w-note').textContent = `需要量 ${v.toFixed(2)} : 成長率 ${g.toFixed(2)}`;
+    const scored = mom
+      .map(m => ({ ...m, score: v * m.nvol + g * m.ngrowth }))
+      .sort((a, b) => b.score - a.score).slice(0, 10);
+    const host = $('#c-rank');
+    host.innerHTML = '';
+    hbar(host, {
+      data: scored.map(m => ({
+        name: m.name, value: +m.score.toFixed(3), cat: m.cat,
+        note: `直近${strat.window}週 ${m.recent}件 / その前 ${m.prev}件`,
+      })),
+      limit: 10, nameLabel: '技術', valueLabel: 'スコア',
+      fmt: x => x.toFixed(2),
+      aria: '獲得優先度スコアの上位10技術',
+    });
+  };
+  wMix.addEventListener('input', drawRank);
+  drawRank();
+
+  // ---- 需要量 × モメンタム ----
+  quadrant($('#c-quad'), {
+    points: mom.slice()
+      .sort((a, b) => b.recent - a.recent).slice(0, 22)
+      .map(m => ({ name: m.name, cat: m.cat, x: m.recent, y: m.delta, size: m.total })),
+    xLabel: `直近${strat.window}週の出現案件数`,
+    yLabel: `増減（直近${strat.window}週 − その前${strat.window}週）`,
+    height: 460,
+    aria: '需要量とモメンタムの2軸マップ',
+  });
+
+  // ---- 必須率 ----
+  $('#lede-must').insertAdjacentHTML('beforeend',
+    ` 母数が ${summary.min_listings} 件未満の技術は率が不安定になるため除いています。`);
+  const pctBar = (host, rows, invert) => hbar(host, {
+    data: rows.map(r => ({
+      name: r.name, value: Math.round((invert ? 1 - r.rate : r.rate) * 100),
+      note: `必須 ${r.req} 件 / 延べ ${r.listings} 件`,
+    })),
+    limit: 10, nameLabel: '技術',
+    valueLabel: invert ? '尚可止まりの割合' : '必須で書かれる割合',
+    fmt: x => x + '%',
+    color: invert ? '--series-3' : '--series-1',
+    aria: invert ? '尚可止まりの割合' : '必須で書かれる割合',
+  });
+  pctBar($('#c-must'), summary.must_rate.slice(0, 10), false);
+  pctBar($('#c-opt'), summary.must_rate_low.slice(0, 10), true);
+
+  // ---- 共起 ----
+  const fCooc = $('#f-cooc');
+  const coocKeys = Object.keys(strat.cooccurrence);
+  for (const k of coocKeys) {
+    fCooc.insertAdjacentHTML('beforeend', `<option value="${esc(k)}">${esc(k)}</option>`);
+  }
+  const drawCooc = () => {
+    const k = fCooc.value || coocKeys[0];
+    const rows = strat.cooccurrence[k] || [];
+    $('#cooc-note').textContent = `${k} を求める案件で、同時に求められた技術`;
+    $('#c-cooc').innerHTML = rows.length ? `
+      <div class="tags" style="gap:8px">` +
+      rows.map(r => `<span class="tag" style="font-size:13px;padding:5px 12px">` +
+        `${esc(r.name)} <b style="font-variant-numeric:tabular-nums">${r.n}件</b>` +
+        `<span style="color:var(--text-muted)"> / ${Math.round(r.rate * 100)}%</span></span>`).join('') +
+      `</div>
+      <p class="note" style="margin-top:12px">パーセントは「${esc(k)} を求めた案件のうち、その技術も同時に求めた割合」。
+      高いものほど、1つの案件・1つの社内PJで同時に身につけられる可能性が高い組み合わせです。</p>`
+      : '<p class="note">共起データがありません。</p>';
+  };
+  fCooc.addEventListener('change', drawCooc);
+  drawCooc();
+
+  // ---- 供給不足シグナル ----
+  const sup = summary.supply.slice(0, 12);
+  $('#t-supply').innerHTML = sup.length ? `<table class="data">
+    <thead><tr><th>技術</th><th class="num">平均掲載継続</th><th class="num">新規出現率</th>
+    <th class="num">延べ件数</th></tr></thead><tbody>` +
+    sup.map(x => `<tr><td>${esc(x.name)}</td>` +
+      `<td class="num">${x.weeks.toFixed(2)} 週</td>` +
+      `<td class="num">${Math.round(x.fresh * 100)}%</td>` +
+      `<td class="num">${x.listings}</td></tr>`).join('') + '</tbody></table>'
+    : '<p class="note">十分なデータがありません。</p>';
+
+  // ---- 技術トレンド推移 ----
+  const fCat = $('#f-cat'), fTop = $('#f-top');
+  for (const c of trends.categories) {
+    const o = `<option value="${esc(c)}">${esc(c)}</option>`;
+    fCat.insertAdjacentHTML('beforeend', o);
+    $('#f-cat2').insertAdjacentHTML('beforeend', o);
+  }
+  const drawTrend = () => {
+    const cat = fCat.value, n = +fTop.value;
+    const pick = trends.series.filter(s => !cat || s.category === cat).slice(0, n);
+    const host = $('#c-trend');
+    host.innerHTML = '';
+    if (!pick.length) { host.innerHTML = '<p class="note">該当する技術がありません。</p>'; return; }
+    multiline(host, {
+      labels: trends.weeks,
+      tickFmt: mdLabel,
+      xLabel: '週',
+      series: pick.map(s => ({ name: s.name, values: s.counts })),
+      height: 300,
+      aria: '技術キーワードの週次推移',
+    });
+  };
+  fCat.addEventListener('change', drawTrend);
+  fTop.addEventListener('change', drawTrend);
+  drawTrend();
+
+  // ---- 掲載件数の推移 ----
+  multiline($('#c-volume'), {
+    labels: trends.weeks,
+    tickFmt: mdLabel,
+    xLabel: '週',
+    series: [
+      { name: '掲載案件数', values: trends.weekly.map(w => w.projects) },
+      { name: '新規案件数', values: trends.weekly.map(w => w.new_projects) },
+    ],
+    height: 260,
+    aria: '週ごとの掲載案件数と新規案件数',
+  });
+
+  // ---- 全期間の最頻出技術 ----
+  const fCat2 = $('#f-cat2');
+  const drawTech = () => {
+    const cat = fCat2.value;
+    const host = $('#c-tech');
+    host.innerHTML = '';
+    hbar(host, {
+      data: trends.series.filter(s => !cat || s.category === cat)
+        .map(s => ({ name: s.name, value: s.total, cat: s.category })),
+      limit: 20, nameLabel: '技術', valueLabel: '延べ件数',
+      aria: '全期間の最頻出技術',
+    });
+  };
+  fCat2.addEventListener('change', drawTech);
+  drawTech();
+
+  // ---- 構成 ----
+  const asData = a => a.map(x => ({ name: x.name, value: x.count }));
+  hbar($('#c-ind'), { data: asData(summary.distributions.industry), limit: 14,
+    nameLabel: '業界', valueLabel: '延べ件数', aria: '業界内訳' });
+  hbar($('#c-pos'), { data: asData(summary.distributions.position), limit: 14,
+    nameLabel: 'ポジション', valueLabel: '延べ件数', aria: 'ポジション内訳' });
+  hbar($('#c-ws'), { data: asData(summary.distributions.workstyle), limit: 8,
+    nameLabel: '稼働形態', valueLabel: '延べ件数', aria: '稼働形態内訳' });
+  hbar($('#c-ratio'), { data: asData(summary.distributions.ratio), limit: 8,
+    nameLabel: '稼働率', valueLabel: '延べ件数', aria: '稼働率内訳' });
+
+  // ---- 業界 × ロール × 技術領域（3D） ----
+  scatter3d($('#c-cube'), { cube, height: 560,
+    aria: '業界・ロール・技術領域の3次元散布図' });
+  $('#c-cube').insertAdjacentHTML('beforeend',
+    `<p class="note" style="margin-top:10px">${esc(cube.note)}</p>`);
+
+  // ---- 単価 ----
+  const r = summary.rate;
+  $('#lede-rate').textContent = r.reported
+    ? `月額単価が金額で明記されていたのは延べ ${r.reported} 件（全体の ${Math.round(r.reported / summary.totals.listings * 100)}%）。` +
+      `残る ${r.missing} 件は「ご相談ください」等の記載でした。中央値 ${r.median} 万円、レンジ ${r.min}〜${r.max} 万円。`
+    : `この期間の案件はすべて月額単価が「ご相談ください」等の記載で、金額が明記されたものはありませんでした（${r.missing} 件）。`;
+  vbar($('#c-rate'), {
+    data: (r.bins || []).map(b => ({ name: b.name, value: b.count })),
+    nameLabel: '単価帯', valueLabel: '件数', height: 230,
+    empty: '金額が明記された案件がないため、分布は表示できません。',
+    aria: '単価帯ごとの案件数',
+  });
+
+  // ---- 長期掲載 ----
+  const long = summary.longest_running;
+  $('#t-long').innerHTML = long.length ? `<table class="data">
+    <thead><tr><th>ポジション</th><th>業界</th><th class="num">掲載週数</th>
+    <th>期間</th><th>主な技術</th></tr></thead><tbody>` +
+    long.map(x => `<tr><td>${esc(x.position)}</td><td>${esc(x.industry)}</td>` +
+      `<td class="num">${x.weeks}</td><td>${esc(x.first_week)} 〜 ${esc(x.last_week)}</td>` +
+      `<td>${x.techs.map(t => `<span class="tag">${esc(t)}</span>`).join(' ')}</td></tr>`).join('') +
+    '</tbody></table>'
+    : '<p class="note">複数週にまたがって掲載された案件はまだありません。</p>';
+
+  $('#updated').textContent =
+    '最終更新: ' + meta.generated_at.replace('T', ' ').replace('Z', ' UTC');
+})();
+</script>
+</body>
+</html>

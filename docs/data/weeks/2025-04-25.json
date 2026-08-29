@@ -1,0 +1,162 @@
+{
+ "week": "2025-04-25",
+ "projects": [
+  {
+   "id": "154bbe077674",
+   "position": "その他",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Python"
+   ]
+  },
+  {
+   "id": "4c185479b301",
+   "position": "データエンジニア",
+   "industry": "エンターテイメント",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "CI/CD",
+    "DWH",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Go",
+    "Java",
+    "Kubernetes",
+    "Python",
+    "SQL",
+    "Terraform"
+   ]
+  },
+  {
+   "id": "5077fefd6b13",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "R",
+    "画像認識",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "78194f5cb374",
+   "position": "インフラエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "b0938592aeb7",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※銀行",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Azure",
+    "LLM",
+    "PostgreSQL",
+    "Python",
+    "SQL",
+    "Tableau",
+    "scikit-learn",
+    "機械学習",
+    "生成AI",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "c0c7173021d7",
+   "position": "PM/PdM",
+   "industry": "不動産業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "PMO",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "e22ad3b0cdb1",
+   "position": "その他",
+   "industry": "IT業界",
+   "workstyle": "不明",
+   "ratio_min": null,
+   "ratio_max": null,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "OpenAI API",
+    "アジャイル",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "e823e0aaf4da",
+   "position": "アプリエンジニア",
+   "industry": "公共",
+   "workstyle": "フルリモート",
+   "ratio_min": null,
+   "ratio_max": null,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "R"
+   ]
+  },
+  {
+   "id": "ed34cd2815d5",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "機械学習",
+    "画像認識"
+   ]
+  }
+ ]
+}

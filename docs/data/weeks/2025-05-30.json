@@ -1,0 +1,96 @@
+{
+ "week": "2025-05-30",
+ "projects": [
+  {
+   "id": "08499aea8295",
+   "position": "BIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "0d7fcbf9a445",
+   "position": "AI導入コンサル",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 50,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC"
+   ]
+  },
+  {
+   "id": "262de2fd1b96",
+   "position": "データエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "DWH",
+    "Databricks",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "4712183da9b3",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Power BI"
+   ]
+  },
+  {
+   "id": "7aa0ea6f4b02",
+   "position": "AI導入コンサル",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "dbe58b937533",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM",
+    "画像認識"
+   ]
+  }
+ ]
+}

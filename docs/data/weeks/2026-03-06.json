@@ -1,0 +1,178 @@
+{
+ "week": "2026-03-06",
+ "projects": [
+  {
+   "id": "1faeee7c7bde",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※銀行業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Git",
+    "Python",
+    "SQL",
+    "scikit-learn",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "4a155b612ad6",
+   "position": "データアナリスト",
+   "industry": "不動産業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Salesforce"
+   ]
+  },
+  {
+   "id": "646f506a8fef",
+   "position": "データエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "BigQuery",
+    "CRM",
+    "DWH",
+    "ETL",
+    "GCP",
+    "Kubernetes",
+    "Looker",
+    "MySQL",
+    "Salesforce",
+    "Tableau",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "691564b530d8",
+   "position": "データアナリスト",
+   "industry": "医療",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Git",
+    "MLOps",
+    "PyTorch",
+    "Python",
+    "R",
+    "TensorFlow",
+    "pandas/NumPy",
+    "レコメンド",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "深層学習",
+    "異常検知",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "6bb9ba755262",
+   "position": "ITコンサル",
+   "industry": "不動産業",
+   "workstyle": "フルリモート",
+   "ratio_min": 30,
+   "ratio_max": 30,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "DWH",
+    "ETL",
+    "Python",
+    "Snowflake"
+   ]
+  },
+  {
+   "id": "6d0d33811ee3",
+   "position": "AIエンジニア",
+   "industry": "金融業 ※銀行業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Python",
+    "機械学習",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "8ce4853ffc84",
+   "position": "BIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "b09ee0cf9b38",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 25,
+   "ratio_max": 25,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SQL",
+    "機械学習",
+    "深層学習"
+   ]
+  },
+  {
+   "id": "ff74f4db3630",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Azure",
+    "Azure OpenAI",
+    "LLM",
+    "OpenAI API",
+    "Python"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "week": "2025-07-25",
+ "projects": [
+  {
+   "id": "276fe7645e43",
+   "position": "データアナリスト",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "DWH",
+    "SQL",
+    "Tableau",
+    "dbt"
+   ]
+  },
+  {
+   "id": "3b729bdb7505",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "C#/.NET",
+    "Databricks",
+    "JavaScript",
+    "Python",
+    "SQL",
+    "英語"
+   ]
+  },
+  {
+   "id": "4eaf9434160b",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "e3b5184d6914",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Docker",
+    "Git",
+    "GitHub Actions",
+    "LLM",
+    "Python",
+    "ファインチューニング",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "e48a743659bf",
+   "position": "AI導入コンサル",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "生成AI"
+   ]
+  }
+ ]
+}

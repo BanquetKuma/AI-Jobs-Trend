@@ -1,0 +1,216 @@
+{
+ "week": "2026-07-31",
+ "projects": [
+  {
+   "id": "0f18c1e3e338",
+   "position": "PM/PdM",
+   "industry": "研究",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "アジャイル",
+    "機械学習",
+    "画像認識",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "2f59c1bf08af",
+   "position": "ITコンサル",
+   "industry": "金融業 ※Saasサービス運営会社",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Claude",
+    "LLM",
+    "Looker",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "4d45a7c8ff6a",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "ETL",
+    "GCP",
+    "Git",
+    "LLM",
+    "PoC",
+    "Python",
+    "React",
+    "機械学習",
+    "深層学習",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "74de80c6e8ec",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Go",
+    "Kubernetes",
+    "LLM",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "因果推論",
+    "機械学習",
+    "深層学習",
+    "異常検知",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "a7c07b4ef75f",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "因果推論",
+    "機械学習",
+    "生成AI",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "d29311b4d3fe",
+   "position": "データサイエンティスト",
+   "industry": "金融業 ※Saasサービス運営会社",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Claude",
+    "LLM",
+    "Looker",
+    "MLOps",
+    "Python",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "e556d2e75622",
+   "position": "データエンジニア",
+   "industry": "運輸業 ※タクシー、ハイヤー事業等",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "BigQuery",
+    "Claude",
+    "Copilot Studio",
+    "DWH",
+    "GitHub Copilot",
+    "LLM",
+    "MCP",
+    "Python",
+    "SQL",
+    "プロンプトエンジニアリング",
+    "生成AI",
+    "要件定義",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "f0d2710c8516",
+   "position": "AIエンジニア",
+   "industry": "研究",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PoC",
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "マルチモーダル",
+    "機械学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "f3f96e16f8d5",
+   "position": "BIエンジニア",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL",
+    "Power BI",
+    "Python",
+    "SQL",
+    "Tableau",
+    "VBA"
+   ]
+  },
+  {
+   "id": "ffdf23aa7253",
+   "position": "ITコンサル",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "ETL",
+    "SQL",
+    "VBA",
+    "要件定義"
+   ]
+  }
+ ]
+}

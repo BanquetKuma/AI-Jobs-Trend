@@ -1,0 +1,178 @@
+{
+ "week": "2026-01-23",
+ "projects": [
+  {
+   "id": "16fe08c7fe74",
+   "position": "AIエンジニア",
+   "industry": "製造業 ※自動車",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Docker",
+    "MLOps",
+    "Python",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "18f84b35ea15",
+   "position": "その他",
+   "industry": "教育",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "SQL",
+    "レコメンド",
+    "因果推論"
+   ]
+  },
+  {
+   "id": "4f2b80531649",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Amazon Bedrock",
+    "Azure",
+    "Claude",
+    "Java",
+    "LLM",
+    "Python",
+    "RAG",
+    "React",
+    "TypeScript",
+    "Vue",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "762bae40552a",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Copilot Studio",
+    "LLM",
+    "LangChain",
+    "PoC",
+    "Power Platform",
+    "Python",
+    "RAG",
+    "Snowflake",
+    "ファインチューニング"
+   ]
+  },
+  {
+   "id": "8d0bd26d182f",
+   "position": "ITコンサル",
+   "industry": "医療",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO"
+   ]
+  },
+  {
+   "id": "adf66dbda8f9",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "BigQuery",
+    "LLM",
+    "OpenAI API",
+    "Python",
+    "SQL"
+   ]
+  },
+  {
+   "id": "cd4ee198cfc0",
+   "position": "AIエンジニア",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Azure OpenAI",
+    "OpenAI API",
+    "Python",
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "e0dea96061cc",
+   "position": "ITコンサル",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Copilot Studio",
+    "LLM",
+    "Power Platform",
+    "Snowflake",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "edb1ec7df93d",
+   "position": "データアナリスト",
+   "industry": "金融業 ※生命保険",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "pandas/NumPy",
+    "scikit-learn",
+    "時系列分析"
+   ]
+  }
+ ]
+}

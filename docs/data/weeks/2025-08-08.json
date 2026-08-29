@@ -1,0 +1,103 @@
+{
+ "week": "2025-08-08",
+ "projects": [
+  {
+   "id": "3647d937dd6c",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "Docker",
+    "GCP",
+    "Git",
+    "Go",
+    "LLM",
+    "LLM評価",
+    "LangChain",
+    "MCP",
+    "Python",
+    "RAG",
+    "React",
+    "TypeScript",
+    "Vertex AI",
+    "アジャイル",
+    "ベクトルDB",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "7163cc7acc8a",
+   "position": "AIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Docker",
+    "GCP",
+    "Git",
+    "Go",
+    "LLM",
+    "LLM評価",
+    "LangChain",
+    "MCP",
+    "Python",
+    "RAG",
+    "React",
+    "TypeScript",
+    "Vertex AI",
+    "アジャイル",
+    "ベクトルDB",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "b8677bc02bfa",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Azure",
+    "Docker",
+    "Git",
+    "LLM",
+    "Python",
+    "RAG",
+    "ファインチューニング",
+    "プロンプトエンジニアリング",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "b87974d3eb24",
+   "position": "BIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Tableau"
+   ]
+  }
+ ]
+}

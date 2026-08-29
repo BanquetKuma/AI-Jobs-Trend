@@ -1,0 +1,102 @@
+{
+ "week": "2025-11-11",
+ "projects": [
+  {
+   "id": "238773d8649a",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "64bcfc0c2649",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "Docker",
+    "Git",
+    "Python",
+    "SQL",
+    "時系列分析",
+    "需要予測"
+   ]
+  },
+  {
+   "id": "65d61f379389",
+   "position": "BIエンジニア",
+   "industry": "製造業 ※半導体メーカー",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Tableau"
+   ]
+  },
+  {
+   "id": "6e08bb8d57c8",
+   "position": "BIエンジニア",
+   "industry": "製造業 ※半導体",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Tableau"
+   ]
+  },
+  {
+   "id": "84ff1c8b7df8",
+   "position": "AIエンジニア",
+   "industry": "運輸業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "R",
+    "画像認識",
+    "異常検知"
+   ]
+  },
+  {
+   "id": "9f34ceea54f8",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "Python",
+    "R",
+    "SQL",
+    "pandas/NumPy"
+   ]
+  }
+ ]
+}

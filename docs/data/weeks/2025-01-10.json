@@ -1,0 +1,116 @@
+{
+ "week": "2025-01-10",
+ "projects": [
+  {
+   "id": "00a94163490b",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Azure",
+    "Azure OpenAI",
+    "OpenAI API",
+    "Python",
+    "RAG",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "0f4fb420cf78",
+   "position": "AIエンジニア",
+   "industry": "建設業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Amazon Bedrock",
+    "Azure",
+    "Claude",
+    "Gemini",
+    "LLM",
+    "LangChain",
+    "PoC",
+    "RAG",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "2188079311cc",
+   "position": "BIエンジニア",
+   "industry": "建設業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Oracle",
+    "Power BI",
+    "SQL",
+    "Tableau"
+   ]
+  },
+  {
+   "id": "d707739cd5eb",
+   "position": "データエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "ETL",
+    "Power BI",
+    "Python",
+    "SQL",
+    "アジャイル"
+   ]
+  },
+  {
+   "id": "e0240f03932a",
+   "position": "AIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 40,
+   "ratio_max": 40,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "SCM",
+    "SQL",
+    "pandas/NumPy",
+    "scikit-learn"
+   ]
+  },
+  {
+   "id": "fc17f622bab2",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Azure",
+    "Databricks"
+   ]
+  }
+ ]
+}

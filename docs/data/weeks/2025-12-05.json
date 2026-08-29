@@ -1,0 +1,103 @@
+{
+ "week": "2025-12-05",
+ "projects": [
+  {
+   "id": "3d6d58f4d351",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "CI/CD",
+    "Cursor",
+    "DevOps",
+    "Docker",
+    "GCP",
+    "GitHub Copilot",
+    "JavaScript",
+    "Kubernetes",
+    "MLOps",
+    "Python",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "78a8f6f56ffb",
+   "position": "PM/PdM",
+   "industry": "金融業",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "a054a729efac",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "RAG",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "cf508ec5abe8",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": false,
+   "techs": [
+    "API設計",
+    "PoC",
+    "PyTorch",
+    "Python",
+    "機械学習",
+    "英語",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "d73d14a32687",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Azure",
+    "Azure OpenAI",
+    "Dify",
+    "Docker",
+    "OpenAI API",
+    "RAG",
+    "生成AI"
+   ]
+  }
+ ]
+}

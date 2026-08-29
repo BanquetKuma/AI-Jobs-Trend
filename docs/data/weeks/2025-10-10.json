@@ -1,0 +1,235 @@
+{
+ "week": "2025-10-10",
+ "projects": [
+  {
+   "id": "0ebacee1eba2",
+   "position": "データアナリスト",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "Git",
+    "PoC",
+    "Python",
+    "SQL",
+    "アジャイル",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "15467098ddbc",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "238773d8649a",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "4c37ff046fa8",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PyTorch",
+    "Python",
+    "TensorFlow",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "52aba6c5eabc",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Azure",
+    "Azure OpenAI",
+    "ETL",
+    "LLM",
+    "LangChain",
+    "OpenAI API",
+    "PoC",
+    "機械学習",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "5bdf5205715f",
+   "position": "データサイエンティスト",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 80,
+   "ratio_max": 80,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "LLM評価",
+    "Python",
+    "R",
+    "SQL",
+    "機械学習"
+   ]
+  },
+  {
+   "id": "981fbaeaa175",
+   "position": "データアナリスト",
+   "industry": "情報通信業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "CRM",
+    "Claude",
+    "DWH",
+    "Docker",
+    "ETL",
+    "GCP",
+    "Gemini",
+    "Kubernetes",
+    "Looker",
+    "MySQL",
+    "OpenAI API",
+    "SQL",
+    "Salesforce",
+    "Tableau",
+    "レコメンド"
+   ]
+  },
+  {
+   "id": "d966ee53e0f9",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "API設計",
+    "AWS",
+    "Azure",
+    "CI/CD",
+    "DevOps",
+    "Docker",
+    "GitHub Actions",
+    "MLOps",
+    "React",
+    "TypeScript",
+    "アジャイル",
+    "機械学習",
+    "生成AI",
+    "自然言語処理"
+   ]
+  },
+  {
+   "id": "df2db1786774",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "AWS",
+    "Docker",
+    "GCP",
+    "Git",
+    "PyTorch",
+    "Python",
+    "React",
+    "TensorFlow",
+    "Vue",
+    "深層学習",
+    "画像認識",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "e0e3483391df",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "深層学習",
+    "画像認識"
+   ]
+  },
+  {
+   "id": "e535cf5fc593",
+   "position": "PM/PdM",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PMO",
+    "Python",
+    "RAG",
+    "SQL",
+    "アジャイル",
+    "因果推論",
+    "時系列分析",
+    "機械学習",
+    "生成AI"
+   ]
+  }
+ ]
+}

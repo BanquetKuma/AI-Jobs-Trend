@@ -1,0 +1,86 @@
+{
+ "week": "2025-07-04",
+ "projects": [
+  {
+   "id": "2359c2de8ac8",
+   "position": "BIエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 50,
+   "ratio_max": 50,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Looker",
+    "Power BI",
+    "SQL",
+    "dbt",
+    "英語"
+   ]
+  },
+  {
+   "id": "644beeca45bf",
+   "position": "データエンジニア",
+   "industry": "卸小売業",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "BigQuery",
+    "GCP",
+    "Python",
+    "SQL",
+    "Tableau",
+    "dbt"
+   ]
+  },
+  {
+   "id": "8f7828aa489a",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "API設計",
+    "Amazon Bedrock",
+    "Azure",
+    "Azure OpenAI",
+    "Claude",
+    "LLM",
+    "LangChain",
+    "OpenAI API",
+    "PoC",
+    "RAG",
+    "Vertex AI",
+    "プロンプトエンジニアリング",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "e96956cc0e0b",
+   "position": "AIエンジニア",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "PyTorch",
+    "Python",
+    "機械学習",
+    "深層学習"
+   ]
+  }
+ ]
+}

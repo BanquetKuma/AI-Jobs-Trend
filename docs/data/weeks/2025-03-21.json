@@ -1,0 +1,90 @@
+{
+ "week": "2025-03-21",
+ "projects": [
+  {
+   "id": "5200d413d29d",
+   "position": "データエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "Databricks",
+    "GCP",
+    "SQL",
+    "Terraform"
+   ]
+  },
+  {
+   "id": "5c748765eded",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "画像認識"
+   ]
+  },
+  {
+   "id": "6f82fc27566c",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AWS",
+    "C#/.NET",
+    "Java",
+    "OpenAI API",
+    "Python",
+    "React",
+    "SQL",
+    "Vue",
+    "生成AI",
+    "要件定義"
+   ]
+  },
+  {
+   "id": "ad489a69b0ea",
+   "position": "データアナリスト",
+   "industry": "金融業",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "機械学習",
+    "生成AI"
+   ]
+  },
+  {
+   "id": "b4aeeb87fe5c",
+   "position": "データアナリスト",
+   "industry": "製造業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "画像認識"
+   ]
+  }
+ ]
+}

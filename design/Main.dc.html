@@ -9,215 +9,163 @@
 <helmet>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
   <style>
-    body { margin: 0; background: #0d0d0c; }
-    a { color: #cdf24d; text-decoration: none; }
-    a:hover { color: #e2fa8e; }
-    .mono { font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace; font-variant-numeric: tabular-nums; }
+    body { margin: 0; background: #0a0a09; }
+    a { color: #3fe08f; text-decoration: none; }
+    a:hover { color: #7cebb4; }
+    .mono { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
   </style>
 </helmet>
 
-<div style="width: 1440px; background: #0d0d0c; color: #f2f1ea; font-family: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; padding: 0 0 72px;">
+<div style="width: 1440px; background: #0a0a09; color: #f5f4ee; font-family: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; padding: 0 0 64px;">
 
-  <!-- masthead -->
-  <div style="display: flex; align-items: flex-end; justify-content: space-between; padding: 30px 64px 20px; border-bottom: 1px solid {{accent}};">
-    <div style="display: flex; flex-direction: column; gap: 5px;">
-      <div class="mono" style="font-size: 11px; letter-spacing: 0.24em; color: {{accent}};">AI JOBS TREND / 戦略ダッシュボード</div>
-      <div style="font-size: 27px; font-weight: 900; letter-spacing: -0.01em;">次に取りに行く技術を決める</div>
+  <div style="display: flex; align-items: flex-end; justify-content: space-between; padding: 30px 64px 22px; border-bottom: 1px solid {{emph}};">
+    <div style="display: flex; flex-direction: column; gap: 4px;">
+      <div class="mono" style="font-size: 11px; letter-spacing: 0.22em; color: {{emph}};">AI JOBS TREND</div>
+      <div style="font-size: 28px; font-weight: 900; letter-spacing: -0.015em;">次に取りに行く技術を決める</div>
     </div>
     <div style="display: flex; gap: 4px; align-items: center;">
-      <div class="mono" style="font-size: 12px; padding: 7px 15px; color: #6b6960; border: 1px solid #2c2c28;">今週の特集</div>
-      <div class="mono" style="font-size: 12px; padding: 7px 15px; color: #0d0d0c; background: {{accent}}; font-weight: 600;">トレンド分析</div>
+      <div class="mono" style="font-size: 12px; padding: 7px 15px; color: #6e6c63; border: 1px solid #262622;">今週の特集</div>
+      <div class="mono" style="font-size: 12px; padding: 7px 15px; color: #0a0a09; background: {{emph}}; font-weight: 700;">トレンド分析</div>
     </div>
   </div>
 
-  <!-- hero stats -->
-  <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid #2c2c28;">
-    <div style="padding: 30px 64px; border-right: 1px solid #2c2c28; display: flex; flex-direction: column; gap: 3px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: #6b6960;">集計週数</div>
-      <div class="mono" style="font-size: 52px; font-weight: 500; line-height: 1.05; color: #f2f1ea;">8<span style="font-size: 17px; color: #a3a199; margin-left: 5px;">週</span></div>
-      <div style="font-size: 11.5px; color: #6b6960;">2025-10-17 → 2026-08-28</div>
-    </div>
-    <div style="padding: 30px 40px; border-right: 1px solid #2c2c28; display: flex; flex-direction: column; gap: 3px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: #6b6960;">延べ掲載</div>
-      <div class="mono" style="font-size: 52px; font-weight: 500; line-height: 1.05;">65<span style="font-size: 17px; color: #a3a199; margin-left: 5px;">件</span></div>
-      <div style="font-size: 11.5px; color: #6b6960;">ユニーク案件 64 件</div>
-    </div>
-    <div style="padding: 30px 40px; border-right: 1px solid #2c2c28; display: flex; flex-direction: column; gap: 3px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: #6b6960;">技術キーワード</div>
-      <div class="mono" style="font-size: 52px; font-weight: 500; line-height: 1.05;">84<span style="font-size: 17px; color: #a3a199; margin-left: 5px;">種</span></div>
-      <div style="font-size: 11.5px; color: #6b6960;">辞書ベース抽出</div>
-    </div>
-    <div style="padding: 30px 40px; display: flex; flex-direction: column; gap: 3px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: {{accent}};">新興・急伸 象限</div>
-      <div class="mono" style="font-size: 52px; font-weight: 500; line-height: 1.05; color: {{accent}};">4<span style="font-size: 17px; color: #a3a199; margin-left: 5px;">技術</span></div>
-      <div style="font-size: 11.5px; color: #a3a199;">AIエージェント / DWH / MLOps / LLM</div>
-    </div>
+  <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: #262622; border-bottom: 1px solid #262622;">
+    <sc-for list="{{tiles}}" as="t" hint-placeholder-count="4">
+      <div style="background: #141412; padding: 22px 26px; display: flex; flex-direction: column; gap: 3px;">
+        <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: {{t.kColor}};">{{t.k}}</div>
+        <div class="mono" style="font-size: 40px; font-weight: {{t.weight}}; line-height: 1.1; letter-spacing: -0.02em; color: {{t.vColor}};">{{t.v}}<span style="font-size: 15px; color: #a9a79d; margin-left: 5px;">{{t.u}}</span></div>
+        <div style="font-size: 11.5px; color: #6e6c63;">{{t.sub}}</div>
+      </div>
+    </sc-for>
   </div>
 
-  <!-- 1. 獲得優先度 -->
-  <div style="padding: 52px 64px 0;">
-    <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-      <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">01</div>
-      <div style="font-size: 20px; font-weight: 700;">次に取るべき技術 Top 10</div>
-      <div style="font-size: 12.5px; color: #6b6960; margin-left: auto;">スコア = 需要量 × 0.4 + 成長率 × 0.6（重みは画面で調整可）</div>
+  <!-- 01 獲得優先度 -->
+  <div style="padding: 50px 64px 0;">
+    <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+      <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+      <div style="font-size: 21px; font-weight: 700;">次に取るべき技術</div>
+      <div style="font-size: 12.5px; color: #6e6c63; margin-left: auto;">{{scoreNote}}</div>
     </div>
-
-    <div style="display: flex; gap: 12px; padding: 18px 0 22px;">
-      <div style="display: flex; align-items: center; gap: 11px; border: 1px solid #2c2c28; padding: 9px 16px; background: #161614;">
-        <span class="mono" style="font-size: 11px; color: #a3a199;">需要量</span>
-        <div style="width: 118px; height: 3px; background: #2c2c28; position: relative;">
-          <div style="position: absolute; left: 0; top: 0; height: 3px; width: 40%; background: #6b6960;"></div>
-          <div style="position: absolute; left: 40%; top: -4px; width: 11px; height: 11px; background: #f2f1ea;"></div>
+    <div style="display: flex; gap: 12px; padding: 18px 0 20px;">
+      <div style="display: flex; align-items: center; gap: 11px; border: 1px solid #262622; padding: 9px 16px; background: #141412;">
+        <span class="mono" style="font-size: 11px; color: #a9a79d;">需要量</span>
+        <div style="width: 120px; height: 3px; background: #262622; position: relative;">
+          <div style="position: absolute; left: 0; top: 0; height: 3px; width: {{wVolPct}}; background: #6e6c63;"></div>
         </div>
-        <span class="mono" style="font-size: 12px; width: 30px;">0.4</span>
+        <span class="mono" style="font-size: 12px; width: 30px;">{{wVol}}</span>
       </div>
-      <div style="display: flex; align-items: center; gap: 11px; border: 1px solid {{accent}}; padding: 9px 16px; background: #161614;">
-        <span class="mono" style="font-size: 11px; color: {{accent}};">成長率</span>
-        <div style="width: 118px; height: 3px; background: #2c2c28; position: relative;">
-          <div style="position: absolute; left: 0; top: 0; height: 3px; width: 60%; background: {{accent}};"></div>
-          <div style="position: absolute; left: 60%; top: -4px; width: 11px; height: 11px; background: {{accent}};"></div>
+      <div style="display: flex; align-items: center; gap: 11px; border: 1px solid {{emphDim}}; padding: 9px 16px; background: {{emphWash}};">
+        <span class="mono" style="font-size: 11px; color: {{emph}};">成長率</span>
+        <div style="width: 120px; height: 3px; background: #262622; position: relative;">
+          <div style="position: absolute; left: 0; top: 0; height: 3px; width: {{wGrowPct}}; background: {{emph}};"></div>
         </div>
-        <span class="mono" style="font-size: 12px; width: 30px;">0.6</span>
+        <span class="mono" style="font-size: 12px; width: 30px; color: {{emph}}; font-weight: 700;">{{wGrow}}</span>
       </div>
     </div>
-
-    <div style="display: flex; flex-direction: column; gap: 1px; background: #2c2c28; border: 1px solid #2c2c28;">
+    <div style="display: flex; flex-direction: column; gap: 1px; background: #262622; border: 1px solid #262622;">
       <sc-for list="{{rank}}" as="r" hint-placeholder-count="10">
-        <div style="display: grid; grid-template-columns: 52px 210px 1fr 92px 92px 96px; align-items: center; gap: 0; background: #161614; padding: 13px 20px;">
-          <div class="mono" style="font-size: 15px; color: {{r.rankColor}};">{{r.no}}</div>
+        <div style="display: grid; grid-template-columns: 48px 200px 1fr 84px 88px 92px; align-items: center; background: #141412; padding: 12px 20px;">
+          <div class="mono" style="font-size: 14px; color: {{r.rankColor}};">{{r.no}}</div>
           <div style="display: flex; flex-direction: column; gap: 1px;">
-            <div style="font-size: 15px; font-weight: 700;">{{r.name}}</div>
-            <div class="mono" style="font-size: 10px; color: #6b6960; letter-spacing: 0.1em;">{{r.cat}}</div>
+            <div style="font-size: 15px; font-weight: {{r.weight}}; color: {{r.nameColor}};">{{r.name}}</div>
+            <div class="mono" style="font-size: 10px; color: #6e6c63; letter-spacing: 0.1em;">{{r.cat}}</div>
           </div>
-          <div style="padding-right: 26px;">
-            <div style="height: 9px; background: #1d1d1a;">
+          <div style="padding-right: 24px;">
+            <div style="height: 9px; background: #1c1c19;">
               <div style="height: 9px; width: {{r.pct}}; background: {{r.barColor}};"></div>
             </div>
           </div>
-          <div class="mono" style="font-size: 15px; text-align: right; color: {{r.scoreColor}};">{{r.score}}</div>
-          <div class="mono" style="font-size: 13px; text-align: right; color: #a3a199;">{{r.vol}}</div>
-          <div class="mono" style="font-size: 13px; text-align: right; color: {{r.growColor}};">{{r.grow}}</div>
+          <div class="mono" style="font-size: 15px; text-align: right; font-weight: {{r.weight}}; color: {{r.scoreColor}};">{{r.score}}</div>
+          <div class="mono" style="font-size: 13px; text-align: right; color: #a9a79d;">{{r.recent}}</div>
+          <div class="mono" style="font-size: 13px; text-align: right; color: {{r.growColor}};">{{r.growth_pct}}</div>
         </div>
       </sc-for>
-      <div style="display: grid; grid-template-columns: 52px 210px 1fr 92px 92px 96px; background: #0d0d0c; padding: 9px 20px;">
+      <div style="display: grid; grid-template-columns: 48px 200px 1fr 84px 88px 92px; background: #0a0a09; padding: 8px 20px;">
         <div></div><div></div><div></div>
-        <div class="mono" style="font-size: 10px; text-align: right; color: #6b6960; letter-spacing: 0.1em;">SCORE</div>
-        <div class="mono" style="font-size: 10px; text-align: right; color: #6b6960; letter-spacing: 0.1em;">直近4週</div>
-        <div class="mono" style="font-size: 10px; text-align: right; color: #6b6960; letter-spacing: 0.1em;">成長率</div>
+        <div class="mono" style="font-size: 10px; text-align: right; color: #6e6c63; letter-spacing: 0.1em;">SCORE</div>
+        <div class="mono" style="font-size: 10px; text-align: right; color: #6e6c63; letter-spacing: 0.1em;">{{windowLabel}}</div>
+        <div class="mono" style="font-size: 10px; text-align: right; color: #6e6c63; letter-spacing: 0.1em;">成長率</div>
       </div>
     </div>
   </div>
 
-  <!-- 2. 2軸マップ -->
-  <div style="padding: 52px 64px 0;">
-    <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-      <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">02</div>
-      <div style="font-size: 20px; font-weight: 700;">需要量 × モメンタム</div>
-      <div style="font-size: 12.5px; color: #6b6960; margin-left: auto;">横軸 = 直近4週の出現案件数 / 縦軸 = 直近4週 − その前4週</div>
+  <!-- 02 2軸マップ -->
+  <div style="padding: 50px 64px 0;">
+    <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+      <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+      <div style="font-size: 21px; font-weight: 700;">需要量 × モメンタム</div>
+      <div style="font-size: 12.5px; color: #6e6c63; margin-left: auto;">{{axisNote}}</div>
     </div>
-    <div style="background: #161614; border: 1px solid #2c2c28; border-top: none; padding: 26px 30px 20px;">
-      <svg viewBox="0 0 1250 400" style="width: 100%; height: auto; display: block;">
-        <rect x="56" y="14" width="1160" height="150" fill="#1a1f12"></rect>
-        <text x="70" y="34" fill="#8fa832" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="2">新興・急伸 — 先回りして取るべき領域</text>
-        <line x1="56" y1="164" x2="1216" y2="164" stroke="#4a4a44" stroke-width="1" stroke-dasharray="4 4"></line>
-        <line x1="636" y1="14" x2="636" y2="330" stroke="#2c2c28" stroke-width="1" stroke-dasharray="4 4"></line>
-        <line x1="56" y1="330" x2="1216" y2="330" stroke="#4a4a44" stroke-width="1"></line>
-        <line x1="56" y1="14" x2="56" y2="330" stroke="#4a4a44" stroke-width="1"></line>
-        <text x="46" y="20" fill="#6b6960" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="end">+9</text>
-        <text x="46" y="168" fill="#6b6960" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="end">0</text>
-        <text x="46" y="334" fill="#6b6960" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="end">-3</text>
-        <text x="56" y="356" fill="#6b6960" font-family="IBM Plex Mono, monospace" font-size="11">0</text>
-        <text x="636" y="356" fill="#6b6960" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle">9</text>
-        <text x="1216" y="356" fill="#6b6960" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="end">18</text>
-        <text x="1216" y="380" fill="#6b6960" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="end">直近4週の出現案件数 →</text>
-
-        <g>
-          <circle cx="572" cy="41" r="9" fill="#cdf24d" stroke="#161614" stroke-width="2"></circle>
-          <text x="588" y="45" fill="#f2f1ea" font-size="14" font-weight="700">AIエージェント</text>
-          <circle cx="507" cy="65" r="8" fill="#cdf24d" stroke="#161614" stroke-width="2"></circle>
-          <text x="523" y="69" fill="#f2f1ea" font-size="13">DWH</text>
-          <circle cx="443" cy="98" r="8" fill="#cdf24d" stroke="#161614" stroke-width="2"></circle>
-          <text x="459" y="102" fill="#f2f1ea" font-size="13">MLOps</text>
-          <circle cx="507" cy="98" r="8" fill="#cdf24d" stroke="#161614" stroke-width="2"></circle>
-          <text x="523" y="118" fill="#f2f1ea" font-size="13">LLM</text>
-
-          <circle cx="765" cy="41" r="9" fill="#3987e5" stroke="#161614" stroke-width="2"></circle>
-          <text x="781" y="45" fill="#a3a199" font-size="13">SQL</text>
-          <circle cx="894" cy="41" r="10" fill="#3987e5" stroke="#161614" stroke-width="2"></circle>
-          <text x="912" y="45" fill="#a3a199" font-size="13">AWS</text>
-          <circle cx="829" cy="65" r="10" fill="#3987e5" stroke="#161614" stroke-width="2"></circle>
-          <text x="847" y="69" fill="#a3a199" font-size="13">機械学習</text>
-          <circle cx="1152" cy="65" r="12" fill="#3987e5" stroke="#161614" stroke-width="2"></circle>
-          <text x="1148" y="45" fill="#a3a199" font-size="13" text-anchor="end">Python</text>
-          <circle cx="700" cy="131" r="9" fill="#3987e5" stroke="#161614" stroke-width="2"></circle>
-          <text x="716" y="135" fill="#a3a199" font-size="13">生成AI</text>
-
-          <circle cx="829" cy="164" r="9" fill="#6b6960" stroke="#161614" stroke-width="2"></circle>
-          <text x="845" y="181" fill="#6b6960" font-size="13">要件定義</text>
-          <circle cx="572" cy="181" r="8" fill="#6b6960" stroke="#161614" stroke-width="2"></circle>
-          <text x="588" y="185" fill="#6b6960" font-size="13">PoC</text>
-          <circle cx="378" cy="148" r="8" fill="#6b6960" stroke="#161614" stroke-width="2"></circle>
-          <text x="394" y="152" fill="#6b6960" font-size="13">Azure</text>
-          <circle cx="378" cy="164" r="8" fill="#6b6960" stroke="#161614" stroke-width="2"></circle>
-          <text x="394" y="184" fill="#6b6960" font-size="13">PMO</text>
-          <circle cx="314" cy="197" r="8" fill="#6b6960" stroke="#161614" stroke-width="2"></circle>
-          <text x="330" y="201" fill="#6b6960" font-size="13">API設計</text>
-        </g>
+    <div style="background: #141412; border: 1px solid #262622; border-top: none; padding: 24px 30px 18px;">
+      <svg viewBox="0 0 1250 420" style="width: 100%; height: auto; display: block;">
+        <rect x="{{band.x}}" y="{{band.y}}" width="{{band.w}}" height="{{band.h}}" fill="{{emph}}" opacity="0.09"></rect>
+        <text x="{{band.tx}}" y="{{band.ty}}" fill="{{emph}}" font-size="12" font-weight="700">新興・急伸 — 先回りして取るべき領域</text>
+        <line x1="70" y1="{{zeroY}}" x2="1200" y2="{{zeroY}}" stroke="#3a3a34" stroke-width="1" stroke-dasharray="4 4"></line>
+        <line x1="{{midX}}" y1="20" x2="{{midX}}" y2="340" stroke="#1f1f1c" stroke-width="1" stroke-dasharray="4 4"></line>
+        <line x1="70" y1="20" x2="70" y2="340" stroke="#3a3a34" stroke-width="1"></line>
+        <sc-for list="{{axisTicks}}" as="a" hint-placeholder-count="6">
+          <text x="{{a.x}}" y="{{a.y}}" fill="#6e6c63" font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="{{a.anchor}}">{{a.label}}</text>
+        </sc-for>
+        <sc-for list="{{points}}" as="p" hint-placeholder-count="18">
+          <g>
+            <line x1="{{p.lx0}}" y1="{{p.cy}}" x2="{{p.lx1}}" y2="{{p.ly}}" stroke="#262622" stroke-width="1"></line>
+            <circle cx="{{p.cx}}" cy="{{p.cy}}" r="{{p.r}}" fill="{{p.fill}}" stroke="#141412" stroke-width="2"></circle>
+            <text x="{{p.tx}}" y="{{p.tyText}}" fill="{{p.textFill}}" font-size="12.5" font-weight="{{p.weight}}">{{p.name}}</text>
+          </g>
+        </sc-for>
       </svg>
-      <div style="display: flex; gap: 26px; padding-top: 14px; border-top: 1px solid #2c2c28; margin-top: 8px;">
-        <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 11px; height: 11px; background: #cdf24d; border-radius: 50%;"></span><span style="font-size: 12.5px; color: #a3a199;">新興・急伸（狙い目）</span></div>
-        <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 11px; height: 11px; background: #3987e5; border-radius: 50%;"></span><span style="font-size: 12.5px; color: #a3a199;">主力（伸びている大領域）</span></div>
-        <div style="display: flex; align-items: center; gap: 8px;"><span style="width: 11px; height: 11px; background: #6b6960; border-radius: 50%;"></span><span style="font-size: 12.5px; color: #a3a199;">横ばい・後退</span></div>
-        <div class="mono" style="font-size: 11.5px; color: #6b6960; margin-left: auto;">円の大きさ = 全期間の延べ出現数</div>
+      <div style="display: flex; gap: 24px; align-items: center; padding-top: 14px; border-top: 1px solid #262622; margin-top: 6px;">
+        <sc-for list="{{legend}}" as="l" hint-placeholder-count="3">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="width: 11px; height: 11px; border-radius: 50%; background: {{l.color}};"></span>
+            <span style="font-size: 12.5px; color: {{l.text}}; font-weight: {{l.weight}};">{{l.name}}</span>
+          </div>
+        </sc-for>
+        <div class="mono" style="font-size: 11.5px; color: #6e6c63; margin-left: auto;">円の大きさ = 全期間の延べ出現数</div>
       </div>
     </div>
   </div>
 
-  <!-- 3. 必須率 / 共起 -->
-  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding: 52px 64px 0;">
+  <!-- 03 / 04 -->
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding: 50px 64px 0;">
     <div>
-      <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-        <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">03</div>
-        <div style="font-size: 20px; font-weight: 700;">必須率 vs 尚可率</div>
-        <div class="mono" style="font-size: 10px; color: #0d0d0c; background: #c98500; padding: 2px 8px; margin-left: auto;">サンプル値</div>
+      <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+        <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+        <div style="font-size: 21px; font-weight: 700;">必須率 vs 尚可率</div>
+        <div class="mono" style="font-size: 10px; letter-spacing: 0.12em; color: {{emph}}; background: {{emphWash}}; border: 1px solid {{emphDim}}; padding: 2px 8px; margin-left: auto;">実データ</div>
       </div>
-      <div style="background: #161614; border: 1px solid #2c2c28; border-top: none; padding: 20px 24px 22px;">
-        <div style="font-size: 12.5px; color: #a3a199; padding-bottom: 18px;">必須で書かれるほど「持たないと土俵に乗れない」。尚可止まりなら差別化に効く。</div>
-        <div style="display: flex; flex-direction: column; gap: 14px;">
-          <sc-for list="{{must}}" as="m" hint-placeholder-count="6">
-            <div style="display: flex; flex-direction: column; gap: 6px;">
-              <div style="display: flex; align-items: baseline; gap: 10px;">
-                <span style="font-size: 13.5px; font-weight: 500;">{{m.name}}</span>
-                <span class="mono" style="font-size: 12px; color: #cdf24d; margin-left: auto;">必須 {{m.req}}</span>
+      <div style="background: #141412; border: 1px solid #262622; border-top: none; padding: 20px 24px 22px; display: flex; flex-direction: column; gap: 20px;">
+        <sc-for list="{{mustGroups}}" as="g" hint-placeholder-count="2">
+          <div style="display: flex; flex-direction: column; gap: 11px;">
+            <div style="font-size: 13px; font-weight: 700; color: {{g.color}};">{{g.title}}</div>
+            <sc-for list="{{g.rows}}" as="m" hint-placeholder-count="6">
+              <div style="display: grid; grid-template-columns: 148px 1fr 52px; align-items: center; gap: 12px;">
+                <span style="font-size: 12.5px;">{{m.name}}</span>
+                <div style="height: 9px; background: #1c1c19;">
+                  <div style="height: 9px; width: {{m.pct}}; background: {{g.color}};"></div>
+                </div>
+                <span class="mono" style="font-size: 12.5px; text-align: right; color: #a9a79d;">{{m.label}}</span>
               </div>
-              <div style="display: flex; height: 10px; gap: 2px;">
-                <div style="height: 10px; width: {{m.reqPct}}; background: #cdf24d;"></div>
-                <div style="height: 10px; width: {{m.optPct}}; background: #4a5a24;"></div>
-              </div>
-            </div>
-          </sc-for>
-        </div>
+            </sc-for>
+          </div>
+        </sc-for>
       </div>
     </div>
-
     <div>
-      <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-        <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">04</div>
-        <div style="font-size: 20px; font-weight: 700;">共起スキルセット</div>
-        <div style="font-size: 12.5px; color: #6b6960; margin-left: auto;">実データ</div>
+      <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+        <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+        <div style="font-size: 21px; font-weight: 700;">共起スキルセット</div>
+        <div class="mono" style="font-size: 10px; letter-spacing: 0.12em; color: {{emph}}; background: {{emphWash}}; border: 1px solid {{emphDim}}; padding: 2px 8px; margin-left: auto;">実データ</div>
       </div>
-      <div style="background: #161614; border: 1px solid #2c2c28; border-top: none; padding: 20px 24px 22px;">
-        <div style="font-size: 12.5px; color: #a3a199; padding-bottom: 18px;">同じ案件で同時に求められる技術。社内PJ1本で複数を同時に取れる「束」が見える。</div>
-        <div style="display: flex; flex-direction: column; gap: 15px;">
+      <div style="background: #141412; border: 1px solid #262622; border-top: none; padding: 20px 24px 22px;">
+        <div style="font-size: 12.5px; color: #a9a79d; padding-bottom: 16px; line-height: 1.9;"><span style="font-weight: 700; color: {{emph}};">社内PJ1本で複数を同時に取れる「束」</span>を探すための指標。同じ案件で同時に求められた技術を並べている。</div>
+        <div style="display: flex; flex-direction: column; gap: 14px;">
           <sc-for list="{{cooc}}" as="c" hint-placeholder-count="5">
-            <div style="display: flex; flex-direction: column; gap: 8px;">
-              <div style="display: flex; align-items: center; gap: 9px;">
-                <span class="mono" style="font-size: 13px; color: #0d0d0c; background: {{accent}}; padding: 2px 9px; font-weight: 600;">{{c.name}}</span>
-                <span style="font-size: 12px; color: #6b6960;">と同時に求められる</span>
-              </div>
-              <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+            <div style="display: flex; flex-direction: column; gap: 7px;">
+              <span class="mono" style="font-size: 12.5px; color: #0a0a09; background: {{emph}}; padding: 2px 9px; font-weight: 700; align-self: flex-start;">{{c.name}}</span>
+              <div style="display: flex; flex-wrap: wrap; gap: 5px;">
                 <sc-for list="{{c.with}}" as="w" hint-placeholder-count="5">
-                  <span class="mono" style="font-size: 12px; color: #f2f1ea; border: 1px solid #2c2c28; background: #1d1d1a; padding: 3px 10px;">{{w}}</span>
+                  <span class="mono" style="font-size: 11.5px; color: #f5f4ee; border: 1px solid #262622; background: #1c1c19; padding: 3px 10px;">{{w}}</span>
                 </sc-for>
               </div>
             </div>
@@ -227,160 +175,254 @@
     </div>
   </div>
 
-  <!-- 4. 供給不足 / 単価 -->
-  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding: 52px 64px 0;">
+  <!-- 05 / 06 -->
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding: 50px 64px 0;">
     <div>
-      <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-        <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">05</div>
-        <div style="font-size: 20px; font-weight: 700;">供給不足シグナル</div>
-        <div class="mono" style="font-size: 10px; color: #0d0d0c; background: #c98500; padding: 2px 8px; margin-left: auto;">サンプル値</div>
+      <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+        <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+        <div style="font-size: 21px; font-weight: 700;">供給不足シグナル</div>
+        <div class="mono" style="font-size: 10px; letter-spacing: 0.12em; color: {{emph}}; background: {{emphWash}}; border: 1px solid {{emphDim}}; padding: 2px 8px; margin-left: auto;">実データ</div>
       </div>
-      <div style="background: #161614; border: 1px solid #2c2c28; border-top: none; padding: 20px 24px 22px;">
-        <div style="font-size: 12.5px; color: #a3a199; padding-bottom: 18px;">案件が埋まらず再掲され続ける技術ほど、人材が不足している。</div>
-        <div style="display: flex; flex-direction: column; gap: 1px; background: #2c2c28;">
-          <div style="display: grid; grid-template-columns: 1fr 96px 96px; background: #0d0d0c; padding: 8px 14px;">
-            <div class="mono" style="font-size: 10px; color: #6b6960; letter-spacing: 0.1em;">技術</div>
-            <div class="mono" style="font-size: 10px; color: #6b6960; text-align: right; letter-spacing: 0.1em;">平均継続</div>
-            <div class="mono" style="font-size: 10px; color: #6b6960; text-align: right; letter-spacing: 0.1em;">新規出現率</div>
+      <div style="background: #141412; border: 1px solid #262622; border-top: none; padding: 20px 24px 22px;">
+        <div style="font-size: 12.5px; color: #a9a79d; padding-bottom: 16px; line-height: 1.9;"><span style="font-weight: 700; color: {{emph}};">長く再掲され続ける技術ほど人材が不足している。</span></div>
+        <div style="display: flex; flex-direction: column; gap: 1px; background: #262622;">
+          <div style="display: grid; grid-template-columns: 1fr 88px 88px; background: #0a0a09; padding: 8px 14px;">
+            <div class="mono" style="font-size: 10px; color: #6e6c63; letter-spacing: 0.1em;">技術</div>
+            <div class="mono" style="font-size: 10px; color: #6e6c63; text-align: right; letter-spacing: 0.1em;">平均継続</div>
+            <div class="mono" style="font-size: 10px; color: #6e6c63; text-align: right; letter-spacing: 0.1em;">新規率</div>
           </div>
           <sc-for list="{{supply}}" as="s" hint-placeholder-count="6">
-            <div style="display: grid; grid-template-columns: 1fr 96px 96px; background: #161614; padding: 11px 14px; align-items: center;">
-              <div style="font-size: 13.5px;">{{s.name}}</div>
-              <div class="mono" style="font-size: 13.5px; text-align: right; color: {{s.wkColor}};">{{s.weeks}}</div>
-              <div class="mono" style="font-size: 13.5px; text-align: right; color: #a3a199;">{{s.fresh}}</div>
+            <div style="display: grid; grid-template-columns: 1fr 88px 88px; background: #141412; padding: 11px 14px; align-items: center;">
+              <div style="font-size: 13px;">{{s.name}}</div>
+              <div class="mono" style="font-size: 13px; text-align: right; font-weight: {{s.weight}}; color: {{s.color}};">{{s.weeksLabel}}</div>
+              <div class="mono" style="font-size: 13px; text-align: right; color: #a9a79d;">{{s.freshLabel}}</div>
             </div>
           </sc-for>
         </div>
       </div>
     </div>
-
     <div>
-      <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-        <div class="mono" style="font-size: 11px; color: #d95926; letter-spacing: 0.2em;">06</div>
-        <div style="font-size: 20px; font-weight: 700;">単価レンジ</div>
-        <div class="mono" style="font-size: 10px; color: #f2f1ea; background: #d95926; padding: 2px 8px; margin-left: auto;">データなし</div>
+      <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+        <div style="width: 22px; height: 2px; background: #d95926; flex: none;"></div>
+        <div style="font-size: 21px; font-weight: 700;">単価レンジ</div>
+        <div class="mono" style="font-size: 10px; letter-spacing: 0.12em; color: #f5f4ee; background: #d95926; padding: 2px 8px; margin-left: auto;">ほぼ欠測</div>
       </div>
-      <div style="background: #161614; border: 1px solid #2c2c28; border-top: none; padding: 34px 30px; display: flex; flex-direction: column; gap: 20px; align-items: flex-start;">
-        <div class="mono" style="font-size: 46px; font-weight: 500; color: #d95926; line-height: 1;">65 / 65</div>
-        <div style="font-size: 14px; color: #f2f1ea; line-height: 1.8;">このソースの案件は<strong style="color: #d95926;">全件が「ご相談ください」</strong>で、月額単価が1件も明記されていません。単価を技術の市場価値の代理指標に使うことは、現状のデータでは成立しません。</div>
-        <div style="border-top: 1px solid #2c2c28; padding-top: 18px; width: 100%;">
-          <div class="mono" style="font-size: 10.5px; color: {{accent}}; letter-spacing: 0.16em; padding-bottom: 8px;">解決案</div>
-          <div style="font-size: 13px; color: #a3a199; line-height: 1.8;">同じ受信箱に届く Remogu（リモート案件）のメールには「〜850,000円/月、Androidエンジニア」のように単価が明記されています。これを第2ソースとして取り込めば、単価軸が埋まります。</div>
+      <div style="background: #141412; border: 1px solid #262622; border-top: none; padding: 28px 30px; display: flex; flex-direction: column; gap: 18px; align-items: flex-start;">
+        <div class="mono" style="font-size: 42px; font-weight: 500; color: #d95926; line-height: 1;">{{rate.headline}}</div>
+        <div style="font-size: 14px; color: #f5f4ee; line-height: 1.95;">月額単価が金額で明記されていたのは <span class="mono" style="font-weight: 700; color: #d95926;">{{rate.reported}} 件だけ</span>。<span style="font-weight: 700; color: {{emph}};">単価を技術の市場価値の代理指標に使うことは、このデータソースでは成立しない。</span></div>
+        <div style="border-top: 1px solid #262622; padding-top: 16px; width: 100%;">
+          <div class="mono" style="font-size: 10.5px; color: {{emph}}; letter-spacing: 0.16em; padding-bottom: 8px;">解決案</div>
+          <div style="font-size: 13px; color: #a9a79d; line-height: 1.9;">同じ受信箱に届く Remogu のメールには「〜850,000円/月」のように単価が明記されている。第2ソースとして取り込めば単価軸が埋まる。</div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- 5. 業界 × ロール -->
-  <div style="padding: 52px 64px 0;">
-    <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-      <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">07</div>
-      <div style="font-size: 20px; font-weight: 700;">業界 × ロール × 技術領域</div>
-      <div style="font-size: 12.5px; color: #6b6960; margin-left: auto;">技術領域を切り替えて、どの業界のどの役割で求められるかを見る</div>
+  <!-- 07 -->
+  <div style="padding: 50px 64px 0;">
+    <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+      <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+      <div style="font-size: 21px; font-weight: 700;">業界 × ロール × 技術領域</div>
+      <div style="font-size: 12.5px; color: #6e6c63; margin-left: auto;">本番では<span style="color: {{emph}}; font-weight: 700;">マウスで視点を回せる3D散布図</span>。ここは真上から見た断面</div>
     </div>
-    <div style="background: #161614; border: 1px solid #2c2c28; border-top: none; padding: 22px 30px 26px;">
-      <div style="display: flex; gap: 6px; padding-bottom: 20px; flex-wrap: wrap;">
-        <span class="mono" style="font-size: 12px; padding: 5px 13px; background: {{accent}}; color: #0d0d0c; font-weight: 600;">すべて</span>
-        <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">生成AI</span>
-        <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">データ基盤</span>
-        <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">クラウド</span>
-        <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">機械学習</span>
-        <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">AIツール</span>
-      </div>
+    <div style="background: #141412; border: 1px solid #262622; border-top: none; padding: 22px 30px 24px;">
       <div style="display: grid; grid-template-columns: 118px repeat(6, minmax(0, 1fr)); gap: 3px;">
         <div></div>
-        <sc-for list="{{roles}}" as="ro" hint-placeholder-count="6">
-          <div class="mono" style="font-size: 10.5px; color: #a3a199; text-align: center; padding-bottom: 7px; line-height: 1.35;">{{ro}}</div>
+        <sc-for list="{{cube.positions}}" as="ro" hint-placeholder-count="6">
+          <div class="mono" style="font-size: 10.5px; color: #a9a79d; text-align: center; padding-bottom: 7px; line-height: 1.35;">{{ro}}</div>
         </sc-for>
         <sc-for list="{{heat}}" as="row" hint-placeholder-count="6">
-          <div style="font-size: 12.5px; color: #f2f1ea; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">{{row.label}}</div>
+          <div style="font-size: 12.5px; color: #f5f4ee; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">{{row.label}}</div>
           <sc-for list="{{row.cells}}" as="cell" hint-placeholder-count="6">
-            <div class="mono" style="height: 46px; display: flex; align-items: center; justify-content: center; font-size: 14px; background: {{cell.bg}}; color: {{cell.fg}};">{{cell.v}}</div>
+            <div class="mono" style="height: 44px; display: flex; align-items: center; justify-content: center; font-size: 14px; background: {{cell.bg}}; color: {{cell.fg}};">{{cell.v}}</div>
           </sc-for>
         </sc-for>
       </div>
-      <div style="display: flex; align-items: center; gap: 14px; padding-top: 18px; margin-top: 16px; border-top: 1px solid #2c2c28;">
-        <span class="mono" style="font-size: 11px; color: #6b6960;">件数</span>
+      <div style="display: flex; align-items: center; gap: 14px; padding-top: 16px; margin-top: 14px; border-top: 1px solid #262622;">
+        <span class="mono" style="font-size: 11px; color: #6e6c63;">案件数</span>
         <div style="display: flex; gap: 2px;">
-          <span style="width: 34px; height: 11px; background: #1d1d1a;"></span>
+          <span style="width: 34px; height: 11px; background: #1c1c19;"></span>
           <span style="width: 34px; height: 11px; background: #104281;"></span>
           <span style="width: 34px; height: 11px; background: #184f95;"></span>
           <span style="width: 34px; height: 11px; background: #256abf;"></span>
           <span style="width: 34px; height: 11px; background: #3987e5;"></span>
         </div>
-        <span class="mono" style="font-size: 11px; color: #6b6960;">0 → 13</span>
-        <span style="font-size: 12px; color: #d95926; margin-left: auto;">業界欄が未記載の案件が 65 件中 32 件あり、業界軸の解像度は現時点では低い</span>
+        <span class="mono" style="font-size: 11px; color: #6e6c63;">{{cube.scaleLabel}}</span>
+        <span style="font-size: 12px; color: #d95926; margin-left: auto;">{{cube.caveat}}</span>
       </div>
     </div>
   </div>
 
-  <div style="padding: 44px 64px 0;">
-    <div style="border-top: 1px solid #2c2c28; padding-top: 20px; display: flex; justify-content: space-between; align-items: baseline;">
-      <div style="font-size: 11.5px; color: #6b6960; line-height: 1.7; max-width: 720px;">出典: エッジテクノロジー株式会社 AIソリューション事業部より毎週配信される案件情報メール。受信者本人が個人利用の範囲で統計的に集計したもので、案件本文・案件番号・企業名は保持していない。</div>
-      <div class="mono" style="font-size: 11px; color: #6b6960;">UPDATED 2026-08-29</div>
+  <div style="padding: 42px 64px 0;">
+    <div style="border-top: 1px solid #262622; padding-top: 20px; display: flex; justify-content: space-between; align-items: baseline;">
+      <div style="font-size: 11.5px; color: #6e6c63; line-height: 1.75; max-width: 760px;">出典: エッジテクノロジー株式会社 AIソリューション事業部より毎週配信される案件情報メール。受信者本人が個人利用の範囲で統計的に集計したもので、案件本文・案件番号・企業名は保持していない。</div>
+      <div class="mono" style="font-size: 11px; color: #6e6c63;">{{updated}}</div>
     </div>
   </div>
 
 </div>
 </x-dc>
 
-<script data-dc-script data-props='{"accent":{"editor":"color","default":"#cdf24d","options":["#cdf24d","#5ad1c8","#f2a33c","#e5679a"]},"$preview":{"width":1440,"height":2680}}'>
+<script data-dc-script data-props='{"emph":{"editor":"color","default":"#3fe08f","options":["#3fe08f","#cdf24d","#5ad1c8","#f2a33c"]},"$preview":{"width":1440,"height":2760}}'>
+const D = /*FIGURES*/{"totals":{"weeks":83,"listings":654,"unique_projects":601},"tech_count":92,"range":["2025-01-10","2026-08-28"],"window":8,"weights":{"volume":0.4,"growth":0.6},"rank":[{"name":"AIガバナンス","cat":"生成AI","score":0.665,"recent":5,"prev":0,"growth_pct":"+250%"},{"name":"AIコーディング支援","cat":"AIツール","score":0.532,"recent":4,"prev":0,"growth_pct":"+200%"},{"name":"画像認識","cat":"機械学習","score":0.463,"recent":8,"prev":2,"growth_pct":"+150%"},{"name":"Python","cat":"言語","score":0.4,"recent":31,"prev":36,"growth_pct":"-13%"},{"name":"深層学習","cat":"機械学習","score":0.39,"recent":7,"prev":2,"growth_pct":"+125%"},{"name":"生成AI","cat":"生成AI","score":0.373,"recent":23,"prev":17,"growth_pct":"+32%"},{"name":"PoC","cat":"プロセス","score":0.361,"recent":18,"prev":11,"growth_pct":"+54%"},{"name":"AIエージェント","cat":"生成AI","score":0.359,"recent":16,"prev":9,"growth_pct":"+64%"},{"name":"要件定義","cat":"プロセス","score":0.329,"recent":23,"prev":20,"growth_pct":"+14%"},{"name":"TensorFlow","cat":"機械学習","score":0.317,"recent":6,"prev":2,"growth_pct":"+100%"}],"scatter":[{"name":"Python","cat":"言語","recent":31,"delta":-5,"total":340},{"name":"SQL","cat":"言語","recent":18,"delta":-3,"total":200},{"name":"AWS","cat":"クラウド","recent":19,"delta":-1,"total":172},{"name":"機械学習","cat":"機械学習","recent":20,"delta":0,"total":168},{"name":"生成AI","cat":"生成AI","recent":23,"delta":6,"total":149},{"name":"要件定義","cat":"プロセス","recent":23,"delta":3,"total":148},{"name":"LLM","cat":"生成AI","recent":19,"delta":0,"total":130},{"name":"GCP","cat":"クラウド","recent":10,"delta":-8,"total":114},{"name":"PoC","cat":"プロセス","recent":18,"delta":7,"total":103},{"name":"Tableau","cat":"データ基盤","recent":8,"delta":0,"total":102},{"name":"Azure","cat":"クラウド","recent":10,"delta":0,"total":98},{"name":"API設計","cat":"アプリ開発","recent":8,"delta":-8,"total":94},{"name":"BigQuery","cat":"データ基盤","recent":6,"delta":-8,"total":82},{"name":"RAG","cat":"生成AI","recent":10,"delta":-2,"total":78},{"name":"DWH","cat":"データ基盤","recent":8,"delta":-7,"total":72},{"name":"ETL","cat":"データ基盤","recent":8,"delta":-6,"total":72},{"name":"AIエージェント","cat":"生成AI","recent":16,"delta":7,"total":64},{"name":"Docker","cat":"基盤・運用","recent":5,"delta":-4,"total":64}],"cooc":[{"name":"画像認識","with":["Python (41)","機械学習 (20)","深層学習 (19)","PyTorch (15)","PoC (11)"]},{"name":"Python","with":["機械学習 (134)","SQL (128)","AWS (123)","GCP (88)","LLM (86)"]},{"name":"深層学習","with":["Python (33)","機械学習 (28)","PyTorch (21)","画像認識 (19)","Git (15)"]}],"must":[{"name":"scikit-learn","listings":24,"req":21,"rate":0.875},{"name":"Python","listings":340,"req":276,"rate":0.812},{"name":"SQL","listings":200,"req":159,"rate":0.795},{"name":"R","listings":53,"req":41,"rate":0.774},{"name":"画像認識","listings":55,"req":38,"rate":0.691},{"name":"プロンプトエンジニアリング","listings":32,"req":22,"rate":0.688}],"opt":[{"name":"CRM","listings":20,"req":2,"rate":0.1},{"name":"GitHub Actions","listings":17,"req":2,"rate":0.118},{"name":"SCM","listings":13,"req":2,"rate":0.154},{"name":"SAP","listings":12,"req":2,"rate":0.167},{"name":"MySQL","listings":18,"req":3,"rate":0.167},{"name":"マルチモーダル","listings":16,"req":3,"rate":0.188}],"supply":[{"name":"異常検知","weeks":3.41,"fresh":0.739,"listings":23},{"name":"R","weeks":2.84,"fresh":0.792,"listings":53},{"name":"レコメンド","weeks":2.79,"fresh":0.824,"listings":17},{"name":"scikit-learn","weeks":2.75,"fresh":0.833,"listings":24},{"name":"MySQL","weeks":2.73,"fresh":0.833,"listings":18},{"name":"PostgreSQL","weeks":2.41,"fresh":0.895,"listings":19}],"rate":{"reported":4,"missing":650,"min":55,"max":115,"median":80},"cube":{"positions":["AIエンジニア","データアナリスト","データエンジニア","BIエンジニア","ITコンサル","その他"],"industries":["情報通信業","金融業","製造業","エンターテイメント","医療","卸小売業"],"categories":["言語","生成AI","データ基盤","機械学習","クラウド","プロセス"],"max":79,"cells":[{"i":0,"p":0,"c":0,"n":11},{"i":0,"p":0,"c":1,"n":16},{"i":0,"p":0,"c":2,"n":9},{"i":0,"p":0,"c":3,"n":8},{"i":0,"p":0,"c":4,"n":13},{"i":0,"p":0,"c":5,"n":13},{"i":0,"p":1,"c":0,"n":9},{"i":0,"p":1,"c":1,"n":4},{"i":0,"p":1,"c":2,"n":7},{"i":0,"p":1,"c":3,"n":4},{"i":0,"p":1,"c":4,"n":7},{"i":0,"p":2,"c":0,"n":6},{"i":0,"p":2,"c":2,"n":7},{"i":0,"p":2,"c":4,"n":4},{"i":0,"p":2,"c":5,"n":3},{"i":0,"p":3,"c":0,"n":2},{"i":0,"p":3,"c":2,"n":1},{"i":0,"p":3,"c":4,"n":1},{"i":0,"p":3,"c":5,"n":1},{"i":0,"p":4,"c":0,"n":4},{"i":0,"p":4,"c":1,"n":2},{"i":0,"p":4,"c":2,"n":4},{"i":0,"p":4,"c":4,"n":2},{"i":0,"p":4,"c":5,"n":2},{"i":0,"p":5,"c":0,"n":1},{"i":1,"p":0,"c":0,"n":13},{"i":1,"p":0,"c":1,"n":13},{"i":1,"p":0,"c":2,"n":1},{"i":1,"p":0,"c":3,"n":8},{"i":1,"p":0,"c":4,"n":11},{"i":1,"p":0,"c":5,"n":8},{"i":1,"p":1,"c":0,"n":2},{"i":1,"p":1,"c":1,"n":1},{"i":1,"p":1,"c":2,"n":1},{"i":1,"p":1,"c":3,"n":3},{"i":1,"p":2,"c":0,"n":5},{"i":1,"p":2,"c":2,"n":7},{"i":1,"p":2,"c":3,"n":2},{"i":1,"p":2,"c":4,"n":4},{"i":1,"p":2,"c":5,"n":3},{"i":1,"p":3,"c":0,"n":1},{"i":1,"p":3,"c":2,"n":4},{"i":1,"p":4,"c":0,"n":1},{"i":1,"p":4,"c":2,"n":2},{"i":1,"p":4,"c":3,"n":1},{"i":1,"p":4,"c":5,"n":2},{"i":1,"p":5,"c":3,"n":1},{"i":1,"p":5,"c":4,"n":1},{"i":1,"p":5,"c":5,"n":1},{"i":2,"p":0,"c":0,"n":13},{"i":2,"p":0,"c":1,"n":6},{"i":2,"p":0,"c":2,"n":3},{"i":2,"p":0,"c":3,"n":7},{"i":2,"p":0,"c":4,"n":5},{"i":2,"p":0,"c":5,"n":9},{"i":2,"p":1,"c":0,"n":4},{"i":2,"p":1,"c":1,"n":1},{"i":2,"p":1,"c":2,"n":2},{"i":2,"p":1,"c":3,"n":4},{"i":2,"p":1,"c":4,"n":1},{"i":2,"p":1,"c":5,"n":1},{"i":2,"p":2,"c":0,"n":6},{"i":2,"p":2,"c":2,"n":7},{"i":2,"p":2,"c":4,"n":7},{"i":2,"p":2,"c":5,"n":9},{"i":2,"p":3,"c":2,"n":2},{"i":2,"p":3,"c":5,"n":1},{"i":2,"p":4,"c":0,"n":2},{"i":2,"p":4,"c":1,"n":2},{"i":2,"p":4,"c":2,"n":2},{"i":2,"p":4,"c":3,"n":2},{"i":2,"p":4,"c":4,"n":1},{"i":2,"p":4,"c":5,"n":3},{"i":2,"p":5,"c":2,"n":1},{"i":3,"p":0,"c":0,"n":3},{"i":3,"p":0,"c":1,"n":5},{"i":3,"p":0,"c":3,"n":5},{"i":3,"p":0,"c":4,"n":1},{"i":3,"p":0,"c":5,"n":1},{"i":3,"p":1,"c":0,"n":6},{"i":3,"p":1,"c":1,"n":1},{"i":3,"p":1,"c":2,"n":3},{"i":3,"p":1,"c":3,"n":1},{"i":3,"p":2,"c":0,"n":10},{"i":3,"p":2,"c":1,"n":2},{"i":3,"p":2,"c":2,"n":10},{"i":3,"p":2,"c":4,"n":10},{"i":3,"p":2,"c":5,"n":2},{"i":3,"p":3,"c":0,"n":5},{"i":3,"p":3,"c":2,"n":5},{"i":3,"p":3,"c":4,"n":1},{"i":3,"p":3,"c":5,"n":1},{"i":3,"p":5,"c":0,"n":1},{"i":3,"p":5,"c":2,"n":1},{"i":3,"p":5,"c":4,"n":1},{"i":3,"p":5,"c":5,"n":1},{"i":4,"p":0,"c":0,"n":12},{"i":4,"p":0,"c":1,"n":6},{"i":4,"p":0,"c":2,"n":2},{"i":4,"p":0,"c":3,"n":10},{"i":4,"p":0,"c":4,"n":13},{"i":4,"p":0,"c":5,"n":1},{"i":4,"p":1,"c":0,"n":8},{"i":4,"p":1,"c":1,"n":8},{"i":4,"p":1,"c":2,"n":5},{"i":4,"p":1,"c":3,"n":9},{"i":4,"p":1,"c":4,"n":9},{"i":4,"p":1,"c":5,"n":2},{"i":4,"p":2,"c":0,"n":1},{"i":4,"p":2,"c":1,"n":1},{"i":4,"p":2,"c":2,"n":1},{"i":4,"p":2,"c":4,"n":1},{"i":4,"p":3,"c":0,"n":4},{"i":4,"p":3,"c":2,"n":4},{"i":4,"p":3,"c":4,"n":3},{"i":4,"p":3,"c":5,"n":3},{"i":4,"p":4,"c":0,"n":1},{"i":4,"p":4,"c":3,"n":1},{"i":4,"p":4,"c":5,"n":2},{"i":4,"p":5,"c":0,"n":3},{"i":4,"p":5,"c":2,"n":1},{"i":4,"p":5,"c":3,"n":2},{"i":4,"p":5,"c":4,"n":1},{"i":5,"p":0,"c":0,"n":2},{"i":5,"p":0,"c":1,"n":1},{"i":5,"p":0,"c":3,"n":3},{"i":5,"p":0,"c":4,"n":1},{"i":5,"p":0,"c":5,"n":1},{"i":5,"p":1,"c":0,"n":8},{"i":5,"p":1,"c":2,"n":5},{"i":5,"p":1,"c":3,"n":6},{"i":5,"p":1,"c":4,"n":1},{"i":5,"p":1,"c":5,"n":3},{"i":5,"p":2,"c":0,"n":3},{"i":5,"p":2,"c":2,"n":5},{"i":5,"p":2,"c":4,"n":4},{"i":5,"p":3,"c":0,"n":4},{"i":5,"p":3,"c":2,"n":7},{"i":5,"p":3,"c":5,"n":2},{"i":5,"p":4,"c":0,"n":1},{"i":5,"p":4,"c":3,"n":1},{"i":5,"p":4,"c":5,"n":1},{"i":5,"p":5,"c":0,"n":3},{"i":5,"p":5,"c":2,"n":1},{"i":5,"p":5,"c":3,"n":2},{"i":5,"p":5,"c":4,"n":1},{"i":5,"p":5,"c":5,"n":2}]},"latest_week":"2026-08-28","latest":{"projects":11,"new_projects":11},"latest_tech":[["生成AI",5],["Python",5],["AIエージェント",4],["要件定義",4],["AWS",4],["PoC",3],["AIコーディング支援",3],["LLM",3],["機械学習",3],["Claude Code",2],["プロンプトエンジニアリング",2],["AIガバナンス",2]],"latest_pos":[["AIエンジニア",3],["AI導入コンサル",2],["データアナリスト",2],["データエンジニア",1],["BIエンジニア",1],["PM/PdM",1],["ITコンサル",1]],"latest_ind":[["不明",4],["医療",3],["不動産業",1],["製造業",1],["卸小売業",1],["情報通信業",1]],"latest_ws":[["フルリモート",6],["リモート・オンサイト併用",3],["常駐",2]],"latest_ratio":[["81〜100%",9],["31〜50%",2]],"latest_cards":[{"pos":"AIエンジニア","ind":"情報通信業","ws":"リモート・オンサイト併用","ratio":100,"new":true,"techs":["AIエージェント","AIガバナンス","AIコーディング支援","API設計","AWS"]},{"pos":"データアナリスト","ind":"医療","ws":"常駐","ratio":100,"new":true,"techs":["AWS","BigQuery","DWH","Git","MLOps"]},{"pos":"AIエンジニア","ind":"不明","ws":"常駐","ratio":100,"new":true,"techs":["AIエージェント","Azure","Databricks","LLM","LLM評価"]},{"pos":"データエンジニア","ind":"医療","ws":"フルリモート","ratio":100,"new":true,"techs":["AIコーディング支援","AWS","Claude Code","ETL","Kotlin"]},{"pos":"AI導入コンサル","ind":"不明","ws":"フルリモート","ratio":100,"new":true,"techs":["AIエージェント","AIガバナンス","AIコーディング支援","CI/CD","GitHub Actions"]},{"pos":"AI導入コンサル","ind":"不明","ws":"リモート・オンサイト併用","ratio":100,"new":true,"techs":["AIエージェント","CRM","Copilot Studio","PMO","PoC"]}],"weekly":[["2025-01-10",6,6],["2025-01-17",12,12],["2025-01-24",11,11],["2025-01-31",5,5],["2025-02-07",7,7],["2025-02-14",9,8],["2025-02-21",5,5],["2025-02-28",5,5],["2025-03-07",5,4],["2025-03-14",5,5],["2025-03-21",5,5],["2025-03-28",4,3],["2025-04-04",9,9],["2025-04-25",9,6],["2025-05-02",3,2],["2025-05-09",8,5],["2025-05-16",8,8],["2025-05-23",9,9],["2025-05-27",7,7],["2025-05-30",6,6],["2025-06-06",10,8],["2025-06-13",8,8],["2025-06-20",10,10],["2025-06-27",5,4],["2025-07-04",4,4],["2025-07-11",10,8],["2025-07-18",9,9],["2025-07-25",5,5],["2025-08-01",7,6],["2025-08-08",4,4],["2025-08-15",7,5],["2025-08-22",6,5],["2025-08-29",10,8],["2025-09-05",6,6],["2025-09-12",7,6],["2025-09-19",7,6],["2025-09-26",4,4],["2025-10-03",9,7],["2025-10-10",11,11],["2025-10-17",15,13],["2025-10-24",11,11],["2025-10-31",9,9],["2025-11-07",7,6],["2025-11-11",6,1],["2025-11-14",14,11],["2025-11-21",6,6],["2025-11-26",10,7],["2025-11-28",6,6],["2025-12-05",5,4],["2025-12-12",7,7],["2025-12-19",12,9],["2025-12-24",7,6],["2026-01-09",6,6],["2026-01-16",6,4],["2026-01-23",9,9],["2026-01-30",10,10],["2026-02-06",9,9],["2026-02-13",9,8],["2026-02-20",10,10],["2026-02-27",9,8],["2026-03-06",9,9],["2026-03-13",8,8],["2026-03-19",7,7],["2026-03-27",11,11],["2026-04-03",9,9],["2026-04-10",9,8],["2026-04-17",8,8],["2026-04-24",7,4],["2026-05-01",6,6],["2026-05-15",9,9],["2026-05-29",9,9],["2026-06-05",10,10],["2026-06-12",7,6],["2026-06-19",9,9],["2026-06-26",9,9],["2026-07-03",10,10],["2026-07-10",6,6],["2026-07-17",7,7],["2026-07-24",7,7],["2026-07-31",10,10],["2026-08-07",8,8],["2026-08-21",8,8],["2026-08-28",11,11]]}/*/FIGURES*/;
+
 class Component extends DCLogic {
   renderVals() {
-    const accent = this.props.accent ?? '#cdf24d';
-    const rank = [
-      ['AIエージェント', '生成AI', 0.79, 8, '+700%'],
-      ['DWH', 'データ基盤', 0.68, 7, '+600%'],
-      ['SQL', '言語', 0.60, 11, '+267%'],
-      ['AWS', 'クラウド', 0.54, 13, '+160%'],
-      ['Python', '言語', 0.49, 17, '+55%'],
-      ['機械学習', '機械学習', 0.43, 12, '+100%'],
-      ['MLOps', '基盤・運用', 0.37, 6, '+200%'],
-      ['LLM', '生成AI', 0.34, 7, '+133%'],
-      ['要件定義', 'プロセス', 0.28, 12, '0%'],
-      ['生成AI', '生成AI', 0.27, 10, '+25%'],
-    ].map((r, i) => ({
+    const emph = this.props.emph ?? '#3fe08f';
+    const BG = '#0a0a09', MUTED = '#6e6c63', INK = '#f5f4ee', BLUE = '#3987e5';
+    // 強調色から派生色を作る（アクセントを変えても地の緑が取り残されないように）
+    const mix = (hex, base, t) => {
+      const h = n => parseInt(hex.slice(n, n + 2), 16);
+      const b = n => parseInt(base.slice(n, n + 2), 16);
+      const c = (x, y) => Math.round(x + (y - x) * t).toString(16).padStart(2, '0');
+      return '#' + c(h(1), b(1)) + c(h(3), b(3)) + c(h(5), b(5));
+    };
+    const emphDim = mix(emph, BG, 0.58);
+    const emphWash = mix(emph, BG, 0.9);
+
+    const T = D.totals || { weeks: 0, listings: 0, unique_projects: 0 };
+    const rng = D.range || ['', ''];
+    const win = D.window || 8;
+    const w = D.weights || { volume: 0.4, growth: 0.6 };
+    const rank = D.rank || [];
+    const rise = (D.scatter || []).filter(s => s.delta > 0);
+
+    const tiles = [
+      { k: '集計週数', v: T.weeks, u: '週', sub: `${rng[0]} → ${rng[1]}`, key: false },
+      { k: '延べ掲載', v: T.listings, u: '件', sub: `ユニーク案件 ${T.unique_projects} 件`, key: false },
+      { k: '技術キーワード', v: D.tech_count || 0, u: '種', sub: '辞書ベース抽出', key: false },
+      { k: '直近で伸びている技術', v: rise.length, u: '技術', sub: rank.slice(0, 3).map(r => r.name).join(' / '), key: true },
+    ].map(t => ({
+      ...t,
+      weight: t.key ? 700 : 500,
+      vColor: t.key ? emph : INK,
+      kColor: t.key ? emph : MUTED,
+    }));
+
+    const maxScore = rank.length ? rank[0].score : 1;
+    const rankRows = rank.map((r, i) => ({
+      ...r,
       no: String(i + 1).padStart(2, '0'),
-      name: r[0], cat: r[1],
-      score: r[2].toFixed(2),
-      vol: r[3], grow: r[4],
-      pct: Math.round((r[2] / 0.79) * 100) + '%',
-      rankColor: i < 4 ? accent : '#6b6960',
-      barColor: i < 4 ? accent : '#3d4a2a',
-      scoreColor: i < 4 ? accent : '#f2f1ea',
-      growColor: r[4] === '0%' ? '#6b6960' : accent,
+      score: r.score.toFixed(2),
+      pct: Math.round((r.score / maxScore) * 100) + '%',
+      weight: i < 3 ? 700 : 400,
+      nameColor: i < 3 ? emph : INK,
+      rankColor: i < 3 ? emph : MUTED,
+      barColor: i < 3 ? emph : emphDim,
+      scoreColor: i < 3 ? emph : INK,
+      growColor: r.growth_pct.startsWith('-') ? '#d95926'
+        : r.growth_pct === '+0%' ? MUTED : emph,
     }));
-    const must = [
-      ['Python', '82%', 82], ['SQL', '71%', 71], ['AWS', '58%', 58],
-      ['RAG / AIエージェント', '44%', 44], ['Claude Code', '21%', 21], ['MLOps', '19%', 19],
-    ].map((m) => ({ name: m[0], req: m[1], reqPct: m[2] + '%', optPct: (100 - m[2]) + '%' }));
-    const cooc = [
-      { name: 'AIエージェント', with: ['LLM (6)', 'PoC (6)', '生成AI (6)', 'AWS (5)', 'Azure (5)'] },
-      { name: 'DWH', with: ['要件定義 (5)', 'SQL (5)', 'AWS (4)', 'ETL (4)', 'Snowflake (3)'] },
-      { name: 'SQL', with: ['Python (9)', '機械学習 (6)', 'Tableau (6)', 'DWH (5)', '要件定義 (4)'] },
-      { name: 'AWS', with: ['Python (11)', 'MLOps (7)', '要件定義 (6)', '機械学習 (6)', 'AIエージェント (5)'] },
-      { name: 'MLOps', with: ['AWS (7)', 'Python (6)', 'API設計 (5)', '機械学習 (5)', '生成AI (5)'] },
+
+    // --- 2軸マップ: 線形スケールで座標を計算する（手打ちしない） ---
+    const pts = D.scatter || [];
+    const X0 = 70, X1 = 1200, Y0 = 20, Y1 = 340;
+    const xMax = Math.max(1, ...pts.map(p => p.recent)) * 1.06;
+    const dMax = Math.max(1, ...pts.map(p => p.delta));
+    const dMin = Math.min(-1, ...pts.map(p => p.delta));
+    const padY = (dMax - dMin) * 0.12;
+    const yHi = dMax + padY, yLo = dMin - padY;
+    const X = v => X0 + (v / xMax) * (X1 - X0);
+    const Y = v => Y0 + ((yHi - v) / (yHi - yLo)) * (Y1 - Y0);
+    const sortedX = pts.map(p => p.recent).sort((a, b) => a - b);
+    const xMid = sortedX[Math.floor(sortedX.length / 2)] || 1;
+    const maxTotal = Math.max(1, ...pts.map(p => p.total));
+
+    const laid = pts.map(p => {
+      const group = p.delta > 0 ? (p.recent < xMid ? 'rising' : 'core') : 'flat';
+      return {
+        ...p, group,
+        cx: X(p.recent), cy: Y(p.delta),
+        r: 5 + Math.sqrt(p.total / maxTotal) * 9,
+        fill: group === 'rising' ? emph : group === 'core' ? BLUE : MUTED,
+        textFill: group === 'flat' ? MUTED : INK,
+        weight: group === 'rising' ? 700 : 400,
+      };
+    }).sort((a, b) => a.cy - b.cy);
+    let prevY = -1e9;
+    laid.forEach(p => {
+      p.ly = Math.max(p.cy, prevY + 15);
+      prevY = p.ly;
+      p.lx0 = p.cx + p.r;
+      p.lx1 = p.cx + p.r + 7;
+      p.tx = p.cx + p.r + 10;
+      p.tyText = p.ly + 4;
+    });
+
+    const axisTicks = [
+      { x: X0 - 9, y: Y(yHi) + 4, label: `+${Math.round(yHi)}`, anchor: 'end' },
+      { x: X0 - 9, y: Y(0) + 4, label: '0', anchor: 'end' },
+      { x: X0 - 9, y: Y(yLo) + 4, label: `${Math.round(yLo)}`, anchor: 'end' },
+      { x: X0, y: 366, label: '0', anchor: 'middle' },
+      { x: X(xMid), y: 366, label: String(xMid), anchor: 'middle' },
+      { x: X1, y: 366, label: String(Math.round(xMax)), anchor: 'end' },
+      { x: X1, y: 392, label: `直近${win}週の出現案件数 →`, anchor: 'end' },
     ];
-    const supply = [
-      ['AIエージェント', '3.2週', '89%'], ['MLOps', '2.8週', '75%'],
-      ['DWH', '2.5週', '86%'], ['Databricks', '2.4週', '67%'],
-      ['Python', '1.6週', '61%'], ['要件定義', '1.3週', '58%'],
-    ].map((s, i) => ({ name: s[0], weeks: s[1], fresh: s[2], wkColor: i < 3 ? accent : '#f2f1ea' }));
-    const roles = ['AIエンジニア', 'アプリエンジニア', 'PM/PdM', 'ITコンサル', 'データアナリスト', 'データエンジニア'];
-    const scale = (v) => v === 0 ? { bg: '#1d1d1a', fg: '#3d3b36' }
-      : v <= 1 ? { bg: '#104281', fg: '#a9c9ee' }
-      : v <= 2 ? { bg: '#184f95', fg: '#d5e6f8' }
-      : v <= 5 ? { bg: '#256abf', fg: '#ffffff' }
+
+    const scale = v => v === 0 ? { bg: '#1c1c19', fg: '#33322e' }
+      : v <= 2 ? { bg: '#104281', fg: '#a9c9ee' }
+      : v <= 6 ? { bg: '#184f95', fg: '#d5e6f8' }
+      : v <= 16 ? { bg: '#256abf', fg: '#ffffff' }
       : { bg: '#3987e5', fg: '#ffffff' };
-    const heat = [
-      ['金融業', [2, 0, 1, 1, 0, 0]], ['卸小売業', [0, 0, 1, 2, 0, 1]],
-      ['医療', [2, 0, 0, 1, 1, 1]], ['情報通信業', [2, 2, 0, 0, 0, 0]],
-      ['製造業', [0, 1, 0, 0, 1, 1]], ['業界未記載', [13, 5, 4, 1, 3, 3]],
-    ].map((r) => ({
-      label: r[0],
-      cells: r[1].map((v) => ({ v, bg: scale(v).bg, fg: scale(v).fg })),
+    const cube = D.cube || { positions: [], industries: [], cells: [], max: 1 };
+    const grid = cube.industries.map((_, i) =>
+      cube.positions.map((__, p) => {
+        const hit = cube.cells.filter(c => c.i === i && c.p === p);
+        return hit.reduce((a, c) => Math.max(a, c.n), 0);
+      }));
+    const heat = cube.industries.map((label, i) => ({
+      label,
+      cells: grid[i].map(v => ({ v, bg: scale(v).bg, fg: scale(v).fg })),
     }));
-    return { accent, rank, must, cooc, supply, roles, heat };
+
+    const mustGroups = [
+      { title: '持たないと土俵に乗れない', color: BLUE,
+        rows: (D.must || []).map(m => ({
+          name: m.name, pct: Math.round(m.rate * 100) + '%',
+          label: Math.round(m.rate * 100) + '%' })) },
+      { title: '持つと差別化できる（尚可止まり）', color: '#d95926',
+        rows: (D.opt || []).map(m => ({
+          name: m.name, pct: Math.round((1 - m.rate) * 100) + '%',
+          label: Math.round((1 - m.rate) * 100) + '%' })) },
+    ];
+
+    const supply = (D.supply || []).map((s, i) => ({
+      name: s.name,
+      weeksLabel: s.weeks.toFixed(2) + '週',
+      freshLabel: Math.round(s.fresh * 100) + '%',
+      weight: i < 3 ? 700 : 400,
+      color: i < 3 ? emph : INK,
+    }));
+
+    const R = D.rate || { reported: 0, missing: 0 };
+    return {
+      emph, emphDim, emphWash,
+      tiles, rank: rankRows, points: laid, axisTicks,
+      band: { x: X0, y: Y0, w: Math.max(0, X(xMid) - X0), h: Math.max(0, Y(0) - Y0),
+              tx: X0 + 14, ty: Y0 + 20 },
+      zeroY: Y(0), midX: X(xMid),
+      legend: [
+        { name: '新興・急伸（狙い目）', color: emph, text: emph, weight: 700 },
+        { name: '主力（伸びている大領域）', color: BLUE, text: '#a9a79d', weight: 400 },
+        { name: '横ばい・後退', color: MUTED, text: '#a9a79d', weight: 400 },
+      ],
+      cooc: D.cooc || [],
+      mustGroups, supply,
+      heat,
+      cube: {
+        positions: cube.positions,
+        scaleLabel: `0 → ${cube.max}`,
+        caveat: `業界欄が未記載の案件が全 ${T.listings} 件中に多く、業界軸の解像度は低い`,
+      },
+      rate: { headline: `${R.reported} / ${T.listings}`, reported: R.reported },
+      wVol: w.volume.toFixed(1), wGrow: w.growth.toFixed(1),
+      wVolPct: Math.round(w.volume * 100) + '%',
+      wGrowPct: Math.round(w.growth * 100) + '%',
+      scoreNote: `スコア = 需要量 × ${w.volume} + 成長率 × ${w.growth}（本番では画面で調整可）`,
+      axisNote: `横軸 = 直近${win}週の出現案件数 / 縦軸 = 直近${win}週 − その前${win}週`,
+      windowLabel: `直近${win}週`,
+      updated: `${rng[1]} 配信分まで`,
+    };
   }
 }
 </script>

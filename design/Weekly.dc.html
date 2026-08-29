@@ -9,93 +9,79 @@
 <helmet>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
   <style>
-    body { margin: 0; background: #0d0d0c; }
-    a { color: #cdf24d; text-decoration: none; }
-    a:hover { color: #e2fa8e; }
-    .mono { font-family: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace; font-variant-numeric: tabular-nums; }
+    body { margin: 0; background: #0a0a09; }
+    a { color: #3fe08f; text-decoration: none; }
+    a:hover { color: #7cebb4; }
+    .mono { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
   </style>
 </helmet>
 
-<div style="width: 1440px; background: #0d0d0c; color: #f2f1ea; font-family: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; padding: 0 0 72px;">
+<div style="width: 1440px; background: #0a0a09; color: #f5f4ee; font-family: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif; padding: 0 0 64px;">
 
-  <div style="display: flex; align-items: flex-end; justify-content: space-between; padding: 30px 64px 20px; border-bottom: 1px solid {{accent}};">
-    <div style="display: flex; flex-direction: column; gap: 5px;">
-      <div class="mono" style="font-size: 11px; letter-spacing: 0.24em; color: {{accent}};">AI JOBS TREND / 今週の特集</div>
-      <div style="font-size: 27px; font-weight: 900; letter-spacing: -0.01em;">2026年8月28日 配信分</div>
+  <div style="display: flex; align-items: flex-end; justify-content: space-between; padding: 30px 64px 22px; border-bottom: 1px solid {{emph}};">
+    <div style="display: flex; flex-direction: column; gap: 4px;">
+      <div class="mono" style="font-size: 11px; letter-spacing: 0.22em; color: {{emph}};">AI JOBS TREND</div>
+      <div style="font-size: 28px; font-weight: 900; letter-spacing: -0.015em;">{{weekTitle}}</div>
     </div>
     <div style="display: flex; gap: 4px; align-items: center;">
-      <div class="mono" style="font-size: 12px; padding: 7px 15px; color: #0d0d0c; background: {{accent}}; font-weight: 600;">今週の特集</div>
-      <div class="mono" style="font-size: 12px; padding: 7px 15px; color: #6b6960; border: 1px solid #2c2c28;">トレンド分析</div>
+      <div class="mono" style="font-size: 12px; padding: 7px 15px; color: #0a0a09; background: {{emph}}; font-weight: 700;">今週の特集</div>
+      <div class="mono" style="font-size: 12px; padding: 7px 15px; color: #6e6c63; border: 1px solid #262622;">トレンド分析</div>
     </div>
   </div>
 
-  <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid #2c2c28;">
-    <div style="padding: 30px 64px; border-right: 1px solid #2c2c28; display: flex; flex-direction: column; gap: 3px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: #6b6960;">今週の掲載案件</div>
-      <div class="mono" style="font-size: 52px; font-weight: 500; line-height: 1.05;">11<span style="font-size: 17px; color: #a3a199; margin-left: 5px;">件</span></div>
-    </div>
-    <div style="padding: 30px 40px; border-right: 1px solid #2c2c28; display: flex; flex-direction: column; gap: 3px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: {{accent}};">うち新規</div>
-      <div class="mono" style="font-size: 52px; font-weight: 500; line-height: 1.05; color: {{accent}};">11<span style="font-size: 17px; color: #a3a199; margin-left: 5px;">件</span></div>
-      <div style="font-size: 11.5px; color: #6b6960;">全件が初出。再掲ゼロ</div>
-    </div>
-    <div style="padding: 30px 40px; border-right: 1px solid #2c2c28; display: flex; flex-direction: column; gap: 3px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: #6b6960;">登場した技術</div>
-      <div class="mono" style="font-size: 52px; font-weight: 500; line-height: 1.05;">44<span style="font-size: 17px; color: #a3a199; margin-left: 5px;">種</span></div>
-    </div>
-    <div style="padding: 30px 40px; display: flex; flex-direction: column; gap: 3px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: #6b6960;">フルリモート比率</div>
-      <div class="mono" style="font-size: 52px; font-weight: 500; line-height: 1.05;">55<span style="font-size: 17px; color: #a3a199; margin-left: 5px;">%</span></div>
-      <div style="font-size: 11.5px; color: #6b6960;">常駐は 2 件のみ</div>
+  <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: #262622; border-bottom: 1px solid #262622;">
+    <sc-for list="{{tiles}}" as="t" hint-placeholder-count="4">
+      <div style="background: #141412; padding: 22px 26px; display: flex; flex-direction: column; gap: 3px;">
+        <div class="mono" style="font-size: 10.5px; letter-spacing: 0.16em; color: {{t.kColor}};">{{t.k}}</div>
+        <div class="mono" style="font-size: 40px; font-weight: {{t.weight}}; line-height: 1.1; letter-spacing: -0.02em; color: {{t.vColor}};">{{t.v}}<span style="font-size: 15px; color: #a9a79d; margin-left: 5px;">{{t.u}}</span></div>
+        <div style="font-size: 11.5px; color: #6e6c63;">{{t.sub}}</div>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="padding: 40px 64px 0;">
+    <div style="display: flex; gap: 26px; background: {{emphWash}}; border: 1px solid {{emphDim}}; border-left: 3px solid {{emph}}; padding: 24px 30px;">
+      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.18em; color: {{emph}}; padding-top: 5px; white-space: nowrap;">今週の所感</div>
+      <div style="font-size: 15px; line-height: 2.05; color: #f5f4ee;">{{commentary}}</div>
     </div>
   </div>
 
-  <!-- 所感 -->
-  <div style="padding: 44px 64px 0;">
-    <div style="display: flex; gap: 26px; background: #161614; border: 1px solid #2c2c28; border-left: 3px solid {{accent}}; padding: 26px 32px;">
-      <div class="mono" style="font-size: 10.5px; letter-spacing: 0.18em; color: {{accent}}; padding-top: 4px; white-space: nowrap;">今週の所感</div>
-      <div style="font-size: 15px; line-height: 2; color: #f2f1ea;">今週は11件すべてが新規案件で、AIエージェントが4件と単独の技術としては最多。うち3件はAIコーディング支援（Claude Code等）を実務スキルとして明記しており、「AIを作る」案件と「AIで作る」案件が同じ週に並んだ。医療が3件と業界別では突出。稼働形態はフルリモートが6件で、常駐は金融・R&Dの2件に限られる。</div>
-    </div>
-  </div>
-
-  <!-- 今週の技術 -->
   <div style="padding: 46px 64px 0;">
-    <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-      <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">01</div>
-      <div style="font-size: 20px; font-weight: 700;">今週よく求められた技術</div>
-      <div style="font-size: 12.5px; color: #6b6960; margin-left: auto;">必須・尚可スキルおよび案件内容から抽出</div>
+    <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+      <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+      <div style="font-size: 21px; font-weight: 700;">今週よく求められた技術</div>
+      <div style="font-size: 12.5px; color: #6e6c63; margin-left: auto;">必須・尚可スキルおよび案件内容から抽出。<span style="color: {{emph}}; font-weight: 700;">上位5件</span>を強調</div>
     </div>
-    <div style="background: #161614; border: 1px solid #2c2c28; border-top: none; padding: 24px 30px 26px;">
+    <div style="background: #141412; border: 1px solid #262622; border-top: none; padding: 24px 30px 26px;">
       <div style="display: flex; flex-direction: column; gap: 11px;">
         <sc-for list="{{techs}}" as="t" hint-placeholder-count="12">
-          <div style="display: grid; grid-template-columns: 190px 1fr 44px; align-items: center; gap: 0;">
-            <div style="font-size: 13.5px; color: #f2f1ea;">{{t.name}}</div>
+          <div style="display: grid; grid-template-columns: 200px 1fr 44px; align-items: center;">
+            <div style="font-size: 13.5px; font-weight: {{t.weight}}; color: {{t.nameColor}};">{{t.name}}</div>
             <div style="padding-right: 16px;">
               <div style="height: 12px; width: {{t.pct}}; background: {{t.color}};"></div>
             </div>
-            <div class="mono" style="font-size: 13.5px; text-align: right; color: #a3a199;">{{t.n}}</div>
+            <div class="mono" style="font-size: 13.5px; text-align: right; color: #a9a79d;">{{t.n}}</div>
           </div>
         </sc-for>
       </div>
     </div>
   </div>
 
-  <!-- 構成 -->
   <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; padding: 46px 64px 0;">
     <sc-for list="{{dists}}" as="d" hint-placeholder-count="3">
       <div>
-        <div style="display: flex; align-items: baseline; gap: 14px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-          <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">{{d.no}}</div>
-          <div style="font-size: 17px; font-weight: 700;">{{d.title}}</div>
+        <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+          <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+          <div style="font-size: 18px; font-weight: 700;">{{d.title}}</div>
         </div>
-        <div style="background: #161614; border: 1px solid #2c2c28; border-top: none; padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="background: #141412; border: 1px solid #262622; border-top: none; padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 12px;">
           <sc-for list="{{d.rows}}" as="r" hint-placeholder-count="6">
             <div style="display: flex; flex-direction: column; gap: 5px;">
               <div style="display: flex; align-items: baseline;">
                 <span style="font-size: 13px;">{{r.name}}</span>
-                <span class="mono" style="font-size: 12.5px; color: #a3a199; margin-left: auto;">{{r.n}}</span>
+                <span class="mono" style="font-size: 12.5px; color: #a9a79d; margin-left: auto;">{{r.n}}</span>
               </div>
-              <div style="height: 7px; background: #1d1d1a;">
+              <div style="height: 7px; background: #1c1c19;">
                 <div style="height: 7px; width: {{r.pct}}; background: #3987e5;"></div>
               </div>
             </div>
@@ -105,35 +91,34 @@
     </sc-for>
   </div>
 
-  <!-- 案件カード -->
   <div style="padding: 46px 64px 0;">
-    <div style="display: flex; align-items: baseline; gap: 16px; border-bottom: 1px solid #2c2c28; padding-bottom: 12px;">
-      <div class="mono" style="font-size: 11px; color: {{accent}}; letter-spacing: 0.2em;">05</div>
-      <div style="font-size: 20px; font-weight: 700;">今週の案件</div>
-      <div style="font-size: 12.5px; color: #6b6960; margin-left: auto;">匿名化して掲載（案件番号・本文・企業名は保持していない）</div>
+    <div style="display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #262622; padding-bottom: 12px;">
+      <div style="width: 22px; height: 2px; background: {{emph}}; flex: none;"></div>
+      <div style="font-size: 21px; font-weight: 700;">今週の案件</div>
+      <div style="font-size: 12.5px; color: #6e6c63; margin-left: auto;">匿名化して掲載（案件番号・本文・企業名は保持していない）</div>
     </div>
     <div style="display: flex; gap: 6px; padding: 18px 0 16px; flex-wrap: wrap;">
-      <span class="mono" style="font-size: 12px; padding: 5px 13px; background: {{accent}}; color: #0d0d0c; font-weight: 600;">すべて 11</span>
-      <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">AIエンジニア 3</span>
-      <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">AI導入コンサル 2</span>
-      <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">データアナリスト 2</span>
-      <span class="mono" style="font-size: 12px; padding: 5px 13px; border: 1px solid #2c2c28; color: #a3a199;">フルリモート 6</span>
+      <sc-for list="{{chips}}" as="c" hint-placeholder-count="5">
+        <span class="mono" style="font-size: 12px; padding: 6px 13px; background: {{c.bg}}; color: {{c.fg}}; border: 1px solid {{c.border}}; font-weight: {{c.weight}};">{{c.label}}</span>
+      </sc-for>
     </div>
     <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px;">
       <sc-for list="{{cards}}" as="c" hint-placeholder-count="6">
-        <div style="background: #161614; border: 1px solid #2c2c28; padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 13px;">
+        <div style="background: #141412; border: 1px solid #262622; padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 13px;">
           <div style="display: flex; align-items: center; gap: 9px;">
             <span style="font-size: 15px; font-weight: 700;">{{c.pos}}</span>
-            <span class="mono" style="font-size: 9.5px; letter-spacing: 0.1em; background: {{accent}}; color: #0d0d0c; padding: 1px 7px; font-weight: 600; margin-left: auto;">NEW</span>
+            <sc-if value="{{c.new}}" hint-placeholder-val="{{ true }}">
+              <span class="mono" style="font-size: 9.5px; letter-spacing: 0.12em; background: {{emph}}; color: #0a0a09; padding: 2px 8px; font-weight: 700; margin-left: auto;">NEW</span>
+            </sc-if>
           </div>
-          <div style="display: grid; grid-template-columns: 58px 1fr; gap: 4px 12px; font-size: 12.5px;">
-            <span style="color: #6b6960;">業界</span><span style="color: #a3a199;">{{c.ind}}</span>
-            <span style="color: #6b6960;">稼働</span><span style="color: #a3a199;">{{c.ws}}</span>
-            <span style="color: #6b6960;">単価</span><span style="color: #6b6960;">応相談</span>
+          <div style="display: grid; grid-template-columns: 52px 1fr; gap: 4px 12px; font-size: 12.5px;">
+            <span style="color: #6e6c63;">業界</span><span style="color: #a9a79d;">{{c.ind}}</span>
+            <span style="color: #6e6c63;">稼働</span><span style="color: #a9a79d;">{{c.ws}}</span>
+            <span style="color: #6e6c63;">単価</span><span style="color: #6e6c63;">応相談</span>
           </div>
           <div style="display: flex; flex-wrap: wrap; gap: 5px;">
-            <sc-for list="{{c.tags}}" as="tg" hint-placeholder-count="5">
-              <span class="mono" style="font-size: 11.5px; color: #f2f1ea; background: #1d1d1a; border: 1px solid #2c2c28; padding: 2px 9px;">{{tg}}</span>
+            <sc-for list="{{c.techs}}" as="tg" hint-placeholder-count="5">
+              <span class="mono" style="font-size: 11.5px; color: #f5f4ee; background: #1c1c19; border: 1px solid #262622; padding: 2px 9px;">{{tg}}</span>
             </sc-for>
           </div>
         </div>
@@ -141,48 +126,97 @@
     </div>
   </div>
 
-  <div style="padding: 44px 64px 0;">
-    <div style="border-top: 1px solid #2c2c28; padding-top: 20px; display: flex; justify-content: space-between; align-items: baseline;">
-      <div style="font-size: 11.5px; color: #6b6960; line-height: 1.7; max-width: 720px;">出典: エッジテクノロジー株式会社 AIソリューション事業部より毎週配信される案件情報メール。受信者本人が個人利用の範囲で統計的に集計したもの。</div>
-      <div class="mono" style="font-size: 11px; color: #6b6960;">UPDATED 2026-08-29</div>
+  <div style="padding: 42px 64px 0;">
+    <div style="border-top: 1px solid #262622; padding-top: 20px; display: flex; justify-content: space-between; align-items: baseline;">
+      <div style="font-size: 11.5px; color: #6e6c63; line-height: 1.75; max-width: 760px;">出典: エッジテクノロジー株式会社 AIソリューション事業部より毎週配信される案件情報メール。受信者本人が個人利用の範囲で統計的に集計したもの。</div>
+      <div class="mono" style="font-size: 11px; color: #6e6c63;">{{updated}}</div>
     </div>
   </div>
 
 </div>
 </x-dc>
 
-<script data-dc-script data-props='{"accent":{"editor":"color","default":"#cdf24d","options":["#cdf24d","#5ad1c8","#f2a33c","#e5679a"]},"$preview":{"width":1440,"height":1980}}'>
+<script data-dc-script data-props='{"emph":{"editor":"color","default":"#3fe08f","options":["#3fe08f","#cdf24d","#5ad1c8","#f2a33c"]},"$preview":{"width":1440,"height":2020}}'>
+const D = /*FIGURES*/{"totals":{"weeks":83,"listings":654,"unique_projects":601},"tech_count":92,"range":["2025-01-10","2026-08-28"],"window":8,"weights":{"volume":0.4,"growth":0.6},"rank":[{"name":"AIガバナンス","cat":"生成AI","score":0.665,"recent":5,"prev":0,"growth_pct":"+250%"},{"name":"AIコーディング支援","cat":"AIツール","score":0.532,"recent":4,"prev":0,"growth_pct":"+200%"},{"name":"画像認識","cat":"機械学習","score":0.463,"recent":8,"prev":2,"growth_pct":"+150%"},{"name":"Python","cat":"言語","score":0.4,"recent":31,"prev":36,"growth_pct":"-13%"},{"name":"深層学習","cat":"機械学習","score":0.39,"recent":7,"prev":2,"growth_pct":"+125%"},{"name":"生成AI","cat":"生成AI","score":0.373,"recent":23,"prev":17,"growth_pct":"+32%"},{"name":"PoC","cat":"プロセス","score":0.361,"recent":18,"prev":11,"growth_pct":"+54%"},{"name":"AIエージェント","cat":"生成AI","score":0.359,"recent":16,"prev":9,"growth_pct":"+64%"},{"name":"要件定義","cat":"プロセス","score":0.329,"recent":23,"prev":20,"growth_pct":"+14%"},{"name":"TensorFlow","cat":"機械学習","score":0.317,"recent":6,"prev":2,"growth_pct":"+100%"}],"scatter":[{"name":"Python","cat":"言語","recent":31,"delta":-5,"total":340},{"name":"SQL","cat":"言語","recent":18,"delta":-3,"total":200},{"name":"AWS","cat":"クラウド","recent":19,"delta":-1,"total":172},{"name":"機械学習","cat":"機械学習","recent":20,"delta":0,"total":168},{"name":"生成AI","cat":"生成AI","recent":23,"delta":6,"total":149},{"name":"要件定義","cat":"プロセス","recent":23,"delta":3,"total":148},{"name":"LLM","cat":"生成AI","recent":19,"delta":0,"total":130},{"name":"GCP","cat":"クラウド","recent":10,"delta":-8,"total":114},{"name":"PoC","cat":"プロセス","recent":18,"delta":7,"total":103},{"name":"Tableau","cat":"データ基盤","recent":8,"delta":0,"total":102},{"name":"Azure","cat":"クラウド","recent":10,"delta":0,"total":98},{"name":"API設計","cat":"アプリ開発","recent":8,"delta":-8,"total":94},{"name":"BigQuery","cat":"データ基盤","recent":6,"delta":-8,"total":82},{"name":"RAG","cat":"生成AI","recent":10,"delta":-2,"total":78},{"name":"DWH","cat":"データ基盤","recent":8,"delta":-7,"total":72},{"name":"ETL","cat":"データ基盤","recent":8,"delta":-6,"total":72},{"name":"AIエージェント","cat":"生成AI","recent":16,"delta":7,"total":64},{"name":"Docker","cat":"基盤・運用","recent":5,"delta":-4,"total":64}],"cooc":[{"name":"画像認識","with":["Python (41)","機械学習 (20)","深層学習 (19)","PyTorch (15)","PoC (11)"]},{"name":"Python","with":["機械学習 (134)","SQL (128)","AWS (123)","GCP (88)","LLM (86)"]},{"name":"深層学習","with":["Python (33)","機械学習 (28)","PyTorch (21)","画像認識 (19)","Git (15)"]}],"must":[{"name":"scikit-learn","listings":24,"req":21,"rate":0.875},{"name":"Python","listings":340,"req":276,"rate":0.812},{"name":"SQL","listings":200,"req":159,"rate":0.795},{"name":"R","listings":53,"req":41,"rate":0.774},{"name":"画像認識","listings":55,"req":38,"rate":0.691},{"name":"プロンプトエンジニアリング","listings":32,"req":22,"rate":0.688}],"opt":[{"name":"CRM","listings":20,"req":2,"rate":0.1},{"name":"GitHub Actions","listings":17,"req":2,"rate":0.118},{"name":"SCM","listings":13,"req":2,"rate":0.154},{"name":"SAP","listings":12,"req":2,"rate":0.167},{"name":"MySQL","listings":18,"req":3,"rate":0.167},{"name":"マルチモーダル","listings":16,"req":3,"rate":0.188}],"supply":[{"name":"異常検知","weeks":3.41,"fresh":0.739,"listings":23},{"name":"R","weeks":2.84,"fresh":0.792,"listings":53},{"name":"レコメンド","weeks":2.79,"fresh":0.824,"listings":17},{"name":"scikit-learn","weeks":2.75,"fresh":0.833,"listings":24},{"name":"MySQL","weeks":2.73,"fresh":0.833,"listings":18},{"name":"PostgreSQL","weeks":2.41,"fresh":0.895,"listings":19}],"rate":{"reported":4,"missing":650,"min":55,"max":115,"median":80},"cube":{"positions":["AIエンジニア","データアナリスト","データエンジニア","BIエンジニア","ITコンサル","その他"],"industries":["情報通信業","金融業","製造業","エンターテイメント","医療","卸小売業"],"categories":["言語","生成AI","データ基盤","機械学習","クラウド","プロセス"],"max":79,"cells":[{"i":0,"p":0,"c":0,"n":11},{"i":0,"p":0,"c":1,"n":16},{"i":0,"p":0,"c":2,"n":9},{"i":0,"p":0,"c":3,"n":8},{"i":0,"p":0,"c":4,"n":13},{"i":0,"p":0,"c":5,"n":13},{"i":0,"p":1,"c":0,"n":9},{"i":0,"p":1,"c":1,"n":4},{"i":0,"p":1,"c":2,"n":7},{"i":0,"p":1,"c":3,"n":4},{"i":0,"p":1,"c":4,"n":7},{"i":0,"p":2,"c":0,"n":6},{"i":0,"p":2,"c":2,"n":7},{"i":0,"p":2,"c":4,"n":4},{"i":0,"p":2,"c":5,"n":3},{"i":0,"p":3,"c":0,"n":2},{"i":0,"p":3,"c":2,"n":1},{"i":0,"p":3,"c":4,"n":1},{"i":0,"p":3,"c":5,"n":1},{"i":0,"p":4,"c":0,"n":4},{"i":0,"p":4,"c":1,"n":2},{"i":0,"p":4,"c":2,"n":4},{"i":0,"p":4,"c":4,"n":2},{"i":0,"p":4,"c":5,"n":2},{"i":0,"p":5,"c":0,"n":1},{"i":1,"p":0,"c":0,"n":13},{"i":1,"p":0,"c":1,"n":13},{"i":1,"p":0,"c":2,"n":1},{"i":1,"p":0,"c":3,"n":8},{"i":1,"p":0,"c":4,"n":11},{"i":1,"p":0,"c":5,"n":8},{"i":1,"p":1,"c":0,"n":2},{"i":1,"p":1,"c":1,"n":1},{"i":1,"p":1,"c":2,"n":1},{"i":1,"p":1,"c":3,"n":3},{"i":1,"p":2,"c":0,"n":5},{"i":1,"p":2,"c":2,"n":7},{"i":1,"p":2,"c":3,"n":2},{"i":1,"p":2,"c":4,"n":4},{"i":1,"p":2,"c":5,"n":3},{"i":1,"p":3,"c":0,"n":1},{"i":1,"p":3,"c":2,"n":4},{"i":1,"p":4,"c":0,"n":1},{"i":1,"p":4,"c":2,"n":2},{"i":1,"p":4,"c":3,"n":1},{"i":1,"p":4,"c":5,"n":2},{"i":1,"p":5,"c":3,"n":1},{"i":1,"p":5,"c":4,"n":1},{"i":1,"p":5,"c":5,"n":1},{"i":2,"p":0,"c":0,"n":13},{"i":2,"p":0,"c":1,"n":6},{"i":2,"p":0,"c":2,"n":3},{"i":2,"p":0,"c":3,"n":7},{"i":2,"p":0,"c":4,"n":5},{"i":2,"p":0,"c":5,"n":9},{"i":2,"p":1,"c":0,"n":4},{"i":2,"p":1,"c":1,"n":1},{"i":2,"p":1,"c":2,"n":2},{"i":2,"p":1,"c":3,"n":4},{"i":2,"p":1,"c":4,"n":1},{"i":2,"p":1,"c":5,"n":1},{"i":2,"p":2,"c":0,"n":6},{"i":2,"p":2,"c":2,"n":7},{"i":2,"p":2,"c":4,"n":7},{"i":2,"p":2,"c":5,"n":9},{"i":2,"p":3,"c":2,"n":2},{"i":2,"p":3,"c":5,"n":1},{"i":2,"p":4,"c":0,"n":2},{"i":2,"p":4,"c":1,"n":2},{"i":2,"p":4,"c":2,"n":2},{"i":2,"p":4,"c":3,"n":2},{"i":2,"p":4,"c":4,"n":1},{"i":2,"p":4,"c":5,"n":3},{"i":2,"p":5,"c":2,"n":1},{"i":3,"p":0,"c":0,"n":3},{"i":3,"p":0,"c":1,"n":5},{"i":3,"p":0,"c":3,"n":5},{"i":3,"p":0,"c":4,"n":1},{"i":3,"p":0,"c":5,"n":1},{"i":3,"p":1,"c":0,"n":6},{"i":3,"p":1,"c":1,"n":1},{"i":3,"p":1,"c":2,"n":3},{"i":3,"p":1,"c":3,"n":1},{"i":3,"p":2,"c":0,"n":10},{"i":3,"p":2,"c":1,"n":2},{"i":3,"p":2,"c":2,"n":10},{"i":3,"p":2,"c":4,"n":10},{"i":3,"p":2,"c":5,"n":2},{"i":3,"p":3,"c":0,"n":5},{"i":3,"p":3,"c":2,"n":5},{"i":3,"p":3,"c":4,"n":1},{"i":3,"p":3,"c":5,"n":1},{"i":3,"p":5,"c":0,"n":1},{"i":3,"p":5,"c":2,"n":1},{"i":3,"p":5,"c":4,"n":1},{"i":3,"p":5,"c":5,"n":1},{"i":4,"p":0,"c":0,"n":12},{"i":4,"p":0,"c":1,"n":6},{"i":4,"p":0,"c":2,"n":2},{"i":4,"p":0,"c":3,"n":10},{"i":4,"p":0,"c":4,"n":13},{"i":4,"p":0,"c":5,"n":1},{"i":4,"p":1,"c":0,"n":8},{"i":4,"p":1,"c":1,"n":8},{"i":4,"p":1,"c":2,"n":5},{"i":4,"p":1,"c":3,"n":9},{"i":4,"p":1,"c":4,"n":9},{"i":4,"p":1,"c":5,"n":2},{"i":4,"p":2,"c":0,"n":1},{"i":4,"p":2,"c":1,"n":1},{"i":4,"p":2,"c":2,"n":1},{"i":4,"p":2,"c":4,"n":1},{"i":4,"p":3,"c":0,"n":4},{"i":4,"p":3,"c":2,"n":4},{"i":4,"p":3,"c":4,"n":3},{"i":4,"p":3,"c":5,"n":3},{"i":4,"p":4,"c":0,"n":1},{"i":4,"p":4,"c":3,"n":1},{"i":4,"p":4,"c":5,"n":2},{"i":4,"p":5,"c":0,"n":3},{"i":4,"p":5,"c":2,"n":1},{"i":4,"p":5,"c":3,"n":2},{"i":4,"p":5,"c":4,"n":1},{"i":5,"p":0,"c":0,"n":2},{"i":5,"p":0,"c":1,"n":1},{"i":5,"p":0,"c":3,"n":3},{"i":5,"p":0,"c":4,"n":1},{"i":5,"p":0,"c":5,"n":1},{"i":5,"p":1,"c":0,"n":8},{"i":5,"p":1,"c":2,"n":5},{"i":5,"p":1,"c":3,"n":6},{"i":5,"p":1,"c":4,"n":1},{"i":5,"p":1,"c":5,"n":3},{"i":5,"p":2,"c":0,"n":3},{"i":5,"p":2,"c":2,"n":5},{"i":5,"p":2,"c":4,"n":4},{"i":5,"p":3,"c":0,"n":4},{"i":5,"p":3,"c":2,"n":7},{"i":5,"p":3,"c":5,"n":2},{"i":5,"p":4,"c":0,"n":1},{"i":5,"p":4,"c":3,"n":1},{"i":5,"p":4,"c":5,"n":1},{"i":5,"p":5,"c":0,"n":3},{"i":5,"p":5,"c":2,"n":1},{"i":5,"p":5,"c":3,"n":2},{"i":5,"p":5,"c":4,"n":1},{"i":5,"p":5,"c":5,"n":2}]},"latest_week":"2026-08-28","latest":{"projects":11,"new_projects":11},"latest_tech":[["生成AI",5],["Python",5],["AIエージェント",4],["要件定義",4],["AWS",4],["PoC",3],["AIコーディング支援",3],["LLM",3],["機械学習",3],["Claude Code",2],["プロンプトエンジニアリング",2],["AIガバナンス",2]],"latest_pos":[["AIエンジニア",3],["AI導入コンサル",2],["データアナリスト",2],["データエンジニア",1],["BIエンジニア",1],["PM/PdM",1],["ITコンサル",1]],"latest_ind":[["不明",4],["医療",3],["不動産業",1],["製造業",1],["卸小売業",1],["情報通信業",1]],"latest_ws":[["フルリモート",6],["リモート・オンサイト併用",3],["常駐",2]],"latest_ratio":[["81〜100%",9],["31〜50%",2]],"latest_cards":[{"pos":"AIエンジニア","ind":"情報通信業","ws":"リモート・オンサイト併用","ratio":100,"new":true,"techs":["AIエージェント","AIガバナンス","AIコーディング支援","API設計","AWS"]},{"pos":"データアナリスト","ind":"医療","ws":"常駐","ratio":100,"new":true,"techs":["AWS","BigQuery","DWH","Git","MLOps"]},{"pos":"AIエンジニア","ind":"不明","ws":"常駐","ratio":100,"new":true,"techs":["AIエージェント","Azure","Databricks","LLM","LLM評価"]},{"pos":"データエンジニア","ind":"医療","ws":"フルリモート","ratio":100,"new":true,"techs":["AIコーディング支援","AWS","Claude Code","ETL","Kotlin"]},{"pos":"AI導入コンサル","ind":"不明","ws":"フルリモート","ratio":100,"new":true,"techs":["AIエージェント","AIガバナンス","AIコーディング支援","CI/CD","GitHub Actions"]},{"pos":"AI導入コンサル","ind":"不明","ws":"リモート・オンサイト併用","ratio":100,"new":true,"techs":["AIエージェント","CRM","Copilot Studio","PMO","PoC"]}],"weekly":[["2025-01-10",6,6],["2025-01-17",12,12],["2025-01-24",11,11],["2025-01-31",5,5],["2025-02-07",7,7],["2025-02-14",9,8],["2025-02-21",5,5],["2025-02-28",5,5],["2025-03-07",5,4],["2025-03-14",5,5],["2025-03-21",5,5],["2025-03-28",4,3],["2025-04-04",9,9],["2025-04-25",9,6],["2025-05-02",3,2],["2025-05-09",8,5],["2025-05-16",8,8],["2025-05-23",9,9],["2025-05-27",7,7],["2025-05-30",6,6],["2025-06-06",10,8],["2025-06-13",8,8],["2025-06-20",10,10],["2025-06-27",5,4],["2025-07-04",4,4],["2025-07-11",10,8],["2025-07-18",9,9],["2025-07-25",5,5],["2025-08-01",7,6],["2025-08-08",4,4],["2025-08-15",7,5],["2025-08-22",6,5],["2025-08-29",10,8],["2025-09-05",6,6],["2025-09-12",7,6],["2025-09-19",7,6],["2025-09-26",4,4],["2025-10-03",9,7],["2025-10-10",11,11],["2025-10-17",15,13],["2025-10-24",11,11],["2025-10-31",9,9],["2025-11-07",7,6],["2025-11-11",6,1],["2025-11-14",14,11],["2025-11-21",6,6],["2025-11-26",10,7],["2025-11-28",6,6],["2025-12-05",5,4],["2025-12-12",7,7],["2025-12-19",12,9],["2025-12-24",7,6],["2026-01-09",6,6],["2026-01-16",6,4],["2026-01-23",9,9],["2026-01-30",10,10],["2026-02-06",9,9],["2026-02-13",9,8],["2026-02-20",10,10],["2026-02-27",9,8],["2026-03-06",9,9],["2026-03-13",8,8],["2026-03-19",7,7],["2026-03-27",11,11],["2026-04-03",9,9],["2026-04-10",9,8],["2026-04-17",8,8],["2026-04-24",7,4],["2026-05-01",6,6],["2026-05-15",9,9],["2026-05-29",9,9],["2026-06-05",10,10],["2026-06-12",7,6],["2026-06-19",9,9],["2026-06-26",9,9],["2026-07-03",10,10],["2026-07-10",6,6],["2026-07-17",7,7],["2026-07-24",7,7],["2026-07-31",10,10],["2026-08-07",8,8],["2026-08-21",8,8],["2026-08-28",11,11]]}/*/FIGURES*/;
+
 class Component extends DCLogic {
   renderVals() {
-    const accent = this.props.accent ?? '#cdf24d';
-    const raw = [
-      ['生成AI', 5], ['Python', 5], ['AIエージェント', 4], ['要件定義', 4], ['AWS', 4],
-      ['PoC', 3], ['AIコーディング支援', 3], ['LLM', 3], ['機械学習', 3],
-      ['Claude Code', 2], ['プロンプトエンジニアリング', 2], ['AIガバナンス', 2],
-    ];
-    const techs = raw.map((t, i) => ({
+    const emph = this.props.emph ?? '#3fe08f';
+    const BG = '#0a0a09', MUTED = '#6e6c63', INK = '#f5f4ee';
+    const mix = (hex, base, t) => {
+      const h = n => parseInt(hex.slice(n, n + 2), 16);
+      const b = n => parseInt(base.slice(n, n + 2), 16);
+      const c = (x, y) => Math.round(x + (y - x) * t).toString(16).padStart(2, '0');
+      return '#' + c(h(1), b(1)) + c(h(3), b(3)) + c(h(5), b(5));
+    };
+    const emphDim = mix(emph, BG, 0.58), emphWash = mix(emph, BG, 0.9);
+
+    const L = D.latest || { projects: 0, new_projects: 0 };
+    const wk = D.latest_week || '';
+    const [y, m, d] = wk.split('-');
+    const techs = D.latest_tech || [];
+    const pos = D.latest_pos || [], ind = D.latest_ind || [], ws = D.latest_ws || [];
+    const total = L.projects || 1;
+    const remote = (ws.find(x => x[0] === 'フルリモート') || ['', 0])[1];
+    const onsite = (ws.find(x => x[0] === '常駐') || ['', 0])[1];
+    const topN = techs.length ? techs[0][1] : 1;
+    const tops = techs.filter(t => t[1] === topN).map(t => t[0]);
+
+    // 数字は必ずデータから組み立てる（手書きの所感はデータとずれるため）
+    const commentary =
+      `今週は ${total} 件中 ${L.new_projects} 件が新規案件。` +
+      `${tops.join(' と ')} が各 ${topN} 件で最多、` +
+      `${ind.length ? `業界では ${ind[0][0]} が ${ind[0][1]} 件で最も多い。` : ''}` +
+      `稼働形態はフルリモートが ${remote} 件、常駐は ${onsite} 件にとどまる。`;
+
+    const tiles = [
+      { k: '今週の掲載案件', v: total, u: '件', sub: '', key: false },
+      { k: 'うち新規', v: L.new_projects, u: '件', sub: `再掲 ${total - L.new_projects} 件`, key: true },
+      { k: '登場した技術', v: new Set(techs.map(t => t[0])).size, u: '種', sub: '上位のみ表示', key: false },
+      { k: 'フルリモート比率', v: Math.round((remote / total) * 100), u: '%', sub: `常駐は ${onsite} 件`, key: false },
+    ].map(t => ({ ...t, weight: t.key ? 700 : 500,
+      vColor: t.key ? emph : INK, kColor: t.key ? emph : MUTED }));
+
+    const maxT = techs.length ? techs[0][1] : 1;
+    const techRows = techs.map((t, i) => ({
       name: t[0], n: t[1],
-      pct: Math.round((t[1] / 5) * 100) + '%',
-      color: i < 5 ? accent : '#4a5a24',
+      pct: Math.round((t[1] / maxT) * 100) + '%',
+      color: i < 5 ? emph : emphDim,
+      nameColor: i < 5 ? emph : INK,
+      weight: i < 5 ? 700 : 400,
     }));
-    const mk = (no, title, rows, max) => ({
-      no, title,
-      rows: rows.map((r) => ({ name: r[0], n: r[1], pct: Math.round((r[1] / max) * 100) + '%' })),
-    });
-    const dists = [
-      mk('02', 'ポジション', [['AIエンジニア', 3], ['AI導入コンサル', 2], ['データアナリスト', 2], ['データエンジニア', 1], ['BIエンジニア', 1], ['PM/PdM', 1], ['ITコンサル', 1]], 3),
-      mk('03', 'クライアント業界', [['業界未記載', 4], ['医療', 3], ['不動産業', 1], ['製造業', 1], ['卸小売業', 1], ['情報通信業', 1]], 4),
-      mk('04', '稼働形態', [['フルリモート', 6], ['リモート・オンサイト併用', 3], ['常駐', 2]], 6),
-    ];
-    const cards = [
-      { pos: 'データエンジニア', ind: '医療', ws: 'フルリモート・100%', tags: ['Claude Code', 'ETL', 'Kotlin', 'PostgreSQL', 'AWS'] },
-      { pos: 'AI導入コンサル', ind: '業界未記載', ws: '併用・100%', tags: ['AIエージェント', 'Copilot Studio', 'Power Platform', 'PMO'] },
-      { pos: 'AIエンジニア', ind: '業界未記載', ws: '常駐・100%', tags: ['RAG', 'Databricks', 'Azure', 'Python', 'LLM評価'] },
-      { pos: 'AIエンジニア', ind: '情報通信業', ws: '併用・100%', tags: ['AIエージェント', 'AWS', 'MLOps', 'Claude Code'] },
-      { pos: 'BIエンジニア', ind: '不動産業', ws: 'フルリモート・50%', tags: ['Python', '要件定義'] },
-      { pos: 'データアナリスト', ind: '医療', ws: '常駐・100%', tags: ['Python', 'PyTorch', 'SQL', '因果推論', '時系列分析'] },
-    ];
-    return { accent, techs, dists, cards };
+
+    const mk = (title, rows) => {
+      const max = rows.length ? rows[0][1] : 1;
+      return { title, rows: rows.map(r => ({
+        name: r[0] === '不明' ? '業界未記載' : r[0], n: r[1],
+        pct: Math.round((r[1] / max) * 100) + '%' })) };
+    };
+    const dists = [mk('ポジション', pos), mk('クライアント業界', ind), mk('稼働形態', ws)];
+
+    const chips = [{ label: `すべて ${total}`, key: true }]
+      .concat(pos.slice(0, 3).map(p => ({ label: `${p[0]} ${p[1]}`, key: false })))
+      .concat([{ label: `フルリモート ${remote}`, key: false }])
+      .map(c => ({
+        label: c.label,
+        bg: c.key ? emph : 'transparent',
+        fg: c.key ? BG : '#a9a79d',
+        border: c.key ? emph : '#262622',
+        weight: c.key ? 700 : 400,
+      }));
+
+    const cards = (D.latest_cards || []).map(c => ({
+      pos: c.pos, ind: c.ind === '不明' ? '業界未記載' : c.ind,
+      ws: c.ratio ? `${c.ws}・${c.ratio}%` : c.ws,
+      new: c.new, techs: c.techs,
+    }));
+
+    return {
+      emph, emphDim, emphWash,
+      weekTitle: y ? `${y}年${+m}月${+d}日 配信分` : '最新の配信分',
+      commentary, tiles, techs: techRows, dists, chips, cards,
+      updated: `${wk} 配信分`,
+    };
   }
 }
 </script>

@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>今週の特集 | AI案件トレンド</title>
 <meta name="description" content="毎週届くAI・データ領域のフリーランス案件メールを解析し、今週求められている技術をまとめた特集ページ。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="./style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 </head>
@@ -27,7 +30,7 @@
   <div class="commentary" id="commentary"></div>
 
   <h2 class="section">今週よく求められた技術</h2>
-  <p class="lede">今週掲載された案件の必須・尚可スキルおよび案件内容から抽出した技術キーワードの出現件数。</p>
+  <p class="lede">今週掲載された案件の必須・尚可スキルおよび案件内容から抽出した技術キーワードの出現件数。<strong>上位5件</strong>を強調しています。</p>
   <div class="card"><div id="c-tech"></div></div>
 
   <h2 class="section">今週の案件構成</h2>
@@ -85,8 +88,8 @@ const fail = msg => {
     `<div class="err"><b>データを読み込めませんでした。</b><br>${esc(msg)}</div>`);
 };
 
-function tile(k, v, u, sub) {
-  return `<div class="tile"><div class="k">${esc(k)}</div>` +
+function tile(k, v, u, sub, key) {
+  return `<div class="tile${key ? ' is-key' : ''}"><div class="k">${esc(k)}</div>` +
     `<div class="v">${esc(v)}${u ? `<span class="u">${esc(u)}</span>` : ''}</div>` +
     (sub ? `<div class="sub">${esc(sub)}</div>` : '') + '</div>';
 }
@@ -122,15 +125,15 @@ const RATIO_ORDER = ['〜30%', '31〜50%', '51〜80%', '81〜100%', '不明'];
   const wk = `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
 
   $('#hd-week').textContent = `今週の特集 — ${wk}配信分`;
-  $('#lede').textContent =
-    `${wk}に配信された案件メールの解析結果です。掲載 ${ps.length} 件のうち ` +
-    `${ps.filter(p => p.is_new).length} 件が新規の案件でした。`;
+  $('#lede').innerHTML =
+    `${esc(wk)}に配信された案件メールの解析結果です。掲載 ${ps.length} 件のうち ` +
+    `<strong>${ps.filter(p => p.is_new).length} 件が新規</strong>の案件でした。`;
 
   const techCounts = count(ps, p => p.techs);
   $('#tiles').innerHTML =
     tile('今週の掲載案件', ps.length, '件') +
     tile('うち新規案件', ps.filter(p => p.is_new).length, '件',
-         `再掲 ${ps.filter(p => !p.is_new).length} 件`) +
+         `再掲 ${ps.filter(p => !p.is_new).length} 件`, true) +
     tile('登場した技術キーワード', techCounts.length, '種') +
     tile('累計の集計週数', summary.totals.weeks, '週',
          `延べ ${summary.totals.listings} 件を解析`);

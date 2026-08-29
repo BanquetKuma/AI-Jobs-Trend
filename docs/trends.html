@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>トレンド分析 | AI案件トレンド</title>
 <meta name="description" content="AI・データ領域のフリーランス案件を長期時系列で集計し、求められる技術・業界・ポジション・単価の推移を可視化。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="./style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 </head>
@@ -37,11 +40,11 @@
   </div>
 
   <h2 class="section">需要量 × モメンタム</h2>
-  <p class="lede" id="lede-quad">左上の「新興・急伸」象限が狙い目です。件数はまだ小さいが立ち上がっている技術で、いま参入すれば先行者になれます。右下は今から入ってもコモディティです。</p>
+  <p class="lede" id="lede-quad">左上の<strong>「新興・急伸」象限が狙い目</strong>です。件数はまだ小さいが立ち上がっている技術で、いま参入すれば先行者になれます。右下は今から入ってもコモディティです。</p>
   <div class="card"><div id="c-quad"></div></div>
 
   <h2 class="section">必須率 vs 尚可率</h2>
-  <p class="lede" id="lede-must">その技術が案件の <code>[必須スキル]</code> に書かれた割合。必須率が高いほど「持たないと土俵に乗れない」、尚可止まりなら「持つと差別化できる」と読めます。</p>
+  <p class="lede" id="lede-must">その技術が案件の <code>[必須スキル]</code> に書かれた割合。必須率が高いほど<strong>「持たないと土俵に乗れない」</strong>、尚可止まりなら<strong>「持つと差別化できる」</strong>と読めます。</p>
   <div class="grid2">
     <div class="card">
       <h3>持たないと土俵に乗れない</h3>
@@ -56,7 +59,7 @@
   </div>
 
   <h2 class="section">共起スキルセット</h2>
-  <p class="lede">同じ案件で同時に求められる技術。社内PJ1本で複数を同時に取れる「束」を探すための指標です。</p>
+  <p class="lede">同じ案件で同時に求められる技術。<strong>社内PJ1本で複数を同時に取れる「束」</strong>を探すための指標です。</p>
   <div class="card">
     <div class="filters">
       <select id="f-cooc" aria-label="技術を選ぶ"></select>
@@ -66,7 +69,7 @@
   </div>
 
   <h2 class="section">供給不足シグナル</h2>
-  <p class="lede">同じ案件が何週にわたって再掲されたかの平均。長いほど埋まりにくく、人材が不足していると読めます。新規出現率は、再掲ではなく新しく立ち上がる案件に出る割合です。</p>
+  <p class="lede">同じ案件が何週にわたって再掲されたかの平均。<strong>長いほど埋まりにくく、人材が不足している</strong>と読めます。新規出現率は、再掲ではなく新しく立ち上がる案件に出る割合です。</p>
   <div class="card"><div id="t-supply"></div></div>
 
   <h2 class="section">技術キーワードの推移</h2>
@@ -147,8 +150,8 @@
 import { hbar, multiline, vbar, scatter3d, quadrant, esc } from './charts.js';
 
 const $ = s => document.querySelector(s);
-const tile = (k, v, u, sub) =>
-  `<div class="tile"><div class="k">${esc(k)}</div>` +
+const tile = (k, v, u, sub, key) =>
+  `<div class="tile${key ? ' is-key' : ''}"><div class="k">${esc(k)}</div>` +
   `<div class="v">${esc(v)}${u ? `<span class="u">${esc(u)}</span>` : ''}</div>` +
   (sub ? `<div class="sub">${esc(sub)}</div>` : '') + '</div>';
 const mdLabel = w => w.slice(5).replace('-', '/');
@@ -170,15 +173,16 @@ const mdLabel = w => w.slice(5).replace('-', '/');
   }
 
   const first = trends.weeks[0], last = trends.weeks[trends.weeks.length - 1];
-  $('#lede').textContent =
-    `${first} 〜 ${last} の ${trends.weeks.length} 週分、延べ ${summary.totals.listings} 件の案件掲載を集計しています` +
+  $('#lede').innerHTML =
+    `${esc(first)} 〜 ${esc(last)} の <strong>${trends.weeks.length} 週分</strong>、` +
+    `延べ <strong>${summary.totals.listings} 件</strong>の案件掲載を集計しています` +
     `（重複を除いたユニーク案件は ${summary.totals.unique_projects} 件）。`;
   $('#tiles').innerHTML =
     tile('集計週数', trends.weeks.length, '週', `${first} 〜 ${last}`) +
     tile('延べ掲載数', summary.totals.listings, '件') +
     tile('ユニーク案件数', summary.totals.unique_projects, '件',
          `再掲率 ${Math.round((1 - summary.totals.unique_projects / summary.totals.listings) * 100)}%`) +
-    tile('技術キーワード', trends.series.length, '種');
+    tile('技術キーワード', trends.series.length, '種', '', true);
 
   // ---- 次に取るべき技術（重みは画面で調整） ----
   const mom = strat.momentum;
@@ -229,7 +233,7 @@ const mdLabel = w => w.slice(5).replace('-', '/');
     limit: 10, nameLabel: '技術',
     valueLabel: invert ? '尚可止まりの割合' : '必須で書かれる割合',
     fmt: x => x + '%',
-    color: invert ? '--series-3' : '--series-1',
+    color: invert ? '--series-2' : '--series-1',
     aria: invert ? '尚可止まりの割合' : '必須で書かれる割合',
   });
   pctBar($('#c-must'), summary.must_rate.slice(0, 10), false);
@@ -343,10 +347,13 @@ const mdLabel = w => w.slice(5).replace('-', '/');
 
   // ---- 単価 ----
   const r = summary.rate;
-  $('#lede-rate').textContent = r.reported
-    ? `月額単価が金額で明記されていたのは延べ ${r.reported} 件（全体の ${Math.round(r.reported / summary.totals.listings * 100)}%）。` +
-      `残る ${r.missing} 件は「ご相談ください」等の記載でした。中央値 ${r.median} 万円、レンジ ${r.min}〜${r.max} 万円。`
-    : `この期間の案件はすべて月額単価が「ご相談ください」等の記載で、金額が明記されたものはありませんでした（${r.missing} 件）。`;
+  $('#lede-rate').innerHTML = r.reported
+    ? `月額単価が金額で明記されていたのは延べ <strong>${r.reported} 件だけ</strong>` +
+      `（全体の ${(r.reported / summary.totals.listings * 100).toFixed(1)}%）。` +
+      `残る ${r.missing} 件は「ご相談ください」等の記載でした。` +
+      `<strong>単価を技術の市場価値の代理指標に使うことは、このデータソースでは成立しません。</strong>` +
+      `（参考: 中央値 ${r.median} 万円、レンジ ${r.min}〜${r.max} 万円）`
+    : `この期間の案件は<strong>すべて</strong>月額単価が「ご相談ください」等の記載で、金額が明記されたものはありませんでした（${r.missing} 件）。`;
   vbar($('#c-rate'), {
     data: (r.bins || []).map(b => ({ name: b.name, value: b.count })),
     nameLabel: '単価帯', valueLabel: '件数', height: 230,

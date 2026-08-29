@@ -643,7 +643,7 @@ export function quadrant(host, opt) {
   host.appendChild(wrapEl);
 
   const GROUPS = [
-    { key: 'rising', name: '新興・急伸（狙い目）', v: '--series-3' },
+    { key: 'rising', name: '新興・急伸（狙い目）', v: '--emph' },
     { key: 'core', name: '主力（伸びている大領域）', v: '--series-1' },
     { key: 'flat', name: '横ばい・後退', v: '--text-muted' },
   ];

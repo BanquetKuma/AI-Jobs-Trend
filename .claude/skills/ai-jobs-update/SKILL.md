@@ -136,31 +136,40 @@ push が GitHub Pages の再デプロイを兼ねる（Actions は使ってい�
   ```
   ファイルが無い、または空の場合は**メールを送らず**、その旨を報告して終了する
   （更新自体は成功しているので失敗扱いにしない）
-- `subject`: `[AI案件トレンド] <最新週の日付> 配信分を反映しました`
-- `body`: 下記の形式。**数字はすべて `docs/data/summary.json` と
-  `docs/data/strategy.json` の実値を使い、創作しない。**
+- `subject`: `【エッジテクノロジー】AI案件トレンド <最新週の日付> 配信分を反映しました`
+  （配信元がひと目で分かるよう、冒頭にエッジテクノロジーを冠する）
+- **`htmlBody` を必ず使う。** プレーンテキストの `body` だけで送ると、Gmail が本文中の
+  裸URLを自動リンク化する際に `google.com/url?q=...` を挟み、クリック時に
+  「Redirect Notice」の中間ページが出る。`<a href="...">` として渡せばこれを回避できる。
+  `body` にはプレーンテキスト版を入れておく（HTMLを表示しないクライアント向けの代替）。
 
+`htmlBody` の形（インラインスタイルのみ。外部CSSはメールクライアントで効かない）:
+
+```html
+<div style="font-family:-apple-system,'Hiragino Kaku Gothic ProN',Meiryo,sans-serif;font-size:15px;line-height:1.8;color:#1a1a1a;max-width:640px">
+  <p style="margin:0 0 18px">
+    <a href="https://banquetkuma.github.io/AI-Jobs-Trend/"
+       style="display:inline-block;background:#1d6b46;color:#ffffff;text-decoration:none;padding:11px 22px;border-radius:3px;font-weight:700">
+      ダッシュボードを開く</a>
+  </p>
+  <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">今回取り込んだ週</h3>
+  <p style="margin:0">&lt;latest_week&gt;（掲載 &lt;latest.projects&gt; 件 / うち新規 &lt;latest.new_projects&gt; 件）</p>
+  <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">累計</h3>
+  <p style="margin:0">&lt;totals.weeks&gt; 週分 / 延べ &lt;totals.listings&gt; 件 / ユニーク &lt;totals.unique_projects&gt; 件</p>
+  <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">今週の所感</h3>
+  <p style="margin:0">&lt;commentary&gt;</p>
+  <h3 style="margin:22px 0 6px;font-size:14px;color:#1d6b46">次に取るべき技術</h3>
+  <ol style="margin:0;padding-left:20px">
+    <li>&lt;name&gt;（直近&lt;window&gt;週 &lt;recent&gt;件 / 成長 &lt;growth_pct&gt;）</li>
+  </ol>
+  <p style="margin:26px 0 0;font-size:13px;color:#666">
+    <a href="https://banquetkuma.github.io/AI-Jobs-Trend/trends.html" style="color:#1d6b46">トレンド分析ページ</a>
+  </p>
+</div>
 ```
-ダッシュボードを更新しました。
 
-  https://banquetkuma.github.io/AI-Jobs-Trend/
-
-■ 今回取り込んだ週
-  <latest_week>（掲載 <latest.projects> 件 / うち新規 <latest.new_projects> 件）
-
-■ 累計
-  <totals.weeks> 週分 / 延べ <totals.listings> 件 / ユニーク <totals.unique_projects> 件
-
-■ 今週の所感
-  <summary.json の commentary をそのまま>
-
-■ 次に取るべき技術（獲得優先度の上位3件）
-  1. <name>（直近<window>週 <recent>件 / 成長 <growth_pct>）
-  2. ...
-  3. ...
-
-トレンド分析: https://banquetkuma.github.io/AI-Jobs-Trend/trends.html
-```
+**数字はすべて `docs/data/summary.json` と `docs/data/strategy.json` の実値を使い、創作しない。**
+プレーンテキストの `body` は同じ内容を素直に並べたものでよい。
 
 GitHub Pages の再デプロイには push から1〜2分かかるが、**メール送信は push 直後でよく、
 デプロイ完了を待つ必要はない。**

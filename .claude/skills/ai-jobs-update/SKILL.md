@@ -198,6 +198,16 @@ push が GitHub Pages の再デプロイを兼ねる（Actions は使ってい�
 - 段落内の `**…**` を
   `<strong style="color:#1d6b46;font-weight:700">…</strong>` に置換する
 - `body`（プレーンテキスト版）では `**` を取り除き、段落間は空行1つで区切る
+- `body` の冒頭にもトップページのURLを1行で置く:
+
+```
+ダッシュボードを更新しました。
+
+  https://banquetkuma.github.io/AI-Jobs-Trend/
+
+■ 今回取り込んだ週
+  ...
+```
 
 GitHub Pages の再デプロイには push から1〜2分かかるが、**メール送信は push 直後でよく、
 デプロイ完了を待つ必要はない。**

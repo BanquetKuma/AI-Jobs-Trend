@@ -7,3 +7,9 @@ __pycache__/
 
 # デザインキャンバスの組み立て済みファイル（design/*.dc.html から再生成できる）
 ai-jobs-trend-dashboard.html
+
+# 週次実行のログ
+logs/
+
+# Serena のワークスペース
+.serena/

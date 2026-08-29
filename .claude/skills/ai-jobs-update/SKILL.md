@@ -122,6 +122,46 @@ git add -A && git commit -m "chore: 案件トレンド更新 <最新週の日付
 
 push が GitHub Pages の再デプロイを兼ねる（Actions は使っていない）。
 
+### 7b. 完了メールを送る
+
+**この手順は、7 で実際に commit と push が走ったときだけ実行する。**
+差分が無く「新着なし」で終わった回では送らない
+（金曜と土曜の予備実行で、毎週2通の無意味な通知が届くことになるため）。
+
+`mcp__claude_ai_Gmail__send_message` を次の内容で呼ぶ。
+
+- `to`: `<通知先はローカル設定から読む>`
+- `subject`: `[AI案件トレンド] <最新週の日付> 配信分を反映しました`
+- `body`: 下記の形式。**数字はすべて `docs/data/summary.json` と
+  `docs/data/strategy.json` の実値を使い、創作しない。**
+
+```
+ダッシュボードを更新しました。
+
+  https://banquetkuma.github.io/AI-Jobs-Trend/
+
+■ 今回取り込んだ週
+  <latest_week>（掲載 <latest.projects> 件 / うち新規 <latest.new_projects> 件）
+
+■ 累計
+  <totals.weeks> 週分 / 延べ <totals.listings> 件 / ユニーク <totals.unique_projects> 件
+
+■ 今週の所感
+  <summary.json の commentary をそのまま>
+
+■ 次に取るべき技術（獲得優先度の上位3件）
+  1. <name>（直近<window>週 <recent>件 / 成長 <growth_pct>）
+  2. ...
+  3. ...
+
+トレンド分析: https://banquetkuma.github.io/AI-Jobs-Trend/trends.html
+```
+
+GitHub Pages の再デプロイには push から1〜2分かかるが、**メール送信は push 直後でよく、
+デプロイ完了を待つ必要はない。**
+
+送信に失敗しても、更新自体は成功している。**リトライせず**にその旨を報告して終了する。
+
 ### 8. 報告
 
 1〜2文で「どの週を取り込み、案件が何件（うち新規何件）で、何が伸びたか」を報告する。

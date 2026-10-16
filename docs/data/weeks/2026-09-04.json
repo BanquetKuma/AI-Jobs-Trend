@@ -154,6 +154,7 @@
    "rate_max": null,
    "is_new": true,
    "techs": [
+    "AIコーディング支援",
     "DWH",
     "Power BI",
     "Python",
@@ -169,6 +170,7 @@
     "pandas/NumPy"
    ],
    "techs_opt": [
+    "AIコーディング支援",
     "Power BI",
     "Snowflake",
     "Tableau"

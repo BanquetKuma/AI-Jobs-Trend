@@ -79,11 +79,13 @@
    "is_new": true,
    "techs": [
     "ETL",
+    "Microsoft Fabric",
     "Power BI",
     "SAP"
    ],
    "techs_req": [
-    "ETL"
+    "ETL",
+    "Microsoft Fabric"
    ],
    "techs_opt": [
     "Power BI",

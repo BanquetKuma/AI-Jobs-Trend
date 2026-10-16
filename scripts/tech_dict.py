@@ -38,6 +38,7 @@ TECHS = [
     # ---- データ基盤 ----
     ("Databricks",  "データ基盤", r"Databricks"),
     ("Snowflake",   "データ基盤", r"Snowflake"),
+    ("Microsoft Fabric", "データ基盤", r"Microsoft\s*Fabric"),
     ("BigQuery",    "データ基盤", r"BigQuery"),
     ("Redshift",    "データ基盤", r"Redshift"),
     ("PostgreSQL",  "データ基盤", r"PostgreSQL|Postgres"),
@@ -76,7 +77,7 @@ TECHS = [
     ("Microsoft 365 Copilot", "AI開発ツール", r"(?:Microsoft\s*)?365\s*Copilot|M365\s*Copilot"),
     ("Cursor",          "AI開発ツール", r"(?<![0-9A-Za-z_])Cursor(?![0-9A-Za-z_])"),
     ("Dify",            "AI開発ツール", r"(?<![0-9A-Za-z_])Dify(?![0-9A-Za-z_])"),
-    ("AIコーディング支援","AI開発ツール", r"AIコーディング|AI支援ツール|AI\s*コーディングエージェント"),
+    ("AIコーディング支援","AI開発ツール", r"AIコーディング|AI支援ツール|AI\s*コーディングエージェント|AI駆動開発|(?<![0-9A-Za-z_])Kiro(?![0-9A-Za-z_])"),
     ("Power Platform",  "AI開発ツール", r"Power\s*Platform|Power\s*Apps|Power\s*Automate"),
     ("RPA",             "AI開発ツール", r"(?<![0-9A-Za-z_])RPA(?![0-9A-Za-z_])|UiPath|WinActor"),
 

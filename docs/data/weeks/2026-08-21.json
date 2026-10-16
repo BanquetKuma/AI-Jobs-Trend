@@ -263,6 +263,7 @@
    "is_new": true,
    "techs": [
     "AIガバナンス",
+    "AIコーディング支援",
     "Java",
     "LLM",
     "MCP",
@@ -270,6 +271,7 @@
     "生成AI"
    ],
    "techs_req": [
+    "AIコーディング支援",
     "Java",
     "LLM",
     "MCP",

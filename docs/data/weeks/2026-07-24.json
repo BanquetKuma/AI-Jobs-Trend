@@ -132,10 +132,13 @@
    "is_new": true,
    "techs": [
     "AIエージェント",
+    "AIコーディング支援",
     "Claude Code",
     "要件定義"
    ],
-   "techs_req": [],
+   "techs_req": [
+    "AIコーディング支援"
+   ],
    "techs_opt": [
     "要件定義"
    ],

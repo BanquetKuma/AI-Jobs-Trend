@@ -214,13 +214,16 @@
    "is_new": true,
    "techs": [
     "Azure",
-    "Databricks"
+    "Databricks",
+    "Microsoft Fabric"
    ],
    "techs_req": [
     "Azure",
     "Databricks"
    ],
-   "techs_opt": [],
+   "techs_opt": [
+    "Microsoft Fabric"
+   ],
    "start": "2025年2月",
    "contract": "準委任（個人事業主）",
    "settle": "要確認",

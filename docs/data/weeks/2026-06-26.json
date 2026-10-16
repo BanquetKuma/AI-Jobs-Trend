@@ -13,6 +13,7 @@
    "is_new": true,
    "techs": [
     "ERP",
+    "Microsoft Fabric",
     "Power BI",
     "Python",
     "SQL",
@@ -26,6 +27,7 @@
     "SQL"
    ],
    "techs_opt": [
+    "Microsoft Fabric",
     "dbt"
    ],
    "start": "2026年7月",
@@ -329,6 +331,7 @@
     "Databricks",
     "ETL",
     "LLM",
+    "Microsoft Fabric",
     "PoC",
     "Python",
     "RAG",
@@ -346,6 +349,7 @@
     "Azure",
     "ETL",
     "LLM",
+    "Microsoft Fabric",
     "Python",
     "RAG",
     "Spark",

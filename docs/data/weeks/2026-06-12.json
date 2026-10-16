@@ -12,6 +12,7 @@
    "rate_max": null,
    "is_new": true,
    "techs": [
+    "AIコーディング支援",
     "API設計",
     "Dify",
     "LLM",
@@ -99,6 +100,7 @@
    "techs": [
     "DWH",
     "ETL",
+    "Microsoft Fabric",
     "PMO",
     "Power BI",
     "Power Platform",
@@ -107,6 +109,7 @@
    "techs_req": [
     "DWH",
     "ETL",
+    "Microsoft Fabric",
     "SQL"
    ],
    "techs_opt": [

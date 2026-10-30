@@ -13,10 +13,12 @@
    "is_new": true,
    "techs": [
     "PyTorch",
+    "強化学習",
     "機械学習"
    ],
    "techs_req": [
     "PyTorch",
+    "強化学習",
     "機械学習"
    ],
    "techs_opt": [],

@@ -116,6 +116,7 @@
     "LLM",
     "MLOps",
     "Python",
+    "強化学習",
     "機械学習",
     "深層学習",
     "自然言語処理"
@@ -128,7 +129,8 @@
     "自然言語処理"
    ],
    "techs_opt": [
-    "MLOps"
+    "MLOps",
+    "強化学習"
    ],
    "start": "2026年9月 ※即日",
    "contract": "当社と準委任契約",
@@ -164,13 +166,13 @@
     "pandas/NumPy"
    ],
    "techs_req": [
+    "AIコーディング支援",
     "DWH",
     "Python",
     "SQL",
     "pandas/NumPy"
    ],
    "techs_opt": [
-    "AIコーディング支援",
     "Power BI",
     "Snowflake",
     "Tableau"
@@ -207,6 +209,7 @@
     "PyTorch",
     "Python",
     "TensorFlow",
+    "フィジカルAI",
     "機械学習",
     "深層学習",
     "画像認識",
@@ -223,6 +226,7 @@
    "techs_opt": [
     "PyTorch",
     "TensorFlow",
+    "フィジカルAI",
     "機械学習",
     "深層学習",
     "画像認識"

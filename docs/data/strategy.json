@@ -4,226 +4,198 @@
   {
    "name": "Python",
    "cat": "プログラミング言語",
-   "recent": 37,
-   "prev": 33,
-   "delta": 4,
-   "growth": 0.114,
-   "total": 357,
+   "recent": 34,
+   "prev": 36,
+   "delta": -2,
+   "growth": -0.053,
+   "total": 362,
    "nvol": 1.0,
-   "ngrowth": 0.057,
+   "ngrowth": 0.0,
    "nvol_prev": 1.0,
-   "ngrowth_prev": 0.0,
-   "group": "established"
+   "ngrowth_prev": 0.057,
+   "group": null
   },
   {
    "name": "機械学習",
    "cat": "機械学習",
    "recent": 27,
-   "prev": 14,
-   "delta": 13,
-   "growth": 0.812,
-   "total": 180,
-   "nvol": 0.7297,
-   "ngrowth": 0.406,
-   "nvol_prev": 0.7143,
-   "ngrowth_prev": 0.1805,
+   "prev": 17,
+   "delta": 10,
+   "growth": 0.526,
+   "total": 186,
+   "nvol": 0.7941,
+   "ngrowth": 0.263,
+   "nvol_prev": 0.7297,
+   "ngrowth_prev": 0.406,
    "group": "established"
   },
   {
    "name": "SQL",
    "cat": "プログラミング言語",
-   "recent": 24,
-   "prev": 16,
-   "delta": 8,
-   "growth": 0.444,
-   "total": 211,
-   "nvol": 0.6486,
-   "ngrowth": 0.222,
-   "nvol_prev": 0.6,
-   "ngrowth_prev": 0.1192,
-   "group": "established"
-  },
-  {
-   "name": "AWS",
-   "cat": "クラウド基盤",
    "recent": 21,
-   "prev": 19,
-   "delta": 2,
-   "growth": 0.095,
-   "total": 182,
-   "nvol": 0.5676,
-   "ngrowth": 0.0475,
-   "nvol_prev": 0.5714,
-   "ngrowth_prev": 0.0,
+   "prev": 16,
+   "delta": 5,
+   "growth": 0.278,
+   "total": 211,
+   "nvol": 0.6176,
+   "ngrowth": 0.139,
+   "nvol_prev": 0.6486,
+   "ngrowth_prev": 0.222,
    "group": "established"
   },
   {
    "name": "生成AI",
    "cat": "生成AI",
    "recent": 21,
-   "prev": 25,
-   "delta": -4,
-   "growth": -0.148,
-   "total": 159,
-   "nvol": 0.5676,
+   "prev": 26,
+   "delta": -5,
+   "growth": -0.179,
+   "total": 162,
+   "nvol": 0.6176,
    "ngrowth": 0.0,
-   "nvol_prev": 0.6571,
+   "nvol_prev": 0.5676,
    "ngrowth_prev": 0.0,
    "group": null
   },
   {
-   "name": "要件定義",
-   "cat": "進め方・プロセス",
+   "name": "AWS",
+   "cat": "クラウド基盤",
    "recent": 20,
-   "prev": 19,
-   "delta": 1,
-   "growth": 0.048,
-   "total": 154,
-   "nvol": 0.5405,
-   "ngrowth": 0.024,
-   "nvol_prev": 0.6,
-   "ngrowth_prev": 0.0407,
+   "prev": 17,
+   "delta": 3,
+   "growth": 0.158,
+   "total": 182,
+   "nvol": 0.5882,
+   "ngrowth": 0.079,
+   "nvol_prev": 0.5676,
+   "ngrowth_prev": 0.0475,
    "group": "established"
   },
   {
    "name": "AIエージェント",
    "cat": "生成AI",
-   "recent": 19,
-   "prev": 15,
-   "delta": 4,
-   "growth": 0.235,
-   "total": 75,
-   "nvol": 0.5135,
-   "ngrowth": 0.1175,
-   "nvol_prev": 0.6,
-   "ngrowth_prev": 0.1877,
+   "recent": 18,
+   "prev": 16,
+   "delta": 2,
+   "growth": 0.111,
+   "total": 76,
+   "nvol": 0.5294,
+   "ngrowth": 0.0555,
+   "nvol_prev": 0.5135,
+   "ngrowth_prev": 0.1175,
    "group": "established"
+  },
+  {
+   "name": "要件定義",
+   "cat": "進め方・プロセス",
+   "recent": 17,
+   "prev": 20,
+   "delta": -3,
+   "growth": -0.136,
+   "total": 156,
+   "nvol": 0.5,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.5405,
+   "ngrowth_prev": 0.024,
+   "group": null
   },
   {
    "name": "LLM",
    "cat": "生成AI",
-   "recent": 16,
-   "prev": 19,
-   "delta": -3,
-   "growth": -0.143,
-   "total": 136,
-   "nvol": 0.4324,
+   "recent": 15,
+   "prev": 22,
+   "delta": -7,
+   "growth": -0.292,
+   "total": 140,
+   "nvol": 0.4412,
    "ngrowth": 0.0,
-   "nvol_prev": 0.4857,
+   "nvol_prev": 0.4324,
    "ngrowth_prev": 0.0,
    "group": null
   },
   {
    "name": "PoC",
    "cat": "進め方・プロセス",
-   "recent": 14,
-   "prev": 14,
-   "delta": 0,
-   "growth": 0.0,
-   "total": 107,
-   "nvol": 0.3784,
+   "recent": 13,
+   "prev": 16,
+   "delta": -3,
+   "growth": -0.167,
+   "total": 110,
+   "nvol": 0.3824,
    "ngrowth": 0.0,
-   "nvol_prev": 0.4286,
+   "nvol_prev": 0.3784,
    "ngrowth_prev": 0.0,
    "group": null
   },
   {
    "name": "DWH",
    "cat": "データ基盤",
-   "recent": 14,
-   "prev": 8,
-   "delta": 6,
-   "growth": 0.6,
-   "total": 79,
-   "nvol": 0.3784,
-   "ngrowth": 0.3,
-   "nvol_prev": 0.3143,
-   "ngrowth_prev": 0.0356,
-   "group": "established"
-  },
-  {
-   "name": "Tableau",
-   "cat": "データ基盤",
-   "recent": 12,
-   "prev": 6,
-   "delta": 6,
-   "growth": 0.75,
-   "total": 109,
-   "nvol": 0.3243,
-   "ngrowth": 0.375,
-   "nvol_prev": 0.3143,
-   "ngrowth_prev": 0.3673,
+   "recent": 13,
+   "prev": 9,
+   "delta": 4,
+   "growth": 0.364,
+   "total": 80,
+   "nvol": 0.3824,
+   "ngrowth": 0.182,
+   "nvol_prev": 0.3784,
+   "ngrowth_prev": 0.3,
    "group": "established"
   },
   {
    "name": "Azure",
    "cat": "クラウド基盤",
    "recent": 12,
-   "prev": 12,
-   "delta": 0,
-   "growth": 0.0,
-   "total": 105,
-   "nvol": 0.3243,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.3429,
+   "prev": 11,
+   "delta": 1,
+   "growth": 0.077,
+   "total": 106,
+   "nvol": 0.3529,
+   "ngrowth": 0.0385,
+   "nvol_prev": 0.3243,
    "ngrowth_prev": 0.0,
-   "group": null
+   "group": "established"
   },
   {
-   "name": "ETL",
+   "name": "Tableau",
    "cat": "データ基盤",
-   "recent": 10,
-   "prev": 8,
-   "delta": 2,
-   "growth": 0.2,
-   "total": 75,
-   "nvol": 0.2703,
-   "ngrowth": 0.1,
-   "nvol_prev": 0.2857,
-   "ngrowth_prev": 0.039,
+   "recent": 11,
+   "prev": 7,
+   "delta": 4,
+   "growth": 0.444,
+   "total": 109,
+   "nvol": 0.3235,
+   "ngrowth": 0.222,
+   "nvol_prev": 0.3243,
+   "ngrowth_prev": 0.375,
    "group": "established"
+  },
+  {
+   "name": "RAG",
+   "cat": "生成AI",
+   "recent": 10,
+   "prev": 13,
+   "delta": -3,
+   "growth": -0.2,
+   "total": 85,
+   "nvol": 0.2941,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.2432,
+   "ngrowth_prev": 0.0,
+   "group": null
   },
   {
    "name": "MLOps",
    "cat": "開発基盤・運用",
    "recent": 10,
-   "prev": 5,
-   "delta": 5,
-   "growth": 0.714,
-   "total": 45,
-   "nvol": 0.2703,
-   "ngrowth": 0.357,
-   "nvol_prev": 0.2286,
-   "ngrowth_prev": 0.0476,
+   "prev": 4,
+   "delta": 6,
+   "growth": 1.0,
+   "total": 46,
+   "nvol": 0.2941,
+   "ngrowth": 0.5,
+   "nvol_prev": 0.2703,
+   "ngrowth_prev": 0.357,
    "group": "established"
-  },
-  {
-   "name": "GCP",
-   "cat": "クラウド基盤",
-   "recent": 9,
-   "prev": 18,
-   "delta": -9,
-   "growth": -0.45,
-   "total": 121,
-   "nvol": 0.2432,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.2571,
-   "ngrowth_prev": 0.0,
-   "group": null
-  },
-  {
-   "name": "RAG",
-   "cat": "生成AI",
-   "recent": 9,
-   "prev": 14,
-   "delta": -5,
-   "growth": -0.312,
-   "total": 84,
-   "nvol": 0.2432,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.2571,
-   "ngrowth_prev": 0.0,
-   "group": null
   },
   {
    "name": "PMO",
@@ -233,23 +205,23 @@
    "delta": 5,
    "growth": 0.833,
    "total": 48,
-   "nvol": 0.2432,
+   "nvol": 0.2647,
    "ngrowth": 0.4165,
-   "nvol_prev": 0.2286,
-   "ngrowth_prev": 0.1839,
+   "nvol_prev": 0.2432,
+   "ngrowth_prev": 0.4165,
    "group": "established"
   },
   {
-   "name": "PyTorch",
-   "cat": "機械学習",
-   "recent": 9,
-   "prev": 9,
-   "delta": 0,
-   "growth": 0.0,
-   "total": 47,
-   "nvol": 0.2432,
+   "name": "GCP",
+   "cat": "クラウド基盤",
+   "recent": 8,
+   "prev": 18,
+   "delta": -10,
+   "growth": -0.5,
+   "total": 121,
+   "nvol": 0.2353,
    "ngrowth": 0.0,
-   "nvol_prev": 0.2,
+   "nvol_prev": 0.2432,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -257,153 +229,83 @@
    "name": "BigQuery",
    "cat": "データ基盤",
    "recent": 8,
-   "prev": 10,
-   "delta": -2,
-   "growth": -0.167,
-   "total": 87,
-   "nvol": 0.2162,
+   "prev": 9,
+   "delta": -1,
+   "growth": -0.091,
+   "total": 88,
+   "nvol": 0.2353,
    "ngrowth": 0.0,
-   "nvol_prev": 0.1714,
+   "nvol_prev": 0.2162,
    "ngrowth_prev": 0.0,
    "group": null
   },
   {
-   "name": "Looker",
-   "cat": "データ基盤",
-   "recent": 8,
-   "prev": 4,
-   "delta": 4,
-   "growth": 0.667,
-   "total": 57,
-   "nvol": 0.2162,
-   "ngrowth": 0.3335,
-   "nvol_prev": 0.1714,
-   "ngrowth_prev": 0.1427,
-   "group": "established"
-  },
-  {
-   "name": "TensorFlow",
-   "cat": "機械学習",
-   "recent": 8,
-   "prev": 4,
-   "delta": 4,
-   "growth": 0.667,
-   "total": 29,
-   "nvol": 0.2162,
-   "ngrowth": 0.3335,
-   "nvol_prev": 0.1714,
-   "ngrowth_prev": 0.1427,
-   "group": "established"
-  },
-  {
-   "name": "Claude",
-   "cat": "生成AI",
-   "recent": 8,
-   "prev": 5,
-   "delta": 3,
-   "growth": 0.429,
-   "total": 27,
-   "nvol": 0.2162,
-   "ngrowth": 0.2145,
-   "nvol_prev": 0.2286,
-   "ngrowth_prev": 0.1072,
-   "group": "established"
-  },
-  {
-   "name": "画像認識",
-   "cat": "機械学習",
-   "recent": 7,
-   "prev": 5,
-   "delta": 2,
-   "growth": 0.286,
-   "total": 57,
-   "nvol": 0.1892,
-   "ngrowth": 0.143,
-   "nvol_prev": 0.2,
-   "ngrowth_prev": 0.1226,
-   "group": "established"
-  },
-  {
    "name": "深層学習",
    "cat": "機械学習",
-   "recent": 7,
-   "prev": 5,
+   "recent": 8,
+   "prev": 6,
    "delta": 2,
-   "growth": 0.286,
-   "total": 48,
-   "nvol": 0.1892,
-   "ngrowth": 0.143,
-   "nvol_prev": 0.2,
-   "ngrowth_prev": 0.1226,
-   "group": "established"
-  },
-  {
-   "name": "因果推論",
-   "cat": "機械学習",
-   "recent": 7,
-   "prev": 3,
-   "delta": 4,
-   "growth": 0.8,
-   "total": 40,
-   "nvol": 0.1892,
-   "ngrowth": 0.4,
-   "nvol_prev": 0.1714,
-   "ngrowth_prev": 0.1427,
-   "group": "established"
-  },
-  {
-   "name": "需要予測",
-   "cat": "機械学習",
-   "recent": 7,
-   "prev": 4,
-   "delta": 3,
-   "growth": 0.5,
-   "total": 36,
-   "nvol": 0.1892,
-   "ngrowth": 0.25,
-   "nvol_prev": 0.1714,
-   "ngrowth_prev": 0.1427,
+   "growth": 0.25,
+   "total": 51,
+   "nvol": 0.2353,
+   "ngrowth": 0.125,
+   "nvol_prev": 0.1892,
+   "ngrowth_prev": 0.143,
    "group": "established"
   },
   {
    "name": "AIコーディング支援",
    "cat": "AI開発ツール",
-   "recent": 7,
-   "prev": 2,
+   "recent": 8,
+   "prev": 3,
    "delta": 5,
-   "growth": 1.25,
-   "total": 10,
-   "nvol": 0.1892,
-   "ngrowth": 0.625,
-   "nvol_prev": 0.2286,
-   "ngrowth_prev": 1.0,
-   "group": "emerging"
+   "growth": 1.0,
+   "total": 12,
+   "nvol": 0.2353,
+   "ngrowth": 0.5,
+   "nvol_prev": 0.2162,
+   "ngrowth_prev": 0.75,
+   "group": "established"
   },
   {
-   "name": "Power BI",
+   "name": "ETL",
+   "cat": "データ基盤",
+   "recent": 7,
+   "prev": 10,
+   "delta": -3,
+   "growth": -0.25,
+   "total": 75,
+   "nvol": 0.2059,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.2703,
+   "ngrowth_prev": 0.1,
+   "group": null
+  },
+  {
+   "name": "Looker",
    "cat": "データ基盤",
    "recent": 6,
-   "prev": 8,
-   "delta": -2,
-   "growth": -0.2,
-   "total": 65,
-   "nvol": 0.1622,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.1714,
-   "ngrowth_prev": 0.0,
-   "group": null
+   "prev": 5,
+   "delta": 1,
+   "growth": 0.143,
+   "total": 57,
+   "nvol": 0.1765,
+   "ngrowth": 0.0715,
+   "nvol_prev": 0.2162,
+   "ngrowth_prev": 0.3335,
+   "group": "established"
   },
   {
    "name": "英語",
    "cat": "進め方・プロセス",
    "recent": 6,
-   "prev": 11,
-   "delta": -5,
-   "growth": -0.385,
+   "prev": 9,
+   "delta": -3,
+   "growth": -0.273,
    "total": 54,
-   "nvol": 0.1622,
+   "nvol": 0.1765,
    "ngrowth": 0.0,
-   "nvol_prev": 0.2,
+   "nvol_prev": 0.1622,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -411,14 +313,70 @@
    "name": "Snowflake",
    "cat": "データ基盤",
    "recent": 6,
-   "prev": 6,
-   "delta": 0,
-   "growth": 0.0,
+   "prev": 5,
+   "delta": 1,
+   "growth": 0.143,
    "total": 52,
-   "nvol": 0.1622,
+   "nvol": 0.1765,
+   "ngrowth": 0.0715,
+   "nvol_prev": 0.1622,
+   "ngrowth_prev": 0.0,
+   "group": "established"
+  },
+  {
+   "name": "PyTorch",
+   "cat": "機械学習",
+   "recent": 6,
+   "prev": 9,
+   "delta": -3,
+   "growth": -0.273,
+   "total": 47,
+   "nvol": 0.1765,
    "ngrowth": 0.0,
-   "nvol_prev": 0.1714,
-   "ngrowth_prev": 0.0613,
+   "nvol_prev": 0.2432,
+   "ngrowth_prev": 0.0,
+   "group": null
+  },
+  {
+   "name": "プロンプトエンジニアリング",
+   "cat": "生成AI",
+   "recent": 6,
+   "prev": 7,
+   "delta": -1,
+   "growth": -0.111,
+   "total": 36,
+   "nvol": 0.1765,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.1351,
+   "ngrowth_prev": 0.0,
+   "group": null
+  },
+  {
+   "name": "Claude",
+   "cat": "生成AI",
+   "recent": 6,
+   "prev": 7,
+   "delta": -1,
+   "growth": -0.111,
+   "total": 28,
+   "nvol": 0.1765,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.2162,
+   "ngrowth_prev": 0.2145,
+   "group": null
+  },
+  {
+   "name": "Claude Code",
+   "cat": "AI開発ツール",
+   "recent": 6,
+   "prev": 7,
+   "delta": -1,
+   "growth": -0.111,
+   "total": 18,
+   "nvol": 0.1765,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.1351,
+   "ngrowth_prev": 0.0,
    "group": null
   },
   {
@@ -428,12 +386,82 @@
    "prev": 3,
    "delta": 3,
    "growth": 0.6,
-   "total": 15,
-   "nvol": 0.1622,
+   "total": 16,
+   "nvol": 0.1765,
    "ngrowth": 0.3,
-   "nvol_prev": 0.1714,
-   "ngrowth_prev": 0.1427,
+   "nvol_prev": 0.1622,
+   "ngrowth_prev": 0.3,
    "group": "established"
+  },
+  {
+   "name": "API設計",
+   "cat": "アプリ開発",
+   "recent": 5,
+   "prev": 15,
+   "delta": -10,
+   "growth": -0.588,
+   "total": 97,
+   "nvol": 0.1471,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.1081,
+   "ngrowth_prev": 0.0,
+   "group": null
+  },
+  {
+   "name": "Docker",
+   "cat": "開発基盤・運用",
+   "recent": 5,
+   "prev": 6,
+   "delta": -1,
+   "growth": -0.125,
+   "total": 67,
+   "nvol": 0.1471,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.0811,
+   "ngrowth_prev": 0.0,
+   "group": null
+  },
+  {
+   "name": "Power BI",
+   "cat": "データ基盤",
+   "recent": 5,
+   "prev": 9,
+   "delta": -4,
+   "growth": -0.364,
+   "total": 65,
+   "nvol": 0.1471,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.1622,
+   "ngrowth_prev": 0.0,
+   "group": null
+  },
+  {
+   "name": "Git",
+   "cat": "開発基盤・運用",
+   "recent": 5,
+   "prev": 3,
+   "delta": 2,
+   "growth": 0.4,
+   "total": 64,
+   "nvol": 0.1471,
+   "ngrowth": 0.2,
+   "nvol_prev": 0.1081,
+   "ngrowth_prev": 0.0,
+   "group": "established"
+  },
+  {
+   "name": "画像認識",
+   "cat": "機械学習",
+   "recent": 5,
+   "prev": 6,
+   "delta": -1,
+   "growth": -0.125,
+   "total": 57,
+   "nvol": 0.1471,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.1892,
+   "ngrowth_prev": 0.143,
+   "group": null
   },
   {
    "name": "R",
@@ -443,79 +471,65 @@
    "delta": 3,
    "growth": 0.75,
    "total": 56,
-   "nvol": 0.1351,
+   "nvol": 0.1471,
    "ngrowth": 0.375,
-   "nvol_prev": 0.1429,
-   "ngrowth_prev": 0.3215,
+   "nvol_prev": 0.1351,
+   "ngrowth_prev": 0.375,
    "group": "emerging"
   },
   {
-   "name": "プロンプトエンジニアリング",
-   "cat": "生成AI",
+   "name": "因果推論",
+   "cat": "機械学習",
+   "recent": 5,
+   "prev": 5,
+   "delta": 0,
+   "growth": 0.0,
+   "total": 40,
+   "nvol": 0.1471,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.1892,
+   "ngrowth_prev": 0.4,
+   "group": null
+  },
+  {
+   "name": "需要予測",
+   "cat": "機械学習",
+   "recent": 5,
+   "prev": 7,
+   "delta": -2,
+   "growth": -0.222,
+   "total": 37,
+   "nvol": 0.1471,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.1892,
+   "ngrowth_prev": 0.25,
+   "group": null
+  },
+  {
+   "name": "TensorFlow",
+   "cat": "機械学習",
    "recent": 5,
    "prev": 6,
    "delta": -1,
    "growth": -0.125,
-   "total": 34,
-   "nvol": 0.1351,
+   "total": 29,
+   "nvol": 0.1471,
    "ngrowth": 0.0,
-   "nvol_prev": 0.1429,
-   "ngrowth_prev": 0.0,
-   "group": null
-  },
-  {
-   "name": "Claude Code",
-   "cat": "AI開発ツール",
-   "recent": 5,
-   "prev": 8,
-   "delta": -3,
-   "growth": -0.3,
-   "total": 17,
-   "nvol": 0.1351,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.1714,
-   "ngrowth_prev": 0.0,
-   "group": null
-  },
-  {
-   "name": "API設計",
-   "cat": "アプリ開発",
-   "recent": 4,
-   "prev": 17,
-   "delta": -13,
-   "growth": -0.684,
-   "total": 96,
-   "nvol": 0.1081,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.1429,
-   "ngrowth_prev": 0.0,
-   "group": null
-  },
-  {
-   "name": "Git",
-   "cat": "開発基盤・運用",
-   "recent": 4,
-   "prev": 4,
-   "delta": 0,
-   "growth": 0.0,
-   "total": 62,
-   "nvol": 0.1081,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.1143,
-   "ngrowth_prev": 0.0,
+   "nvol_prev": 0.2162,
+   "ngrowth_prev": 0.3335,
    "group": null
   },
   {
    "name": "OpenAI API",
    "cat": "生成AI",
    "recent": 4,
-   "prev": 8,
-   "delta": -4,
-   "growth": -0.4,
+   "prev": 7,
+   "delta": -3,
+   "growth": -0.333,
    "total": 60,
-   "nvol": 0.1081,
+   "nvol": 0.1176,
    "ngrowth": 0.0,
-   "nvol_prev": 0.1143,
+   "nvol_prev": 0.1081,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -527,10 +541,10 @@
    "delta": 3,
    "growth": 1.0,
    "total": 39,
-   "nvol": 0.1081,
+   "nvol": 0.1176,
    "ngrowth": 0.5,
-   "nvol_prev": 0.1143,
-   "ngrowth_prev": 0.0,
+   "nvol_prev": 0.1081,
+   "ngrowth_prev": 0.5,
    "group": "emerging"
   },
   {
@@ -541,10 +555,10 @@
    "delta": 1,
    "growth": 0.2,
    "total": 30,
-   "nvol": 0.1081,
+   "nvol": 0.1176,
    "ngrowth": 0.1,
-   "nvol_prev": 0.0857,
-   "ngrowth_prev": 0.0,
+   "nvol_prev": 0.1081,
+   "ngrowth_prev": 0.1,
    "group": null
   },
   {
@@ -555,37 +569,37 @@
    "delta": 4,
    "growth": 2.0,
    "total": 28,
-   "nvol": 0.1081,
+   "nvol": 0.1176,
    "ngrowth": 1.0,
+   "nvol_prev": 0.1081,
+   "ngrowth_prev": 1.0,
    "group": "emerging"
   },
   {
-   "name": "マルチモーダル",
-   "cat": "生成AI",
-   "recent": 4,
-   "prev": 1,
-   "delta": 3,
-   "growth": 1.0,
-   "total": 16,
-   "nvol": 0.1081,
-   "ngrowth": 0.5,
-   "nvol_prev": 0.1143,
-   "ngrowth_prev": 0.4286,
-   "group": "emerging"
-  },
-  {
-   "name": "MCP",
+   "name": "LLM評価",
    "cat": "生成AI",
    "recent": 4,
    "prev": 3,
    "delta": 1,
    "growth": 0.2,
-   "total": 11,
-   "nvol": 0.1081,
+   "total": 21,
+   "nvol": 0.1176,
    "ngrowth": 0.1,
-   "nvol_prev": 0.1143,
-   "ngrowth_prev": 0.2143,
+   "nvol_prev": 0.0811,
+   "ngrowth_prev": 0.0,
    "group": null
+  },
+  {
+   "name": "フィジカルAI",
+   "cat": "機械学習",
+   "recent": 4,
+   "prev": 0,
+   "delta": 4,
+   "growth": 2.0,
+   "total": 8,
+   "nvol": 0.1176,
+   "ngrowth": 1.0,
+   "group": "emerging"
   },
   {
    "name": "AIガバナンス",
@@ -595,51 +609,23 @@
    "delta": 3,
    "growth": 1.0,
    "total": 6,
-   "nvol": 0.1081,
+   "nvol": 0.1176,
    "ngrowth": 0.5,
-   "nvol_prev": 0.1143,
-   "ngrowth_prev": 0.4286,
+   "nvol_prev": 0.1081,
+   "ngrowth_prev": 0.5,
    "group": "emerging"
   },
   {
-   "name": "Docker",
-   "cat": "開発基盤・運用",
+   "name": "Databricks",
+   "cat": "データ基盤",
    "recent": 3,
-   "prev": 8,
-   "delta": -5,
-   "growth": -0.5,
-   "total": 65,
-   "nvol": 0.0811,
+   "prev": 3,
+   "delta": 0,
+   "growth": 0.0,
+   "total": 31,
+   "nvol": 0.0882,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0857,
-   "ngrowth_prev": 0.0,
-   "group": null
-  },
-  {
-   "name": "Azure OpenAI",
-   "cat": "クラウド基盤",
-   "recent": 3,
-   "prev": 1,
-   "delta": 2,
-   "growth": 0.667,
-   "total": 23,
-   "nvol": 0.0811,
-   "ngrowth": 0.3335,
-   "nvol_prev": 0.0857,
-   "ngrowth_prev": 0.2859,
-   "group": null
-  },
-  {
-   "name": "LLM評価",
-   "cat": "生成AI",
-   "recent": 3,
-   "prev": 4,
-   "delta": -1,
-   "growth": -0.167,
-   "total": 20,
-   "nvol": 0.0811,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.0857,
+   "nvol_prev": 0.0541,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -651,10 +637,10 @@
    "delta": 2,
    "growth": 0.667,
    "total": 20,
-   "nvol": 0.0811,
+   "nvol": 0.0882,
    "ngrowth": 0.3335,
-   "nvol_prev": 0.0857,
-   "ngrowth_prev": 0.2859,
+   "nvol_prev": 0.0811,
+   "ngrowth_prev": 0.3335,
    "group": null
   },
   {
@@ -665,10 +651,24 @@
    "delta": 1,
    "growth": 0.25,
    "total": 19,
-   "nvol": 0.0811,
+   "nvol": 0.0882,
    "ngrowth": 0.125,
-   "nvol_prev": 0.0571,
-   "ngrowth_prev": 0.0,
+   "nvol_prev": 0.0811,
+   "ngrowth_prev": 0.125,
+   "group": null
+  },
+  {
+   "name": "マルチモーダル",
+   "cat": "生成AI",
+   "recent": 3,
+   "prev": 2,
+   "delta": 1,
+   "growth": 0.25,
+   "total": 16,
+   "nvol": 0.0882,
+   "ngrowth": 0.125,
+   "nvol_prev": 0.1081,
+   "ngrowth_prev": 0.5,
    "group": null
   },
   {
@@ -679,37 +679,49 @@
    "delta": 1,
    "growth": 0.25,
    "total": 12,
-   "nvol": 0.0811,
+   "nvol": 0.0882,
    "ngrowth": 0.125,
-   "nvol_prev": 0.0571,
-   "ngrowth_prev": 0.0,
+   "nvol_prev": 0.0811,
+   "ngrowth_prev": 0.125,
    "group": null
   },
   {
-   "name": "VBA",
-   "cat": "プログラミング言語",
+   "name": "MCP",
+   "cat": "生成AI",
    "recent": 3,
-   "prev": 1,
-   "delta": 2,
-   "growth": 0.667,
-   "total": 7,
-   "nvol": 0.0811,
-   "ngrowth": 0.3335,
-   "nvol_prev": 0.0857,
-   "ngrowth_prev": 0.2859,
+   "prev": 4,
+   "delta": -1,
+   "growth": -0.167,
+   "total": 11,
+   "nvol": 0.0882,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.1081,
+   "ngrowth_prev": 0.1,
+   "group": null
+  },
+  {
+   "name": "強化学習",
+   "cat": "機械学習",
+   "recent": 3,
+   "prev": 2,
+   "delta": 1,
+   "growth": 0.25,
+   "total": 11,
+   "nvol": 0.0882,
+   "ngrowth": 0.125,
    "group": null
   },
   {
    "name": "アジャイル",
    "cat": "進め方・プロセス",
    "recent": 2,
-   "prev": 6,
-   "delta": -4,
-   "growth": -0.5,
-   "total": 52,
-   "nvol": 0.0541,
+   "prev": 7,
+   "delta": -5,
+   "growth": -0.556,
+   "total": 53,
+   "nvol": 0.0588,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0571,
+   "nvol_prev": 0.0541,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -721,9 +733,9 @@
    "delta": -5,
    "growth": -0.556,
    "total": 37,
-   "nvol": 0.0541,
+   "nvol": 0.0588,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0286,
+   "nvol_prev": 0.0541,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -735,23 +747,9 @@
    "delta": 0,
    "growth": 0.0,
    "total": 32,
-   "nvol": 0.0541,
+   "nvol": 0.0588,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0571,
-   "ngrowth_prev": 0.0,
-   "group": null
-  },
-  {
-   "name": "Databricks",
-   "cat": "データ基盤",
-   "recent": 2,
-   "prev": 4,
-   "delta": -2,
-   "growth": -0.333,
-   "total": 30,
-   "nvol": 0.0541,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.0857,
+   "nvol_prev": 0.0541,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -763,9 +761,9 @@
    "delta": 0,
    "growth": 0.0,
    "total": 28,
-   "nvol": 0.0541,
+   "nvol": 0.0588,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0571,
+   "nvol_prev": 0.0541,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -777,9 +775,9 @@
    "delta": -2,
    "growth": -0.333,
    "total": 22,
-   "nvol": 0.0541,
+   "nvol": 0.0588,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0571,
+   "nvol_prev": 0.0541,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -791,10 +789,36 @@
    "delta": 0,
    "growth": 0.0,
    "total": 20,
-   "nvol": 0.0541,
+   "nvol": 0.0588,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0571,
+   "nvol_prev": 0.0541,
    "ngrowth_prev": 0.0,
+   "group": null
+  },
+  {
+   "name": "ファインチューニング",
+   "cat": "生成AI",
+   "recent": 2,
+   "prev": 2,
+   "delta": 0,
+   "growth": 0.0,
+   "total": 20,
+   "nvol": 0.0588,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.027,
+   "ngrowth_prev": 0.0,
+   "group": null
+  },
+  {
+   "name": "Kubernetes",
+   "cat": "クラウド基盤",
+   "recent": 2,
+   "prev": 3,
+   "delta": -1,
+   "growth": -0.2,
+   "total": 17,
+   "nvol": 0.0588,
+   "ngrowth": 0.0,
    "group": null
   },
   {
@@ -805,9 +829,9 @@
    "delta": -3,
    "growth": -0.5,
    "total": 34,
-   "nvol": 0.027,
+   "nvol": 0.0294,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0286,
+   "nvol_prev": 0.027,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -819,9 +843,9 @@
    "delta": -5,
    "growth": -0.625,
    "total": 34,
-   "nvol": 0.027,
+   "nvol": 0.0294,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0286,
+   "nvol_prev": 0.027,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -833,9 +857,9 @@
    "delta": -5,
    "growth": -0.625,
    "total": 33,
-   "nvol": 0.027,
+   "nvol": 0.0294,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0286,
+   "nvol_prev": 0.027,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -843,27 +867,13 @@
    "name": "Dify",
    "cat": "AI開発ツール",
    "recent": 1,
-   "prev": 4,
-   "delta": -3,
-   "growth": -0.5,
-   "total": 23,
-   "nvol": 0.027,
-   "ngrowth": 0.0,
-   "nvol_prev": 0.0286,
-   "ngrowth_prev": 0.0,
-   "group": null
-  },
-  {
-   "name": "ファインチューニング",
-   "cat": "生成AI",
-   "recent": 1,
    "prev": 3,
    "delta": -2,
    "growth": -0.4,
-   "total": 19,
-   "nvol": 0.027,
+   "total": 23,
+   "nvol": 0.0294,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0286,
+   "nvol_prev": 0.027,
    "ngrowth_prev": 0.0,
    "group": null
   },
@@ -875,10 +885,24 @@
    "delta": -4,
    "growth": -0.571,
    "total": 17,
-   "nvol": 0.027,
+   "nvol": 0.0294,
    "ngrowth": 0.0,
-   "nvol_prev": 0.0286,
+   "nvol_prev": 0.027,
    "ngrowth_prev": 0.0,
+   "group": null
+  },
+  {
+   "name": "VBA",
+   "cat": "プログラミング言語",
+   "recent": 1,
+   "prev": 3,
+   "delta": -2,
+   "growth": -0.4,
+   "total": 7,
+   "nvol": 0.0294,
+   "ngrowth": 0.0,
+   "nvol_prev": 0.0811,
+   "ngrowth_prev": 0.3335,
    "group": null
   },
   {
@@ -889,8 +913,10 @@
    "delta": -2,
    "growth": -0.4,
    "total": 6,
-   "nvol": 0.027,
+   "nvol": 0.0294,
    "ngrowth": 0.0,
+   "nvol_prev": 0.027,
+   "ngrowth_prev": 0.0,
    "group": null
   },
   {
@@ -912,33 +938,33 @@
   "Python": [
    {
     "name": "機械学習",
-    "n": 144,
-    "rate": 0.403
+    "n": 149,
+    "rate": 0.412
    },
    {
     "name": "SQL",
     "n": 137,
-    "rate": 0.384
+    "rate": 0.378
    },
    {
     "name": "AWS",
     "n": 131,
-    "rate": 0.367
+    "rate": 0.362
    },
    {
     "name": "GCP",
     "n": 94,
-    "rate": 0.263
+    "rate": 0.26
    },
    {
     "name": "LLM",
-    "n": 90,
-    "rate": 0.252
+    "n": 93,
+    "rate": 0.257
    },
    {
     "name": "生成AI",
-    "n": 85,
-    "rate": 0.238
+    "n": 87,
+    "rate": 0.24
    }
   ],
   "SQL": [
@@ -973,6 +999,38 @@
     "rate": 0.242
    }
   ],
+  "機械学習": [
+   {
+    "name": "Python",
+    "n": 149,
+    "rate": 0.801
+   },
+   {
+    "name": "AWS",
+    "n": 59,
+    "rate": 0.317
+   },
+   {
+    "name": "LLM",
+    "n": 59,
+    "rate": 0.317
+   },
+   {
+    "name": "SQL",
+    "n": 54,
+    "rate": 0.29
+   },
+   {
+    "name": "生成AI",
+    "n": 49,
+    "rate": 0.263
+   },
+   {
+    "name": "要件定義",
+    "n": 47,
+    "rate": 0.253
+   }
+  ],
   "AWS": [
    {
     "name": "Python",
@@ -1005,67 +1063,35 @@
     "rate": 0.28
    }
   ],
-  "機械学習": [
-   {
-    "name": "Python",
-    "n": 144,
-    "rate": 0.8
-   },
-   {
-    "name": "AWS",
-    "n": 59,
-    "rate": 0.328
-   },
-   {
-    "name": "LLM",
-    "n": 56,
-    "rate": 0.311
-   },
-   {
-    "name": "SQL",
-    "n": 54,
-    "rate": 0.3
-   },
-   {
-    "name": "生成AI",
-    "n": 47,
-    "rate": 0.261
-   },
-   {
-    "name": "要件定義",
-    "n": 46,
-    "rate": 0.256
-   }
-  ],
   "生成AI": [
    {
     "name": "Python",
-    "n": 85,
-    "rate": 0.535
+    "n": 87,
+    "rate": 0.537
    },
    {
     "name": "LLM",
-    "n": 67,
-    "rate": 0.421
+    "n": 70,
+    "rate": 0.432
    },
    {
     "name": "RAG",
-    "n": 55,
+    "n": 56,
     "rate": 0.346
    },
    {
     "name": "Azure",
-    "n": 51,
+    "n": 52,
     "rate": 0.321
    },
    {
     "name": "PoC",
-    "n": 50,
-    "rate": 0.314
+    "n": 51,
+    "rate": 0.315
    },
    {
-    "name": "AWS",
-    "n": 48,
+    "name": "機械学習",
+    "n": 49,
     "rate": 0.302
    }
   ],
@@ -1073,64 +1099,64 @@
    {
     "name": "Python",
     "n": 71,
-    "rate": 0.461
+    "rate": 0.455
    },
    {
     "name": "AWS",
     "n": 51,
-    "rate": 0.331
+    "rate": 0.327
    },
    {
     "name": "生成AI",
-    "n": 47,
-    "rate": 0.305
+    "n": 48,
+    "rate": 0.308
    },
    {
     "name": "機械学習",
-    "n": 46,
-    "rate": 0.299
+    "n": 47,
+    "rate": 0.301
    },
    {
     "name": "Azure",
     "n": 39,
-    "rate": 0.253
+    "rate": 0.25
    },
    {
-    "name": "GCP",
-    "n": 37,
-    "rate": 0.24
+    "name": "LLM",
+    "n": 38,
+    "rate": 0.244
    }
   ],
   "LLM": [
    {
     "name": "Python",
-    "n": 90,
-    "rate": 0.662
+    "n": 93,
+    "rate": 0.664
    },
    {
     "name": "生成AI",
-    "n": 67,
-    "rate": 0.493
+    "n": 70,
+    "rate": 0.5
    },
    {
     "name": "機械学習",
-    "n": 56,
-    "rate": 0.412
+    "n": 59,
+    "rate": 0.421
    },
    {
     "name": "AWS",
     "n": 54,
-    "rate": 0.397
+    "rate": 0.386
    },
    {
     "name": "RAG",
-    "n": 53,
-    "rate": 0.39
+    "n": 54,
+    "rate": 0.386
    },
    {
     "name": "API設計",
-    "n": 48,
-    "rate": 0.353
+    "n": 49,
+    "rate": 0.35
    }
   ],
   "GCP": [
@@ -1165,6 +1191,38 @@
     "rate": 0.331
    }
   ],
+  "PoC": [
+   {
+    "name": "Python",
+    "n": 54,
+    "rate": 0.491
+   },
+   {
+    "name": "生成AI",
+    "n": 51,
+    "rate": 0.464
+   },
+   {
+    "name": "LLM",
+    "n": 41,
+    "rate": 0.373
+   },
+   {
+    "name": "AWS",
+    "n": 39,
+    "rate": 0.355
+   },
+   {
+    "name": "機械学習",
+    "n": 38,
+    "rate": 0.345
+   },
+   {
+    "name": "要件定義",
+    "n": 35,
+    "rate": 0.318
+   }
+  ],
   "Tableau": [
    {
     "name": "SQL",
@@ -1197,228 +1255,196 @@
     "rate": 0.303
    }
   ],
-  "PoC": [
-   {
-    "name": "Python",
-    "n": 52,
-    "rate": 0.486
-   },
-   {
-    "name": "生成AI",
-    "n": 50,
-    "rate": 0.467
-   },
-   {
-    "name": "LLM",
-    "n": 40,
-    "rate": 0.374
-   },
-   {
-    "name": "AWS",
-    "n": 39,
-    "rate": 0.364
-   },
-   {
-    "name": "機械学習",
-    "n": 35,
-    "rate": 0.327
-   },
-   {
-    "name": "要件定義",
-    "n": 34,
-    "rate": 0.318
-   }
-  ],
   "Azure": [
    {
     "name": "Python",
-    "n": 75,
-    "rate": 0.714
+    "n": 76,
+    "rate": 0.717
    },
    {
     "name": "AWS",
     "n": 55,
-    "rate": 0.524
+    "rate": 0.519
    },
    {
     "name": "生成AI",
-    "n": 51,
-    "rate": 0.486
+    "n": 52,
+    "rate": 0.491
    },
    {
     "name": "GCP",
     "n": 45,
-    "rate": 0.429
+    "rate": 0.425
    },
    {
     "name": "LLM",
-    "n": 44,
-    "rate": 0.419
+    "n": 45,
+    "rate": 0.425
    },
    {
     "name": "RAG",
-    "n": 43,
-    "rate": 0.41
+    "n": 44,
+    "rate": 0.415
    }
   ],
   "API設計": [
    {
     "name": "Python",
-    "n": 74,
-    "rate": 0.771
+    "n": 75,
+    "rate": 0.773
    },
    {
     "name": "LLM",
-    "n": 48,
-    "rate": 0.5
+    "n": 49,
+    "rate": 0.505
    },
    {
     "name": "生成AI",
     "n": 45,
-    "rate": 0.469
+    "rate": 0.464
    },
    {
     "name": "AWS",
     "n": 42,
-    "rate": 0.438
+    "rate": 0.433
    },
    {
     "name": "GCP",
     "n": 40,
-    "rate": 0.417
+    "rate": 0.412
    },
    {
     "name": "機械学習",
-    "n": 34,
-    "rate": 0.354
+    "n": 35,
+    "rate": 0.361
    }
   ],
   "BigQuery": [
    {
     "name": "SQL",
     "n": 66,
-    "rate": 0.759
+    "rate": 0.75
    },
    {
     "name": "Python",
     "n": 53,
-    "rate": 0.609
+    "rate": 0.602
    },
    {
     "name": "GCP",
     "n": 49,
-    "rate": 0.563
+    "rate": 0.557
    },
    {
     "name": "DWH",
-    "n": 38,
-    "rate": 0.437
+    "n": 39,
+    "rate": 0.443
    },
    {
     "name": "Looker",
     "n": 38,
-    "rate": 0.437
+    "rate": 0.432
    },
    {
     "name": "Tableau",
     "n": 37,
-    "rate": 0.425
+    "rate": 0.42
    }
   ],
   "RAG": [
    {
     "name": "生成AI",
-    "n": 55,
-    "rate": 0.655
+    "n": 56,
+    "rate": 0.659
    },
    {
     "name": "LLM",
-    "n": 53,
-    "rate": 0.631
+    "n": 54,
+    "rate": 0.635
    },
    {
     "name": "Python",
-    "n": 51,
-    "rate": 0.607
+    "n": 52,
+    "rate": 0.612
    },
    {
     "name": "Azure",
-    "n": 43,
-    "rate": 0.512
+    "n": 44,
+    "rate": 0.518
    },
    {
     "name": "AWS",
     "n": 37,
-    "rate": 0.44
+    "rate": 0.435
    },
    {
     "name": "PoC",
-    "n": 33,
-    "rate": 0.393
+    "n": 34,
+    "rate": 0.4
    }
   ],
   "DWH": [
    {
     "name": "SQL",
     "n": 55,
-    "rate": 0.696
+    "rate": 0.688
    },
    {
     "name": "Python",
     "n": 42,
-    "rate": 0.532
+    "rate": 0.525
    },
    {
     "name": "BigQuery",
-    "n": 38,
-    "rate": 0.481
+    "n": 39,
+    "rate": 0.487
    },
    {
     "name": "ETL",
     "n": 36,
-    "rate": 0.456
+    "rate": 0.45
    },
    {
     "name": "Tableau",
     "n": 33,
-    "rate": 0.418
+    "rate": 0.412
    },
    {
     "name": "AWS",
     "n": 30,
-    "rate": 0.38
+    "rate": 0.375
    }
   ],
   "AIエージェント": [
    {
     "name": "Python",
-    "n": 46,
-    "rate": 0.613
+    "n": 47,
+    "rate": 0.618
    },
    {
     "name": "LLM",
-    "n": 41,
-    "rate": 0.547
+    "n": 42,
+    "rate": 0.553
    },
    {
     "name": "生成AI",
-    "n": 40,
-    "rate": 0.533
+    "n": 41,
+    "rate": 0.539
    },
    {
     "name": "RAG",
-    "n": 32,
-    "rate": 0.427
+    "n": 33,
+    "rate": 0.434
    },
    {
     "name": "PoC",
-    "n": 30,
-    "rate": 0.4
+    "n": 31,
+    "rate": 0.408
    },
    {
     "name": "AWS",
     "n": 27,
-    "rate": 0.36
+    "rate": 0.355
    }
   ],
   "ETL": [
@@ -1453,6 +1479,38 @@
     "rate": 0.347
    }
   ],
+  "Docker": [
+   {
+    "name": "Python",
+    "n": 57,
+    "rate": 0.851
+   },
+   {
+    "name": "GCP",
+    "n": 38,
+    "rate": 0.567
+   },
+   {
+    "name": "API設計",
+    "n": 32,
+    "rate": 0.478
+   },
+   {
+    "name": "AWS",
+    "n": 30,
+    "rate": 0.448
+   },
+   {
+    "name": "Git",
+    "n": 26,
+    "rate": 0.388
+   },
+   {
+    "name": "SQL",
+    "n": 26,
+    "rate": 0.388
+   }
+  ],
   "Power BI": [
    {
     "name": "Tableau",
@@ -1485,68 +1543,36 @@
     "rate": 0.246
    }
   ],
-  "Docker": [
-   {
-    "name": "Python",
-    "n": 55,
-    "rate": 0.846
-   },
-   {
-    "name": "GCP",
-    "n": 38,
-    "rate": 0.585
-   },
-   {
-    "name": "API設計",
-    "n": 31,
-    "rate": 0.477
-   },
-   {
-    "name": "AWS",
-    "n": 30,
-    "rate": 0.462
-   },
-   {
-    "name": "SQL",
-    "n": 26,
-    "rate": 0.4
-   },
-   {
-    "name": "Git",
-    "n": 24,
-    "rate": 0.369
-   }
-  ],
   "Git": [
    {
     "name": "Python",
-    "n": 51,
-    "rate": 0.823
+    "n": 53,
+    "rate": 0.828
    },
    {
     "name": "AWS",
     "n": 33,
-    "rate": 0.532
+    "rate": 0.516
    },
    {
     "name": "機械学習",
-    "n": 29,
-    "rate": 0.468
+    "n": 31,
+    "rate": 0.484
+   },
+   {
+    "name": "Docker",
+    "n": 26,
+    "rate": 0.406
    },
    {
     "name": "SQL",
     "n": 26,
-    "rate": 0.419
+    "rate": 0.406
    },
    {
     "name": "GCP",
     "n": 25,
-    "rate": 0.403
-   },
-   {
-    "name": "Docker",
-    "n": 24,
-    "rate": 0.387
+    "rate": 0.391
    }
   ],
   "OpenAI API": [
@@ -1709,6 +1735,38 @@
     "rate": 0.259
    }
   ],
+  "アジャイル": [
+   {
+    "name": "Python",
+    "n": 33,
+    "rate": 0.623
+   },
+   {
+    "name": "要件定義",
+    "n": 24,
+    "rate": 0.453
+   },
+   {
+    "name": "AWS",
+    "n": 23,
+    "rate": 0.434
+   },
+   {
+    "name": "生成AI",
+    "n": 22,
+    "rate": 0.415
+   },
+   {
+    "name": "LLM",
+    "n": 19,
+    "rate": 0.358
+   },
+   {
+    "name": "API設計",
+    "n": 15,
+    "rate": 0.283
+   }
+  ],
   "Snowflake": [
    {
     "name": "AWS",
@@ -1741,36 +1799,36 @@
     "rate": 0.308
    }
   ],
-  "アジャイル": [
+  "深層学習": [
    {
     "name": "Python",
-    "n": 33,
-    "rate": 0.635
+    "n": 39,
+    "rate": 0.765
    },
    {
-    "name": "AWS",
+    "name": "機械学習",
+    "n": 35,
+    "rate": 0.686
+   },
+   {
+    "name": "PyTorch",
     "n": 23,
-    "rate": 0.442
+    "rate": 0.451
    },
    {
-    "name": "要件定義",
-    "n": 23,
-    "rate": 0.442
-   },
-   {
-    "name": "生成AI",
+    "name": "画像認識",
     "n": 21,
-    "rate": 0.404
+    "rate": 0.412
+   },
+   {
+    "name": "Git",
+    "n": 18,
+    "rate": 0.353
    },
    {
     "name": "LLM",
     "n": 18,
-    "rate": 0.346
-   },
-   {
-    "name": "API設計",
-    "n": 15,
-    "rate": 0.288
+    "rate": 0.353
    }
   ],
   "PMO": [
@@ -1803,38 +1861,6 @@
     "name": "AWS",
     "n": 9,
     "rate": 0.188
-   }
-  ],
-  "深層学習": [
-   {
-    "name": "Python",
-    "n": 36,
-    "rate": 0.75
-   },
-   {
-    "name": "機械学習",
-    "n": 32,
-    "rate": 0.667
-   },
-   {
-    "name": "PyTorch",
-    "n": 23,
-    "rate": 0.479
-   },
-   {
-    "name": "画像認識",
-    "n": 21,
-    "rate": 0.438
-   },
-   {
-    "name": "TensorFlow",
-    "n": 17,
-    "rate": 0.354
-   },
-   {
-    "name": "AWS",
-    "n": 16,
-    "rate": 0.333
    }
   ],
   "PyTorch": [

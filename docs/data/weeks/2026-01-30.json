@@ -325,9 +325,11 @@
    "rate_max": null,
    "is_new": true,
    "techs": [
+    "強化学習",
     "時系列分析"
    ],
    "techs_req": [
+    "強化学習",
     "時系列分析"
    ],
    "techs_opt": [],

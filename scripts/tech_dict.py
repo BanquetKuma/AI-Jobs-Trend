@@ -77,7 +77,7 @@ TECHS = [
     ("Microsoft 365 Copilot", "AI開発ツール", r"(?:Microsoft\s*)?365\s*Copilot|M365\s*Copilot"),
     ("Cursor",          "AI開発ツール", r"(?<![0-9A-Za-z_])Cursor(?![0-9A-Za-z_])"),
     ("Dify",            "AI開発ツール", r"(?<![0-9A-Za-z_])Dify(?![0-9A-Za-z_])"),
-    ("AIコーディング支援","AI開発ツール", r"AIコーディング|AI支援ツール|AI\s*コーディングエージェント|AI駆動開発|(?<![0-9A-Za-z_])Kiro(?![0-9A-Za-z_])"),
+    ("AIコーディング支援","AI開発ツール", r"AIコーディング|AI支援ツール|AI\s*コーディングエージェント|AI駆動開発|バイブコーディング|(?<![0-9A-Za-z_])Kiro(?![0-9A-Za-z_])"),
     ("Power Platform",  "AI開発ツール", r"Power\s*Platform|Power\s*Apps|Power\s*Automate"),
     ("RPA",             "AI開発ツール", r"(?<![0-9A-Za-z_])RPA(?![0-9A-Za-z_])|UiPath|WinActor"),
 
@@ -95,6 +95,9 @@ TECHS = [
     ("画像認識",    "機械学習", r"画像認識|画像処理|物体検出|コンピュータビジョン|動作解析|姿勢推定"),
     ("需要予測",    "機械学習", r"需要予測|予測モデル"),
     ("レコメンド",  "機械学習", r"レコメンド|推薦"),
+    ("強化学習",    "機械学習", r"強化学習|Reinforcement\s*Learning"),
+    ("音声認識・合成","機械学習", r"音声認識|音声合成|音声基盤モデル|(?<![0-9A-Za-z_])(?:ASR|TTS)(?![0-9A-Za-z_])"),
+    ("フィジカルAI","機械学習", r"Physical\s*AI|フィジカルAI|Embodied\s*AI|(?<![0-9A-Za-z_])ROS2?(?![0-9A-Za-z_])"),
 
     # ---- 基盤・運用 ----
     ("Docker",          "開発基盤・運用", r"Docker|コンテナ"),

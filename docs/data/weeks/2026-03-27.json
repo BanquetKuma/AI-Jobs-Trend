@@ -14,14 +14,16 @@
    "techs": [
     "AWS",
     "C#/.NET",
-    "Python"
+    "Python",
+    "強化学習"
    ],
    "techs_req": [
     "C#/.NET",
     "Python"
    ],
    "techs_opt": [
-    "AWS"
+    "AWS",
+    "強化学習"
    ],
    "start": "2026年4月 ※応相談",
    "contract": "準委任（個人事業主） ※後々は正社員をご検討いただける方",

@@ -265,7 +265,8 @@
     "OpenAI API",
     "PoC",
     "Python",
-    "RAG"
+    "RAG",
+    "音声認識・合成"
    ],
    "techs_req": [
     "API設計",

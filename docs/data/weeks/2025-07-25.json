@@ -92,12 +92,15 @@
    "is_new": true,
    "techs": [
     "Python",
+    "フィジカルAI",
     "画像認識"
    ],
    "techs_req": [
     "Python"
    ],
-   "techs_opt": [],
+   "techs_opt": [
+    "フィジカルAI"
+   ],
    "start": "2025年8月 ※応相談",
    "contract": "準委任（個人事業主）",
    "settle": "140 - 180",
@@ -129,7 +132,8 @@
     "LLM",
     "Python",
     "ファインチューニング",
-    "自然言語処理"
+    "自然言語処理",
+    "音声認識・合成"
    ],
    "techs_req": [
     "Git",

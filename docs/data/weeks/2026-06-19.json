@@ -154,11 +154,13 @@
     "API設計",
     "Azure",
     "LLM",
-    "Python"
+    "Python",
+    "音声認識・合成"
    ],
    "techs_req": [
     "AIエージェント",
-    "Python"
+    "Python",
+    "音声認識・合成"
    ],
    "techs_opt": [
     "API設計",

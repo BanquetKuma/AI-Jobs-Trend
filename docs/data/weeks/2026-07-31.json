@@ -152,6 +152,7 @@
     "Python",
     "TensorFlow",
     "因果推論",
+    "強化学習",
     "機械学習",
     "深層学習",
     "異常検知",
@@ -159,6 +160,7 @@
    ],
    "techs_req": [
     "Python",
+    "強化学習",
     "機械学習",
     "深層学習"
    ],
@@ -271,6 +273,7 @@
    "is_new": true,
    "techs": [
     "AIエージェント",
+    "AIコーディング支援",
     "BigQuery",
     "Claude",
     "Copilot Studio",
@@ -286,6 +289,7 @@
     "需要予測"
    ],
    "techs_req": [
+    "AIコーディング支援",
     "BigQuery",
     "Claude",
     "Copilot Studio",

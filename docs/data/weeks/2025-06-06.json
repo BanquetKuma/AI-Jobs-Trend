@@ -203,7 +203,8 @@
     "TensorFlow",
     "pandas/NumPy",
     "機械学習",
-    "深層学習"
+    "深層学習",
+    "音声認識・合成"
    ],
    "techs_req": [
     "API設計",
@@ -215,7 +216,8 @@
     "TensorFlow",
     "pandas/NumPy",
     "機械学習",
-    "深層学習"
+    "深層学習",
+    "音声認識・合成"
    ],
    "techs_opt": [],
    "start": "2025年6月",

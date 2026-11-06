@@ -1,23 +1,23 @@
 {
- "latest_week": "2026-10-30",
+ "latest_week": "2026-11-06",
  "latest": {
-  "projects": 8,
-  "new_projects": 8
+  "projects": 7,
+  "new_projects": 7
  },
  "totals": {
-  "weeks": 88,
-  "listings": 696,
-  "unique_projects": 642
+  "weeks": 89,
+  "listings": 703,
+  "unique_projects": 649
  },
  "distributions": {
   "position": [
    {
     "name": "AIエンジニア",
-    "count": 248
+    "count": 251
    },
    {
     "name": "データエンジニア",
-    "count": 90
+    "count": 92
    },
    {
     "name": "データアナリスト",
@@ -25,11 +25,11 @@
    },
    {
     "name": "BIエンジニア",
-    "count": 63
+    "count": 64
    },
    {
     "name": "ITコンサル",
-    "count": 50
+    "count": 51
    },
    {
     "name": "PM/PdM",
@@ -59,7 +59,7 @@
   "industry": [
    {
     "name": "不明",
-    "count": 278
+    "count": 282
    },
    {
     "name": "情報通信業",
@@ -71,7 +71,7 @@
    },
    {
     "name": "製造業",
-    "count": 44
+    "count": 45
    },
    {
     "name": "エンターテイメント",
@@ -79,7 +79,7 @@
    },
    {
     "name": "医療",
-    "count": 36
+    "count": 37
    },
    {
     "name": "卸小売業",
@@ -87,7 +87,7 @@
    },
    {
     "name": "サービス事業",
-    "count": 27
+    "count": 28
    },
    {
     "name": "不動産業",
@@ -281,11 +281,11 @@
   "workstyle": [
    {
     "name": "フルリモート",
-    "count": 314
+    "count": 319
    },
    {
     "name": "リモート・オンサイト併用",
-    "count": 280
+    "count": 282
    },
    {
     "name": "常駐",
@@ -303,21 +303,29 @@
   "position_latest": [
    {
     "name": "AIエンジニア",
-    "count": 5
+    "count": 3
    },
    {
-    "name": "ITコンサル",
+    "name": "データエンジニア",
     "count": 2
    },
    {
-    "name": "アプリエンジニア",
+    "name": "BIエンジニア",
+    "count": 1
+   },
+   {
+    "name": "ITコンサル",
     "count": 1
    }
   ],
   "industry_latest": [
    {
     "name": "不明",
-    "count": 5
+    "count": 4
+   },
+   {
+    "name": "サービス事業",
+    "count": 1
    },
    {
     "name": "医療",
@@ -326,16 +334,12 @@
    {
     "name": "製造業",
     "count": 1
-   },
-   {
-    "name": "運輸業 ※タクシー、ハイヤー事業等",
-    "count": 1
    }
   ],
   "ratio": [
    {
     "name": "〜30%",
-    "count": 14
+    "count": 15
    },
    {
     "name": "31〜50%",
@@ -347,7 +351,7 @@
    },
    {
     "name": "81〜100%",
-    "count": 624
+    "count": 630
    },
    {
     "name": "不明",
@@ -359,62 +363,62 @@
   {
    "name": "Python",
    "category": "プログラミング言語",
-   "count": 362
+   "count": 364
   },
   {
    "name": "SQL",
    "category": "プログラミング言語",
-   "count": 211
+   "count": 212
   },
   {
    "name": "機械学習",
    "category": "機械学習",
-   "count": 186
+   "count": 188
   },
   {
    "name": "AWS",
    "category": "クラウド基盤",
-   "count": 182
+   "count": 183
   },
   {
    "name": "生成AI",
    "category": "生成AI",
-   "count": 162
+   "count": 164
   },
   {
    "name": "要件定義",
    "category": "進め方・プロセス",
-   "count": 156
+   "count": 157
   },
   {
    "name": "LLM",
    "category": "生成AI",
-   "count": 140
+   "count": 143
   },
   {
    "name": "GCP",
    "category": "クラウド基盤",
-   "count": 121
+   "count": 122
   },
   {
    "name": "PoC",
    "category": "進め方・プロセス",
-   "count": 110
+   "count": 111
   },
   {
    "name": "Tableau",
    "category": "データ基盤",
-   "count": 109
+   "count": 110
   },
   {
    "name": "Azure",
    "category": "クラウド基盤",
-   "count": 106
+   "count": 108
   },
   {
    "name": "API設計",
    "category": "アプリ開発",
-   "count": 97
+   "count": 99
   },
   {
    "name": "BigQuery",
@@ -424,17 +428,17 @@
   {
    "name": "RAG",
    "category": "生成AI",
-   "count": 85
+   "count": 86
   },
   {
    "name": "DWH",
    "category": "データ基盤",
-   "count": 80
+   "count": 81
   },
   {
    "name": "AIエージェント",
    "category": "生成AI",
-   "count": 76
+   "count": 77
   },
   {
    "name": "ETL",
@@ -449,22 +453,15 @@
   {
    "name": "Power BI",
    "category": "データ基盤",
-   "count": 65
+   "count": 67
   },
   {
    "name": "Git",
    "category": "開発基盤・運用",
-   "count": 64
+   "count": 65
   }
  ],
  "rising": [
-  {
-   "name": "Claude",
-   "category": "生成AI",
-   "recent": 6,
-   "prev": 0,
-   "delta": 6
-  },
   {
    "name": "BigQuery",
    "category": "データ基盤",
@@ -473,46 +470,25 @@
    "delta": 4
   },
   {
-   "name": "OpenAI API",
+   "name": "Claude",
    "category": "生成AI",
-   "recent": 4,
-   "prev": 0,
-   "delta": 4
-  },
-  {
-   "name": "scikit-learn",
-   "category": "機械学習",
-   "recent": 4,
-   "prev": 0,
-   "delta": 4
-  },
-  {
-   "name": "生成AI",
-   "category": "生成AI",
-   "recent": 12,
-   "prev": 9,
+   "recent": 5,
+   "prev": 2,
    "delta": 3
   },
   {
-   "name": "因果推論",
-   "category": "機械学習",
+   "name": "Looker",
+   "category": "データ基盤",
    "recent": 4,
    "prev": 1,
    "delta": 3
   },
   {
-   "name": "Azure OpenAI",
-   "category": "クラウド基盤",
-   "recent": 3,
-   "prev": 0,
-   "delta": 3
-  },
-  {
-   "name": "Vertex AI",
-   "category": "クラウド基盤",
-   "recent": 3,
-   "prev": 0,
-   "delta": 3
+   "name": "DWH",
+   "category": "データ基盤",
+   "recent": 7,
+   "prev": 5,
+   "delta": 2
   },
   {
    "name": "RAG",
@@ -522,41 +498,69 @@
    "delta": 2
   },
   {
-   "name": "Looker",
-   "category": "データ基盤",
+   "name": "API設計",
+   "category": "アプリ開発",
    "recent": 4,
    "prev": 2,
    "delta": 2
+  },
+  {
+   "name": "OpenAI API",
+   "category": "生成AI",
+   "recent": 4,
+   "prev": 3,
+   "delta": 1
+  },
+  {
+   "name": "因果推論",
+   "category": "機械学習",
+   "recent": 3,
+   "prev": 2,
+   "delta": 1
+  },
+  {
+   "name": "需要予測",
+   "category": "機械学習",
+   "recent": 3,
+   "prev": 2,
+   "delta": 1
+  },
+  {
+   "name": "Terraform",
+   "category": "クラウド基盤",
+   "recent": 2,
+   "prev": 1,
+   "delta": 1
   }
  ],
  "falling": [
   {
+   "name": "Python",
+   "category": "プログラミング言語",
+   "recent": 13,
+   "prev": 21,
+   "delta": -8
+  },
+  {
    "name": "AWS",
    "category": "クラウド基盤",
-   "recent": 7,
-   "prev": 13,
+   "recent": 5,
+   "prev": 12,
+   "delta": -7
+  },
+  {
+   "name": "AIエージェント",
+   "category": "生成AI",
+   "recent": 6,
+   "prev": 12,
    "delta": -6
   },
   {
-   "name": "SQL",
-   "category": "プログラミング言語",
-   "recent": 8,
-   "prev": 13,
-   "delta": -5
-  },
-  {
-   "name": "要件定義",
-   "category": "進め方・プロセス",
-   "recent": 6,
-   "prev": 11,
-   "delta": -5
-  },
-  {
-   "name": "Power BI",
-   "category": "データ基盤",
-   "recent": 0,
-   "prev": 5,
-   "delta": -5
+   "name": "Azure",
+   "category": "クラウド基盤",
+   "recent": 3,
+   "prev": 9,
+   "delta": -6
   },
   {
    "name": "画像認識",
@@ -566,39 +570,39 @@
    "delta": -5
   },
   {
-   "name": "Python",
+   "name": "SQL",
    "category": "プログラミング言語",
-   "recent": 15,
-   "prev": 19,
+   "recent": 7,
+   "prev": 11,
    "delta": -4
+  },
+  {
+   "name": "要件定義",
+   "category": "進め方・プロセス",
+   "recent": 6,
+   "prev": 10,
+   "delta": -4
+  },
+  {
+   "name": "英語",
+   "category": "進め方・プロセス",
+   "recent": 0,
+   "prev": 4,
+   "delta": -4
+  },
+  {
+   "name": "MLOps",
+   "category": "開発基盤・運用",
+   "recent": 3,
+   "prev": 6,
+   "delta": -3
   },
   {
    "name": "AIコーディング支援",
    "category": "AI開発ツール",
    "recent": 2,
-   "prev": 6,
-   "delta": -4
-  },
-  {
-   "name": "Snowflake",
-   "category": "データ基盤",
-   "recent": 1,
    "prev": 5,
-   "delta": -4
-  },
-  {
-   "name": "Claude Code",
-   "category": "AI開発ツール",
-   "recent": 1,
-   "prev": 5,
-   "delta": -4
-  },
-  {
-   "name": "AIガバナンス",
-   "category": "生成AI",
-   "recent": 0,
-   "prev": 4,
-   "delta": -4
+   "delta": -3
   }
  ],
  "longest_running": [
@@ -763,15 +767,15 @@
   },
   {
    "name": "Python",
-   "listings": 362,
-   "req": 290,
-   "rate": 0.801
+   "listings": 364,
+   "req": 292,
+   "rate": 0.802
   },
   {
    "name": "SQL",
-   "listings": 211,
-   "req": 167,
-   "rate": 0.791
+   "listings": 212,
+   "req": 168,
+   "rate": 0.792
   },
   {
    "name": "R",
@@ -805,9 +809,9 @@
   },
   {
    "name": "異常検知",
-   "listings": 23,
-   "req": 15,
-   "rate": 0.652
+   "listings": 24,
+   "req": 16,
+   "rate": 0.667
   },
   {
    "name": "Java",
@@ -817,9 +821,9 @@
   },
   {
    "name": "機械学習",
-   "listings": 186,
-   "req": 119,
-   "rate": 0.64
+   "listings": 188,
+   "req": 120,
+   "rate": 0.638
   },
   {
    "name": "PyTorch",
@@ -841,15 +845,9 @@
   },
   {
    "name": "RAG",
-   "listings": 85,
-   "req": 51,
-   "rate": 0.6
-  },
-  {
-   "name": "Amazon Bedrock",
-   "listings": 17,
-   "req": 10,
-   "rate": 0.588
+   "listings": 86,
+   "req": 52,
+   "rate": 0.605
   },
   {
    "name": "レコメンド",
@@ -859,15 +857,21 @@
   },
   {
    "name": "Git",
-   "listings": 64,
+   "listings": 65,
    "req": 37,
-   "rate": 0.578
+   "rate": 0.569
   },
   {
    "name": "生成AI",
-   "listings": 162,
-   "req": 91,
-   "rate": 0.562
+   "listings": 164,
+   "req": 93,
+   "rate": 0.567
+  },
+  {
+   "name": "AWS",
+   "listings": 183,
+   "req": 103,
+   "rate": 0.563
   },
   {
    "name": "Copilot Studio",
@@ -885,9 +889,9 @@
   },
   {
    "name": "GitHub Actions",
-   "listings": 17,
+   "listings": 18,
    "req": 2,
-   "rate": 0.118
+   "rate": 0.111
   },
   {
    "name": "SCM",
@@ -921,15 +925,9 @@
   },
   {
    "name": "Vertex AI",
-   "listings": 20,
+   "listings": 21,
    "req": 4,
-   "rate": 0.2
-  },
-  {
-   "name": "Terraform",
-   "listings": 37,
-   "req": 8,
-   "rate": 0.216
+   "rate": 0.19
   },
   {
    "name": "アジャイル",
@@ -938,24 +936,30 @@
    "rate": 0.226
   },
   {
+   "name": "LLM評価",
+   "listings": 22,
+   "req": 5,
+   "rate": 0.227
+  },
+  {
    "name": "Looker",
    "listings": 57,
    "req": 13,
    "rate": 0.228
   },
   {
-   "name": "LLM評価",
-   "listings": 21,
-   "req": 5,
-   "rate": 0.238
+   "name": "Terraform",
+   "listings": 38,
+   "req": 9,
+   "rate": 0.237
   }
  ],
  "supply": [
   {
    "name": "異常検知",
-   "weeks": 1.35,
-   "fresh": 0.739,
-   "listings": 23
+   "weeks": 1.33,
+   "fresh": 0.75,
+   "listings": 24
   },
   {
    "name": "R",
@@ -1000,16 +1004,16 @@
    "listings": 57
   },
   {
-   "name": "Terraform",
-   "weeks": 1.16,
-   "fresh": 0.865,
-   "listings": 37
-  },
-  {
    "name": "アジャイル",
    "weeks": 1.15,
    "fresh": 0.887,
    "listings": 53
+  },
+  {
+   "name": "Terraform",
+   "weeks": 1.15,
+   "fresh": 0.868,
+   "listings": 38
   },
   {
    "name": "BigQuery",
@@ -1032,8 +1036,8 @@
   {
    "name": "SQL",
    "weeks": 1.12,
-   "fresh": 0.9,
-   "listings": 211
+   "fresh": 0.901,
+   "listings": 212
   },
   {
    "name": "PostgreSQL",
@@ -1045,7 +1049,7 @@
  "min_listings": 11,
  "rate": {
   "reported": 4,
-  "missing": 692,
+  "missing": 699,
   "min": 55,
   "max": 115,
   "median": 80,
@@ -1076,5 +1080,5 @@
    }
   ]
  },
- "commentary": "2026-10-30週は**8件**。10/23週は該当する配信が見つからず、2週ぶりの取り込みとなった。件数は直近（9件・9件・8件）とほぼ同じ水準。\n\n直近8週で最も伸びた定着技術は引き続き機械学習（前期17件→27件）で、**MLOps（4→10件）が2位に浮上**した。反対に直近4配信ではAWS（13→7）、要件定義（11→6）が落ち、Power BIと画像認識は5件から0件になった。\n\n兆候リストでは**フィジカルAI（前期0→4件）がscikit-learnと並んで首位**に入った。今週はAIモデルとロボットを統合するEmbodied AIのロボティクスエンジニア（ROS/ROS2必須）と、製造業向けにPhysical AIの継続学習サイクルを強化学習・MLOpsで設計・検証する枠の2件が出ており、**生成AIの外側、実機と学習ループを扱う領域**に募集が広がり始めている。\n\n生成AIアプリ側では、大手銀行の法人営業向けにRAG/AI Agentの中核ロジックを作る常駐枠が、プロンプト・検索・評価設計を含む**コンテキストエンジニアリングの実務経験を必須**に挙げた。タクシー・ハイヤー事業のFDE枠はGitHub CopilotやClaudeを使ったバイブコーディングを必須とし、AIコーディング支援は定着技術の3位に上がった。\n\nポジションはAIエンジニア5・ITコンサル2・アプリエンジニア1で、AIエンジニアのうち2件はAIスタートアップでLLMと音声基盤モデルの学習基盤を作るリサーチエンジニア枠だった。業界が明示されたのは製造業・医療・運輸業の各1件。稼働形態は併用4・フルリモート3・常駐1で、前回0件だった**フルリモートが3件に戻った**。"
+ "commentary": "2026-11-06週は**7件**で、直近9配信で最も少なかった（他の8配信は8〜11件）。\n\n直近8週で最も伸びた定着技術は引き続き機械学習（前期17件→26件）で、**AIコーディング支援（3→7件）が2位に上がった**。一方MLOpsは2位から4位に下がった。直近4配信と前の4配信の比較ではBigQuery（2→6）とClaude（2→5）が伸び、AWS（12→5）、Azure（9→3）、AIエージェント（12→6）が落ちた。\n\n兆候リストでは**Azure OpenAI（前期0→4件）が新たに入り、scikit-learn・フィジカルAIと並んで首位**になった。今週の押し上げ要因は、2017年頃に構築された医療費審査AIモデルを高度化する枠で、機械学習に加えて生成AIのPoC・RAG構築の経験も問うている。同率首位のscikit-learnとフィジカルAIに今週の新規タグ付けはなかった。\n\n今週目を引くのは、大手WEB運営会社が募集する**生成AIの評価そのものを主業務とする枠**だ。正解付き評価データの作成からベンチマーク、95%信頼区間での施策判定までを、1タスク3〜4週間で5〜6タスク担当する。モデルやプロンプトを変えても品質が落ちないかを数字で確かめる仕組みづくりが、独立した業務として切り出されている。\n\nもう一つは**AI活用を前提にしたデータ基盤の枠**で、製造業の工場データをつなぐMicrosoft Fabric環境構築のテックリードと、医療分野のDatabricks・Terraformによるデータプラットフォーム構築の2件が出た。IT運用へのAI適用テーマを運用データから仮説化するITコンサル枠もあり、AIの適用先が運用やデータ整備の側にも及んでいる。\n\nポジションはAIエンジニア3・データエンジニア2・BIエンジニア1・ITコンサル1。業界が明示されたのは製造業・医療・サービス事業の各1件。稼働形態は**フルリモート5・併用2・常駐0**で、前回のフルリモート3件から増えた。ただしフルリモート分類には初日オンサイト必須や隔週の対面の可能性がある枠も含む。"
 }

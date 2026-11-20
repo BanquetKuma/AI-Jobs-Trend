@@ -1,0 +1,287 @@
+{
+ "week": "2026-11-20",
+ "projects": [
+  {
+   "id": "0db32ba897a2",
+   "position": "AI導入コンサル",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "PoC",
+    "生成AI"
+   ],
+   "techs_req": [
+    "生成AI"
+   ],
+   "techs_opt": [],
+   "start": "2026年11月",
+   "contract": "当社と準委任契約",
+   "settle": "要確認",
+   "location": "エンドクライアントオフィス(都内)",
+   "pc": "要確認",
+   "headcount": "1名",
+   "rounds": "2回",
+   "title": "【AI導入コンサル】AI化導入コンサルタント / PM",
+   "detail": "エンタープライズ企業向けのAIエージェントの導入を、エンドクライアント社員と共に支援いただきます。 以下2領域の両方、またはいずれかをご担当いただきます [1. 顧客業務のAI化導入方針の設計・提案サポート] ・業務量/業務内容等の現状分析に基づくAI化対象領域の特定、効果仮説・投資対効果の設計 ・エンドクライアント社員と共にエンタープライズ顧客へAIエージェントを提案 (提案骨子・資料作成、顧客ディスカッションのファシリテーション) ・PoCスコープ/評価指標(KPI)の設計、顧客社内稟議に向けた論点整理 [2. AIエージェント導入後のプロジェクトマネジメント] ・PoC結果の評価と、本展開に向けたロードマップ策定(対象業務の拡大順序、運用・体制設計) ・顧客側関係部門とエンドクライアントのプロダクト/開発チームを横断した進捗・課題・リスク管理 ・顧客経営層/決裁者層への報告および合意形成の推進",
+   "req_text": "・生成AI関連プロジェクトの戦略立案または導入支援・プロジェクトマネジメントのご経験 ・コンサルティングファームでの3年以上のご経験",
+   "opt_text": "・業務オペレーション改革（BPR）に関するプロジェクトの経験 ・エンタープライズ企業の決裁者レイヤーとの調整・合意を含む業務経験",
+   "note_text": ""
+  },
+  {
+   "id": "464cc81d924a",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIエージェント",
+    "AWS",
+    "Claude Code",
+    "Dify",
+    "GCP",
+    "LLM",
+    "LLM評価",
+    "PostgreSQL",
+    "TypeScript",
+    "Vue",
+    "機械学習",
+    "監視・可観測性"
+   ],
+   "techs_req": [
+    "AIエージェント",
+    "LLM",
+    "機械学習"
+   ],
+   "techs_opt": [
+    "LLM評価",
+    "TypeScript",
+    "Vue"
+   ],
+   "start": "2026年11月",
+   "contract": "当社クライアントと直接契約",
+   "settle": "140 - 180",
+   "location": "-",
+   "pc": "要確認",
+   "headcount": "1名",
+   "rounds": "1回",
+   "title": "【AIエンジニア】BtoB SaaSのAI機能開発エンジニア｜LLM・AIエージェント",
+   "detail": "業務効率化を支援するBtoB SaaSにおいて、AI／LLMを活用した新機能開発を担当する案件です。既存プロダクトへのAI機能の拡充や新規サービス開発を進める中、AI開発経験を持つエンジニアが不足しています。AI技術の検証・評価から機能設計、実装、本番環境への導入まで一貫して対応いただきます。 【想定業務内容】 ・AI／LLMやAIエージェント技術の調査・検証・評価 ・既存SaaSへのAI機能の設計・実装・改善 ・申請内容の自動レビューや文章要約などのAI機能開発 ・ベクトル検索を活用した検索機能の検証・開発 ・顧客課題に応じたAI活用方法の検討・技術提案 ・AI機能の精度改善および本番環境への導入 ・開発チームと連携した新規AIプロダクトの技術検証・開発 【技術環境】 ・言語：Ruby / TypeScript ・フレームワーク：Ruby on Rails / Vue.js / Nuxt.js / Drizzle ORM ・インフラ：Google Cloud / AWS / Vercel / Supabase / GitHub / Datadog / Sentry ・DB：PostgreSQL / Redis / Memcached / Elasticsearch ・その他：Auth0 / Supabase Authentication / Claude Code / Codex / Devin / CodeRabbit / Dify / n8n / GitHub Issues / Slack",
+   "req_text": "・機械学習エンジニアとしての実務経験3年以上 ・直近の参画案件における1年以上の継続稼働経験 ・AI関連技術の検証だけでなく、実際の機能実装に主体的に取り組める方 ・Webアプリケーションの設計・開発経験 ・自社プロダクトにAI／LLMを組み込んだ実務経験 ・AIエージェントなどを活用した機能の開発・実装経験 ・複数メンバーでのチーム開発経験 ・同一案件での業務委託経験1年以上、または正社員としての勤務経験2年以上 ・週4日以上、日中6時間以上、JSTで稼働できる方",
+   "opt_text": "・Ruby on Railsを用いたWebアプリケーション開発経験 ・TypeScript／Vue.js／Nuxt.jsなどのフロントエンド開発経験 ・BtoB SaaSの企画・設計・開発経験 ・テックリードや開発チームのマネジメント経験 ・LLMの精度評価・改善やベクトル検索を用いた機能開発経験",
+   "note_text": ""
+  },
+  {
+   "id": "4b8c2d87f3ce",
+   "position": "BIエンジニア",
+   "industry": "不明",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "DWH",
+    "PoC",
+    "SQL",
+    "Snowflake",
+    "Tableau"
+   ],
+   "techs_req": [
+    "SQL",
+    "Snowflake",
+    "Tableau"
+   ],
+   "techs_opt": [
+    "DWH"
+   ],
+   "start": "2026年12月",
+   "contract": "当社と準委任契約",
+   "settle": "要確認",
+   "location": "-",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "2回",
+   "title": "【BIエンジニア】Webサービス運営企業向け BIデータソース再構築・性能改善PJ",
+   "detail": "Webサービス運営企業におけるBI環境のデータソース移行およびパフォーマンス改善プロジェクトにて、 設計担当の指示・設計書のもと、実装と検証の推進のプロジェクトになります。 【想定業務】 Snowflake接続によるTableauデータソースの再作成 移行前後の数値比較・突合検証 数値差異が発生したデータの抽出・調査補助 カスタムSQLを用いた事前集計のPoC実装 事前集計適用後の効果測定",
+   "req_text": "・Tableauを用いたデータソース構築、およびワークシート作成・改修の実務経験 ・Snowflake環境でのSQL開発経験 ・データ突合や数値検証を正確かつ緻密に遂行できるスキル",
+   "opt_text": "・既存DWHからSnowflakeへのBI接続切り替え・移行プロジェクトの経験 ・事前集計モデルの構築など、アナリティクスエンジニア領域の実務経験",
+   "note_text": ""
+  },
+  {
+   "id": "a0b59b5a9cd6",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "フルリモート",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "AIコーディング支援",
+    "API設計",
+    "AWS",
+    "Azure",
+    "Claude Code",
+    "Docker",
+    "Python",
+    "アジャイル",
+    "プロンプトエンジニアリング",
+    "生成AI",
+    "要件定義",
+    "音声認識・合成"
+   ],
+   "techs_req": [
+    "AIコーディング支援",
+    "API設計",
+    "AWS",
+    "Azure",
+    "Claude Code",
+    "Docker",
+    "Python",
+    "アジャイル",
+    "プロンプトエンジニアリング",
+    "要件定義"
+   ],
+   "techs_opt": [
+    "生成AI",
+    "音声認識・合成"
+   ],
+   "start": "2026年12月",
+   "contract": "当社クライアントと直接契約",
+   "settle": "140 - 200",
+   "location": "-",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "2回 ※1~2回",
+   "title": "【AIエンジニア】AIプロダクト開発・ITアーキテクトリード",
+   "detail": "コールセンター向けAIプロダクトにおけるシステム拡張・機能導入を推進するITアーキテクト兼テックリード案件。 単なるアプリケーション開発にとどまらず、非機能要件の定義からクラウド基盤（Azure/AWS）のアーキテクチャ設計・実装までを主導する。 自社AIプロダクトの特性を踏まえ、顧客環境との最適なアドオン構成・接続方式（専用線・コンテナ・セキュリティ・可用性等の非機能要件）の検討・確定から、アプリ仕様策定、AIシナリオ・プロンプト設計、Python開発の推進までを一貫してリードする。 競合ベンダーや技術水準・プレッシャーの強い顧客環境において、押し負けずに自らプロジェクトをコントロールし、スピード感を持ってプロダクトの価値最大化（＋αの提供）を実現する。 ※前提内容※ ・ITアーキテクトとしての素養・実務経験を軸に、非機能要件からの基盤設計・実装を自ら主導でき、かつアプリ/AI実装（Python/プロンプト）の領域も理解・推進できるハイレベルなテックリードを求めています。",
+   "req_text": "※各ご経験・実績について、〇×及びコメントをお願いいたします。 1. ITアーキテクトとしての非機能要件定義・クラウド基盤設計・実装経験 ・システムの非機能要件（可用性、拡張性、セキュリティ、ネットワーク等）を定義し、ゼロベースまたは既存環境に合わせてクラウド基盤（Azure または AWS）のアーキテクチャ設計～構築・実装までを一貫して手掛けた実務経験 ・自社製品のアーキテクチャを踏まえ、顧客システム環境との最適な接続・アドオン方式（コンテナ環境、専用線接続、CosmosDB/Lambda等の構成理解・制約踏まえた設計）を提案・確定できる能力 2. アジャイル/スクラム環境におけるテックリード・折衝推進経験 ・顧客や競合他社ベンダーのプロフェッショナルなメンバーが混在する環境下で、押し負けずに主体的な意見出し・折衝を行い、技術的な意思決定やプロジェクトコントロールを自らリードした経験 ・システム要件・非機能要件・IF仕様の確定およびアジャイル開発の推進能力 3. アプリケーション開発（Python）およびAI領域の知見・実務経験 ・Pythonを用いたアプリケーション/API開発の実務経験（※基盤設計に比べ比重は下がるものの、実装レベルの理解・開発推進が可能であること） ・AIシナリオ構築、プロンプトエンジニアリングの実装・チューニング、およびAIコーディングツール（Claude Code等）を用いた開発・調整経験",
+   "opt_text": "・コールセンター、音声認識・生成AI領域におけるシステム導入・アーキテクチャ設計経験 ・Azure CosmosDB、AWS Lambda等を活用したサーバレス/コンテナアーキテクチャの設計・構築・運用経験",
+   "note_text": ""
+  },
+  {
+   "id": "cce9a5482b00",
+   "position": "BIエンジニア",
+   "industry": "情報通信業",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Python",
+    "Tableau",
+    "pandas/NumPy",
+    "生成AI"
+   ],
+   "techs_req": [
+    "Python",
+    "Tableau",
+    "pandas/NumPy"
+   ],
+   "techs_opt": [
+    "生成AI"
+   ],
+   "start": "2027年1月 ※12月開始応相談",
+   "contract": "当社と準委任契約",
+   "settle": "140 - 180",
+   "location": "豊洲駅",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "2回",
+   "title": "【BIエンジニア】社内基幹系業務データ分析基盤における運用および改善支援（データ分析エンジニア）",
+   "detail": "クライアントの社内基幹系業務データ分析基盤における運用/改善にてご支援いただきます。 運用カテゴリごとのサブチームに所属し、客先プロパー等のもとで作業を進めます。 また、生成AIを活用した設計や開発の効率化提案なども期待されております。 ■想定業務 ・Python（pandas、NumPy）を活用した基幹系の業務データの集計や前処理、加工、データ分析 ・Tableau Desktopを用いた業務データを可視化するダッシュボードの開発や、既存ダッシュボードの保守/運用 ・既存のデータモデル（テーブル構造やリレーション）を読み解き、自立的にデータ分析を推進",
+   "req_text": "・Tableau Desktopを利用したダッシュボード開発・運用ができること ・Pythonの経験、pandas、NumPyを活用したデータ集計、加工の実施ができること ・既存データモデルを読み解き、独力で分析を進められること",
+   "opt_text": "・生成AIを活用した設計や開発効率化の提案ができる ・部門やシステム担当者とのコミュニケーション、調整スキル ・基幹系業務システムのデータ分析の実施経験 ・Tableau Serverの運用についての基礎知識",
+   "note_text": ""
+  },
+  {
+   "id": "dd2626c81a68",
+   "position": "データエンジニア",
+   "industry": "製造業 ※精密機械メーカー",
+   "workstyle": "常駐",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "BigQuery",
+    "ERP",
+    "Python",
+    "SAP",
+    "SQL"
+   ],
+   "techs_req": [
+    "SQL"
+   ],
+   "techs_opt": [
+    "BigQuery",
+    "ERP",
+    "Python",
+    "SAP"
+   ],
+   "start": "2026年12月 ※オファー時期により変動あり",
+   "contract": "当社と準委任契約",
+   "settle": "140 - 180",
+   "location": "浜松町駅",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "1回",
+   "title": "【分析基盤エンジニア】データ基盤リプレース案件(SAP HANA->Google BigQuery)に係わる、運用設計/非機能設計、開発標準策定作業",
+   "detail": "■背景・目的 SAP HANA Cloudで実装している全社のグローバル収益の情報公開を行っているデータ基盤において、以下の課題を解消するためにデータ基盤をGoogle BigQueryへ移行する。 ・ランニングコスト抑制 ・データサイロ状態の是正、ERPデータ利用促進 ・セルフBI、データ利活用高度化",
+   "req_text": "・SQLを用いたデータ操作を独力で実施可能であること ・詳細設計～単体テストを独力で遂行可能であること ・プロジェクトで使用する以下ソリューションに対する基盤設定作業、開発標準策定が行えること Dataform + github / Dataflow / Cloud run / Cloud function ・データ基盤構築における運用設計/非機能設計の経験があること └権限設計、バックアップリカバリー、開発資産管理、障害監視/通知、コスト監視",
+   "opt_text": "? ご経験があれば優先検討 ・データ基盤に係わる基本設計(=上流工程)の経験があること ・SAP ERP・S/4HANAに係わるデータを用いた開発経験があること ・SAP DS / SAP SLT / BigQuery（DataformまたはSQL) / Pythonを用いた開発経験があること",
+   "note_text": ""
+  },
+  {
+   "id": "feb80feb53df",
+   "position": "AIエンジニア",
+   "industry": "不明",
+   "workstyle": "リモート・オンサイト併用",
+   "ratio_min": 100,
+   "ratio_max": 100,
+   "rate_min": null,
+   "rate_max": null,
+   "is_new": true,
+   "techs": [
+    "Claude",
+    "GitHub Copilot",
+    "OpenAI API",
+    "生成AI"
+   ],
+   "techs_req": [
+    "Claude",
+    "GitHub Copilot",
+    "OpenAI API",
+    "生成AI"
+   ],
+   "techs_opt": [],
+   "start": "2026年12月",
+   "contract": "当社クライアントと直接契約",
+   "settle": "140 - 200",
+   "location": "-",
+   "pc": "クライアント",
+   "headcount": "1名",
+   "rounds": "1回",
+   "title": "【AIエンジニア】ServiceNowのAI仕様駆動開発案件",
+   "detail": "ServiceNow + AI仕様駆動開発案件(Claudeを利用予定)。 仕様駆動開発の推進メンバーと伴走してリードできる要員を募集します。",
+   "req_text": "・ServiceNowの設計・開発の実務経験がある方 ・生成AI（Claude / ChatGPT / GitHub Copilot等）を実務開発に組み込んだ経験 ※仕様駆動開発（Spec-Driven Development）の実践・推進経験がある方は尚可",
+   "opt_text": "・ServiceNow認定資格（CSA / CAD / CIS等）の保有",
+   "note_text": ""
+  }
+ ]
+}

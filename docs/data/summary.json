@@ -1,23 +1,23 @@
 {
- "latest_week": "2026-11-13",
+ "latest_week": "2026-11-20",
  "latest": {
   "projects": 7,
   "new_projects": 7
  },
  "totals": {
-  "weeks": 90,
-  "listings": 710,
-  "unique_projects": 656
+  "weeks": 91,
+  "listings": 717,
+  "unique_projects": 663
  },
  "distributions": {
   "position": [
    {
     "name": "AIエンジニア",
-    "count": 253
+    "count": 256
    },
    {
     "name": "データエンジニア",
-    "count": 95
+    "count": 96
    },
    {
     "name": "データアナリスト",
@@ -25,7 +25,7 @@
    },
    {
     "name": "BIエンジニア",
-    "count": 65
+    "count": 67
    },
    {
     "name": "ITコンサル",
@@ -36,12 +36,12 @@
     "count": 37
    },
    {
-    "name": "アプリエンジニア",
+    "name": "AI導入コンサル",
     "count": 35
    },
    {
-    "name": "AI導入コンサル",
-    "count": 34
+    "name": "アプリエンジニア",
+    "count": 35
    },
    {
     "name": "その他",
@@ -59,11 +59,11 @@
   "industry": [
    {
     "name": "不明",
-    "count": 285
+    "count": 290
    },
    {
     "name": "情報通信業",
-    "count": 52
+    "count": 53
    },
    {
     "name": "金融業",
@@ -254,6 +254,10 @@
     "count": 1
    },
    {
+    "name": "製造業 ※精密機械メーカー",
+    "count": 1
+   },
+   {
     "name": "農業・林業",
     "count": 1
    },
@@ -281,15 +285,15 @@
   "workstyle": [
    {
     "name": "フルリモート",
-    "count": 321
+    "count": 323
    },
    {
     "name": "リモート・オンサイト併用",
-    "count": 284
+    "count": 287
    },
    {
     "name": "常駐",
-    "count": 97
+    "count": 99
    },
    {
     "name": "不明",
@@ -302,41 +306,33 @@
   ],
   "position_latest": [
    {
-    "name": "データエンジニア",
+    "name": "AIエンジニア",
     "count": 3
    },
    {
-    "name": "AIエンジニア",
+    "name": "BIエンジニア",
     "count": 2
    },
    {
-    "name": "BIエンジニア",
+    "name": "AI導入コンサル",
     "count": 1
    },
    {
-    "name": "ITコンサル",
+    "name": "データエンジニア",
     "count": 1
    }
   ],
   "industry_latest": [
    {
     "name": "不明",
-    "count": 3
+    "count": 5
    },
    {
-    "name": "エンターテイメント",
+    "name": "情報通信業",
     "count": 1
    },
    {
-    "name": "サービス事業",
-    "count": 1
-   },
-   {
-    "name": "製造業",
-    "count": 1
-   },
-   {
-    "name": "金融業",
+    "name": "製造業 ※精密機械メーカー",
     "count": 1
    }
   ],
@@ -355,7 +351,7 @@
    },
    {
     "name": "81〜100%",
-    "count": 635
+    "count": 642
    },
    {
     "name": "不明",
@@ -367,67 +363,67 @@
   {
    "name": "Python",
    "category": "プログラミング言語",
-   "count": 366
+   "count": 369
   },
   {
    "name": "SQL",
    "category": "プログラミング言語",
-   "count": 213
+   "count": 215
   },
   {
    "name": "機械学習",
    "category": "機械学習",
-   "count": 188
+   "count": 189
   },
   {
    "name": "AWS",
    "category": "クラウド基盤",
-   "count": 184
+   "count": 186
   },
   {
    "name": "生成AI",
    "category": "生成AI",
-   "count": 166
+   "count": 170
   },
   {
    "name": "要件定義",
    "category": "進め方・プロセス",
-   "count": 158
+   "count": 159
   },
   {
    "name": "LLM",
    "category": "生成AI",
-   "count": 146
+   "count": 147
   },
   {
    "name": "GCP",
    "category": "クラウド基盤",
-   "count": 122
+   "count": 123
   },
   {
    "name": "PoC",
    "category": "進め方・プロセス",
-   "count": 112
+   "count": 114
   },
   {
    "name": "Tableau",
    "category": "データ基盤",
-   "count": 111
+   "count": 113
   },
   {
    "name": "Azure",
    "category": "クラウド基盤",
-   "count": 109
+   "count": 110
   },
   {
    "name": "API設計",
    "category": "アプリ開発",
-   "count": 100
+   "count": 101
   },
   {
    "name": "BigQuery",
    "category": "データ基盤",
-   "count": 88
+   "count": 89
   },
   {
    "name": "RAG",
@@ -437,12 +433,12 @@
   {
    "name": "DWH",
    "category": "データ基盤",
-   "count": 81
+   "count": 82
   },
   {
    "name": "AIエージェント",
    "category": "生成AI",
-   "count": 79
+   "count": 81
   },
   {
    "name": "ETL",
@@ -452,7 +448,7 @@
   {
    "name": "Docker",
    "category": "開発基盤・運用",
-   "count": 67
+   "count": 68
   },
   {
    "name": "Power BI",
@@ -470,7 +466,14 @@
    "name": "LLM",
    "category": "生成AI",
    "recent": 11,
-   "prev": 8,
+   "prev": 6,
+   "delta": 5
+  },
+  {
+   "name": "PoC",
+   "category": "進め方・プロセス",
+   "recent": 7,
+   "prev": 4,
    "delta": 3
   },
   {
@@ -481,128 +484,121 @@
    "delta": 3
   },
   {
-   "name": "需要予測",
-   "category": "機械学習",
+   "name": "プロンプトエンジニアリング",
+   "category": "生成AI",
+   "recent": 5,
+   "prev": 2,
+   "delta": 3
+  },
+  {
+   "name": "アジャイル",
+   "category": "進め方・プロセス",
    "recent": 3,
    "prev": 0,
    "delta": 3
   },
   {
-   "name": "強化学習",
-   "category": "機械学習",
+   "name": "Claude Code",
+   "category": "AI開発ツール",
+   "recent": 3,
+   "prev": 0,
+   "delta": 3
+  },
+  {
+   "name": "GitHub Copilot",
+   "category": "AI開発ツール",
+   "recent": 3,
+   "prev": 0,
+   "delta": 3
+  },
+  {
+   "name": "Docker",
+   "category": "開発基盤・運用",
    "recent": 3,
    "prev": 1,
    "delta": 2
   },
   {
-   "name": "Tableau",
-   "category": "データ基盤",
-   "recent": 5,
-   "prev": 4,
-   "delta": 1
-  },
-  {
-   "name": "BigQuery",
-   "category": "データ基盤",
-   "recent": 4,
-   "prev": 3,
-   "delta": 1
-  },
-  {
    "name": "Git",
    "category": "開発基盤・運用",
    "recent": 3,
-   "prev": 2,
-   "delta": 1
+   "prev": 1,
+   "delta": 2
   },
   {
    "name": "Databricks",
    "category": "データ基盤",
    "recent": 3,
-   "prev": 2,
-   "delta": 1
-  },
-  {
-   "name": "フィジカルAI",
-   "category": "機械学習",
-   "recent": 3,
-   "prev": 2,
-   "delta": 1
-  },
-  {
-   "name": "DWH",
-   "category": "データ基盤",
-   "recent": 5,
-   "prev": 5,
-   "delta": 0
+   "prev": 1,
+   "delta": 2
   }
  ],
  "falling": [
   {
-   "name": "AIエージェント",
-   "category": "生成AI",
-   "recent": 5,
-   "prev": 14,
-   "delta": -9
-  },
-  {
-   "name": "生成AI",
-   "category": "生成AI",
-   "recent": 7,
-   "prev": 15,
-   "delta": -8
+   "name": "SQL",
+   "category": "プログラミング言語",
+   "recent": 4,
+   "prev": 11,
+   "delta": -7
   },
   {
    "name": "AWS",
    "category": "クラウド基盤",
    "recent": 4,
-   "prev": 12,
-   "delta": -8
+   "prev": 10,
+   "delta": -6
+  },
+  {
+   "name": "PMO",
+   "category": "進め方・プロセス",
+   "recent": 0,
+   "prev": 6,
+   "delta": -6
   },
   {
    "name": "Python",
    "category": "プログラミング言語",
    "recent": 12,
-   "prev": 19,
-   "delta": -7
+   "prev": 17,
+   "delta": -5
   },
   {
-   "name": "Azure",
-   "category": "クラウド基盤",
-   "recent": 4,
-   "prev": 9,
+   "name": "AIエージェント",
+   "category": "生成AI",
+   "recent": 6,
+   "prev": 11,
    "delta": -5
   },
   {
    "name": "GCP",
    "category": "クラウド基盤",
    "recent": 2,
-   "prev": 6,
+   "prev": 7,
+   "delta": -5
+  },
+  {
+   "name": "DWH",
+   "category": "データ基盤",
+   "recent": 3,
+   "prev": 7,
    "delta": -4
   },
   {
-   "name": "AIコーディング支援",
-   "category": "AI開発ツール",
+   "name": "MLOps",
+   "category": "開発基盤・運用",
    "recent": 1,
    "prev": 5,
    "delta": -4
   },
   {
-   "name": "R",
-   "category": "プログラミング言語",
+   "name": "Looker",
+   "category": "データ基盤",
    "recent": 0,
    "prev": 4,
    "delta": -4
   },
   {
-   "name": "英語",
-   "category": "進め方・プロセス",
-   "recent": 0,
-   "prev": 4,
-   "delta": -4
-  },
-  {
-   "name": "pandas/NumPy",
+   "name": "因果推論",
    "category": "機械学習",
    "recent": 0,
    "prev": 4,
@@ -771,26 +767,26 @@
   },
   {
    "name": "Python",
-   "listings": 366,
-   "req": 294,
-   "rate": 0.803
+   "listings": 369,
+   "req": 296,
+   "rate": 0.802
   },
   {
    "name": "SQL",
-   "listings": 213,
-   "req": 169,
-   "rate": 0.793
+   "listings": 215,
+   "req": 171,
+   "rate": 0.795
+  },
+  {
+   "name": "AIコーディング支援",
+   "listings": 13,
+   "req": 10,
+   "rate": 0.769
   },
   {
    "name": "R",
    "listings": 56,
    "req": 42,
-   "rate": 0.75
-  },
-  {
-   "name": "AIコーディング支援",
-   "listings": 12,
-   "req": 9,
    "rate": 0.75
   },
   {
@@ -824,10 +820,16 @@
    "rate": 0.646
   },
   {
+   "name": "プロンプトエンジニアリング",
+   "listings": 39,
+   "req": 25,
+   "rate": 0.641
+  },
+  {
    "name": "機械学習",
-   "listings": 188,
-   "req": 120,
-   "rate": 0.638
+   "listings": 189,
+   "req": 121,
+   "rate": 0.64
   },
   {
    "name": "時系列分析",
@@ -836,16 +838,10 @@
    "rate": 0.633
   },
   {
-   "name": "プロンプトエンジニアリング",
-   "listings": 38,
-   "req": 24,
-   "rate": 0.632
-  },
-  {
    "name": "pandas/NumPy",
-   "listings": 39,
-   "req": 24,
-   "rate": 0.615
+   "listings": 40,
+   "req": 25,
+   "rate": 0.625
   },
   {
    "name": "RAG",
@@ -867,9 +863,9 @@
   },
   {
    "name": "生成AI",
-   "listings": 166,
-   "req": 95,
-   "rate": 0.572
+   "listings": 170,
+   "req": 97,
+   "rate": 0.571
   },
   {
    "name": "Git",
@@ -879,8 +875,8 @@
   },
   {
    "name": "AWS",
-   "listings": 184,
-   "req": 104,
+   "listings": 186,
+   "req": 105,
    "rate": 0.565
   }
  ],
@@ -898,6 +894,18 @@
    "rate": 0.111
   },
   {
+   "name": "音声認識・合成",
+   "listings": 13,
+   "req": 2,
+   "rate": 0.154
+  },
+  {
+   "name": "SAP",
+   "listings": 13,
+   "req": 2,
+   "rate": 0.154
+  },
+  {
    "name": "SCM",
    "listings": 13,
    "req": 2,
@@ -908,18 +916,6 @@
    "listings": 19,
    "req": 3,
    "rate": 0.158
-  },
-  {
-   "name": "音声認識・合成",
-   "listings": 12,
-   "req": 2,
-   "rate": 0.167
-  },
-  {
-   "name": "SAP",
-   "listings": 12,
-   "req": 2,
-   "rate": 0.167
   },
   {
    "name": "マルチモーダル",
@@ -934,16 +930,10 @@
    "rate": 0.19
   },
   {
-   "name": "アジャイル",
-   "listings": 54,
-   "req": 12,
-   "rate": 0.222
-  },
-  {
    "name": "LLM評価",
-   "listings": 22,
+   "listings": 23,
    "req": 5,
-   "rate": 0.227
+   "rate": 0.217
   },
   {
    "name": "Looker",
@@ -956,6 +946,12 @@
    "listings": 13,
    "req": 3,
    "rate": 0.231
+  },
+  {
+   "name": "アジャイル",
+   "listings": 55,
+   "req": 13,
+   "rate": 0.236
   }
  ],
  "supply": [
@@ -1016,8 +1012,8 @@
   {
    "name": "BigQuery",
    "weeks": 1.14,
-   "fresh": 0.875,
-   "listings": 88
+   "fresh": 0.876,
+   "listings": 89
   },
   {
    "name": "Looker",
@@ -1028,8 +1024,8 @@
   {
    "name": "アジャイル",
    "weeks": 1.14,
-   "fresh": 0.889,
-   "listings": 54
+   "fresh": 0.891,
+   "listings": 55
   },
   {
    "name": "Kubernetes",
@@ -1038,22 +1034,22 @@
    "listings": 17
   },
   {
-   "name": "PostgreSQL",
-   "weeks": 1.12,
-   "fresh": 0.895,
-   "listings": 19
-  },
-  {
    "name": "SQL",
    "weeks": 1.11,
-   "fresh": 0.901,
-   "listings": 213
+   "fresh": 0.902,
+   "listings": 215
+  },
+  {
+   "name": "GCP",
+   "weeks": 1.11,
+   "fresh": 0.902,
+   "listings": 123
   }
  ],
  "min_listings": 11,
  "rate": {
   "reported": 4,
-  "missing": 706,
+  "missing": 713,
   "min": 55,
   "max": 115,
   "median": 80,
@@ -1084,5 +1080,5 @@
    }
   ]
  },
- "commentary": "2026-11-13週の掲載は**7件**で、前週に続き直近の配信では少ない水準だった。なお配信本文には8件あったが、うち2件に同じ案件番号が振られていたため、集計上は1件に統合されている（金融業の業務オペレーションAI化案件が集計から外れた）。\n\n直近8週の定着技術では機械学習（前期18→23件）が首位を保ち、**AIエージェント（15→19件）とLLM（18→19件）が2・3位に上がった**。先週2位のAIコーディング支援は上位から外れ、直近4配信と前の4配信の比較でも5→1件に落ちた。同じ比較ではAWS（12→4件）も大きく減り、API設計（2→5件）と需要予測（0→3件）が伸びた。\n\n兆候リストでは**フィジカルAIとAzure OpenAI（ともに前期0→5件）が首位に並んだ**。フィジカルAIを押し上げたのは川崎常駐のロボティクスシミュレーション環境の構築・運用枠で、NVIDIA Isaac Sim／Isaac Labの使用経験やPPO等による強化学習の学習ループを自力で回せることを求め、尚可に模倣学習やROS2・LeRobotでの実機連携を挙げている。\n\nAzure OpenAIは、製造業の工場データを取り込む分析基盤と、AIエージェントがチャット画面からグラフ付きで回答する機能を併せて開発する枠から付いた。前週のMicrosoft Fabric環境構築に続き、**工場データをAIで分析する前提の基盤構築が2週連続**で出ている。\n\nもう一つ目を引くのは、大手企業の経理部門向けにCopilot Studioで**「週1体程度のAIエージェント構築」をミッションに掲げる枠**だ。最初から100点を目指さず60〜70点の動くものを最速で出し、経理担当者の評価を受けて改善する進め方を明示している。\n\nポジションはデータエンジニア3・AIエンジニア2・BIエンジニア1・ITコンサル1。業界が明示されたのは製造業・金融業・サービス事業・エンターテイメントの各1件。稼働形態は**常駐3・併用2・フルリモート2**で、前週の常駐0から一転して常駐が最多になった。"
+ "commentary": "2026-11-20週の掲載は**7件**で、3週連続で同じ件数となり、直近の配信は小ぶりな水準が続いている。\n\n直近8週の定着技術では**OpenAI API（前期4→9件）が前週7位から首位に浮上**し、機械学習（20→21件）とAIエージェント（16→17件）が続いた。Tableau（8→11件）も12位から5位に上がった。直近4配信と前の4配信の比較ではLLM（6→11件）が伸びた一方、SQL（11→4件）とAWS（10→4件）は減少が続いている。\n\n兆候リストの首位は前週から変わらず**Azure OpenAIとフィジカルAI（ともに前期0→5件）**だった。ただし今週の7件にはどちらも含まれておらず、順位は前週までに出た工場データ分析基盤やロボティクスシミュレーションの枠の積み上げによるものだ。\n\n今週目を引いたのは、前週に上位から外れたAIコーディング支援が戻り、**AIコーディングツールを開発プロセスの前提に置く枠**が3件並んだことだ。コールセンター向けAIプロダクトのITアーキテクト兼テックリード枠はClaude Code等を用いた開発・調整経験を必須に挙げ、ServiceNowの開発案件はClaudeを使った仕様駆動開発の推進役を募り、生成AIを実務開発に組み込んだ経験を必須とした。BtoB SaaSのAI機能開発枠も技術環境にClaude Code・Codex・Devin・CodeRabbitを並べている。4配信比較でClaude CodeとGitHub Copilotはともに0→3件になった。\n\nデータ側では**既存基盤の載せ替えに伴う実装・検証の枠**が目立った。SAP HANA CloudからBigQueryへの全社データ基盤移行で運用設計・非機能設計を担う枠と、Snowflake接続でTableauデータソースを作り直し、移行前後の数値突合や事前集計のPoCを行う枠が出ている。\n\nポジションはAIエンジニア3・BIエンジニア2・AI導入コンサル1・データエンジニア1。業界が明示されたのは情報通信業と製造業（精密機械メーカー）の各1件。稼働形態は併用3・フルリモート2・常駐2だった。"
 }

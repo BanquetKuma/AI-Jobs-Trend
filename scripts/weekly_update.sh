@@ -22,7 +22,7 @@ mkdir -p logs
 LOG="logs/weekly-$(date +%Y-%m-%d).log"
 STATE="logs/.last_run"
 
-notify() { "$REPO/scripts/notify.sh" "$1" "$2"; }
+notify() { "$REPO/scripts/notify.sh" "$1" "$2" >>"$LOG" 2>&1; }
 
 # --- 認証の残り時間を測る。失敗しても実行は止めない ---
 # 今回の障害では、この情報が無かったために原因を確定できなかった。
@@ -87,6 +87,21 @@ rc=$?
 { cat "$OUT"; echo; echo "=== $(date -Is) 終了 (exit=$rc) ==="; } >>"$LOG"
 
 # --- 結果を判定して、失敗なら必ず人に届ける ---
+# push されずに残ったコミットを最初に調べる。2026-11-13 と 11-20 は GitHub の
+# 認証切れで push だけが失敗し、Claude は正常終了したため2週間気づかなかった。
+# Claude の出力に認証関連の語が含まれても誤判定しないよう、この確認を先に置く。
+if git fetch -q origin main 2>>"$LOG"; then
+  ahead=$(git rev-list --count origin/main..HEAD)
+  if [ "$ahead" -gt 0 ]; then
+    rm -f "$OUT"
+    echo "fail $(date -Is) push されていないコミット ${ahead} 件" > "$STATE"
+    notify "AI案件トレンド: GitHub への push が失敗しています" \
+           "集計は済んでいますが、push されていないコミットが ${ahead} 件あり、公開サイトが更新されていません。gh auth status でログインを確認し、$REPO で git push してください。"
+    exit 1
+  fi
+else
+  echo "警告: git fetch に失敗したため、push の確認ができませんでした" >>"$LOG"
+fi
 if grep -qE 'Failed to authenticate|OAuth session expired|Invalid API key' "$OUT"; then
   rm -f "$OUT"
   echo "fail $(date -Is) 認証エラー" > "$STATE"

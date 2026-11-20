@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# Windows のトースト通知を出す。 notify.sh <タイトル> <本文>
+# Windows のトースト通知と Gmail で知らせる。 notify.sh <タイトル> <本文>
 #
 # 週次更新の失敗を知らせるために使う。完了メールは claude -p 経由なので、
-# 認証が切れると通知手段ごと死ぬ。OS 側の経路を別に持っておく必要がある。
+# 認証が切れると通知手段ごと死ぬ。Claude に頼らない経路を別に持っておく必要がある。
+# Gmail へは Google Apps Script のウェブアプリ経由で送る。宛先と送信元は
+# そのスクリプトの持ち主で、URL と合言葉はリポジトリ外の設定ファイルに置く。
 # 通知に失敗しても本体の処理は止めない。
 set -uo pipefail
 
@@ -30,3 +32,22 @@ try {
   msg.exe * /TIME:120 '$(esc "$TITLE"): $(esc "$BODY")'
 }
 " >/dev/null 2>&1 || true
+
+# --- Gmail ---
+CONF="$HOME/.config/ai-jobs-trend/mail_alert"
+URL=$(sed -n 's/^URL=//p' "$CONF" 2>/dev/null)
+TOKEN=$(sed -n 's/^TOKEN=//p' "$CONF" 2>/dev/null)
+if [ -z "$URL" ] || [ -z "$TOKEN" ]; then
+  echo "notify: $CONF に URL と TOKEN が無いため、メールは送りませんでした" >&2
+  exit 0
+fi
+# 合言葉はコマンドラインに出さず標準入力から渡す
+res=$(printf '%s' "$TOKEN" | curl -sS -L --max-time 30 \
+  --data-urlencode "token@-" \
+  --data-urlencode "subject=$TITLE" \
+  --data-urlencode "body=$BODY
+
+（$(hostname) $(date '+%Y-%m-%d %H:%M')）" \
+  "$URL" 2>&1)
+[ "$res" = "ok" ] || echo "notify: メール送信に失敗しました: ${res:0:200}" >&2
+exit 0

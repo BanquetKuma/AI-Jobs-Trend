@@ -14,6 +14,9 @@ set -uo pipefail
 
 REPO=/mnt/c/dev/AI-Jobs-Trend
 CLAUDE=/home/banqu/.local/bin/claude
+# 無人実行では superpowers プラグインを切る。起動時フックが手順を差し込み、
+# 計画や確認を挟んでスキルの動きが変わるのを防ぐ（対話セッションでは有効のまま）。
+NO_PLUGINS='{"enabledPlugins":{"superpowers@claude-plugins-official":false}}'
 CREDS=/home/banqu/.claude/.credentials.json
 WARN_DAYS=7          # リフレッシュトークンの残りがこれ以下なら事前警告
 
@@ -74,7 +77,7 @@ PROMPT='.claude/skills/ai-jobs-update/SKILL.md を読み、その手順に従っ
 # 出力は一時ファイルに受ける。ログに直接追記すると、同じ日に複数回動いたときに
 # 過去の実行分まで grep が拾ってしまう。
 OUT=$(mktemp)
-"$CLAUDE" -p "$PROMPT" \
+"$CLAUDE" -p "$PROMPT" --settings "$NO_PLUGINS" \
   --allowedTools \
     "mcp__claude_ai_Gmail__search_threads" \
     "mcp__claude_ai_Gmail__get_thread" \

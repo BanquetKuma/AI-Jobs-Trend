@@ -11,6 +11,7 @@ set -uo pipefail
 
 REPO=/mnt/c/dev/AI-Jobs-Trend
 CLAUDE=/home/banqu/.local/bin/claude
+NO_PLUGINS='{"enabledPlugins":{"superpowers@claude-plugins-official":false}}'  # weekly_update.sh と同じ
 
 cd "$REPO" || exit 1
 mkdir -p logs
@@ -25,7 +26,7 @@ if ! out=$(GIT_TERMINAL_PROMPT=0 timeout 60 git push --dry-run origin HEAD:refs/
 fi
 
 # --- Claude: 実際に1回呼んで、ログインの更新まで通るか ---
-if ! out=$(timeout 180 "$CLAUDE" -p "OK とだけ返してください" --max-turns 1 2>&1) \
+if ! out=$(timeout 180 "$CLAUDE" -p "OK とだけ返してください" --settings "$NO_PLUGINS" --max-turns 1 </dev/null 2>&1) \
    || grep -qiE 'authenticat|oauth|/login|expired' <<<"$out"; then
   problems+=("Claude: 呼び出しに失敗しました（${out:0:200}）。
   ミニPCで claude を起動して /login してください。")
